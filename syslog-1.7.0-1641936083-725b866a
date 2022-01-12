@@ -1,239 +1,196 @@
-Jan 12 07:59:49 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 07:59:54 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 07:59:57 localhost magmad[1318270]: WARNING:root:Shared Mconfig is missing in mconfig.configs_by_key. Returning configs unchanged.
-Jan 12 07:59:57 localhost magmad[1318270]: INFO:root:Setting logging level to INFO
-Jan 12 07:59:59 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:00:00 localhost mobilityd[1318343]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
-Jan 12 08:00:00 localhost mobilityd[1318343]: INFO:root:GW-v6 probe: timer started
-Jan 12 08:00:05 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:00:07 localhost systemd[1]: Started Session 930 of user ubuntu.
-Jan 12 08:00:10 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:00:15 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:00:16 localhost control_proxy[1318492]: 2022-01-12T08:00:15.614Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.585s
-Jan 12 08:00:16 localhost magmad[1318270]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
-Jan 12 08:00:20 localhost mobilityd[1318343]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
-Jan 12 08:00:20 localhost mobilityd[1318343]: INFO:root:GW-v6 probe: timer started
-Jan 12 08:00:20 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:00:30 localhost smsd[1318441]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
-Jan 12 08:00:30 localhost systemd[1]: Started Session 931 of user ubuntu.
-Jan 12 08:00:34 localhost systemd[1]: Started Session 932 of user ubuntu.
-Jan 12 08:00:35 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:00:36 localhost magmad[1318270]: INFO:root:Checking for upgrade...
-Jan 12 08:00:36 localhost magmad[1318270]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
-Jan 12 08:00:37 localhost control_proxy[1318492]: 2022-01-12T08:00:36.464Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.542s
-Jan 12 08:00:37 localhost control_proxy[1318492]: 2022-01-12T08:00:36.464Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.555s
-Jan 12 08:00:37 localhost control_proxy[1318492]: 2022-01-12T08:00:36.464Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.562s
-Jan 12 08:00:37 localhost control_proxy[1318492]: 2022-01-12T08:00:36.464Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.557s
-Jan 12 08:00:37 localhost control_proxy[1318492]: 2022-01-12T08:00:36.464Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.794s
-Jan 12 08:00:37 localhost control_proxy[1318492]: 2022-01-12T08:00:36.464Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.803s
-Jan 12 08:00:37 localhost control_proxy[1318492]: 2022-01-12T08:00:36.464Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.806s
-Jan 12 08:00:37 localhost control_proxy[1318492]: 2022-01-12T08:00:36.464Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.806s
-Jan 12 08:00:38 localhost control_proxy[1318492]: 2022-01-12T08:00:37.747Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 0.301s
-Jan 12 08:00:38 localhost magmad[1318270]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = Unknown desc = get mconfig from configurator: rpc error: code = Internal desc = failed to build mconfig: mconfig builder &{service:lte} error: rpc error: code = Unknown desc = handler panic: runtime error: invalid memory address or nil pointer dereference; stack trace: goroutine 5114476 [running]:
-Jan 12 08:00:38 localhost magmad[1318270]: runtime/debug.Stack(0xc000a14da0, 0xf74180, 0x1c452b0)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/usr/local/go/src/runtime/debug/stack.go:24 +0x9d
-Jan 12 08:00:38 localhost magmad[1318270]: magma/orc8r/cloud/go/service/middleware/unary.recoveryInterceptor.func1(0xc000a15927, 0xc000a159c0, 0xc000876020)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:61 +0x54
-Jan 12 08:00:38 localhost magmad[1318270]: panic(0xf74180, 0x1c452b0)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/usr/local/go/src/runtime/panic.go:679 +0x1b2
-Jan 12 08:00:38 localhost magmad[1318270]: magma/lte/cloud/go/services/lte/servicers.(*builderServicer).Build(0xc0002355f0, 0x129fe00, 0xc000c30180, 0xc0009da580, 0xc0002355f0, 0x1cf1718, 0xc000b22420)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/src/magma/lte/cloud/go/services/lte/servicers/builder_servicer.go:187 +0x14a2
-Jan 12 08:00:38 localhost magmad[1318270]: magma/orc8r/cloud/go/services/configurator/mconfig/protos._MconfigBuilder_Build_Handler.func1(0x129fe00, 0xc000c30180, 0x1086120, 0xc0009da580, 0xc000876020, 0x0, 0x0, 0x0)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/services/configurator/mconfig/protos/builder.pb.go:232 +0x86
-Jan 12 08:00:38 localhost magmad[1318270]: magma/orc8r/cloud/go/service/middleware/unary.blockUnregisteredGatewaysInterceptor(0x129fe00, 0xc000c30180, 0x1086120, 0xc0009da580, 0xc000876020, 0xc000876040, 0xc000876040, 0x38, 0x38, 0xc0009db180)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:103 +0xf8
-Jan 12 08:00:38 localhost magmad[1318270]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc000c30180, 0x1086120, 0xc0009da580, 0xc000876020, 0x0, 0x0, 0x0)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
-Jan 12 08:00:38 localhost magmad[1318270]: magma/orc8r/cloud/go/service/middleware/unary.setIdentityInterceptor(0x129fe00, 0xc000c30180, 0x1086120, 0xc0009da580, 0xc000876020, 0xc0009db180, 0xc0009db180, 0xd92064, 0xc0002ed5c0, 0xc000c303f0)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:90 +0xf8
-Jan 12 08:00:38 localhost magmad[1318270]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc000c30180, 0x1086120, 0xc0009da580, 0x36, 0xc000b15360, 0x1038b40, 0xf77c01)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
-Jan 12 08:00:38 localhost magmad[1318270]: github.com/grpc-ecosystem/go-grpc-prometheus.(*ServerMetrics).UnaryServerInterceptor.func1(0x129fe00, 0xc000c30180, 0x1086120, 0xc0009da580, 0xc000876020, 0xc0009db140, 0xc0009db140, 0x40, 0x38, 0x1038b40)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-prometheus@v1.2.0/server_metrics.go:107 +0xad
-Jan 12 08:00:38 localhost magmad[1318270]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc000c30180, 0x1086120, 0xc0009da580, 0x0, 0x0, 0xc000759960, 0x476de2)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
-Jan 12 08:00:38 localhost magmad[1318270]: magma/orc8r/cloud/go/service/middleware/unary.recoveryInterceptor(0x129fe00, 0xc000c30180, 0x1086120, 0xc0009da580, 0xc000876020, 0xc0009db100, 0x0, 0x0, 0x0, 0x0)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:65 +0xdb
-Jan 12 08:00:38 localhost magmad[1318270]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc000c30180, 0x1086120, 0xc0009da580, 0x4192c6, 0xc000876040, 0xc000759a60, 0x419b38)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
-Jan 12 08:00:38 localhost magmad[1318270]: magma/orc8r/cloud/go/service/middleware/unary.errlogInterceptor(0x129fe00, 0xc000c30180, 0x1086120, 0xc0009da580, 0xc000876020, 0xc0009db0c0, 0xc0009db0c0, 0x20, 0xfbff80, 0xc0000d3101)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:72 +0x6f
-Jan 12 08:00:38 localhost magmad[1318270]: google.golang.org/grpc.chainUnaryServerInterceptors.func1(0x129fe00, 0xc000c30180, 0x1086120, 0xc0009da580, 0xc000876020, 0xc000876040, 0xc00080ab58, 0x5152c8, 0x1041520, 0xc000c30180)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1005 +0xca
-Jan 12 08:00:38 localhost magmad[1318270]: magma/orc8r/cloud/go/services/configurator/mconfig/protos._MconfigBuilder_Build_Handler(0xfa4ec0, 0xc0002355f0, 0x129fe00, 0xc000c30180, 0xc0000d3140, 0xc000336880, 0x129fe00, 0xc000c30180, 0xc000609000, 0x1725)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/services/configurator/mconfig/protos/builder.pb.go:234 +0x14b
-Jan 12 08:00:38 localhost magmad[1318270]: google.golang.org/grpc.(*Server).processUnaryRPC(0xc000498000, 0x12aa600, 0xc000702900, 0xc000b16800, 0xc00052baa0, 0x1c46f70, 0x0, 0x0, 0x0)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1180 +0x4fd
-Jan 12 08:00:38 localhost magmad[1318270]: google.golang.org/grpc.(*Server).handleStream(0xc000498000, 0x12aa600, 0xc000702900, 0xc000b16800, 0x0)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1503 +0xd55
-Jan 12 08:00:38 localhost magmad[1318270]: google.golang.org/grpc.(*Server).serveStreams.func1.2(0xc000aac220, 0xc000498000, 0x12aa600, 0xc000702900, 0xc000b16800)
-Jan 12 08:00:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:843 +0xbb
-Jan 12 08:00:38 localhost magmad[1318270]: created by google.golang.org/grpc.(*Server).serveStreams.func1
-Jan 12 08:00:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:841 +0x204
-Jan 12 08:00:39 localhost magmad[1318270]: INFO:root:[SyncRPC] Got heartBeat from cloud
-Jan 12 08:00:40 localhost mobilityd[1318343]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
-Jan 12 08:00:40 localhost mobilityd[1318343]: INFO:root:GW-v6 probe: timer started
-Jan 12 08:00:40 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:00:42 localhost control_proxy[1318492]: 2022-01-12T08:00:41.790Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.347s
-Jan 12 08:00:42 localhost policydb[1318423]: INFO:root:Processing 0 policy updates (resync=True)
-Jan 12 08:00:42 localhost control_proxy[1318492]: 2022-01-12T08:00:42.141Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 513bytes 0.306s
-Jan 12 08:00:42 localhost policydb[1318423]: INFO:root:Processing 22 SID -> apn -> policy updates
-Jan 12 08:00:42 localhost control_proxy[1318492]: 2022-01-12T08:00:42.141Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.308s
-Jan 12 08:00:42 localhost policydb[1318423]: INFO:root:Processing 0 rating group updates
-Jan 12 08:00:45 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:00:55 localhost smsd[1318441]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
-Jan 12 08:00:58 localhost systemd[1]: Started Session 933 of user ubuntu.
-Jan 12 08:01:00 localhost mobilityd[1318343]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
-Jan 12 08:01:00 localhost mobilityd[1318343]: INFO:root:GW-v6 probe: timer started
-Jan 12 08:01:00 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:01:02 localhost systemd[1]: Started Session 934 of user ubuntu.
-Jan 12 08:01:05 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:01:06 localhost systemd[1]: Started Session 935 of user ubuntu.
-Jan 12 08:01:10 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:01:15 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:01:16 localhost magmad[1318270]: WARNING:root:Shared Mconfig is missing in mconfig.configs_by_key. Returning configs unchanged.
-Jan 12 08:01:16 localhost magmad[1318270]: INFO:root:Setting logging level to INFO
-Jan 12 08:01:20 localhost mobilityd[1318343]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
-Jan 12 08:01:20 localhost mobilityd[1318343]: INFO:root:GW-v6 probe: timer started
-Jan 12 08:01:20 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:01:25 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:01:29 localhost systemd[1]: Started Session 936 of user ubuntu.
-Jan 12 08:01:30 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:01:33 localhost systemd[1]: Started Session 937 of user ubuntu.
-Jan 12 08:01:35 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:01:35 localhost control_proxy[1318492]: 2022-01-12T08:01:35.144Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.554s
-Jan 12 08:01:35 localhost magmad[1318270]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
-Jan 12 08:01:36 localhost control_proxy[1318492]: 2022-01-12T08:01:36.477Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.291s
-Jan 12 08:01:36 localhost control_proxy[1318492]: 2022-01-12T08:01:36.477Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.290s
-Jan 12 08:01:36 localhost control_proxy[1318492]: 2022-01-12T08:01:36.477Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.288s
-Jan 12 08:01:37 localhost control_proxy[1318492]: 2022-01-12T08:01:36.477Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.532s
-Jan 12 08:01:37 localhost control_proxy[1318492]: 2022-01-12T08:01:36.477Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.541s
-Jan 12 08:01:37 localhost control_proxy[1318492]: 2022-01-12T08:01:36.477Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.535s
-Jan 12 08:01:37 localhost control_proxy[1318492]: 2022-01-12T08:01:36.477Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.541s
-Jan 12 08:01:37 localhost control_proxy[1318492]: 2022-01-12T08:01:36.477Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.540s
-Jan 12 08:01:38 localhost control_proxy[1318492]: 2022-01-12T08:01:38.110Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 0.300s
-Jan 12 08:01:38 localhost magmad[1318270]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = Unknown desc = get mconfig from configurator: rpc error: code = Internal desc = failed to build mconfig: mconfig builder &{service:lte} error: rpc error: code = Unknown desc = handler panic: runtime error: invalid memory address or nil pointer dereference; stack trace: goroutine 5114559 [running]:
-Jan 12 08:01:38 localhost magmad[1318270]: runtime/debug.Stack(0xc000afada0, 0xf74180, 0x1c452b0)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/usr/local/go/src/runtime/debug/stack.go:24 +0x9d
-Jan 12 08:01:38 localhost magmad[1318270]: magma/orc8r/cloud/go/service/middleware/unary.recoveryInterceptor.func1(0xc000afb927, 0xc000afb9c0, 0xc000312660)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:61 +0x54
-Jan 12 08:01:38 localhost magmad[1318270]: panic(0xf74180, 0x1c452b0)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/usr/local/go/src/runtime/panic.go:679 +0x1b2
-Jan 12 08:01:38 localhost magmad[1318270]: magma/lte/cloud/go/services/lte/servicers.(*builderServicer).Build(0xc0002355f0, 0x129fe00, 0xc0009ac5a0, 0xc00099c440, 0xc0002355f0, 0x1cf1718, 0xc0002ac6e0)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/src/magma/lte/cloud/go/services/lte/servicers/builder_servicer.go:187 +0x14a2
-Jan 12 08:01:38 localhost magmad[1318270]: magma/orc8r/cloud/go/services/configurator/mconfig/protos._MconfigBuilder_Build_Handler.func1(0x129fe00, 0xc0009ac5a0, 0x1086120, 0xc00099c440, 0xc000312660, 0x0, 0x0, 0x0)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/services/configurator/mconfig/protos/builder.pb.go:232 +0x86
-Jan 12 08:01:38 localhost magmad[1318270]: magma/orc8r/cloud/go/service/middleware/unary.blockUnregisteredGatewaysInterceptor(0x129fe00, 0xc0009ac5a0, 0x1086120, 0xc00099c440, 0xc000312660, 0xc000312680, 0xc000312680, 0x38, 0x38, 0xc00099d080)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:103 +0xf8
-Jan 12 08:01:38 localhost magmad[1318270]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc0009ac5a0, 0x1086120, 0xc00099c440, 0xc000312660, 0x0, 0x0, 0x0)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
-Jan 12 08:01:38 localhost magmad[1318270]: magma/orc8r/cloud/go/service/middleware/unary.setIdentityInterceptor(0x129fe00, 0xc0009ac5a0, 0x1086120, 0xc00099c440, 0xc000312660, 0xc00099d080, 0xc00099d080, 0xd92064, 0xc0002ed5c0, 0xc0009ac810)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:90 +0xf8
-Jan 12 08:01:38 localhost magmad[1318270]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc0009ac5a0, 0x1086120, 0xc00099c440, 0x36, 0xc0006424b0, 0x1038b40, 0xf77c01)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
-Jan 12 08:01:38 localhost magmad[1318270]: github.com/grpc-ecosystem/go-grpc-prometheus.(*ServerMetrics).UnaryServerInterceptor.func1(0x129fe00, 0xc0009ac5a0, 0x1086120, 0xc00099c440, 0xc000312660, 0xc00099d040, 0xc00099d040, 0x40, 0x38, 0x1038b40)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-prometheus@v1.2.0/server_metrics.go:107 +0xad
-Jan 12 08:01:38 localhost magmad[1318270]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc0009ac5a0, 0x1086120, 0xc00099c440, 0x0, 0x0, 0xc000ebd960, 0x476de2)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
-Jan 12 08:01:38 localhost magmad[1318270]: magma/orc8r/cloud/go/service/middleware/unary.recoveryInterceptor(0x129fe00, 0xc0009ac5a0, 0x1086120, 0xc00099c440, 0xc000312660, 0xc00099d000, 0x0, 0x0, 0x0, 0x0)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:65 +0xdb
-Jan 12 08:01:38 localhost magmad[1318270]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc0009ac5a0, 0x1086120, 0xc00099c440, 0x4192c6, 0xc000312680, 0xc000ebda60, 0x419b38)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
-Jan 12 08:01:38 localhost magmad[1318270]: magma/orc8r/cloud/go/service/middleware/unary.errlogInterceptor(0x129fe00, 0xc0009ac5a0, 0x1086120, 0xc00099c440, 0xc000312660, 0xc00099cfc0, 0xc00099cfc0, 0x20, 0xfbff80, 0xc0000d2b01)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:72 +0x6f
-Jan 12 08:01:38 localhost magmad[1318270]: google.golang.org/grpc.chainUnaryServerInterceptors.func1(0x129fe00, 0xc0009ac5a0, 0x1086120, 0xc00099c440, 0xc000312660, 0xc000312680, 0xc000548b58, 0x5152c8, 0x1041520, 0xc0009ac5a0)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1005 +0xca
-Jan 12 08:01:38 localhost magmad[1318270]: magma/orc8r/cloud/go/services/configurator/mconfig/protos._MconfigBuilder_Build_Handler(0xfa4ec0, 0xc0002355f0, 0x129fe00, 0xc0009ac5a0, 0xc0000d2b40, 0xc000336880, 0x129fe00, 0xc0009ac5a0, 0xc00022d000, 0x1725)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/services/configurator/mconfig/protos/builder.pb.go:234 +0x14b
-Jan 12 08:01:38 localhost magmad[1318270]: google.golang.org/grpc.(*Server).processUnaryRPC(0xc000498000, 0x12aa600, 0xc000702900, 0xc000c34200, 0xc00052baa0, 0x1c46f70, 0x0, 0x0, 0x0)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1180 +0x4fd
-Jan 12 08:01:38 localhost magmad[1318270]: google.golang.org/grpc.(*Server).handleStream(0xc000498000, 0x12aa600, 0xc000702900, 0xc000c34200, 0x0)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1503 +0xd55
-Jan 12 08:01:38 localhost magmad[1318270]: google.golang.org/grpc.(*Server).serveStreams.func1.2(0xc000aac220, 0xc000498000, 0x12aa600, 0xc000702900, 0xc000c34200)
-Jan 12 08:01:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:843 +0xbb
-Jan 12 08:01:38 localhost magmad[1318270]: created by google.golang.org/grpc.(*Server).serveStreams.func1
-Jan 12 08:01:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:841 +0x204
-Jan 12 08:01:39 localhost magmad[1318270]: INFO:root:[SyncRPC] Got heartBeat from cloud
-Jan 12 08:01:40 localhost mobilityd[1318343]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
-Jan 12 08:01:40 localhost mobilityd[1318343]: INFO:root:GW-v6 probe: timer started
-Jan 12 08:01:40 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:01:43 localhost control_proxy[1318492]: 2022-01-12T08:01:42.807Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.294s
-Jan 12 08:01:43 localhost policydb[1318423]: INFO:root:Processing 0 policy updates (resync=True)
-Jan 12 08:01:43 localhost control_proxy[1318492]: 2022-01-12T08:01:43.106Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 513bytes 0.290s
-Jan 12 08:01:43 localhost policydb[1318423]: INFO:root:Processing 22 SID -> apn -> policy updates
-Jan 12 08:01:43 localhost control_proxy[1318492]: 2022-01-12T08:01:43.106Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.286s
-Jan 12 08:01:43 localhost policydb[1318423]: INFO:root:Processing 0 rating group updates
-Jan 12 08:01:45 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:01:50 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:01:52 localhost systemd[1]: Started Session 938 of user ubuntu.
-Jan 12 08:01:55 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:01:56 localhost systemd[1]: Started Session 939 of user ubuntu.
-Jan 12 08:02:00 localhost mobilityd[1318343]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
-Jan 12 08:02:00 localhost mobilityd[1318343]: INFO:root:GW-v6 probe: timer started
-Jan 12 08:02:00 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:02:05 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:02:15 localhost smsd[1318441]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
-Jan 12 08:02:19 localhost systemd[1]: Started Session 940 of user ubuntu.
-Jan 12 08:02:20 localhost mobilityd[1318343]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
-Jan 12 08:02:20 localhost mobilityd[1318343]: INFO:root:GW-v6 probe: timer started
-Jan 12 08:02:20 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:02:24 localhost systemd[1]: Started Session 941 of user ubuntu.
-Jan 12 08:02:25 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:02:28 localhost systemd[1]: Started Session 942 of user ubuntu.
-Jan 12 08:02:30 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:02:32 localhost systemd[1]: Started Session 943 of user ubuntu.
-Jan 12 08:02:35 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:02:36 localhost systemd[1]: Started Session 944 of user ubuntu.
-Jan 12 08:02:36 localhost magmad[1318270]: WARNING:root:Shared Mconfig is missing in mconfig.configs_by_key. Returning configs unchanged.
-Jan 12 08:02:36 localhost magmad[1318270]: INFO:root:Setting logging level to INFO
-Jan 12 08:02:38 localhost control_proxy[1318492]: 2022-01-12T08:02:38.475Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 0.296s
-Jan 12 08:02:38 localhost magmad[1318270]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = Unknown desc = get mconfig from configurator: rpc error: code = Internal desc = failed to build mconfig: mconfig builder &{service:lte} error: rpc error: code = Unknown desc = handler panic: runtime error: invalid memory address or nil pointer dereference; stack trace: goroutine 5114653 [running]:
-Jan 12 08:02:38 localhost magmad[1318270]: runtime/debug.Stack(0xc0009d6da0, 0xf74180, 0x1c452b0)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/usr/local/go/src/runtime/debug/stack.go:24 +0x9d
-Jan 12 08:02:38 localhost magmad[1318270]: magma/orc8r/cloud/go/service/middleware/unary.recoveryInterceptor.func1(0xc0009d7927, 0xc0009d79c0, 0xc00053be60)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:61 +0x54
-Jan 12 08:02:38 localhost magmad[1318270]: panic(0xf74180, 0x1c452b0)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/usr/local/go/src/runtime/panic.go:679 +0x1b2
-Jan 12 08:02:38 localhost magmad[1318270]: magma/lte/cloud/go/services/lte/servicers.(*builderServicer).Build(0xc0002355f0, 0x129fe00, 0xc0002ee7b0, 0xc000aa3040, 0xc0002355f0, 0x1cf1718, 0xc000511e40)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/src/magma/lte/cloud/go/services/lte/servicers/builder_servicer.go:187 +0x14a2
-Jan 12 08:02:38 localhost magmad[1318270]: magma/orc8r/cloud/go/services/configurator/mconfig/protos._MconfigBuilder_Build_Handler.func1(0x129fe00, 0xc0002ee7b0, 0x1086120, 0xc000aa3040, 0xc00053be60, 0x0, 0x0, 0x0)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/services/configurator/mconfig/protos/builder.pb.go:232 +0x86
-Jan 12 08:02:38 localhost magmad[1318270]: magma/orc8r/cloud/go/service/middleware/unary.blockUnregisteredGatewaysInterceptor(0x129fe00, 0xc0002ee7b0, 0x1086120, 0xc000aa3040, 0xc00053be60, 0xc00053be80, 0xc00053be80, 0x38, 0x38, 0xc000aa3c40)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:103 +0xf8
-Jan 12 08:02:38 localhost magmad[1318270]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc0002ee7b0, 0x1086120, 0xc000aa3040, 0xc00053be60, 0x0, 0x0, 0x0)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
-Jan 12 08:02:38 localhost magmad[1318270]: magma/orc8r/cloud/go/service/middleware/unary.setIdentityInterceptor(0x129fe00, 0xc0002ee7b0, 0x1086120, 0xc000aa3040, 0xc00053be60, 0xc000aa3c40, 0xc000aa3c40, 0xd92064, 0xc0002ed5c0, 0xc0002eeb70)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:90 +0xf8
-Jan 12 08:02:38 localhost magmad[1318270]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc0002ee7b0, 0x1086120, 0xc000aa3040, 0x36, 0xc000777b30, 0x1038b40, 0xf77c01)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
-Jan 12 08:02:38 localhost magmad[1318270]: github.com/grpc-ecosystem/go-grpc-prometheus.(*ServerMetrics).UnaryServerInterceptor.func1(0x129fe00, 0xc0002ee7b0, 0x1086120, 0xc000aa3040, 0xc00053be60, 0xc000aa3c00, 0xc000aa3c00, 0x40, 0x38, 0x1038b40)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-prometheus@v1.2.0/server_metrics.go:107 +0xad
-Jan 12 08:02:38 localhost magmad[1318270]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc0002ee7b0, 0x1086120, 0xc000aa3040, 0x0, 0x0, 0xc0005cb960, 0x476de2)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
-Jan 12 08:02:38 localhost magmad[1318270]: magma/orc8r/cloud/go/service/middleware/unary.recoveryInterceptor(0x129fe00, 0xc0002ee7b0, 0x1086120, 0xc000aa3040, 0xc00053be60, 0xc000aa3bc0, 0x0, 0x0, 0x0, 0x0)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:65 +0xdb
-Jan 12 08:02:38 localhost magmad[1318270]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc0002ee7b0, 0x1086120, 0xc000aa3040, 0x4192c6, 0xc00053be80, 0xc0005cba60, 0x419b38)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
-Jan 12 08:02:38 localhost magmad[1318270]: magma/orc8r/cloud/go/service/middleware/unary.errlogInterceptor(0x129fe00, 0xc0002ee7b0, 0x1086120, 0xc000aa3040, 0xc00053be60, 0xc000aa3b80, 0xc000aa3b80, 0x20, 0xfbff80, 0xc0002ed301)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:72 +0x6f
-Jan 12 08:02:38 localhost magmad[1318270]: google.golang.org/grpc.chainUnaryServerInterceptors.func1(0x129fe00, 0xc0002ee7b0, 0x1086120, 0xc000aa3040, 0xc00053be60, 0xc00053be80, 0xc000077b58, 0x5152c8, 0x1041520, 0xc0002ee7b0)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1005 +0xca
-Jan 12 08:02:38 localhost magmad[1318270]: magma/orc8r/cloud/go/services/configurator/mconfig/protos._MconfigBuilder_Build_Handler(0xfa4ec0, 0xc0002355f0, 0x129fe00, 0xc0002ee7b0, 0xc0002ed3e0, 0xc000336880, 0x129fe00, 0xc0002ee7b0, 0xc000607800, 0x1725)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/src/magma/orc8r/cloud/go/services/configurator/mconfig/protos/builder.pb.go:234 +0x14b
-Jan 12 08:02:38 localhost magmad[1318270]: google.golang.org/grpc.(*Server).processUnaryRPC(0xc000498000, 0x12aa600, 0xc000702900, 0xc000c34f00, 0xc00052baa0, 0x1c46f70, 0x0, 0x0, 0x0)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1180 +0x4fd
-Jan 12 08:02:38 localhost magmad[1318270]: google.golang.org/grpc.(*Server).handleStream(0xc000498000, 0x12aa600, 0xc000702900, 0xc000c34f00, 0x0)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1503 +0xd55
-Jan 12 08:02:38 localhost magmad[1318270]: google.golang.org/grpc.(*Server).serveStreams.func1.2(0xc000aac220, 0xc000498000, 0x12aa600, 0xc000702900, 0xc000c34f00)
-Jan 12 08:02:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:843 +0xbb
-Jan 12 08:02:38 localhost magmad[1318270]: created by google.golang.org/grpc.(*Server).serveStreams.func1
-Jan 12 08:02:38 localhost magmad[1318270]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:841 +0x204
-Jan 12 08:02:39 localhost magmad[1318270]: INFO:root:[SyncRPC] Got heartBeat from cloud
-Jan 12 08:02:40 localhost mobilityd[1318343]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
-Jan 12 08:02:40 localhost mobilityd[1318343]: INFO:root:GW-v6 probe: timer started
-Jan 12 08:02:40 localhost systemd[1]: Started Session 945 of user ubuntu.
-Jan 12 08:02:40 localhost smsd[1318441]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 12 08:02:44 localhost control_proxy[1318492]: 2022-01-12T08:02:43.710Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.292s
-Jan 12 08:02:44 localhost policydb[1318423]: INFO:root:Processing 0 policy updates (resync=True)
-Jan 12 08:02:44 localhost control_proxy[1318492]: 2022-01-12T08:02:44.007Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 513bytes 0.286s
-Jan 12 08:02:44 localhost policydb[1318423]: INFO:root:Processing 22 SID -> apn -> policy updates
+Jan 12 08:25:19 localhost control_proxy[1328821]: 2022-01-12T08:25:18.509Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 513bytes 0.317s
+Jan 12 08:25:19 localhost policydb[1328735]: INFO:root:Processing 22 SID -> apn -> policy updates
+Jan 12 08:25:19 localhost control_proxy[1328821]: 2022-01-12T08:25:19.159Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.342s
+Jan 12 08:25:19 localhost policydb[1328735]: INFO:root:Processing 0 rating group updates
+Jan 12 08:25:21 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:25:26 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:25:31 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:25:34 localhost magmad[1328577]: WARNING:root:Shared Mconfig is missing in mconfig.configs_by_key. Returning configs unchanged.
+Jan 12 08:25:34 localhost magmad[1328577]: INFO:root:Setting logging level to INFO
+Jan 12 08:25:36 localhost mobilityd[1328651]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
+Jan 12 08:25:36 localhost mobilityd[1328651]: INFO:root:GW-v6 probe: timer started
+Jan 12 08:25:36 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:25:41 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:25:41 localhost systemd[1]: Started Session 948 of user ubuntu.
+Jan 12 08:25:46 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:25:51 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:25:53 localhost control_proxy[1328821]: 2022-01-12T08:25:52.759Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.614s
+Jan 12 08:25:53 localhost magmad[1328577]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Jan 12 08:25:56 localhost mobilityd[1328651]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
+Jan 12 08:25:56 localhost mobilityd[1328651]: INFO:root:GW-v6 probe: timer started
+Jan 12 08:25:56 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:26:01 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:26:04 localhost systemd[1]: Started Session 949 of user ubuntu.
+Jan 12 08:26:06 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:26:08 localhost systemd[1]: Started Session 950 of user ubuntu.
+Jan 12 08:26:11 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:26:13 localhost magmad[1328577]: INFO:root:Checking for upgrade...
+Jan 12 08:26:13 localhost magmad[1328577]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Jan 12 08:26:13 localhost control_proxy[1328821]: 2022-01-12T08:26:12.951Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.610s
+Jan 12 08:26:13 localhost control_proxy[1328821]: 2022-01-12T08:26:12.951Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.612s
+Jan 12 08:26:13 localhost control_proxy[1328821]: 2022-01-12T08:26:12.951Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.626s
+Jan 12 08:26:13 localhost control_proxy[1328821]: 2022-01-12T08:26:12.951Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.883s
+Jan 12 08:26:13 localhost control_proxy[1328821]: 2022-01-12T08:26:12.951Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.904s
+Jan 12 08:26:13 localhost control_proxy[1328821]: 2022-01-12T08:26:12.951Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.900s
+Jan 12 08:26:13 localhost control_proxy[1328821]: 2022-01-12T08:26:12.951Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.896s
+Jan 12 08:26:13 localhost control_proxy[1328821]: 2022-01-12T08:26:12.951Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.897s
+Jan 12 08:26:14 localhost control_proxy[1328821]: 2022-01-12T08:26:13.927Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 0.353s
+Jan 12 08:26:14 localhost magmad[1328577]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = Unknown desc = get mconfig from configurator: rpc error: code = Internal desc = failed to build mconfig: mconfig builder &{service:lte} error: rpc error: code = Unknown desc = handler panic: runtime error: invalid memory address or nil pointer dereference; stack trace: goroutine 3332638 [running]:
+Jan 12 08:26:14 localhost magmad[1328577]: runtime/debug.Stack(0xc000762da0, 0xf74180, 0x1c452b0)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/usr/local/go/src/runtime/debug/stack.go:24 +0x9d
+Jan 12 08:26:14 localhost magmad[1328577]: magma/orc8r/cloud/go/service/middleware/unary.recoveryInterceptor.func1(0xc000763927, 0xc0007639c0, 0xc00073f060)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:61 +0x54
+Jan 12 08:26:14 localhost magmad[1328577]: panic(0xf74180, 0x1c452b0)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/usr/local/go/src/runtime/panic.go:679 +0x1b2
+Jan 12 08:26:14 localhost magmad[1328577]: magma/lte/cloud/go/services/lte/servicers.(*builderServicer).Build(0xc00035e2c0, 0x129fe00, 0xc000523e90, 0xc000cc1ac0, 0xc00035e2c0, 0x1cf1718, 0xc00065a160)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/src/magma/lte/cloud/go/services/lte/servicers/builder_servicer.go:187 +0x14a2
+Jan 12 08:26:14 localhost magmad[1328577]: magma/orc8r/cloud/go/services/configurator/mconfig/protos._MconfigBuilder_Build_Handler.func1(0x129fe00, 0xc000523e90, 0x1086120, 0xc000cc1ac0, 0xc00073f060, 0x0, 0x0, 0x0)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/src/magma/orc8r/cloud/go/services/configurator/mconfig/protos/builder.pb.go:232 +0x86
+Jan 12 08:26:14 localhost magmad[1328577]: magma/orc8r/cloud/go/service/middleware/unary.blockUnregisteredGatewaysInterceptor(0x129fe00, 0xc000523e90, 0x1086120, 0xc000cc1ac0, 0xc00073f060, 0xc00073f080, 0xc00073f080, 0x38, 0x38, 0xc000c666c0)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:103 +0xf8
+Jan 12 08:26:14 localhost magmad[1328577]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc000523e90, 0x1086120, 0xc000cc1ac0, 0xc00073f060, 0x0, 0x0, 0x0)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
+Jan 12 08:26:14 localhost magmad[1328577]: magma/orc8r/cloud/go/service/middleware/unary.setIdentityInterceptor(0x129fe00, 0xc000523e90, 0x1086120, 0xc000cc1ac0, 0xc00073f060, 0xc000c666c0, 0xc000c666c0, 0xd92064, 0xc00008d620, 0xc0007c6120)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:90 +0xf8
+Jan 12 08:26:14 localhost magmad[1328577]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc000523e90, 0x1086120, 0xc000cc1ac0, 0x36, 0xc000027310, 0x1038b40, 0xf77c01)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
+Jan 12 08:26:14 localhost magmad[1328577]: github.com/grpc-ecosystem/go-grpc-prometheus.(*ServerMetrics).UnaryServerInterceptor.func1(0x129fe00, 0xc000523e90, 0x1086120, 0xc000cc1ac0, 0xc00073f060, 0xc000c66680, 0xc000c66680, 0x40, 0x38, 0x1038b40)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-prometheus@v1.2.0/server_metrics.go:107 +0xad
+Jan 12 08:26:14 localhost magmad[1328577]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc000523e90, 0x1086120, 0xc000cc1ac0, 0x0, 0x0, 0xc0007db960, 0x476de2)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
+Jan 12 08:26:14 localhost magmad[1328577]: magma/orc8r/cloud/go/service/middleware/unary.recoveryInterceptor(0x129fe00, 0xc000523e90, 0x1086120, 0xc000cc1ac0, 0xc00073f060, 0xc000c66640, 0x0, 0x0, 0x0, 0x0)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:65 +0xdb
+Jan 12 08:26:14 localhost magmad[1328577]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc000523e90, 0x1086120, 0xc000cc1ac0, 0x4192c6, 0xc00073f080, 0xc0007dba60, 0x419b38)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
+Jan 12 08:26:14 localhost magmad[1328577]: magma/orc8r/cloud/go/service/middleware/unary.errlogInterceptor(0x129fe00, 0xc000523e90, 0x1086120, 0xc000cc1ac0, 0xc00073f060, 0xc000c66600, 0xc000c66600, 0x20, 0xfbff80, 0xc000ce7b01)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:72 +0x6f
+Jan 12 08:26:14 localhost magmad[1328577]: google.golang.org/grpc.chainUnaryServerInterceptors.func1(0x129fe00, 0xc000523e90, 0x1086120, 0xc000cc1ac0, 0xc00073f060, 0xc00073f080, 0xc0006c2b58, 0x5152c8, 0x1041520, 0xc000523e90)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1005 +0xca
+Jan 12 08:26:14 localhost magmad[1328577]: magma/orc8r/cloud/go/services/configurator/mconfig/protos._MconfigBuilder_Build_Handler(0xfa4ec0, 0xc00035e2c0, 0x129fe00, 0xc000523e90, 0xc000ce7b60, 0xc00049df20, 0x129fe00, 0xc000523e90, 0xc0008cc800, 0x1725)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/src/magma/orc8r/cloud/go/services/configurator/mconfig/protos/builder.pb.go:234 +0x14b
+Jan 12 08:26:14 localhost magmad[1328577]: google.golang.org/grpc.(*Server).processUnaryRPC(0xc000110e00, 0x12aa600, 0xc000708180, 0xc00081a200, 0xc00037d770, 0x1c46f70, 0x0, 0x0, 0x0)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1180 +0x4fd
+Jan 12 08:26:14 localhost magmad[1328577]: google.golang.org/grpc.(*Server).handleStream(0xc000110e00, 0x12aa600, 0xc000708180, 0xc00081a200, 0x0)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1503 +0xd55
+Jan 12 08:26:14 localhost magmad[1328577]: google.golang.org/grpc.(*Server).serveStreams.func1.2(0xc000cd0d70, 0xc000110e00, 0x12aa600, 0xc000708180, 0xc00081a200)
+Jan 12 08:26:14 localhost magmad[1328577]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:843 +0xbb
+Jan 12 08:26:14 localhost magmad[1328577]: created by google.golang.org/grpc.(*Server).serveStreams.func1
+Jan 12 08:26:14 localhost magmad[1328577]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:841 +0x204
+Jan 12 08:26:16 localhost mobilityd[1328651]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
+Jan 12 08:26:16 localhost mobilityd[1328651]: INFO:root:GW-v6 probe: timer started
+Jan 12 08:26:16 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:26:17 localhost magmad[1328577]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Jan 12 08:26:19 localhost control_proxy[1328821]: 2022-01-12T08:26:19.564Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.325s
+Jan 12 08:26:19 localhost policydb[1328735]: INFO:root:Processing 0 policy updates (resync=True)
+Jan 12 08:26:20 localhost control_proxy[1328821]: 2022-01-12T08:26:19.564Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 513bytes 0.328s
+Jan 12 08:26:20 localhost policydb[1328735]: INFO:root:Processing 22 SID -> apn -> policy updates
+Jan 12 08:26:20 localhost control_proxy[1328821]: 2022-01-12T08:26:20.225Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.323s
+Jan 12 08:26:20 localhost policydb[1328735]: INFO:root:Processing 0 rating group updates
+Jan 12 08:26:21 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:26:26 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:26:31 localhost systemd[1]: Started Session 951 of user ubuntu.
+Jan 12 08:26:31 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:26:35 localhost systemd[1]: Started Session 952 of user ubuntu.
+Jan 12 08:26:36 localhost mobilityd[1328651]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
+Jan 12 08:26:36 localhost mobilityd[1328651]: INFO:root:GW-v6 probe: timer started
+Jan 12 08:26:36 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:26:39 localhost systemd[1]: Started Session 953 of user ubuntu.
+Jan 12 08:26:41 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:26:46 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:26:51 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:26:53 localhost magmad[1328577]: WARNING:root:Shared Mconfig is missing in mconfig.configs_by_key. Returning configs unchanged.
+Jan 12 08:26:53 localhost magmad[1328577]: INFO:root:Setting logging level to INFO
+Jan 12 08:26:56 localhost mobilityd[1328651]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
+Jan 12 08:26:56 localhost mobilityd[1328651]: INFO:root:GW-v6 probe: timer started
+Jan 12 08:26:56 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:27:01 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:27:02 localhost systemd[1]: Started Session 954 of user ubuntu.
+Jan 12 08:27:06 localhost systemd[1]: Started Session 955 of user ubuntu.
+Jan 12 08:27:06 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:27:10 localhost systemd[1]: Started Session 956 of user ubuntu.
+Jan 12 08:27:11 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:27:13 localhost control_proxy[1328821]: 2022-01-12T08:27:12.287Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.754s
+Jan 12 08:27:13 localhost control_proxy[1328821]: 2022-01-12T08:27:12.287Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.746s
+Jan 12 08:27:13 localhost control_proxy[1328821]: 2022-01-12T08:27:12.287Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 0.748s
+Jan 12 08:27:13 localhost control_proxy[1328821]: 2022-01-12T08:27:12.287Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 1.430s
+Jan 12 08:27:13 localhost magmad[1328577]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Jan 12 08:27:14 localhost control_proxy[1328821]: 2022-01-12T08:27:13.002Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 1.005s
+Jan 12 08:27:14 localhost control_proxy[1328821]: 2022-01-12T08:27:13.002Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 1.009s
+Jan 12 08:27:14 localhost control_proxy[1328821]: 2022-01-12T08:27:13.002Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 1.015s
+Jan 12 08:27:14 localhost control_proxy[1328821]: 2022-01-12T08:27:13.002Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 1.001s
+Jan 12 08:27:14 localhost control_proxy[1328821]: 2022-01-12T08:27:13.002Z [127.0.0.1 -> metricsd-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.MetricsController/Collect HTTP/2" 200 5bytes 1.002s
+Jan 12 08:27:14 localhost systemd[1]: Started Session 957 of user ubuntu.
+Jan 12 08:27:14 localhost control_proxy[1328821]: 2022-01-12T08:27:14.310Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 0.336s
+Jan 12 08:27:14 localhost magmad[1328577]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = Unknown desc = get mconfig from configurator: rpc error: code = Internal desc = failed to build mconfig: mconfig builder &{service:lte} error: rpc error: code = Unknown desc = handler panic: runtime error: invalid memory address or nil pointer dereference; stack trace: goroutine 3332773 [running]:
+Jan 12 08:27:14 localhost magmad[1328577]: runtime/debug.Stack(0xc000a5cda0, 0xf74180, 0x1c452b0)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/usr/local/go/src/runtime/debug/stack.go:24 +0x9d
+Jan 12 08:27:14 localhost magmad[1328577]: magma/orc8r/cloud/go/service/middleware/unary.recoveryInterceptor.func1(0xc000a5d927, 0xc000a5d9c0, 0xc000a208e0)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:61 +0x54
+Jan 12 08:27:14 localhost magmad[1328577]: panic(0xf74180, 0x1c452b0)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/usr/local/go/src/runtime/panic.go:679 +0x1b2
+Jan 12 08:27:14 localhost magmad[1328577]: magma/lte/cloud/go/services/lte/servicers.(*builderServicer).Build(0xc00035e2c0, 0x129fe00, 0xc000a6a8a0, 0xc000902680, 0xc00035e2c0, 0x1cf1718, 0xc0007c4580)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/src/magma/lte/cloud/go/services/lte/servicers/builder_servicer.go:187 +0x14a2
+Jan 12 08:27:14 localhost magmad[1328577]: magma/orc8r/cloud/go/services/configurator/mconfig/protos._MconfigBuilder_Build_Handler.func1(0x129fe00, 0xc000a6a8a0, 0x1086120, 0xc000902680, 0xc000a208e0, 0x0, 0x0, 0x0)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/src/magma/orc8r/cloud/go/services/configurator/mconfig/protos/builder.pb.go:232 +0x86
+Jan 12 08:27:14 localhost magmad[1328577]: magma/orc8r/cloud/go/service/middleware/unary.blockUnregisteredGatewaysInterceptor(0x129fe00, 0xc000a6a8a0, 0x1086120, 0xc000902680, 0xc000a208e0, 0xc000a20900, 0xc000a20900, 0x38, 0x38, 0xc000903280)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:103 +0xf8
+Jan 12 08:27:14 localhost magmad[1328577]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc000a6a8a0, 0x1086120, 0xc000902680, 0xc000a208e0, 0x0, 0x0, 0x0)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
+Jan 12 08:27:14 localhost magmad[1328577]: magma/orc8r/cloud/go/service/middleware/unary.setIdentityInterceptor(0x129fe00, 0xc000a6a8a0, 0x1086120, 0xc000902680, 0xc000a208e0, 0xc000903280, 0xc000903280, 0xd92064, 0xc00008d620, 0xc000a6ab10)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:90 +0xf8
+Jan 12 08:27:14 localhost magmad[1328577]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc000a6a8a0, 0x1086120, 0xc000902680, 0x36, 0xc0009f45f0, 0x1038b40, 0xf77c01)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
+Jan 12 08:27:14 localhost magmad[1328577]: github.com/grpc-ecosystem/go-grpc-prometheus.(*ServerMetrics).UnaryServerInterceptor.func1(0x129fe00, 0xc000a6a8a0, 0x1086120, 0xc000902680, 0xc000a208e0, 0xc000903240, 0xc000903240, 0x40, 0x38, 0x1038b40)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/go/pkg/mod/github.com/grpc-ecosystem/go-grpc-prometheus@v1.2.0/server_metrics.go:107 +0xad
+Jan 12 08:27:14 localhost magmad[1328577]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc000a6a8a0, 0x1086120, 0xc000902680, 0x0, 0x0, 0xc00001d960, 0x476de2)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
+Jan 12 08:27:14 localhost magmad[1328577]: magma/orc8r/cloud/go/service/middleware/unary.recoveryInterceptor(0x129fe00, 0xc000a6a8a0, 0x1086120, 0xc000902680, 0xc000a208e0, 0xc000903200, 0x0, 0x0, 0x0, 0x0)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:65 +0xdb
+Jan 12 08:27:14 localhost magmad[1328577]: google.golang.org/grpc.getChainUnaryHandler.func1(0x129fe00, 0xc000a6a8a0, 0x1086120, 0xc000902680, 0x4192c6, 0xc000a20900, 0xc00001da60, 0x419b38)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1019 +0xe7
+Jan 12 08:27:14 localhost magmad[1328577]: magma/orc8r/cloud/go/service/middleware/unary.errlogInterceptor(0x129fe00, 0xc000a6a8a0, 0x1086120, 0xc000902680, 0xc000a208e0, 0xc0009031c0, 0xc0009031c0, 0x20, 0xfbff80, 0xc0009e4c01)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/src/magma/orc8r/cloud/go/service/middleware/unary/interceptors.go:72 +0x6f
+Jan 12 08:27:14 localhost magmad[1328577]: google.golang.org/grpc.chainUnaryServerInterceptors.func1(0x129fe00, 0xc000a6a8a0, 0x1086120, 0xc000902680, 0xc000a208e0, 0xc000a20900, 0xc0006c3b58, 0x5152c8, 0x1041520, 0xc000a6a8a0)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1005 +0xca
+Jan 12 08:27:14 localhost magmad[1328577]: magma/orc8r/cloud/go/services/configurator/mconfig/protos._MconfigBuilder_Build_Handler(0xfa4ec0, 0xc00035e2c0, 0x129fe00, 0xc000a6a8a0, 0xc0009e4c00, 0xc00049df20, 0x129fe00, 0xc000a6a8a0, 0xc0008c8000, 0x1725)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/src/magma/orc8r/cloud/go/services/configurator/mconfig/protos/builder.pb.go:234 +0x14b
+Jan 12 08:27:14 localhost magmad[1328577]: google.golang.org/grpc.(*Server).processUnaryRPC(0xc000110e00, 0x12aa600, 0xc000708180, 0xc0000de900, 0xc00037d770, 0x1c46f70, 0x0, 0x0, 0x0)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1180 +0x4fd
+Jan 12 08:27:14 localhost magmad[1328577]: google.golang.org/grpc.(*Server).handleStream(0xc000110e00, 0x12aa600, 0xc000708180, 0xc0000de900, 0x0)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:1503 +0xd55
+Jan 12 08:27:14 localhost magmad[1328577]: google.golang.org/grpc.(*Server).serveStreams.func1.2(0xc000cd0d70, 0xc000110e00, 0x12aa600, 0xc000708180, 0xc0000de900)
+Jan 12 08:27:14 localhost magmad[1328577]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:843 +0xbb
+Jan 12 08:27:14 localhost magmad[1328577]: created by google.golang.org/grpc.(*Server).serveStreams.func1
+Jan 12 08:27:14 localhost magmad[1328577]: #011/go/pkg/mod/google.golang.org/grpc@v1.31.0/server.go:841 +0x204
+Jan 12 08:27:16 localhost mobilityd[1328651]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
+Jan 12 08:27:16 localhost mobilityd[1328651]: INFO:root:GW-v6 probe: timer started
+Jan 12 08:27:16 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:27:17 localhost magmad[1328577]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Jan 12 08:27:20 localhost control_proxy[1328821]: 2022-01-12T08:27:20.572Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.342s
+Jan 12 08:27:20 localhost policydb[1328735]: INFO:root:Processing 0 policy updates (resync=True)
+Jan 12 08:27:21 localhost control_proxy[1328821]: 2022-01-12T08:27:20.572Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 513bytes 0.318s
+Jan 12 08:27:21 localhost policydb[1328735]: INFO:root:Processing 22 SID -> apn -> policy updates
+Jan 12 08:27:21 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:27:22 localhost control_proxy[1328821]: 2022-01-12T08:27:21.240Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 1.153s
+Jan 12 08:27:22 localhost policydb[1328735]: INFO:root:Processing 0 rating group updates
+Jan 12 08:27:26 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:27:31 localhost PackageKit: daemon quit
+Jan 12 08:27:31 localhost systemd[1]: packagekit.service: Succeeded.
+Jan 12 08:27:31 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:27:36 localhost mobilityd[1328651]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
+Jan 12 08:27:36 localhost mobilityd[1328651]: INFO:root:GW-v6 probe: timer started
+Jan 12 08:27:36 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:27:42 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:27:42 localhost systemd[1]: Started Session 958 of user ubuntu.
+Jan 12 08:27:46 localhost systemd[1]: Started Session 959 of user ubuntu.
+Jan 12 08:27:47 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:27:50 localhost systemd[1]: Started Session 960 of user ubuntu.
+Jan 12 08:27:52 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:27:54 localhost systemd[1]: Started Session 961 of user ubuntu.
+Jan 12 08:27:56 localhost mobilityd[1328651]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
+Jan 12 08:27:56 localhost mobilityd[1328651]: INFO:root:GW-v6 probe: timer started
+Jan 12 08:27:57 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:27:58 localhost systemd[1]: Started Session 962 of user ubuntu.
+Jan 12 08:28:02 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:28:07 localhost smsd[1328756]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 12 08:28:07 localhost systemd[1]: Started Session 963 of user ubuntu.
