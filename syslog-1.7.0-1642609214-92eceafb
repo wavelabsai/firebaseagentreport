@@ -1,98 +1,97 @@
-Jan 20 05:47:31 localhost smsd[136175]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 20 05:47:41 localhost smsd[136175]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
-Jan 20 05:47:43 localhost magmad[136014]: WARNING:root:Shared Mconfig is missing in mconfig.configs_by_key. Returning configs unchanged.
-Jan 20 05:47:43 localhost magmad[136014]: INFO:root:Setting logging level to INFO
-Jan 20 05:47:46 localhost mobilityd[136082]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
-Jan 20 05:47:46 localhost mobilityd[136082]: INFO:root:GW-v6 probe: timer started
-Jan 20 05:47:46 localhost smsd[136175]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 20 05:48:01 localhost smsd[136175]: message repeated 3 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
-Jan 20 05:48:02 localhost magmad[136014]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:48:02 localhost magmad[136014]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:48:02 localhost magmad[136014]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:48:02 localhost magmad[136014]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:48:02 localhost magmad[136014]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:48:02 localhost magmad[136014]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:48:02 localhost magmad[136014]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:48:02 localhost magmad[136014]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:48:02 localhost control_proxy[136255]: 2022-01-20T05:48:02.137Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.558s
-Jan 20 05:48:02 localhost magmad[136014]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
-Jan 20 05:48:06 localhost mobilityd[136082]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
-Jan 20 05:48:06 localhost mobilityd[136082]: INFO:root:GW-v6 probe: timer started
-Jan 20 05:48:06 localhost smsd[136175]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 20 05:48:21 localhost smsd[136175]: message repeated 3 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
-Jan 20 05:48:22 localhost magmad[136014]: INFO:root:Checking for upgrade...
-Jan 20 05:48:22 localhost magmad[136014]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
-Jan 20 05:48:23 localhost control_proxy[136255]: 2022-01-20T05:47:22.524Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.390s
-Jan 20 05:48:23 localhost magmad[136014]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
-Jan 20 05:48:26 localhost mobilityd[136082]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
-Jan 20 05:48:26 localhost mobilityd[136082]: INFO:root:GW-v6 probe: timer started
-Jan 20 05:48:26 localhost smsd[136175]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 20 05:48:26 localhost magmad[136014]: INFO:root:[SyncRPC] Got heartBeat from cloud
-Jan 20 05:48:28 localhost control_proxy[136255]: 2022-01-20T05:48:28.430Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.299s
-Jan 20 05:48:28 localhost policydb[136156]: INFO:root:Processing 0 policy updates (resync=True)
-Jan 20 05:48:29 localhost control_proxy[136255]: 2022-01-20T05:48:28.430Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.296s
-Jan 20 05:48:29 localhost policydb[136156]: INFO:root:Processing 222 SID -> apn -> policy updates
-Jan 20 05:48:29 localhost control_proxy[136255]: 2022-01-20T05:48:29.037Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.286s
-Jan 20 05:48:29 localhost policydb[136156]: INFO:root:Processing 0 rating group updates
-Jan 20 05:48:31 localhost smsd[136175]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 20 05:48:41 localhost smsd[136175]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
-Jan 20 05:48:46 localhost mobilityd[136082]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
-Jan 20 05:48:46 localhost mobilityd[136082]: INFO:root:GW-v6 probe: timer started
-Jan 20 05:48:46 localhost smsd[136175]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 20 05:48:51 localhost smsd[136175]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 20 05:48:52 localhost magmad[136014]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:48:52 localhost magmad[136014]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:48:52 localhost magmad[136014]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:48:52 localhost magmad[136014]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:48:52 localhost magmad[136014]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:48:52 localhost magmad[136014]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:48:52 localhost magmad[136014]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:48:52 localhost magmad[136014]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:48:56 localhost smsd[136175]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 20 05:49:01 localhost smsd[136175]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 20 05:49:03 localhost magmad[136014]: WARNING:root:Shared Mconfig is missing in mconfig.configs_by_key. Returning configs unchanged.
-Jan 20 05:49:03 localhost magmad[136014]: INFO:root:Setting logging level to INFO
-Jan 20 05:49:06 localhost mobilityd[136082]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
-Jan 20 05:49:06 localhost mobilityd[136082]: INFO:root:GW-v6 probe: timer started
-Jan 20 05:49:06 localhost smsd[136175]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 20 05:49:21 localhost smsd[136175]: message repeated 3 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
-Jan 20 05:49:22 localhost control_proxy[136255]: 2022-01-20T05:49:21.679Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.562s
-Jan 20 05:49:22 localhost magmad[136014]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
-Jan 20 05:49:26 localhost mobilityd[136082]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
-Jan 20 05:49:26 localhost mobilityd[136082]: INFO:root:GW-v6 probe: timer started
-Jan 20 05:49:26 localhost magmad[136014]: INFO:root:[SyncRPC] Got heartBeat from cloud
-Jan 20 05:49:26 localhost smsd[136175]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 20 05:49:29 localhost control_proxy[136255]: 2022-01-20T05:49:29.385Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.317s
-Jan 20 05:49:29 localhost policydb[136156]: INFO:root:Processing 0 policy updates (resync=True)
-Jan 20 05:49:29 localhost control_proxy[136255]: 2022-01-20T05:49:29.385Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.294s
-Jan 20 05:49:30 localhost policydb[136156]: INFO:root:Processing 222 SID -> apn -> policy updates
-Jan 20 05:49:30 localhost control_proxy[136255]: 2022-01-20T05:49:30.005Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.302s
-Jan 20 05:49:30 localhost policydb[136156]: INFO:root:Processing 0 rating group updates
-Jan 20 05:49:31 localhost smsd[136175]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 20 05:49:41 localhost smsd[136175]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
-Jan 20 05:49:45 localhost PackageKit: daemon quit
-Jan 20 05:49:45 localhost systemd[1]: packagekit.service: Succeeded.
-Jan 20 05:49:46 localhost mobilityd[136082]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
-Jan 20 05:49:46 localhost mobilityd[136082]: INFO:root:GW-v6 probe: timer started
-Jan 20 05:49:47 localhost smsd[136175]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 20 05:49:52 localhost smsd[136175]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 20 05:49:52 localhost magmad[136014]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:49:52 localhost magmad[136014]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:49:52 localhost magmad[136014]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:49:52 localhost magmad[136014]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:49:52 localhost magmad[136014]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:49:52 localhost magmad[136014]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:49:52 localhost magmad[136014]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:49:52 localhost magmad[136014]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-Jan 20 05:49:57 localhost smsd[136175]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 20 05:50:02 localhost smsd[136175]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 20 05:50:06 localhost mobilityd[136082]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
-Jan 20 05:50:06 localhost mobilityd[136082]: INFO:root:GW-v6 probe: timer started
-Jan 20 05:50:07 localhost smsd[136175]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 20 05:50:17 localhost smsd[136175]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
-Jan 20 05:50:20 localhost systemd[1]: Started Session 20 of user ubuntu.
-Jan 20 05:50:22 localhost smsd[136175]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-Jan 20 05:50:22 localhost magmad[136014]: WARNING:root:Shared Mconfig is missing in mconfig.configs_by_key. Returning configs unchanged.
-Jan 20 05:50:22 localhost magmad[136014]: INFO:root:Setting logging level to INFO
-Jan 20 05:50:23 localhost control_proxy[136255]: 2022-01-20T05:49:23.139Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.265s
-Jan 20 05:50:23 localhost magmad[136014]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Jan 20 06:05:21 localhost control_proxy[143140]: 2022-01-20T06:05:20.591Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.858s
+Jan 20 06:05:21 localhost policydb[143061]: INFO:root:Processing 0 rating group updates
+Jan 20 06:05:23 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:05:33 localhost smsd[143084]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Jan 20 06:05:35 localhost magmad[142908]: WARNING:root:Shared Mconfig is missing in mconfig.configs_by_key. Returning configs unchanged.
+Jan 20 06:05:35 localhost magmad[142908]: INFO:root:Setting logging level to INFO
+Jan 20 06:05:38 localhost mobilityd[142978]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
+Jan 20 06:05:38 localhost mobilityd[142978]: INFO:root:GW-v6 probe: timer started
+Jan 20 06:05:38 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:05:53 localhost smsd[143084]: message repeated 3 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Jan 20 06:05:53 localhost magmad[142908]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:05:53 localhost magmad[142908]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:05:53 localhost magmad[142908]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:05:53 localhost magmad[142908]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:05:53 localhost magmad[142908]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:05:53 localhost magmad[142908]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:05:53 localhost magmad[142908]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:05:53 localhost magmad[142908]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:05:54 localhost control_proxy[143140]: 2022-01-20T06:05:53.881Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.713s
+Jan 20 06:05:54 localhost magmad[142908]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Jan 20 06:05:58 localhost mobilityd[142978]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
+Jan 20 06:05:58 localhost mobilityd[142978]: INFO:root:GW-v6 probe: timer started
+Jan 20 06:05:58 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:06:13 localhost smsd[143084]: message repeated 3 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Jan 20 06:06:14 localhost magmad[142908]: INFO:root:Checking for upgrade...
+Jan 20 06:06:14 localhost magmad[142908]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Jan 20 06:06:15 localhost control_proxy[143140]: 2022-01-20T06:05:14.624Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.480s
+Jan 20 06:06:15 localhost magmad[142908]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Jan 20 06:06:17 localhost magmad[142908]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Jan 20 06:06:18 localhost mobilityd[142978]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
+Jan 20 06:06:18 localhost mobilityd[142978]: INFO:root:GW-v6 probe: timer started
+Jan 20 06:06:18 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:06:21 localhost control_proxy[143140]: 2022-01-20T06:06:21.488Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.350s
+Jan 20 06:06:21 localhost policydb[143061]: INFO:root:Processing 0 policy updates (resync=True)
+Jan 20 06:06:22 localhost control_proxy[143140]: 2022-01-20T06:06:21.488Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.354s
+Jan 20 06:06:22 localhost policydb[143061]: INFO:root:Processing 222 SID -> apn -> policy updates
+Jan 20 06:06:22 localhost control_proxy[143140]: 2022-01-20T06:06:22.203Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.341s
+Jan 20 06:06:22 localhost policydb[143061]: INFO:root:Processing 0 rating group updates
+Jan 20 06:06:23 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:06:33 localhost smsd[143084]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Jan 20 06:06:38 localhost mobilityd[142978]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
+Jan 20 06:06:38 localhost mobilityd[142978]: INFO:root:GW-v6 probe: timer started
+Jan 20 06:06:38 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:06:43 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:06:44 localhost magmad[142908]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:06:44 localhost magmad[142908]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:06:44 localhost magmad[142908]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:06:44 localhost magmad[142908]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:06:44 localhost magmad[142908]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:06:44 localhost magmad[142908]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:06:44 localhost magmad[142908]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:06:44 localhost magmad[142908]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:06:48 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:06:53 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:06:54 localhost magmad[142908]: WARNING:root:Shared Mconfig is missing in mconfig.configs_by_key. Returning configs unchanged.
+Jan 20 06:06:54 localhost magmad[142908]: INFO:root:Setting logging level to INFO
+Jan 20 06:06:58 localhost mobilityd[142978]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
+Jan 20 06:06:58 localhost mobilityd[142978]: INFO:root:GW-v6 probe: timer started
+Jan 20 06:06:58 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:07:13 localhost smsd[143084]: message repeated 3 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Jan 20 06:07:14 localhost control_proxy[143140]: 2022-01-20T06:07:13.422Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.693s
+Jan 20 06:07:14 localhost magmad[142908]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Jan 20 06:07:17 localhost magmad[142908]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Jan 20 06:07:18 localhost mobilityd[142978]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
+Jan 20 06:07:18 localhost mobilityd[142978]: INFO:root:GW-v6 probe: timer started
+Jan 20 06:07:18 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:07:23 localhost control_proxy[143140]: 2022-01-20T06:07:22.561Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.676s
+Jan 20 06:07:23 localhost policydb[143061]: INFO:root:Processing 0 policy updates (resync=True)
+Jan 20 06:07:23 localhost control_proxy[143140]: 2022-01-20T06:07:23.243Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.364s
+Jan 20 06:07:23 localhost policydb[143061]: INFO:root:Processing 222 SID -> apn -> policy updates
+Jan 20 06:07:23 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:07:23 localhost control_proxy[143140]: 2022-01-20T06:07:23.243Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.341s
+Jan 20 06:07:23 localhost policydb[143061]: INFO:root:Processing 0 rating group updates
+Jan 20 06:07:28 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:07:33 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:07:35 localhost PackageKit: daemon quit
+Jan 20 06:07:35 localhost systemd[1]: packagekit.service: Succeeded.
+Jan 20 06:07:38 localhost mobilityd[142978]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
+Jan 20 06:07:38 localhost mobilityd[142978]: INFO:root:GW-v6 probe: timer started
+Jan 20 06:07:38 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:07:43 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:07:44 localhost magmad[142908]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:07:44 localhost magmad[142908]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:07:44 localhost magmad[142908]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:07:44 localhost magmad[142908]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:07:44 localhost magmad[142908]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:07:44 localhost magmad[142908]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:07:44 localhost magmad[142908]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:07:44 localhost magmad[142908]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Jan 20 06:07:49 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:07:54 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:07:58 localhost mobilityd[142978]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
+Jan 20 06:07:58 localhost mobilityd[142978]: INFO:root:GW-v6 probe: timer started
+Jan 20 06:07:59 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:08:04 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Jan 20 06:08:08 localhost systemd[1]: Started Session 21 of user ubuntu.
+Jan 20 06:08:09 localhost smsd[143084]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
