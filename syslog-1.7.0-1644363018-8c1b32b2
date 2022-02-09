@@ -1,0 +1,1285 @@
+Feb  9 00:00:06 localhost rsyslogd:  message repeated 17 times: [cannot connect to 127.0.0.1:5140: Connection refused [v8.2001.0 try https://www.rsyslog.com/e/2027 ]]
+Feb  9 00:00:06 localhost rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="3116401" x-info="https://www.rsyslog.com"] exiting on signal 15.
+Feb  9 00:00:06 localhost systemd[1]: Stopping System Logging Service...
+Feb  9 00:00:06 localhost systemd[1]: rsyslog.service: Succeeded.
+Feb  9 00:00:06 localhost systemd[1]: Stopped System Logging Service.
+Feb  9 00:00:06 localhost systemd[1]: Starting System Logging Service...
+Feb  9 00:00:06 localhost rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2001.0]
+Feb  9 00:00:06 localhost rsyslogd: rsyslogd's groupid changed to 110
+Feb  9 00:00:06 localhost systemd[1]: Started System Logging Service.
+Feb  9 00:00:06 localhost rsyslogd: rsyslogd's userid changed to 104
+Feb  9 00:00:06 localhost rsyslogd: [origin software="rsyslogd" swVersion="8.2001.0" x-pid="3120780" x-info="https://www.rsyslog.com"] start
+Feb  9 00:00:06 localhost rsyslogd: cannot connect to 127.0.0.1:5140: Connection refused [v8.2001.0 try https://www.rsyslog.com/e/2027 ]
+Feb  9 00:00:06 localhost rsyslogd: action 'action-7-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 0. There should be messages before this one giving the reason for suspension. [v8.2001.0 try https://www.rsyslog.com/e/2007 ]
+Feb  9 00:00:06 localhost rsyslogd: cannot connect to 127.0.0.1:5140: Connection refused [v8.2001.0 try https://www.rsyslog.com/e/2027 ]
+Feb  9 00:00:06 localhost rsyslogd: action 'action-7-builtin:omfwd' suspended (module 'builtin:omfwd'), next retry is Wed Feb  9 00:00:36 2022, retry nbr 0. There should be messages before this one giving the reason for suspension. [v8.2001.0 try https://www.rsyslog.com/e/2007 ]
+Feb  9 00:00:06 localhost rsyslogd: cannot connect to 127.0.0.1:5140: Connection refused [v8.2001.0 try https://www.rsyslog.com/e/2027 ]
+Feb  9 00:00:06 localhost rsyslogd: action 'action-7-builtin:omfwd' suspended (module 'builtin:omfwd'), retry 1. There should be messages before this one giving the reason for suspension. [v8.2001.0 try https://www.rsyslog.com/e/2007 ]
+Feb  9 00:00:06 localhost rsyslogd: cannot connect to 127.0.0.1:5140: Connection refused [v8.2001.0 try https://www.rsyslog.com/e/2027 ]
+Feb  9 00:00:06 localhost systemd[1]: logrotate.service: Main process exited, code=exited, status=1/FAILURE
+Feb  9 00:00:06 localhost systemd[1]: logrotate.service: Failed with result 'exit-code'.
+Feb  9 00:00:06 localhost systemd[1]: Failed to start Rotate log files.
+Feb  9 00:00:07 localhost smsd[3118769]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:3e] M5gNasMessageEncodeMsg:
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:75] AmfMsgEncodeHeaderMsg:
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:7b] epd = 0x7e security hdr = 0x0 hdr type = 0x42
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:ee]  AmfMsgEncodeMsg :
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2b]  EncodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2e] epd = 0x7e
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2a]  EncodeSecurityHeaderTypeMsg :
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2d] Security header type = 0x0
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]  EncodeMessageTypeMsg :
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:29] Message type = 0x42
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationResult.cpp:3e]  EncodeM5GSRegistrationResultMsg : 0x01 (spare = 0, sms allowed = 0, result val = 1)
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationResult.cpp:47]  EncodeM5GSRegistrationResultMsg : length  = 0x01
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:240] EncodeM5GSMobileIdentityMsg:
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:243] iei77
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:255] Type guti
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:183] EncodeGutiMobileIdentityMsg:
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:186] odd_even type_of_identity = f2
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:18b] mcc_digit2 >mcc_digit1 type_of_identity = 22
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:190] mnc_digit3 >mcc_digit3 type_of_identity = f2
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:195] mnc_digit2 >mcc_digit1 type_of_identity = 7
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:199] amf_regionid = 1
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:19c] amf_setid = 0
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a0] amf_setid amf_pointer = 40
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a4] tmsi1 = e1
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a7] tmsi2 = 23
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1aa] tmsi3 = c2
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1ad] tmsi4 = 7f
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:1b] iei = 54
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:26] mcc_digit2 >mcc_digit1 type_of_identity = 22
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:2b] mnc_digit3 >mcc_digit3 type_of_identity = f2
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:30] mnc_digit2 >mcc_digit1 type_of_identity = 7
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:98] EncodeNSSAIMsgList
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:9c] iei: 15
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:a0] len: 2
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:19] EncodeNSSAIMsg
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:21] len: 1
+Feb  9 00:00:07 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:26] sst: 1
+Feb  9 00:00:07 localhost sctpd[3118928]: I0209 00:00:07.991577 3119423 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:07 localhost mme[3119384]: [DEBUG] Sending S6A-UPDATE_LOCATION_REQUEST with IMSI: 222700000000001
+Feb  9 00:00:07 localhost mme[3119384]: [INFO] Received S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001; Status: ; StatusCode: 7d1
+Feb  9 00:00:07 localhost mme[3119384]: [INFO] sent itti S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001
+Feb  9 00:00:08 localhost sctpd[3118928]: I0209 00:00:08.194206 3119424 sctp_connection.cpp:169] HandleClientSock sd = 55
+Feb  9 00:00:08 localhost sctpd[3118928]: I0209 00:00:08.194290 3119424 sctp_connection.cpp:195] Unhandled notification type 32777
+Feb  9 00:00:09 localhost sctpd[3118928]: I0209 00:00:09.390532 3119424 sctp_connection.cpp:169] HandleClientSock sd = 55
+Feb  9 00:00:09 localhost sctpd[3118928]: I0209 00:00:09.390592 3119424 sctp_connection.cpp:187] SCTP_SHUTDOWN_EVENT received
+Feb  9 00:00:09 localhost sctpd[3118928]: I0209 00:00:09.390599 3119424 sctp_connection.cpp:281] Sending close connection for assoc_id 5730
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:3e] M5gNasMessageEncodeMsg:
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:75] AmfMsgEncodeHeaderMsg:
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:7b] epd = 0x7e security hdr = 0x0 hdr type = 0x56
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:ee]  AmfMsgEncodeMsg :
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2b]  EncodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2e] epd = 0x7e
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2a]  EncodeSecurityHeaderTypeMsg :
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2d] Security header type = 0x0
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]  EncodeMessageTypeMsg :
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:29] Message type = 0x56
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:42]  EncodeNASKeySetIdentifierMsg :
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:45]    Type of Security Context  = 0x0
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:47]    NAS key set identifier = 0x0
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GABBA.cpp:2e]  EncodeABBAMsg :
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GABBA.cpp:32]    ABBA Contents :
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GABBA.cpp:33]  0x0
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GABBA.cpp:33]  0x0
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:2b] In EncodeAuthenticationParameterRANDMsg: iei21
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xa4
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x50
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x2b
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xff
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x11
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xdb
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x55
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x8c
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x2b
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xce
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xfe
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x61
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x1c
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xf0
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x18
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xea
+Feb  9 00:00:09 localhost sctpd[3118928]: I0209 00:00:09.588598 3118937 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:2c] In EncodeAuthenticationParameterAUTNMsg: iei20
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x31
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x7
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x8
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x5e
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xa
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xdc
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x80
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x0
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x5
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x7d
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xde
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xa3
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xd0
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xd2
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x1d
+Feb  9 00:00:09 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xf7
+Feb  9 00:00:12 localhost smsd[3118769]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:3e] M5gNasMessageEncodeMsg:
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:75] AmfMsgEncodeHeaderMsg:
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:7b] epd = 0x7e security hdr = 0x0 hdr type = 0x42
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:ee]  AmfMsgEncodeMsg :
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2b]  EncodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2e] epd = 0x7e
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2a]  EncodeSecurityHeaderTypeMsg :
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2d] Security header type = 0x0
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]  EncodeMessageTypeMsg :
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:29] Message type = 0x42
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationResult.cpp:3e]  EncodeM5GSRegistrationResultMsg : 0x01 (spare = 0, sms allowed = 0, result val = 1)
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationResult.cpp:47]  EncodeM5GSRegistrationResultMsg : length  = 0x01
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:240] EncodeM5GSMobileIdentityMsg:
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:243] iei77
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:255] Type guti
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:183] EncodeGutiMobileIdentityMsg:
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:186] odd_even type_of_identity = f2
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:18b] mcc_digit2 >mcc_digit1 type_of_identity = 22
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:190] mnc_digit3 >mcc_digit3 type_of_identity = f2
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:195] mnc_digit2 >mcc_digit1 type_of_identity = 7
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:199] amf_regionid = 1
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:19c] amf_setid = 0
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a0] amf_setid amf_pointer = 40
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a4] tmsi1 = e1
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a7] tmsi2 = 23
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1aa] tmsi3 = c2
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1ad] tmsi4 = 7f
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:1b] iei = 54
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:26] mcc_digit2 >mcc_digit1 type_of_identity = 22
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:2b] mnc_digit3 >mcc_digit3 type_of_identity = f2
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:30] mnc_digit2 >mcc_digit1 type_of_identity = 7
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:98] EncodeNSSAIMsgList
+Feb  9 00:00:13 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:9c] iei: 15
+Feb  9 00:00:14 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:a0] len: 2
+Feb  9 00:00:14 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:19] EncodeNSSAIMsg
+Feb  9 00:00:14 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:21] len: 1
+Feb  9 00:00:14 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:26] sst: 1
+Feb  9 00:00:14 localhost mme[3119384]: [DEBUG] Sending S6A-UPDATE_LOCATION_REQUEST with IMSI: 222700000000001
+Feb  9 00:00:14 localhost sctpd[3118928]: I0209 00:00:13.998750 3118937 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:14 localhost mme[3119384]: [INFO] Received S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001; Status: ; StatusCode: 7d1
+Feb  9 00:00:14 localhost mme[3119384]: [INFO] sent itti S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001
+Feb  9 00:00:15 localhost sctpd[3118928]: I0209 00:00:15.590863 3119423 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:16 localhost sctpd[3118928]: I0209 00:00:16.686290 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:16 localhost sctpd[3118928]: I0209 00:00:16.686363 3119424 sctp_connection.cpp:191] SCTP association change event received
+Feb  9 00:00:16 localhost sctpd[3118928]: I0209 00:00:16.687227 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:16 localhost sctpd[3118928]: I0209 00:00:16.687271 3119424 sctp_connection.cpp:195] Unhandled notification type 32776
+Feb  9 00:00:17 localhost smsd[3118769]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Feb  9 00:00:17 localhost sctpd[3118928]: I0209 00:00:17.746871 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:17 localhost sctpd[3118928]: I0209 00:00:17.746980 3119424 sctp_connection.cpp:222] [sd:56] msg of len 42 on 5731:0
+Feb  9 00:00:17 localhost sctpd[3118928]: I0209 00:00:17.748742 3119423 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:17 localhost sctpd[3118928]: I0209 00:00:17.749336 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:17 localhost sctpd[3118928]: I0209 00:00:17.749399 3119424 sctp_connection.cpp:195] Unhandled notification type 32777
+Feb  9 00:00:17 localhost sctpd[3118928]: I0209 00:00:17.858937 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:17 localhost sctpd[3118928]: I0209 00:00:17.859019 3119424 sctp_connection.cpp:222] [sd:56] msg of len 42 on 5731:0
+Feb  9 00:00:17 localhost sctpd[3118928]: I0209 00:00:17.860472 3119423 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:17 localhost sctpd[3118928]: I0209 00:00:17.973035 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:17 localhost sctpd[3118928]: I0209 00:00:17.973104 3119424 sctp_connection.cpp:195] Unhandled notification type 32777
+Feb  9 00:00:17 localhost sctpd[3118928]: I0209 00:00:17.973117 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:17 localhost sctpd[3118928]: I0209 00:00:17.973134 3119424 sctp_connection.cpp:222] [sd:56] msg of len 88 on 5731:1
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5a] AmfMsgDecodeHeaderMsg:
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5f] epd = 0x7esecurity hdr = 0x0 hdr type = 0x41
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:2b]    epd = 0x7e
+Feb  9 00:00:17 localhost mme[3119384]:    security hdr =  0x0
+Feb  9 00:00:17 localhost mme[3119384]:    hdr type = 0x41
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:91] AmfMsgDecodeMsg:
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:96] msg type = 0x41
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/M5GRegistrationRequest.cpp:20] DecodeRegistrationRequestMsg :
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1b]    DecodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1f]  epd = 7e
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1c]    DecodeSpareHalfOctetMsg :
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1e] Spare = 0x0
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1c]    DecodeSecurityHeaderTypeMsg :
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1f]  Security header type = 0
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]    DecodeMessageTypeMsg :
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:30]  msg_type = 0x41
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationType.cpp:24]  FOR = 0x0
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationType.cpp:25]  type_val = 0x1
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:1c] DecoseNASKeySetIdentifierMsg :
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:2a]    tsc = 0
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:43]    NASkeysetidentifier = 0
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:341] M5GS Mobile Identity :
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:350]  Length = 13 Type of Identity = 1
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:370]  Type imsi
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:148]  DecodeImsiMobileIdentityMsg:
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:195] Length :  13
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:31]  Decoding UE Security Capability :
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:44]  length = 2
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:66]  ea0 = 1
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:68]  ea1 = 1
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:6a]  ea2 = 0
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:6c]  ea3 = 0
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:6e]  ea4 = 0
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:70]  ea5 = 0
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:72]  ea6 = 0
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:74]  ea7 = 0
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:77]  ia0 = 1
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:79]  ia1 = 1
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:7b]  ia2 = 0
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:7d]  ia3 = 0
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:7f]  ia4 = 0
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:81]  ia5 = 0
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:83]  ia6 = 0
+Feb  9 00:00:17 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:85]  ia7 = 0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:3e] M5gNasMessageEncodeMsg:
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:75] AmfMsgEncodeHeaderMsg:
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:7b] epd = 0x7e security hdr = 0x0 hdr type = 0x56
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:ee]  AmfMsgEncodeMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2b]  EncodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2e] epd = 0x7e
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2a]  EncodeSecurityHeaderTypeMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2d] Security header type = 0x0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]  EncodeMessageTypeMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:29] Message type = 0x56
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:42]  EncodeNASKeySetIdentifierMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:45]    Type of Security Context  = 0x0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:47]    NAS key set identifier = 0x0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GABBA.cpp:2e]  EncodeABBAMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GABBA.cpp:32]    ABBA Contents :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GABBA.cpp:33]  0x0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GABBA.cpp:33]  0x0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:2b] In EncodeAuthenticationParameterRANDMsg: iei21
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xcf
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xa1
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x62
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x3
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x7f
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x3
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xaa
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x86
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xfa
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x5f
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x34
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xf0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x55
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x69
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x74
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x6a
+Feb  9 00:00:18 localhost sctpd[3118928]: I0209 00:00:18.004917 3119423 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:2c] In EncodeAuthenticationParameterAUTNMsg: iei20
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x3f
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xb2
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x48
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x5a
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xfb
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x6c
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x80
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x39
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x52
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x65
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x4f
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xfd
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x48
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x63
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x6b
+Feb  9 00:00:18 localhost sctpd[3118928]: I0209 00:00:18.088865 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:18 localhost sctpd[3118928]: I0209 00:00:18.088968 3119424 sctp_connection.cpp:195] Unhandled notification type 32777
+Feb  9 00:00:18 localhost sctpd[3118928]: I0209 00:00:18.088986 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:18 localhost sctpd[3118928]: I0209 00:00:18.089002 3119424 sctp_connection.cpp:222] [sd:56] msg of len 67 on 5731:1
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5a] AmfMsgDecodeHeaderMsg:
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5f] epd = 0x7esecurity hdr = 0x0 hdr type = 0x57
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:2b]    epd = 0x7e
+Feb  9 00:00:18 localhost mme[3119384]:    security hdr =  0x0
+Feb  9 00:00:18 localhost mme[3119384]:    hdr type = 0x57
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:91] AmfMsgDecodeMsg:
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:96] msg type = 0x57
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/M5GAuthenticationResponse.cpp:1e]
+Feb  9 00:00:18 localhost mme[3119384]: ---Decoding Authentication Response Message---
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1b]    DecodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1f]  epd = 7e
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1c]    DecodeSpareHalfOctetMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1e] Spare = 0x0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1c]    DecodeSecurityHeaderTypeMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1f]  Security header type = 0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]    DecodeMessageTypeMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:30]  msg_type = 0x57
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:1e] Decoding Authentication Response Parameter IE
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:23]  ElementID : 2d
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:27]  Length : 16
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:47]  RES : f6
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 87
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 4b
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 4e
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 3
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 35
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : bc
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : d8
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : cf
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : ac
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : bf
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : ea
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 95
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 2b
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : ba
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 5a
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:3e] M5gNasMessageEncodeMsg:
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:75] AmfMsgEncodeHeaderMsg:
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:7b] epd = 0x7e security hdr = 0x0 hdr type = 0x5d
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:ee]  AmfMsgEncodeMsg :
+Feb  9 00:00:18 localhost sctpd[3118928]: I0209 00:00:18.093129 3119423 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/M5GSecurityModeCommand.cpp:60] EncodeSecurityModeCommandMsg:
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2b]  EncodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2e] epd = 0x7e
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2a]  EncodeSecurityHeaderTypeMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2d] Security header type = 0x0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]  EncodeMessageTypeMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:29] Message type = 0x5d
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNASSecurityAlgorithms.cpp:3b]  EncodeNASSecurityAlgorithmsMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNASSecurityAlgorithms.cpp:3f]  Type of ciphering algorithm  = 0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNASSecurityAlgorithms.cpp:41]  Type of integrity protection algorithm  = 1
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:42]  EncodeNASKeySetIdentifierMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:45]    Type of Security Context  = 0x0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:47]    NAS key set identifier = 0x0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:90]  Encoding UE Security Capability :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:9d] Length : 02
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:aa]  5GS Encryption Algorithms Supported : c0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:b7]  5GS Integrity Algorithms Supported : c0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:d5]  Encoding UE Security Capability : encoded  3
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GIMEISVRequest.cpp:32]  EncodeImeisvRequestMsg :
+Feb  9 00:00:18 localhost sctpd[3118928]: I0209 00:00:18.201606 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:18 localhost sctpd[3118928]: I0209 00:00:18.201689 3119424 sctp_connection.cpp:195] Unhandled notification type 32777
+Feb  9 00:00:18 localhost sctpd[3118928]: I0209 00:00:18.201704 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:18 localhost sctpd[3118928]: I0209 00:00:18.201720 3119424 sctp_connection.cpp:222] [sd:56] msg of len 56 on 5731:1
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5a] AmfMsgDecodeHeaderMsg:
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5f] epd = 0x7esecurity hdr = 0x0 hdr type = 0x5e
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:2b]    epd = 0x7e
+Feb  9 00:00:18 localhost mme[3119384]:    security hdr =  0x0
+Feb  9 00:00:18 localhost mme[3119384]:    hdr type = 0x5e
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:91] AmfMsgDecodeMsg:
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:96] msg type = 0x5e
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/M5GSecurityModeComplete.cpp:1c] DecodeSecurityModeCompleteMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1b]    DecodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1f]  epd = 7e
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1c]    DecodeSpareHalfOctetMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1e] Spare = 0x0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1c]    DecodeSecurityHeaderTypeMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1f]  Security header type = 0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]    DecodeMessageTypeMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:30]  msg_type = 0x5e
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:3e] M5gNasMessageEncodeMsg:
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:75] AmfMsgEncodeHeaderMsg:
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:7b] epd = 0x7e security hdr = 0x0 hdr type = 0x42
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:ee]  AmfMsgEncodeMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2b]  EncodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2e] epd = 0x7e
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2a]  EncodeSecurityHeaderTypeMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2d] Security header type = 0x0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]  EncodeMessageTypeMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:29] Message type = 0x42
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationResult.cpp:3e]  EncodeM5GSRegistrationResultMsg : 0x01 (spare = 0, sms allowed = 0, result val = 1)
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationResult.cpp:47]  EncodeM5GSRegistrationResultMsg : length  = 0x01
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:240] EncodeM5GSMobileIdentityMsg:
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:243] iei77
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:255] Type guti
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:183] EncodeGutiMobileIdentityMsg:
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:186] odd_even type_of_identity = f2
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:18b] mcc_digit2 >mcc_digit1 type_of_identity = 22
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:190] mnc_digit3 >mcc_digit3 type_of_identity = f2
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:195] mnc_digit2 >mcc_digit1 type_of_identity = 7
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:199] amf_regionid = 1
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:19c] amf_setid = 0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a0] amf_setid amf_pointer = 40
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a4] tmsi1 = 5
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a7] tmsi2 = fc
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1aa] tmsi3 = 7b
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1ad] tmsi4 = 6e
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:1b] iei = 54
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:26] mcc_digit2 >mcc_digit1 type_of_identity = 22
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:2b] mnc_digit3 >mcc_digit3 type_of_identity = f2
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:30] mnc_digit2 >mcc_digit1 type_of_identity = 7
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:98] EncodeNSSAIMsgList
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:9c] iei: 15
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:a0] len: 2
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:19] EncodeNSSAIMsg
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:21] len: 1
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:26] sst: 1
+Feb  9 00:00:18 localhost mme[3119384]: [DEBUG] Sending S6A-UPDATE_LOCATION_REQUEST with IMSI: 222700000000001
+Feb  9 00:00:18 localhost sctpd[3118928]: I0209 00:00:18.210273 3119423 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:18 localhost mme[3119384]: [INFO] Received S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001; Status: ; StatusCode: 7d1
+Feb  9 00:00:18 localhost mme[3119384]: [INFO] sent itti S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001
+Feb  9 00:00:18 localhost sctpd[3118928]: I0209 00:00:18.314154 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:18 localhost sctpd[3118928]: I0209 00:00:18.314240 3119424 sctp_connection.cpp:195] Unhandled notification type 32777
+Feb  9 00:00:18 localhost sctpd[3118928]: I0209 00:00:18.314256 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:18 localhost sctpd[3118928]: I0209 00:00:18.314271 3119424 sctp_connection.cpp:222] [sd:56] msg of len 22 on 5731:1
+Feb  9 00:00:18 localhost sctpd[3118928]: I0209 00:00:18.517444 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:18 localhost sctpd[3118928]: I0209 00:00:18.517519 3119424 sctp_connection.cpp:222] [sd:56] msg of len 56 on 5731:1
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5a] AmfMsgDecodeHeaderMsg:
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5f] epd = 0x7esecurity hdr = 0x0 hdr type = 0x43
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:2b]    epd = 0x7e
+Feb  9 00:00:18 localhost mme[3119384]:    security hdr =  0x0
+Feb  9 00:00:18 localhost mme[3119384]:    hdr type = 0x43
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:91] AmfMsgDecodeMsg:
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:96] msg type = 0x43
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1b]    DecodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1f]  epd = 7e
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1c]    DecodeSpareHalfOctetMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1e] Spare = 0x0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1c]    DecodeSecurityHeaderTypeMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1f]  Security header type = 0
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]    DecodeMessageTypeMsg :
+Feb  9 00:00:18 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:30]  msg_type = 0x43
+Feb  9 00:00:19 localhost sctpd[3118928]: I0209 00:00:19.491870 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:19 localhost sctpd[3118928]: I0209 00:00:19.491955 3119424 sctp_connection.cpp:222] [sd:56] msg of len 70 on 5731:1
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5a] AmfMsgDecodeHeaderMsg:
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5f] epd = 0x7esecurity hdr = 0x0 hdr type = 0x45
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:2b]    epd = 0x7e
+Feb  9 00:00:19 localhost mme[3119384]:    security hdr =  0x0
+Feb  9 00:00:19 localhost mme[3119384]:    hdr type = 0x45
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:91] AmfMsgDecodeMsg:
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:96] msg type = 0x45
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/M5GDeRegistrationRequestUEInit.cpp:1f]
+Feb  9 00:00:19 localhost mme[3119384]: ---Decoding De-Registration Request Message---
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1b]    DecodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1f]  epd = 7e
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1c]    DecodeSpareHalfOctetMsg :
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1e] Spare = 0x0
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1c]    DecodeSecurityHeaderTypeMsg :
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1f]  Security header type = 0
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]    DecodeMessageTypeMsg :
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:30]  msg_type = 0x45
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSDeRegistrationType.cpp:1e] DecodeM5GSDe-RegistrationType :
+Feb  9 00:00:19 localhost mme[3119384]:    switchoff = 0
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSDeRegistrationType.cpp:20]    re_reg_required = 0
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSDeRegistrationType.cpp:22]    access_type = 1
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:1c] DecoseNASKeySetIdentifierMsg :
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:2a]    tsc = 0
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:43]    NASkeysetidentifier = 0
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:341] M5GS Mobile Identity :
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:350]  Length = 11 Type of Identity = 2
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:358]  Type guti
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:42]  --- Guti Mobile Identity
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:85]    Odd/Even Indication = 0
+Feb  9 00:00:19 localhost sctpd[3118928]: I0209 00:00:19.496767 3119423 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:19 localhost sctpd[3118928]: I0209 00:00:19.497274 3119423 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:87]    Mobile Country Code (MCC) = 222
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:90]    Mobile Network Code (MNC) = 7015
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:93]    Amf Region ID = 1
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:95]    Amf Set ID = 1
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:97]    Amf Pointer = 0
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:99]    M5G-TMSI = 0x050fc07b06e
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:3e] M5gNasMessageEncodeMsg:
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:75] AmfMsgEncodeHeaderMsg:
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:7b] epd = 0x7e security hdr = 0x0 hdr type = 0x46
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:ee]  AmfMsgEncodeMsg :
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2b]  EncodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2e] epd = 0x7e
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2a]  EncodeSecurityHeaderTypeMsg :
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2d] Security header type = 0x0
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]  EncodeMessageTypeMsg :
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:29] Message type = 0x46
+Feb  9 00:00:19 localhost sctpd[3118928]: I0209 00:00:19.602774 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:19 localhost sctpd[3118928]: I0209 00:00:19.602867 3119424 sctp_connection.cpp:222] [sd:56] msg of len 28 on 5731:1
+Feb  9 00:00:19 localhost sctpd[3118928]: I0209 00:00:19.713917 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:19 localhost sctpd[3118928]: I0209 00:00:19.713995 3119424 sctp_connection.cpp:195] Unhandled notification type 32777
+Feb  9 00:00:19 localhost sctpd[3118928]: I0209 00:00:19.714011 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:19 localhost sctpd[3118928]: I0209 00:00:19.714026 3119424 sctp_connection.cpp:222] [sd:56] msg of len 22 on 5731:1
+Feb  9 00:00:19 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:3e] M5gNasMessageEncodeMsg:
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:75] AmfMsgEncodeHeaderMsg:
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:7b] epd = 0x7e security hdr = 0x0 hdr type = 0x42
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:ee]  AmfMsgEncodeMsg :
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2b]  EncodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2e] epd = 0x7e
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2a]  EncodeSecurityHeaderTypeMsg :
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2d] Security header type = 0x0
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]  EncodeMessageTypeMsg :
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:29] Message type = 0x42
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationResult.cpp:3e]  EncodeM5GSRegistrationResultMsg : 0x01 (spare = 0, sms allowed = 0, result val = 1)
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationResult.cpp:47]  EncodeM5GSRegistrationResultMsg : length  = 0x01
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:240] EncodeM5GSMobileIdentityMsg:
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:243] iei77
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:255] Type guti
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:183] EncodeGutiMobileIdentityMsg:
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:186] odd_even type_of_identity = f2
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:18b] mcc_digit2 >mcc_digit1 type_of_identity = 22
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:190] mnc_digit3 >mcc_digit3 type_of_identity = f2
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:195] mnc_digit2 >mcc_digit1 type_of_identity = 7
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:199] amf_regionid = 1
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:19c] amf_setid = 0
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a0] amf_setid amf_pointer = 40
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a4] tmsi1 = e1
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a7] tmsi2 = 23
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1aa] tmsi3 = c2
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1ad] tmsi4 = 7f
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:1b] iei = 54
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:26] mcc_digit2 >mcc_digit1 type_of_identity = 22
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:2b] mnc_digit3 >mcc_digit3 type_of_identity = f2
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:30] mnc_digit2 >mcc_digit1 type_of_identity = 7
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:98] EncodeNSSAIMsgList
+Feb  9 00:00:20 localhost sctpd[3118928]: I0209 00:00:20.001718 3119423 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:9c] iei: 15
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:a0] len: 2
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:19] EncodeNSSAIMsg
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:21] len: 1
+Feb  9 00:00:20 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:26] sst: 1
+Feb  9 00:00:20 localhost mme[3119384]: [DEBUG] Sending S6A-UPDATE_LOCATION_REQUEST with IMSI: 222700000000001
+Feb  9 00:00:20 localhost mme[3119384]: [INFO] Received S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001; Status: ; StatusCode: 7d1
+Feb  9 00:00:20 localhost mme[3119384]: [INFO] sent itti S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001
+Feb  9 00:00:21 localhost magmad[3118605]: INFO:root:Checking for upgrade...
+Feb  9 00:00:21 localhost magmad[3118605]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Feb  9 00:00:22 localhost smsd[3118769]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:3e] M5gNasMessageEncodeMsg:
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:75] AmfMsgEncodeHeaderMsg:
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:7b] epd = 0x7e security hdr = 0x0 hdr type = 0x42
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:ee]  AmfMsgEncodeMsg :
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2b]  EncodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2e] epd = 0x7e
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2a]  EncodeSecurityHeaderTypeMsg :
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2d] Security header type = 0x0
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]  EncodeMessageTypeMsg :
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:29] Message type = 0x42
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationResult.cpp:3e]  EncodeM5GSRegistrationResultMsg : 0x01 (spare = 0, sms allowed = 0, result val = 1)
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationResult.cpp:47]  EncodeM5GSRegistrationResultMsg : length  = 0x01
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:240] EncodeM5GSMobileIdentityMsg:
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:243] iei77
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:255] Type guti
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:183] EncodeGutiMobileIdentityMsg:
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:186] odd_even type_of_identity = f2
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:18b] mcc_digit2 >mcc_digit1 type_of_identity = 22
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:190] mnc_digit3 >mcc_digit3 type_of_identity = f2
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:195] mnc_digit2 >mcc_digit1 type_of_identity = 7
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:199] amf_regionid = 1
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:19c] amf_setid = 0
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a0] amf_setid amf_pointer = 40
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a4] tmsi1 = e1
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a7] tmsi2 = 23
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1aa] tmsi3 = c2
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1ad] tmsi4 = 7f
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:1b] iei = 54
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:26] mcc_digit2 >mcc_digit1 type_of_identity = 22
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:2b] mnc_digit3 >mcc_digit3 type_of_identity = f2
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:30] mnc_digit2 >mcc_digit1 type_of_identity = 7
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:98] EncodeNSSAIMsgList
+Feb  9 00:00:26 localhost sctpd[3118928]: I0209 00:00:26.010251 3119423 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:9c] iei: 15
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:a0] len: 2
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:19] EncodeNSSAIMsg
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:21] len: 1
+Feb  9 00:00:26 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:26] sst: 1
+Feb  9 00:00:26 localhost mme[3119384]: [DEBUG] Sending S6A-UPDATE_LOCATION_REQUEST with IMSI: 222700000000001
+Feb  9 00:00:26 localhost mme[3119384]: [INFO] Received S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001; Status: ; StatusCode: 7d1
+Feb  9 00:00:26 localhost mme[3119384]: [INFO] sent itti S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001
+Feb  9 00:00:27 localhost sctpd[3118928]: I0209 00:00:27.124042 3119424 sctp_connection.cpp:169] HandleClientSock sd = 56
+Feb  9 00:00:27 localhost sctpd[3118928]: I0209 00:00:27.124127 3119424 sctp_connection.cpp:187] SCTP_SHUTDOWN_EVENT received
+Feb  9 00:00:27 localhost sctpd[3118928]: I0209 00:00:27.124138 3119424 sctp_connection.cpp:281] Sending close connection for assoc_id 5731
+Feb  9 00:00:27 localhost smsd[3118769]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Feb  9 00:00:30 localhost subscriberdb[3118670]: INFO:root:get digest stored in gateway:
+Feb  9 00:00:30 localhost control_proxy[3118842]: 2022-02-09T00:00:30.211Z [127.0.0.1 -> subscriberdb-controller.magmasi.wavelabs.in,8443] "POST /magma.lte.SubscriberDBCloud/CheckInSync HTTP/2" 200 0bytes 0.515s
+Feb  9 00:00:30 localhost subscriberdb[3118670]: ERROR:root:Internal Error in subscriberdb-Orc8r communication. If AGW and Orc8r are deployed at a commit hash, upgrade AGW and Orc8r to latest commit hash.
+Feb  9 00:00:30 localhost control_proxy[3118842]: 2022-02-09T00:00:30.211Z [127.0.0.1 -> subscriberdb-controller.magmasi.wavelabs.in,8443] "POST /magma.lte.SubscriberDBCloud/Sync HTTP/2" 200 0bytes 0.257s
+Feb  9 00:00:30 localhost subscriberdb[3118670]: ERROR:root:Internal Error in subscriberdb-Orc8r communication. If AGW and Orc8r are deployed at a commit hash, upgrade AGW and Orc8r to latest commit hash.
+Feb  9 00:00:31 localhost control_proxy[3118842]: 2022-02-09T00:00:30.211Z [127.0.0.1 -> subscriberdb-controller.magmasi.wavelabs.in,8443] "POST /magma.lte.SubscriberDBCloud/ListSubscribers HTTP/2" 200 26194bytes 0.334s
+Feb  9 00:00:31 localhost subscriberdb[3118670]: INFO:root:Successfully fetched all subscriber pages from the cloud!
+Feb  9 00:00:32 localhost sctpd[3118928]: I0209 00:00:32.014751 3119423 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:32 localhost smsd[3118769]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Feb  9 00:00:33 localhost subscriberdb[3118670]: INFO:root:update root digest stored in gateway:
+Feb  9 00:00:34 localhost sctpd[3118928]: I0209 00:00:34.456914 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:34 localhost sctpd[3118928]: I0209 00:00:34.456984 3119424 sctp_connection.cpp:191] SCTP association change event received
+Feb  9 00:00:34 localhost sctpd[3118928]: I0209 00:00:34.457693 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:34 localhost sctpd[3118928]: I0209 00:00:34.457718 3119424 sctp_connection.cpp:195] Unhandled notification type 32776
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.515851 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.515938 3119424 sctp_connection.cpp:222] [sd:57] msg of len 42 on 5732:0
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.517889 3119423 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.518322 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.518378 3119424 sctp_connection.cpp:195] Unhandled notification type 32777
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.629371 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.629479 3119424 sctp_connection.cpp:222] [sd:57] msg of len 88 on 5732:1
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5a] AmfMsgDecodeHeaderMsg:
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5f] epd = 0x7esecurity hdr = 0x0 hdr type = 0x41
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:2b]    epd = 0x7e
+Feb  9 00:00:35 localhost mme[3119384]:    security hdr =  0x0
+Feb  9 00:00:35 localhost mme[3119384]:    hdr type = 0x41
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:91] AmfMsgDecodeMsg:
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:96] msg type = 0x41
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/M5GRegistrationRequest.cpp:20] DecodeRegistrationRequestMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1b]    DecodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1f]  epd = 7e
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1c]    DecodeSpareHalfOctetMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1e] Spare = 0x0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1c]    DecodeSecurityHeaderTypeMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1f]  Security header type = 0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]    DecodeMessageTypeMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:30]  msg_type = 0x41
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationType.cpp:24]  FOR = 0x0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationType.cpp:25]  type_val = 0x1
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:1c] DecoseNASKeySetIdentifierMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:2a]    tsc = 0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:43]    NASkeysetidentifier = 0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:341] M5GS Mobile Identity :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:350]  Length = 13 Type of Identity = 1
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:370]  Type imsi
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:148]  DecodeImsiMobileIdentityMsg:
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:195] Length :  13
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:31]  Decoding UE Security Capability :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:44]  length = 2
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:66]  ea0 = 1
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:68]  ea1 = 1
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:6a]  ea2 = 0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:6c]  ea3 = 0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:6e]  ea4 = 0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:70]  ea5 = 0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:72]  ea6 = 0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:74]  ea7 = 0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:77]  ia0 = 1
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:79]  ia1 = 1
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:7b]  ia2 = 0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:7d]  ia3 = 0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:7f]  ia4 = 0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:81]  ia5 = 0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:83]  ia6 = 0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:85]  ia7 = 0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:3e] M5gNasMessageEncodeMsg:
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:75] AmfMsgEncodeHeaderMsg:
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:7b] epd = 0x7e security hdr = 0x0 hdr type = 0x56
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:ee]  AmfMsgEncodeMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2b]  EncodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2e] epd = 0x7e
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2a]  EncodeSecurityHeaderTypeMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2d] Security header type = 0x0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]  EncodeMessageTypeMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:29] Message type = 0x56
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:42]  EncodeNASKeySetIdentifierMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:45]    Type of Security Context  = 0x0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:47]    NAS key set identifier = 0x0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GABBA.cpp:2e]  EncodeABBAMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GABBA.cpp:32]    ABBA Contents :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GABBA.cpp:33]  0x0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GABBA.cpp:33]  0x0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:2b] In EncodeAuthenticationParameterRANDMsg: iei21
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xe2
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xb9
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x40
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x44
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xd
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x2
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xb
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xe0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x4c
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xd6
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.660060 3119423 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xd8
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xc7
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xc1
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x33
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xb7
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x7
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:2c] In EncodeAuthenticationParameterAUTNMsg: iei20
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xd8
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x7f
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xfb
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xb4
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xe1
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x69
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x80
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xaa
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x69
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x61
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xc9
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xb6
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x6d
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x70
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x8
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.740777 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.740885 3119424 sctp_connection.cpp:195] Unhandled notification type 32777
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.740926 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.740944 3119424 sctp_connection.cpp:222] [sd:57] msg of len 67 on 5732:1
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5a] AmfMsgDecodeHeaderMsg:
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5f] epd = 0x7esecurity hdr = 0x0 hdr type = 0x57
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:2b]    epd = 0x7e
+Feb  9 00:00:35 localhost mme[3119384]:    security hdr =  0x0
+Feb  9 00:00:35 localhost mme[3119384]:    hdr type = 0x57
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:91] AmfMsgDecodeMsg:
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:96] msg type = 0x57
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/M5GAuthenticationResponse.cpp:1e]
+Feb  9 00:00:35 localhost mme[3119384]: ---Decoding Authentication Response Message---
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1b]    DecodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1f]  epd = 7e
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1c]    DecodeSpareHalfOctetMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1e] Spare = 0x0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1c]    DecodeSecurityHeaderTypeMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1f]  Security header type = 0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]    DecodeMessageTypeMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:30]  msg_type = 0x57
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:1e] Decoding Authentication Response Parameter IE
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:23]  ElementID : 2d
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:27]  Length : 16
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:47]  RES : 5e
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 37
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 10
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : e6
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : d1
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 47
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 75
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 6c
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : db
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : cb
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 72
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 8c
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : a8
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 8c
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 7b
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 3d
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:3e] M5gNasMessageEncodeMsg:
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:75] AmfMsgEncodeHeaderMsg:
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:7b] epd = 0x7e security hdr = 0x0 hdr type = 0x5d
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:ee]  AmfMsgEncodeMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/M5GSecurityModeCommand.cpp:60] EncodeSecurityModeCommandMsg:
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2b]  EncodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2e] epd = 0x7e
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2a]  EncodeSecurityHeaderTypeMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2d] Security header type = 0x0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]  EncodeMessageTypeMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:29] Message type = 0x5d
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNASSecurityAlgorithms.cpp:3b]  EncodeNASSecurityAlgorithmsMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNASSecurityAlgorithms.cpp:3f]  Type of ciphering algorithm  = 0
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.744989 3119423 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNASSecurityAlgorithms.cpp:41]  Type of integrity protection algorithm  = 1
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:42]  EncodeNASKeySetIdentifierMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:45]    Type of Security Context  = 0x0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:47]    NAS key set identifier = 0x0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:90]  Encoding UE Security Capability :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:9d] Length : 02
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:aa]  5GS Encryption Algorithms Supported : c0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:b7]  5GS Integrity Algorithms Supported : c0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:d5]  Encoding UE Security Capability : encoded  3
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GIMEISVRequest.cpp:32]  EncodeImeisvRequestMsg :
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.851374 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.851476 3119424 sctp_connection.cpp:195] Unhandled notification type 32777
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.851516 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.851543 3119424 sctp_connection.cpp:222] [sd:57] msg of len 56 on 5732:1
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5a] AmfMsgDecodeHeaderMsg:
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5f] epd = 0x7esecurity hdr = 0x0 hdr type = 0x5e
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:2b]    epd = 0x7e
+Feb  9 00:00:35 localhost mme[3119384]:    security hdr =  0x0
+Feb  9 00:00:35 localhost mme[3119384]:    hdr type = 0x5e
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:91] AmfMsgDecodeMsg:
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:96] msg type = 0x5e
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/M5GSecurityModeComplete.cpp:1c] DecodeSecurityModeCompleteMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1b]    DecodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1f]  epd = 7e
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1c]    DecodeSpareHalfOctetMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1e] Spare = 0x0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1c]    DecodeSecurityHeaderTypeMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1f]  Security header type = 0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]    DecodeMessageTypeMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:30]  msg_type = 0x5e
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:3e] M5gNasMessageEncodeMsg:
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:75] AmfMsgEncodeHeaderMsg:
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:7b] epd = 0x7e security hdr = 0x0 hdr type = 0x42
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:ee]  AmfMsgEncodeMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2b]  EncodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2e] epd = 0x7e
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2a]  EncodeSecurityHeaderTypeMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2d] Security header type = 0x0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]  EncodeMessageTypeMsg :
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:29] Message type = 0x42
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationResult.cpp:3e]  EncodeM5GSRegistrationResultMsg : 0x01 (spare = 0, sms allowed = 0, result val = 1)
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationResult.cpp:47]  EncodeM5GSRegistrationResultMsg : length  = 0x01
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:240] EncodeM5GSMobileIdentityMsg:
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:243] iei77
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:255] Type guti
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:183] EncodeGutiMobileIdentityMsg:
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:186] odd_even type_of_identity = f2
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:18b] mcc_digit2 >mcc_digit1 type_of_identity = 22
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:190] mnc_digit3 >mcc_digit3 type_of_identity = f2
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:195] mnc_digit2 >mcc_digit1 type_of_identity = 7
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:199] amf_regionid = 1
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:19c] amf_setid = 0
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a0] amf_setid amf_pointer = 40
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a4] tmsi1 = 3
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a7] tmsi2 = f7
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1aa] tmsi3 = 81
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1ad] tmsi4 = 1f
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:1b] iei = 54
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:26] mcc_digit2 >mcc_digit1 type_of_identity = 22
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:2b] mnc_digit3 >mcc_digit3 type_of_identity = f2
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:30] mnc_digit2 >mcc_digit1 type_of_identity = 7
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:98] EncodeNSSAIMsgList
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:9c] iei: 15
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:a0] len: 2
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:19] EncodeNSSAIMsg
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:21] len: 1
+Feb  9 00:00:35 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:26] sst: 1
+Feb  9 00:00:35 localhost mme[3119384]: [DEBUG] Sending S6A-UPDATE_LOCATION_REQUEST with IMSI: 222700000000001
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.857057 3119423 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:35 localhost mme[3119384]: [INFO] Received S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001; Status: ; StatusCode: 7d1
+Feb  9 00:00:35 localhost mme[3119384]: [INFO] sent itti S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.962296 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.962385 3119424 sctp_connection.cpp:195] Unhandled notification type 32777
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.962407 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:35 localhost sctpd[3118928]: I0209 00:00:35.962441 3119424 sctp_connection.cpp:222] [sd:57] msg of len 22 on 5732:1
+Feb  9 00:00:36 localhost sctpd[3118928]: I0209 00:00:36.169518 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:36 localhost sctpd[3118928]: I0209 00:00:36.169602 3119424 sctp_connection.cpp:222] [sd:57] msg of len 56 on 5732:1
+Feb  9 00:00:36 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5a] AmfMsgDecodeHeaderMsg:
+Feb  9 00:00:36 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5f] epd = 0x7esecurity hdr = 0x0 hdr type = 0x43
+Feb  9 00:00:36 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:2b]    epd = 0x7e
+Feb  9 00:00:36 localhost mme[3119384]:    security hdr =  0x0
+Feb  9 00:00:36 localhost mme[3119384]:    hdr type = 0x43
+Feb  9 00:00:36 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:91] AmfMsgDecodeMsg:
+Feb  9 00:00:36 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:96] msg type = 0x43
+Feb  9 00:00:36 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1b]    DecodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:36 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1f]  epd = 7e
+Feb  9 00:00:36 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1c]    DecodeSpareHalfOctetMsg :
+Feb  9 00:00:36 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1e] Spare = 0x0
+Feb  9 00:00:36 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1c]    DecodeSecurityHeaderTypeMsg :
+Feb  9 00:00:36 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1f]  Security header type = 0
+Feb  9 00:00:36 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]    DecodeMessageTypeMsg :
+Feb  9 00:00:36 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:30]  msg_type = 0x43
+Feb  9 00:00:37 localhost smsd[3118769]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Feb  9 00:00:38 localhost sctpd[3118928]: I0209 00:00:38.127983 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:38 localhost sctpd[3118928]: I0209 00:00:38.128084 3119424 sctp_connection.cpp:222] [sd:57] msg of len 70 on 5732:1
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5a] AmfMsgDecodeHeaderMsg:
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5f] epd = 0x7esecurity hdr = 0x0 hdr type = 0x45
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:2b]    epd = 0x7e
+Feb  9 00:00:38 localhost mme[3119384]:    security hdr =  0x0
+Feb  9 00:00:38 localhost mme[3119384]:    hdr type = 0x45
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:91] AmfMsgDecodeMsg:
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:96] msg type = 0x45
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/M5GDeRegistrationRequestUEInit.cpp:1f]
+Feb  9 00:00:38 localhost mme[3119384]: ---Decoding De-Registration Request Message---
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1b]    DecodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1f]  epd = 7e
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1c]    DecodeSpareHalfOctetMsg :
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1e] Spare = 0x0
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1c]    DecodeSecurityHeaderTypeMsg :
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1f]  Security header type = 0
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]    DecodeMessageTypeMsg :
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:30]  msg_type = 0x45
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSDeRegistrationType.cpp:1e] DecodeM5GSDe-RegistrationType :
+Feb  9 00:00:38 localhost mme[3119384]:    switchoff = 0
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSDeRegistrationType.cpp:20]    re_reg_required = 0
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSDeRegistrationType.cpp:22]    access_type = 1
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:1c] DecoseNASKeySetIdentifierMsg :
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:2a]    tsc = 0
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:43]    NASkeysetidentifier = 0
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:341] M5GS Mobile Identity :
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:350]  Length = 11 Type of Identity = 2
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:358]  Type guti
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:42]  --- Guti Mobile Identity
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:85]    Odd/Even Indication = 0
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:87]    Mobile Country Code (MCC) = 222
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:90]    Mobile Network Code (MNC) = 7015
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:93]    Amf Region ID = 1
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:95]    Amf Set ID = 1
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:97]    Amf Pointer = 0
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:99]    M5G-TMSI = 0x030f708101f
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:3e] M5gNasMessageEncodeMsg:
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:75] AmfMsgEncodeHeaderMsg:
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:7b] epd = 0x7e security hdr = 0x0 hdr type = 0x46
+Feb  9 00:00:38 localhost sctpd[3118928]: I0209 00:00:38.133644 3119423 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:38 localhost sctpd[3118928]: I0209 00:00:38.134205 3118937 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:ee]  AmfMsgEncodeMsg :
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2b]  EncodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2e] epd = 0x7e
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2a]  EncodeSecurityHeaderTypeMsg :
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2d] Security header type = 0x0
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]  EncodeMessageTypeMsg :
+Feb  9 00:00:38 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:29] Message type = 0x46
+Feb  9 00:00:38 localhost sctpd[3118928]: I0209 00:00:38.235502 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:38 localhost sctpd[3118928]: I0209 00:00:38.235584 3119424 sctp_connection.cpp:222] [sd:57] msg of len 28 on 5732:1
+Feb  9 00:00:38 localhost sctpd[3118928]: I0209 00:00:38.338863 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:38 localhost sctpd[3118928]: I0209 00:00:38.338958 3119424 sctp_connection.cpp:195] Unhandled notification type 32777
+Feb  9 00:00:38 localhost sctpd[3118928]: I0209 00:00:38.338975 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:38 localhost sctpd[3118928]: I0209 00:00:38.338994 3119424 sctp_connection.cpp:222] [sd:57] msg of len 22 on 5732:1
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.443711 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.443800 3119424 sctp_connection.cpp:222] [sd:57] msg of len 86 on 5732:1
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.447500 3118937 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.551666 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.551764 3119424 sctp_connection.cpp:195] Unhandled notification type 32777
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.551793 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.551820 3119424 sctp_connection.cpp:222] [sd:57] msg of len 64 on 5732:1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5a] AmfMsgDecodeHeaderMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5f] epd = 0x7esecurity hdr = 0x0 hdr type = 0x41
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:2b]    epd = 0x7e
+Feb  9 00:00:40 localhost mme[3119384]:    security hdr =  0x0
+Feb  9 00:00:40 localhost mme[3119384]:    hdr type = 0x41
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:91] AmfMsgDecodeMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:96] msg type = 0x41
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/M5GRegistrationRequest.cpp:20] DecodeRegistrationRequestMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1b]    DecodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1f]  epd = 7e
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1c]    DecodeSpareHalfOctetMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1e] Spare = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1c]    DecodeSecurityHeaderTypeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1f]  Security header type = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]    DecodeMessageTypeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:30]  msg_type = 0x41
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationType.cpp:24]  FOR = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationType.cpp:25]  type_val = 0x1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:1c] DecoseNASKeySetIdentifierMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:2a]    tsc = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:43]    NASkeysetidentifier = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:341] M5GS Mobile Identity :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:350]  Length = 11 Type of Identity = 2
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:358]  Type guti
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:42]  --- Guti Mobile Identity
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:85]    Odd/Even Indication = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:87]    Mobile Country Code (MCC) = 222
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:90]    Mobile Network Code (MNC) = 7015
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:93]    Amf Region ID = 1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:95]    Amf Set ID = 1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:97]    Amf Pointer = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:99]    M5G-TMSI = 0x030f708101f
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:1f]  Decoding UE Security Capability :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:2c]  length = 2
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:66]  ea0 = 1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:68]  ea1 = 1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:6a]  ea2 = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:6c]  ea3 = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:6e]  ea4 = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:70]  ea5 = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:72]  ea6 = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:74]  ea7 = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:77]  ia0 = 1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:79]  ia1 = 1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:7b]  ia2 = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:7d]  ia3 = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:7f]  ia4 = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:81]  ia5 = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:83]  ia6 = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:85]  ia7 = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:3e] M5gNasMessageEncodeMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:75] AmfMsgEncodeHeaderMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:7b] epd = 0x7e security hdr = 0x0 hdr type = 0x5b
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:ee]  AmfMsgEncodeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/M5GIdentityRequest.cpp:52] EncodeIdentityRequestMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2b]  EncodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2e] epd = 0x7e
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2a]  EncodeSecurityHeaderTypeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2d] Security header type = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]  EncodeMessageTypeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:29] Message type = 0x5b
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSIdentityType.cpp:29]  EncodeM5GSIdentityTypeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSIdentityType.cpp:2b]  Type of identity = 0x1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5a] AmfMsgDecodeHeaderMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5f] epd = 0x7esecurity hdr = 0x0 hdr type = 0x5c
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:2b]    epd = 0x7e
+Feb  9 00:00:40 localhost mme[3119384]:    security hdr =  0x0
+Feb  9 00:00:40 localhost mme[3119384]:    hdr type = 0x5c
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:91] AmfMsgDecodeMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:96] msg type = 0x5c
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/M5GIdentityResponse.cpp:1e] DecodeIdentityResponseMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1b]    DecodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1f]  epd = 7e
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1c]    DecodeSpareHalfOctetMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1e] Spare = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1c]    DecodeSecurityHeaderTypeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1f]  Security header type = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]    DecodeMessageTypeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:30]  msg_type = 0x5c
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:155] M5GS Mobile Identity :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:15e]  Length = 13 Type of Identity = 1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:370]  Type imsi
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:148]  DecodeImsiMobileIdentityMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:195] Length :  13
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:62] M5gNasMessageEncodeMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:117] AmfMsgEncodeHeaderMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:123] epd = 0x7e security hdr = 0x0 hdr type = 0x56
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:ee]  AmfMsgEncodeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2b]  EncodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2e] epd = 0x7e
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2a]  EncodeSecurityHeaderTypeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2d] Security header type = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]  EncodeMessageTypeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:29] Message type = 0x56
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:42]  EncodeNASKeySetIdentifierMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:45]    Type of Security Context  = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:47]    NAS key set identifier = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GABBA.cpp:2e]  EncodeABBAMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GABBA.cpp:32]    ABBA Contents :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GABBA.cpp:33]  0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GABBA.cpp:33]  0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:2b] In EncodeAuthenticationParameterRANDMsg: iei21
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x1a
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x5
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xc6
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x80
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x3c
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x7a
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x75
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xa8
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x10
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xb1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xc8
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x47
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x16
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0x15
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.585397 3118937 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterRAND.cpp:31]  0xe3
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:2c] In EncodeAuthenticationParameterAUTNMsg: iei20
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x87
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x5f
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xf8
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x27
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x74
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x80
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xa6
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x45
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x38
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0xd
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x64
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x41
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x9a
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationParameterAUTN.cpp:34]  0x63
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.658102 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.658201 3119424 sctp_connection.cpp:195] Unhandled notification type 32777
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.658218 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.658236 3119424 sctp_connection.cpp:222] [sd:57] msg of len 67 on 5732:1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5a] AmfMsgDecodeHeaderMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5f] epd = 0x7esecurity hdr = 0x0 hdr type = 0x57
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:2b]    epd = 0x7e
+Feb  9 00:00:40 localhost mme[3119384]:    security hdr =  0x0
+Feb  9 00:00:40 localhost mme[3119384]:    hdr type = 0x57
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:91] AmfMsgDecodeMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:96] msg type = 0x57
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/M5GAuthenticationResponse.cpp:1e]
+Feb  9 00:00:40 localhost mme[3119384]: ---Decoding Authentication Response Message---
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1b]    DecodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1f]  epd = 7e
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1c]    DecodeSpareHalfOctetMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1e] Spare = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1c]    DecodeSecurityHeaderTypeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1f]  Security header type = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]    DecodeMessageTypeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:30]  msg_type = 0x57
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:1e] Decoding Authentication Response Parameter IE
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:23]  ElementID : 2d
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:27]  Length : 16
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:47]  RES : a0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : c6
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 9f
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 84
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 89
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 25
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : a3
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 97
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 5f
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 6d
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 61
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 99
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : e1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 5
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : 3a
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GAuthenticationResponseParameter.cpp:2f]  RES : e3
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:3e] M5gNasMessageEncodeMsg:
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.663218 3118937 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:75] AmfMsgEncodeHeaderMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:7b] epd = 0x7e security hdr = 0x0 hdr type = 0x5d
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:ee]  AmfMsgEncodeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/M5GSecurityModeCommand.cpp:60] EncodeSecurityModeCommandMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2b]  EncodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2e] epd = 0x7e
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2a]  EncodeSecurityHeaderTypeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2d] Security header type = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]  EncodeMessageTypeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:29] Message type = 0x5d
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNASSecurityAlgorithms.cpp:3b]  EncodeNASSecurityAlgorithmsMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNASSecurityAlgorithms.cpp:3f]  Type of ciphering algorithm  = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNASSecurityAlgorithms.cpp:41]  Type of integrity protection algorithm  = 1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:42]  EncodeNASKeySetIdentifierMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:45]    Type of Security Context  = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:47]    NAS key set identifier = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:90]  Encoding UE Security Capability :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:9d] Length : 02
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:aa]  5GS Encryption Algorithms Supported : c0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:b7]  5GS Integrity Algorithms Supported : c0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GUESecurityCapability.cpp:d5]  Encoding UE Security Capability : encoded  3
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GIMEISVRequest.cpp:32]  EncodeImeisvRequestMsg :
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.769457 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.769523 3119424 sctp_connection.cpp:195] Unhandled notification type 32777
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.769539 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.769555 3119424 sctp_connection.cpp:222] [sd:57] msg of len 56 on 5732:1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5a] AmfMsgDecodeHeaderMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5f] epd = 0x7esecurity hdr = 0x0 hdr type = 0x5e
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:2b]    epd = 0x7e
+Feb  9 00:00:40 localhost mme[3119384]:    security hdr =  0x0
+Feb  9 00:00:40 localhost mme[3119384]:    hdr type = 0x5e
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:91] AmfMsgDecodeMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:96] msg type = 0x5e
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/M5GSecurityModeComplete.cpp:1c] DecodeSecurityModeCompleteMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1b]    DecodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1f]  epd = 7e
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1c]    DecodeSpareHalfOctetMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1e] Spare = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1c]    DecodeSecurityHeaderTypeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1f]  Security header type = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]    DecodeMessageTypeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:30]  msg_type = 0x5e
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:3e] M5gNasMessageEncodeMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:75] AmfMsgEncodeHeaderMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:7b] epd = 0x7e security hdr = 0x0 hdr type = 0x42
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:ee]  AmfMsgEncodeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2b]  EncodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2e] epd = 0x7e
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2a]  EncodeSecurityHeaderTypeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2d] Security header type = 0x0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]  EncodeMessageTypeMsg :
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:29] Message type = 0x42
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationResult.cpp:3e]  EncodeM5GSRegistrationResultMsg : 0x01 (spare = 0, sms allowed = 0, result val = 1)
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSRegistrationResult.cpp:47]  EncodeM5GSRegistrationResultMsg : length  = 0x01
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:240] EncodeM5GSMobileIdentityMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:243] iei77
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:255] Type guti
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:183] EncodeGutiMobileIdentityMsg:
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:186] odd_even type_of_identity = f2
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:18b] mcc_digit2 >mcc_digit1 type_of_identity = 22
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:190] mnc_digit3 >mcc_digit3 type_of_identity = f2
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:195] mnc_digit2 >mcc_digit1 type_of_identity = 7
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:199] amf_regionid = 1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:19c] amf_setid = 0
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a0] amf_setid amf_pointer = 40
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a4] tmsi1 = 76
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1a7] tmsi2 = 6
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1aa] tmsi3 = 16
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:1ad] tmsi4 = 1e
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:1b] iei = 54
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:26] mcc_digit2 >mcc_digit1 type_of_identity = 22
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:2b] mnc_digit3 >mcc_digit3 type_of_identity = f2
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GTAIList.cpp:30] mnc_digit2 >mcc_digit1 type_of_identity = 7
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:98] EncodeNSSAIMsgList
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.775439 3118937 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:9c] iei: 15
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:a0] len: 2
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:19] EncodeNSSAIMsg
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:21] len: 1
+Feb  9 00:00:40 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNSSAI.cpp:26] sst: 1
+Feb  9 00:00:40 localhost mme[3119384]: [DEBUG] Sending S6A-UPDATE_LOCATION_REQUEST with IMSI: 222700000000001
+Feb  9 00:00:40 localhost mme[3119384]: [INFO] Received S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001; Status: ; StatusCode: 7d1
+Feb  9 00:00:40 localhost mme[3119384]: [INFO] sent itti S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.882483 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.882551 3119424 sctp_connection.cpp:195] Unhandled notification type 32777
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.882567 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:40 localhost sctpd[3118928]: I0209 00:00:40.882583 3119424 sctp_connection.cpp:222] [sd:57] msg of len 22 on 5732:1
+Feb  9 00:00:41 localhost sctpd[3118928]: I0209 00:00:41.085510 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:41 localhost sctpd[3118928]: I0209 00:00:41.085593 3119424 sctp_connection.cpp:222] [sd:57] msg of len 56 on 5732:1
+Feb  9 00:00:41 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5a] AmfMsgDecodeHeaderMsg:
+Feb  9 00:00:41 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5f] epd = 0x7esecurity hdr = 0x0 hdr type = 0x43
+Feb  9 00:00:41 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:2b]    epd = 0x7e
+Feb  9 00:00:41 localhost mme[3119384]:    security hdr =  0x0
+Feb  9 00:00:41 localhost mme[3119384]:    hdr type = 0x43
+Feb  9 00:00:41 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:91] AmfMsgDecodeMsg:
+Feb  9 00:00:41 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:96] msg type = 0x43
+Feb  9 00:00:41 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1b]    DecodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:41 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1f]  epd = 7e
+Feb  9 00:00:41 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1c]    DecodeSpareHalfOctetMsg :
+Feb  9 00:00:41 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1e] Spare = 0x0
+Feb  9 00:00:41 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1c]    DecodeSecurityHeaderTypeMsg :
+Feb  9 00:00:41 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1f]  Security header type = 0
+Feb  9 00:00:41 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]    DecodeMessageTypeMsg :
+Feb  9 00:00:41 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:30]  msg_type = 0x43
+Feb  9 00:00:42 localhost smsd[3118769]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Feb  9 00:00:42 localhost magmad[3118605]: INFO:root:Setting logging level to INFO
+Feb  9 00:00:43 localhost sctpd[3118928]: I0209 00:00:43.052541 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:43 localhost sctpd[3118928]: I0209 00:00:43.052650 3119424 sctp_connection.cpp:222] [sd:57] msg of len 70 on 5732:1
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5a] AmfMsgDecodeHeaderMsg:
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:5f] epd = 0x7esecurity hdr = 0x0 hdr type = 0x45
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:2b]    epd = 0x7e
+Feb  9 00:00:43 localhost mme[3119384]:    security hdr =  0x0
+Feb  9 00:00:43 localhost mme[3119384]:    hdr type = 0x45
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:91] AmfMsgDecodeMsg:
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:96] msg type = 0x45
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/M5GDeRegistrationRequestUEInit.cpp:1f]
+Feb  9 00:00:43 localhost mme[3119384]: ---Decoding De-Registration Request Message---
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1b]    DecodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:1f]  epd = 7e
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1c]    DecodeSpareHalfOctetMsg :
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:1e] Spare = 0x0
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1c]    DecodeSecurityHeaderTypeMsg :
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:1f]  Security header type = 0
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]    DecodeMessageTypeMsg :
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:30]  msg_type = 0x45
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSDeRegistrationType.cpp:1e] DecodeM5GSDe-RegistrationType :
+Feb  9 00:00:43 localhost mme[3119384]:    switchoff = 0
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSDeRegistrationType.cpp:20]    re_reg_required = 0
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSDeRegistrationType.cpp:22]    access_type = 1
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:1c] DecoseNASKeySetIdentifierMsg :
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:2a]    tsc = 0
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GNasKeySetIdentifier.cpp:43]    NASkeysetidentifier = 0
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:341] M5GS Mobile Identity :
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:350]  Length = 11 Type of Identity = 2
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:358]  Type guti
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:42]  --- Guti Mobile Identity
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:85]    Odd/Even Indication = 0
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:87]    Mobile Country Code (MCC) = 222
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:90]    Mobile Network Code (MNC) = 7015
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:93]    Amf Region ID = 1
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:95]    Amf Set ID = 1
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:97]    Amf Pointer = 0
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSMobileIdentity.cpp:99]    M5G-TMSI = 0x0760601601e
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:3e] M5gNasMessageEncodeMsg:
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:75] AmfMsgEncodeHeaderMsg:
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:7b] epd = 0x7e security hdr = 0x0 hdr type = 0x46
+Feb  9 00:00:43 localhost sctpd[3118928]: I0209 00:00:43.058046 3118937 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:43 localhost sctpd[3118928]: I0209 00:00:43.058897 3118937 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/AmfMessage.cpp:ee]  AmfMsgEncodeMsg :
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2b]  EncodeExtendedProtocolDiscriminatorMsg :
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GExtendedProtocolDiscriminator.cpp:2e] epd = 0x7e
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:28]  EncodeSpareHalfOctetMsg :
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSpareHalfOctet.cpp:2a]    Spare = 0x0
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2a]  EncodeSecurityHeaderTypeMsg :
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GSecurityHeaderType.cpp:2d] Security header type = 0x0
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:27]  EncodeMessageTypeMsg :
+Feb  9 00:00:43 localhost mme[3119384]: [/home/vagrant/magma/lte/gateway/c/core/oai/tasks/nas5g/src/ies/M5GMessageType.cpp:29] Message type = 0x46
+Feb  9 00:00:43 localhost sctpd[3118928]: I0209 00:00:43.155247 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:43 localhost sctpd[3118928]: I0209 00:00:43.155390 3119424 sctp_connection.cpp:222] [sd:57] msg of len 28 on 5732:1
+Feb  9 00:00:43 localhost sctpd[3118928]: I0209 00:00:43.259464 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:43 localhost sctpd[3118928]: I0209 00:00:43.259582 3119424 sctp_connection.cpp:195] Unhandled notification type 32777
+Feb  9 00:00:43 localhost sctpd[3118928]: I0209 00:00:43.259606 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:43 localhost sctpd[3118928]: I0209 00:00:43.259634 3119424 sctp_connection.cpp:222] [sd:57] msg of len 22 on 5732:1
+Feb  9 00:00:47 localhost smsd[3118769]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Feb  9 00:00:47 localhost control_proxy[3118842]: 2022-02-08T23:59:46.924Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.525s
+Feb  9 00:00:47 localhost magmad[3118605]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Feb  9 00:00:48 localhost magmad[3118605]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Feb  9 00:00:52 localhost smsd[3118769]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Feb  9 00:00:52 localhost sctpd[3118928]: I0209 00:00:52.672422 3119424 sctp_connection.cpp:169] HandleClientSock sd = 57
+Feb  9 00:00:52 localhost sctpd[3118928]: I0209 00:00:52.672590 3119424 sctp_connection.cpp:187] SCTP_SHUTDOWN_EVENT received
+Feb  9 00:00:52 localhost sctpd[3118928]: I0209 00:00:52.672611 3119424 sctp_connection.cpp:281] Sending close connection for assoc_id 5732
+Feb  9 00:00:52 localhost systemd[1]: Started Session 3454 of user ubuntu.
+Feb  9 00:00:57 localhost smsd[3118769]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
