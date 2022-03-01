@@ -1,0 +1,195 @@
+Mar  1 21:00:36 localhost smsd[288355]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:00:37 localhost subscriberdb[288262]: INFO:root:update root digest stored in gateway:
+Mar  1 21:00:41 localhost magmad[288194]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:00:41 localhost magmad[288194]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:00:41 localhost magmad[288194]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:00:41 localhost magmad[288194]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:00:41 localhost magmad[288194]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:00:41 localhost magmad[288194]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:00:41 localhost magmad[288194]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:00:41 localhost magmad[288194]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:00:41 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:00:41 localhost control_proxy[288457]: 2022-03-01T21:00:41.124Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.281s
+Mar  1 21:00:41 localhost magmad[288194]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  1 21:00:43 localhost PackageKit: daemon quit
+Mar  1 21:00:43 localhost systemd[1]: packagekit.service: Succeeded.
+Mar  1 21:00:46 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:01:01 localhost smsd[288355]: message repeated 3 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:01:02 localhost magmad[288194]: INFO:root:Checking for upgrade...
+Mar  1 21:01:02 localhost magmad[288194]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Mar  1 21:01:03 localhost control_proxy[288457]: 2022-03-01T21:00:03.013Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.413s
+Mar  1 21:01:03 localhost magmad[288194]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Mar  1 21:01:06 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:01:06 localhost magmad[288194]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  1 21:01:09 localhost control_proxy[288457]: 2022-03-01T21:01:09.569Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.306s
+Mar  1 21:01:09 localhost policydb[288319]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  1 21:01:10 localhost control_proxy[288457]: 2022-03-01T21:01:09.569Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.354s
+Mar  1 21:01:10 localhost policydb[288319]: INFO:root:Processing 0 basename -> policy updates
+Mar  1 21:01:10 localhost control_proxy[288457]: 2022-03-01T21:01:10.236Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.292s
+Mar  1 21:01:10 localhost policydb[288319]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  1 21:01:10 localhost control_proxy[288457]: 2022-03-01T21:01:10.236Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.283s
+Mar  1 21:01:10 localhost policydb[288319]: INFO:root:Processing 0 rating group updates
+Mar  1 21:01:11 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:01:31 localhost smsd[288355]: message repeated 4 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:01:32 localhost magmad[288194]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:01:32 localhost magmad[288194]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:01:32 localhost magmad[288194]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:01:32 localhost magmad[288194]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:01:32 localhost magmad[288194]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:01:32 localhost magmad[288194]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:01:32 localhost magmad[288194]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:01:32 localhost magmad[288194]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:01:36 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:01:41 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:01:42 localhost magmad[288194]: INFO:root:Setting logging level to INFO
+Mar  1 21:01:46 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:01:56 localhost smsd[288355]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:02:01 localhost control_proxy[288457]: 2022-03-01T21:02:00.634Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.546s
+Mar  1 21:02:01 localhost magmad[288194]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  1 21:02:01 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:02:02 localhost magmad[288194]: INFO:root:Checking for upgrade...
+Mar  1 21:02:02 localhost magmad[288194]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Mar  1 21:02:06 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:02:06 localhost magmad[288194]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  1 21:02:11 localhost control_proxy[288457]: 2022-03-01T21:02:10.869Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.290s
+Mar  1 21:02:11 localhost policydb[288319]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  1 21:02:11 localhost control_proxy[288457]: 2022-03-01T21:02:11.162Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.292s
+Mar  1 21:02:11 localhost policydb[288319]: INFO:root:Processing 0 basename -> policy updates
+Mar  1 21:02:11 localhost control_proxy[288457]: 2022-03-01T21:02:11.162Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.309s
+Mar  1 21:02:11 localhost policydb[288319]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  1 21:02:11 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:02:12 localhost control_proxy[288457]: 2022-03-01T21:02:11.162Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.281s
+Mar  1 21:02:12 localhost policydb[288319]: INFO:root:Processing 0 rating group updates
+Mar  1 21:02:16 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:02:31 localhost smsd[288355]: message repeated 3 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:02:32 localhost magmad[288194]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:02:32 localhost magmad[288194]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:02:32 localhost magmad[288194]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:02:32 localhost magmad[288194]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:02:32 localhost magmad[288194]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:02:32 localhost magmad[288194]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:02:32 localhost magmad[288194]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:02:32 localhost magmad[288194]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:02:36 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:02:57 localhost smsd[288355]: message repeated 4 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:03:01 localhost magmad[288194]: INFO:root:Setting logging level to INFO
+Mar  1 21:03:02 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:03:03 localhost control_proxy[288457]: 2022-03-01T21:02:03.478Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.305s
+Mar  1 21:03:03 localhost magmad[288194]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Mar  1 21:03:06 localhost magmad[288194]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  1 21:03:07 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:03:12 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:03:12 localhost control_proxy[288457]: 2022-03-01T21:03:12.098Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.555s
+Mar  1 21:03:12 localhost policydb[288319]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  1 21:03:12 localhost control_proxy[288457]: 2022-03-01T21:03:12.098Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.281s
+Mar  1 21:03:12 localhost policydb[288319]: INFO:root:Processing 0 basename -> policy updates
+Mar  1 21:03:13 localhost control_proxy[288457]: 2022-03-01T21:03:12.098Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.299s
+Mar  1 21:03:13 localhost policydb[288319]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  1 21:03:13 localhost control_proxy[288457]: 2022-03-01T21:03:13.247Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.299s
+Mar  1 21:03:13 localhost policydb[288319]: INFO:root:Processing 0 rating group updates
+Mar  1 21:03:17 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:03:20 localhost magmad[288194]: INFO:root:Checking for upgrade...
+Mar  1 21:03:20 localhost magmad[288194]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Mar  1 21:03:20 localhost control_proxy[288457]: 2022-03-01T21:03:20.128Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.611s
+Mar  1 21:03:20 localhost magmad[288194]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  1 21:03:22 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:03:47 localhost smsd[288355]: message repeated 5 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:03:50 localhost magmad[288194]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:03:50 localhost magmad[288194]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:03:50 localhost magmad[288194]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:03:50 localhost magmad[288194]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:03:50 localhost magmad[288194]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:03:50 localhost magmad[288194]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:03:50 localhost magmad[288194]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:03:50 localhost magmad[288194]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:03:52 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:04:02 localhost smsd[288355]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:04:06 localhost magmad[288194]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  1 21:04:07 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:04:12 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:04:14 localhost control_proxy[288457]: 2022-03-01T21:04:13.606Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 1.078s
+Mar  1 21:04:14 localhost policydb[288319]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  1 21:04:15 localhost control_proxy[288457]: 2022-03-01T21:04:14.689Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.312s
+Mar  1 21:04:15 localhost policydb[288319]: INFO:root:Processing 0 basename -> policy updates
+Mar  1 21:04:15 localhost control_proxy[288457]: 2022-03-01T21:04:15.003Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.310s
+Mar  1 21:04:15 localhost policydb[288319]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  1 21:04:15 localhost control_proxy[288457]: 2022-03-01T21:04:15.003Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.281s
+Mar  1 21:04:15 localhost policydb[288319]: INFO:root:Processing 0 rating group updates
+Mar  1 21:04:17 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:04:20 localhost magmad[288194]: INFO:root:Checking for upgrade...
+Mar  1 21:04:20 localhost magmad[288194]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Mar  1 21:04:21 localhost magmad[288194]: INFO:root:Setting logging level to INFO
+Mar  1 21:04:22 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:04:37 localhost smsd[288355]: message repeated 3 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:04:40 localhost control_proxy[288457]: 2022-03-01T21:04:39.969Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.279s
+Mar  1 21:04:40 localhost magmad[288194]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  1 21:04:42 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:04:47 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:04:50 localhost magmad[288194]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:04:50 localhost magmad[288194]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:04:50 localhost magmad[288194]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:04:50 localhost magmad[288194]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:04:50 localhost magmad[288194]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:04:50 localhost magmad[288194]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:04:50 localhost magmad[288194]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:04:50 localhost magmad[288194]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:04:52 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:05:02 localhost smsd[288355]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:05:04 localhost control_proxy[288457]: 2022-03-01T21:04:03.847Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.544s
+Mar  1 21:05:04 localhost magmad[288194]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Mar  1 21:05:06 localhost magmad[288194]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  1 21:05:07 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:05:12 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:05:16 localhost control_proxy[288457]: 2022-03-01T21:05:15.655Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.557s
+Mar  1 21:05:16 localhost policydb[288319]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  1 21:05:16 localhost control_proxy[288457]: 2022-03-01T21:05:16.215Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.301s
+Mar  1 21:05:16 localhost policydb[288319]: INFO:root:Processing 0 basename -> policy updates
+Mar  1 21:05:16 localhost control_proxy[288457]: 2022-03-01T21:05:16.215Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.294s
+Mar  1 21:05:16 localhost policydb[288319]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  1 21:05:17 localhost control_proxy[288457]: 2022-03-01T21:05:16.215Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.283s
+Mar  1 21:05:17 localhost policydb[288319]: INFO:root:Processing 0 rating group updates
+Mar  1 21:05:17 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:05:20 localhost magmad[288194]: INFO:root:Checking for upgrade...
+Mar  1 21:05:20 localhost magmad[288194]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Mar  1 21:05:22 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:05:38 localhost smsd[288355]: message repeated 3 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:05:41 localhost magmad[288194]: INFO:root:Setting logging level to INFO
+Mar  1 21:05:43 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:05:58 localhost smsd[288355]: message repeated 3 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:05:59 localhost magmad[288194]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:05:59 localhost magmad[288194]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:05:59 localhost magmad[288194]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:05:59 localhost magmad[288194]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:05:59 localhost magmad[288194]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:05:59 localhost magmad[288194]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:05:59 localhost magmad[288194]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:05:59 localhost magmad[288194]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:06:00 localhost control_proxy[288457]: 2022-03-01T21:05:59.532Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.548s
+Mar  1 21:06:00 localhost magmad[288194]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  1 21:06:03 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:06:06 localhost magmad[288194]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  1 21:06:08 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:06:13 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:06:17 localhost control_proxy[288457]: 2022-03-01T21:06:17.126Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.556s
+Mar  1 21:06:17 localhost policydb[288319]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  1 21:06:17 localhost control_proxy[288457]: 2022-03-01T21:06:17.126Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.284s
+Mar  1 21:06:17 localhost policydb[288319]: INFO:root:Processing 0 basename -> policy updates
+Mar  1 21:06:18 localhost control_proxy[288457]: 2022-03-01T21:06:17.126Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.299s
+Mar  1 21:06:18 localhost policydb[288319]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  1 21:06:18 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:06:18 localhost control_proxy[288457]: 2022-03-01T21:06:18.279Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.279s
+Mar  1 21:06:18 localhost policydb[288319]: INFO:root:Processing 0 rating group updates
+Mar  1 21:06:20 localhost magmad[288194]: INFO:root:Checking for upgrade...
+Mar  1 21:06:20 localhost magmad[288194]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Mar  1 21:06:23 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:06:25 localhost subscriberdb[288262]: INFO:root:get digest stored in gateway:
+Mar  1 21:06:25 localhost control_proxy[288457]: 2022-03-01T21:06:25.208Z [127.0.0.1 -> subscriberdb-controller.magmasi.wavelabs.in,8443] "POST /magma.lte.SubscriberDBCloud/CheckInSync HTTP/2" 200 0bytes 0.268s
+Mar  1 21:06:25 localhost subscriberdb[288262]: ERROR:root:Internal Error in subscriberdb-Orc8r communication. If AGW and Orc8r are deployed at a commit hash, upgrade AGW and Orc8r to latest commit hash.
+Mar  1 21:06:25 localhost control_proxy[288457]: 2022-03-01T21:06:25.208Z [127.0.0.1 -> subscriberdb-controller.magmasi.wavelabs.in,8443] "POST /magma.lte.SubscriberDBCloud/Sync HTTP/2" 200 0bytes 0.275s
+Mar  1 21:06:25 localhost subscriberdb[288262]: ERROR:root:Internal Error in subscriberdb-Orc8r communication. If AGW and Orc8r are deployed at a commit hash, upgrade AGW and Orc8r to latest commit hash.
+Mar  1 21:06:26 localhost control_proxy[288457]: 2022-03-01T21:06:25.208Z [127.0.0.1 -> subscriberdb-controller.magmasi.wavelabs.in,8443] "POST /magma.lte.SubscriberDBCloud/ListSubscribers HTTP/2" 200 26194bytes 0.844s
+Mar  1 21:06:26 localhost subscriberdb[288262]: INFO:root:Successfully fetched all subscriber pages from the cloud!
+Mar  1 21:06:28 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:06:32 localhost systemd[1]: Started Session 4652 of user ubuntu.
+Mar  1 21:06:33 localhost smsd[288355]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:06:43 localhost smsd[288355]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
