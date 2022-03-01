@@ -1,0 +1,730 @@
+Mar  1 21:21:51 localhost smsd[297753]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:21:56 localhost magmad[297596]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:21:56 localhost magmad[297596]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:21:56 localhost magmad[297596]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:21:56 localhost magmad[297596]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:21:56 localhost magmad[297596]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:21:56 localhost magmad[297596]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:21:56 localhost magmad[297596]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:21:56 localhost magmad[297596]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:21:56 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:21:56 localhost control_proxy[297919]: 2022-03-01T21:21:56.275Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.267s
+Mar  1 21:21:56 localhost magmad[297596]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  1 21:22:01 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:22:16 localhost smsd[297753]: message repeated 3 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:22:18 localhost magmad[297596]: INFO:root:Checking for upgrade...
+Mar  1 21:22:18 localhost magmad[297596]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Mar  1 21:22:18 localhost control_proxy[297919]: 2022-03-01T21:21:18.162Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.391s
+Mar  1 21:22:18 localhost magmad[297596]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Mar  1 21:22:21 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:22:22 localhost PackageKit: daemon quit
+Mar  1 21:22:22 localhost systemd[1]: packagekit.service: Succeeded.
+Mar  1 21:22:24 localhost magmad[297596]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  1 21:22:26 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:22:31 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:22:31 localhost control_proxy[297919]: 2022-03-01T21:22:31.366Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.531s
+Mar  1 21:22:31 localhost policydb[298219]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  1 21:22:32 localhost control_proxy[297919]: 2022-03-01T21:22:31.366Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.271s
+Mar  1 21:22:32 localhost policydb[298219]: INFO:root:Processing 0 basename -> policy updates
+Mar  1 21:22:32 localhost control_proxy[297919]: 2022-03-01T21:22:32.172Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.281s
+Mar  1 21:22:32 localhost policydb[298219]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  1 21:22:32 localhost control_proxy[297919]: 2022-03-01T21:22:32.172Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.267s
+Mar  1 21:22:32 localhost policydb[298219]: INFO:root:Processing 0 rating group updates
+Mar  1 21:22:36 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:22:46 localhost smsd[297753]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:22:48 localhost magmad[297596]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:22:48 localhost magmad[297596]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:22:48 localhost magmad[297596]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:22:48 localhost magmad[297596]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:22:48 localhost magmad[297596]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:22:48 localhost magmad[297596]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:22:48 localhost magmad[297596]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:22:48 localhost magmad[297596]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:22:51 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:22:56 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:22:57 localhost magmad[297596]: INFO:root:Setting logging level to INFO
+Mar  1 21:23:01 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:23:11 localhost smsd[297753]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:23:16 localhost control_proxy[297919]: 2022-03-01T21:23:15.826Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.533s
+Mar  1 21:23:16 localhost magmad[297596]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  1 21:23:16 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:23:18 localhost magmad[297596]: INFO:root:Checking for upgrade...
+Mar  1 21:23:18 localhost magmad[297596]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Mar  1 21:23:20 localhost health[297767]: INFO:root:Service mme has failed 1106 times over last 180 seconds, restarting sctpd to clean state...
+Mar  1 21:23:21 localhost systemd[1]: Stopping Magma OAI MME service...
+Mar  1 21:23:21 localhost systemd[1]: Stopping Magma envoy service...
+Mar  1 21:23:21 localhost mme[298386]: [SIG][D]MME_UNIT_TEST Flag is Disabled
+Mar  1 21:23:21 localhost mme[298386]: filename /var/run/mme.pid failed to be written
+Mar  1 21:23:21 localhost mme[298386]: Received SIGINT or SIGTERM
+Mar  1 21:23:21 localhost mme[298386]: [TRACE] Entering shared_log_exit
+Mar  1 21:23:21 localhost mme[298386]: [TRACE] Leaving shared_log_exit
+Mar  1 21:23:21 localhost mme[298386]: TASK_SHARED_TS_LOG terminated
+Mar  1 21:23:21 localhost mme[298386]: TASK_MME_APP terminated
+Mar  1 21:23:21 localhost mme[298386]: TASK_S6A terminated
+Mar  1 21:23:21 localhost mme[298386]: TASK_S1AP terminated
+Mar  1 21:23:21 localhost mme[298386]: TASK_SERVICE303_SERVER terminated
+Mar  1 21:23:21 localhost envoy_controller[297809]: I0301 21:23:21.168404  297809 control_plane.go:94] OnStreamClosed 1 closed
+Mar  1 21:23:21 localhost mme[298386]: TASK_SERVICE303 terminated
+Mar  1 21:23:21 localhost envoy_controller[297809]: I0301 21:23:21.168498  297809 control_plane.go:94] OnStreamClosed 2 closed
+Mar  1 21:23:21 localhost envoy_controller[297809]: I0301 21:23:21.168914  297809 control_plane.go:94] OnStreamClosed 3 closed
+Mar  1 21:23:21 localhost mme[298386]: TASK_SCTP terminated
+Mar  1 21:23:21 localhost mme[298386]: TASK_SGW_S8 terminated
+Mar  1 21:23:21 localhost mme[298386]: TASK_GRPC_SERVICE terminated
+Mar  1 21:23:21 localhost mme[298386]: TASK_SPGW_APP terminated
+Mar  1 21:23:21 localhost systemd[1]: magma_dp@envoy.service: Succeeded.
+Mar  1 21:23:21 localhost systemd[1]: Stopped Magma envoy service.
+Mar  1 21:23:21 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:23:23 localhost mme[298386]: [ITTI][D] Some threads are still running, force exit
+Mar  1 21:23:23 localhost mme[298386]: Cleaning up SPGW configsE: 22-03-01 21:23:23 [298386]dangling 'PUSH' socket created at /home/vagrant/magma/lte/gateway/c/core/oai/lib/itti/intertask_interface.c:206
+Mar  1 21:23:23 localhost mme[298386]: E: 22-03-01 21:23:23 [298386]dangling 'PUSH' socket created at /home/vagrant/magma/lte/gateway/c/core/oai/lib/itti/intertask_interface.c:206
+Mar  1 21:23:23 localhost mme[298386]: E: 22-03-01 21:23:23 [298386]dangling 'PULL' socket created at /home/vagrant/magma/lte/gateway/c/core/oai/lib/itti/intertask_interface.c:214
+Mar  1 21:23:23 localhost mme[298386]: E: 22-03-01 21:23:23 [298386]dangling 'PUSH' socket created at /home/vagrant/magma/lte/gateway/c/core/oai/lib/itti/intertask_interface.c:206
+Mar  1 21:23:23 localhost mme[298386]: E: 22-03-01 21:23:23 [298386]dangling 'PUSH' socket created at /home/vagrant/magma/lte/gateway/c/core/oai/lib/itti/intertask_interface.c:206
+Mar  1 21:23:23 localhost mme[298386]: E: 22-03-01 21:23:23 [298386]dangling 'PULL' socket created at /home/vagrant/magma/lte/gateway/c/core/oai/lib/itti/intertask_interface.c:214
+Mar  1 21:23:23 localhost mme[298386]: E: 22-03-01 21:23:23 [298386]dangling 'PUSH' socket created at /home/vagrant/magma/lte/gateway/c/core/oai/lib/itti/intertask_interface.c:206
+Mar  1 21:23:23 localhost mme[298386]: E: 22-03-01 21:23:23 [298386]dangling 'PUSH' socket created at /home/vagrant/magma/lte/gateway/c/core/oai/lib/itti/intertask_interface.c:206
+Mar  1 21:23:23 localhost mme[298386]: E: 22-03-01 21:23:23 [298386]dangling 'PULL' socket created at /home/vagrant/magma/lte/gateway/c/core/oai/lib/itti/intertask_interface.c:214
+Mar  1 21:23:23 localhost mme[298386]: pure virtual method called
+Mar  1 21:23:23 localhost mme[298386]: terminate called without an active exception
+Mar  1 21:23:24 localhost magmad[297596]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  1 21:23:25 localhost systemd[1]: magma@mme.service: Main process exited, code=killed, status=6/ABRT
+Mar  1 21:23:25 localhost magmad[297596]: ERROR:root:GetServiceInfo Error for mme! [StatusCode.UNAVAILABLE] failed to connect to all addresses
+Mar  1 21:23:25 localhost systemd[1]: magma@mme.service: Failed with result 'signal'.
+Mar  1 21:23:25 localhost systemd[1]: Stopped Magma OAI MME service.
+Mar  1 21:23:25 localhost systemd[1]: Stopping Magma pipelined service...
+Mar  1 21:23:25 localhost systemd[1]: Stopping Magma session manager service...
+Mar  1 21:23:25 localhost systemd[1]: Stopping Magma sctpd service...
+Mar  1 21:23:25 localhost pipelined[297806]: INFO:root:Stopping pipelined with reason SIGTERM...
+Mar  1 21:23:26 localhost systemd[1]: magma@sessiond.service: Succeeded.
+Mar  1 21:23:26 localhost systemd[1]: Stopped Magma session manager service.
+Mar  1 21:23:26 localhost systemd[1]: Started Magma session manager service.
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.191354 298963 magma_logging_init.h:26] Setting verbosity to 3
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.191448 298963 GrpcMagmaUtils.cpp:44] Checking env var MAGMA_PRINT_GRPC_PAYLOAD
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.191455 298963 GrpcMagmaUtils.cpp:40] print_grpc_payload set at: 0
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.192132 298963 sessiond_main.cpp:255] Enabling enable5g_feature from sessiond.yml
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.192153 298963 sessiond_main.cpp:263] session_rtx_count is not defined in conf,set default value
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.192157 298963 sessiond_main.cpp:267] Starting Session Manager
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.198392 298964 PolicyLoader.cpp:62] Connected to redis server
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.198733 298963 sessiond_main.cpp:116] Using policydb controller
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.198927 298963 sessiond_main.cpp:213] Session store in memory
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.199018 298963 sessiond_main.cpp:179] ==== Constants/Configs loaded from sessiond.yml ====
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.199026 298963 sessiond_main.cpp:180] USAGE_REPORTING_THRESHOLD: 0.8
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.199039 298963 sessiond_main.cpp:182] TERMINATE_SERVICE_WHEN_QUOTA_EXHAUSTED: 1
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.199043 298963 sessiond_main.cpp:184] DEFAULT_REQUESTED_UNITS: 200000
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.199048 298963 sessiond_main.cpp:186] SEND_ACCESS_TIMEZONE: 0
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.199051 298963 sessiond_main.cpp:188] CLEANUP_DANGLING_FLOWS: 1
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.199054 298963 sessiond_main.cpp:190] SEND_IPFIX: 0
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.199059 298963 sessiond_main.cpp:191] ==== Constants/Configs loaded from sessiond.yml ====
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.199113 298963 LocalEnforcer.cpp:2189] send_access_timezone field is not set, not computing timezone information
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.199342 298963 sessiond_main.cpp:414] Added LocalSessionManagerAsyncService to service's server
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.199353 298963 sessiond_main.cpp:416] Added SessionProxyResponderAsyncService to service's server
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.199451 298963 sessiond_main.cpp:446] Initialized SetMessageManagerHandler
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.199491 298963 sessiond_main.cpp:452] Added SessionProxyResponderAsyncService to service's server
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.199504 298963 sessiond_main.cpp:462] SetInterfaceForUserPlaneAsyncService
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.199514 298963 sessiond_main.cpp:464] Add converged UPF message service
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.206254 298972 sessiond_main.cpp:299] Started EventD response thread
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.206310 298974 sessiond_main.cpp:332] Started SPGW response thread
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.206337 298975 sessiond_main.cpp:344] Started reporter thread
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.206362 298973 sessiond_main.cpp:305] Started MobilityD response thread
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.206382 298971 sessiond_main.cpp:291] Started DirectoryD response thread
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.206420 298976 sessiond_main.cpp:372] Started SessionD restart handler thread
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.206607 298970 sessiond_main.cpp:285] Started PipelineD response thread
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.209065 298976 RestartHandler.cpp:71] Successfully terminated all old sessions
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.209175 298978 SessionManagerServer.cpp:85] Initializing new call data for SetAmfSessionContext
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.209187 298978 SessionManagerServer.cpp:87] Initializing new call data for SetSmfNotification
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.209218 298979 sessiond_main.cpp:492] Started upf message thread
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.209223 298979 SessionManagerServer.cpp:98] Initializing new call data for SetUpfNodeStateCallData
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.209228 298979 SessionManagerServer.cpp:100] Initializing new call data for SendPagingRequest
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.209251 298980 sessiond_main.cpp:501] Started local service thread
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.209285 298981 sessiond_main.cpp:506] Started proxy service thread
+Mar  1 21:23:26 localhost sessiond[298963]: I0301 21:23:26.209311 298982 sessiond_main.cpp:515] Started abort session service thread
+Mar  1 21:23:26 localhost systemd[1]: sctpd.service: Succeeded.
+Mar  1 21:23:26 localhost systemd[1]: Stopped Magma sctpd service.
+Mar  1 21:23:26 localhost systemd[1]: Starting Magma sctpd service...
+Mar  1 21:23:26 localhost systemd[1]: systemd-sysctl.service: Succeeded.
+Mar  1 21:23:26 localhost systemd[1]: Stopped Apply Kernel Variables.
+Mar  1 21:23:26 localhost systemd[1]: Stopping Apply Kernel Variables...
+Mar  1 21:23:26 localhost systemd[1]: Starting Apply Kernel Variables...
+Mar  1 21:23:26 localhost systemd-sysctl[298994]: Not setting net/ipv4/conf/all/promote_secondaries (explicit setting exists).
+Mar  1 21:23:26 localhost systemd-sysctl[298994]: Not setting net/ipv4/conf/default/promote_secondaries (explicit setting exists).
+Mar  1 21:23:26 localhost systemd[1]: Finished Apply Kernel Variables.
+Mar  1 21:23:26 localhost sctpd[298985]: STATEFUL#011mme -> use_stateless
+Mar  1 21:23:26 localhost sctpd[298985]: STATEFUL#011pipelined -> clean_restart
+Mar  1 21:23:26 localhost sctpd[298985]: STATEFUL#011pipelined -> redis_enabled
+Mar  1 21:23:26 localhost sctpd[298985]: STATEFUL#011sessiond -> support_stateless
+Mar  1 21:23:26 localhost sctpd[298985]: Check returning return_codes.STATEFUL
+Mar  1 21:23:26 localhost sctpd[298985]: AGW is stateful, nothing to be done
+Mar  1 21:23:26 localhost systemd[1]: magma@pipelined.service: Succeeded.
+Mar  1 21:23:26 localhost systemd[1]: Stopped Magma pipelined service.
+Mar  1 21:23:26 localhost systemd[1]: Stopping Magma envoy controller service...
+Mar  1 21:23:26 localhost systemd[1]: Stopping Magma mobilityd service...
+Mar  1 21:23:26 localhost mobilityd[297664]: INFO:root:Stopping mobilityd with reason SIGTERM...
+Mar  1 21:23:26 localhost sctpd[299004]: I0301 21:23:26.663033 299004 magma_logging_init.h:28] Setting verbosity to 4
+Mar  1 21:23:26 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:23:26 localhost systemd-udevd[298916]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Mar  1 21:23:26 localhost systemd-udevd[298916]: Using default interface naming scheme 'v245'.
+Mar  1 21:23:26 localhost systemd-networkd[1776950]: proxy_port: Lost carrier
+Mar  1 21:23:26 localhost kernel: [4716388.944119] vport_gtp: Unknown symbol rpl_gtp_create_flow_based_dev (err -2)
+Mar  1 21:23:26 localhost kernel: [4716388.944126] vport_gtp: disagrees about version of symbol ovs_netdev_link
+Mar  1 21:23:26 localhost kernel: [4716388.944128] vport_gtp: Unknown symbol ovs_netdev_link (err -22)
+Mar  1 21:23:26 localhost kernel: [4716388.944146] vport_gtp: Unknown symbol rpl_rtnl_delete_link (err -2)
+Mar  1 21:23:26 localhost kernel: [4716388.944155] vport_gtp: disagrees about version of symbol ovs_netdev_tunnel_destroy
+Mar  1 21:23:26 localhost kernel: [4716388.944156] vport_gtp: Unknown symbol ovs_netdev_tunnel_destroy (err -22)
+Mar  1 21:23:26 localhost kernel: [4716388.944162] vport_gtp: disagrees about version of symbol __ovs_vport_ops_register
+Mar  1 21:23:26 localhost kernel: [4716388.944163] vport_gtp: Unknown symbol __ovs_vport_ops_register (err -22)
+Mar  1 21:23:26 localhost kernel: [4716388.944181] vport_gtp: disagrees about version of symbol ovs_vport_ops_unregister
+Mar  1 21:23:26 localhost kernel: [4716388.944181] vport_gtp: Unknown symbol ovs_vport_ops_unregister (err -22)
+Mar  1 21:23:26 localhost kernel: [4716388.944186] vport_gtp: disagrees about version of symbol ovs_vport_alloc
+Mar  1 21:23:26 localhost kernel: [4716388.944187] vport_gtp: Unknown symbol ovs_vport_alloc (err -22)
+Mar  1 21:23:26 localhost kernel: [4716388.944191] vport_gtp: disagrees about version of symbol ovs_vport_free
+Mar  1 21:23:26 localhost kernel: [4716388.944192] vport_gtp: Unknown symbol ovs_vport_free (err -22)
+Mar  1 21:23:26 localhost networkd-dispatcher[665]: WARNING:Unknown index 4 seen, reloading interface list
+Mar  1 21:23:26 localhost systemd-udevd[298958]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Mar  1 21:23:26 localhost systemd-udevd[298958]: Using default interface naming scheme 'v245'.
+Mar  1 21:23:26 localhost systemd-udevd[298958]: envoy_cntr_ns: Could not generate persistent MAC: No data available
+Mar  1 21:23:26 localhost systemd-udevd[298916]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Mar  1 21:23:26 localhost systemd-networkd[1776950]: envoy_cntr: Lost carrier
+Mar  1 21:23:26 localhost networkd-dispatcher[665]: WARNING:Unknown index 5298 seen, reloading interface list
+Mar  1 21:23:26 localhost systemd[1]: Started Magma sctpd service.
+Mar  1 21:23:27 localhost kernel: [4716388.988630] vport_gtp: Unknown symbol rpl_gtp_create_flow_based_dev (err -2)
+Mar  1 21:23:27 localhost kernel: [4716388.988640] vport_gtp: disagrees about version of symbol ovs_netdev_link
+Mar  1 21:23:27 localhost kernel: [4716388.988642] vport_gtp: Unknown symbol ovs_netdev_link (err -22)
+Mar  1 21:23:27 localhost kernel: [4716388.988675] vport_gtp: Unknown symbol rpl_rtnl_delete_link (err -2)
+Mar  1 21:23:27 localhost kernel: [4716388.988681] vport_gtp: disagrees about version of symbol ovs_netdev_tunnel_destroy
+Mar  1 21:23:27 localhost kernel: [4716388.988682] vport_gtp: Unknown symbol ovs_netdev_tunnel_destroy (err -22)
+Mar  1 21:23:27 localhost kernel: [4716388.988691] vport_gtp: disagrees about version of symbol __ovs_vport_ops_register
+Mar  1 21:23:27 localhost kernel: [4716388.988692] vport_gtp: Unknown symbol __ovs_vport_ops_register (err -22)
+Mar  1 21:23:27 localhost kernel: [4716388.988698] vport_gtp: disagrees about version of symbol ovs_vport_ops_unregister
+Mar  1 21:23:27 localhost kernel: [4716388.988699] vport_gtp: Unknown symbol ovs_vport_ops_unregister (err -22)
+Mar  1 21:23:27 localhost kernel: [4716388.988706] vport_gtp: disagrees about version of symbol ovs_vport_alloc
+Mar  1 21:23:27 localhost kernel: [4716388.988707] vport_gtp: Unknown symbol ovs_vport_alloc (err -22)
+Mar  1 21:23:27 localhost kernel: [4716388.988712] vport_gtp: disagrees about version of symbol ovs_vport_free
+Mar  1 21:23:27 localhost kernel: [4716388.988713] vport_gtp: Unknown symbol ovs_vport_free (err -22)
+Mar  1 21:23:27 localhost health[297767]: INFO:root:Service mobilityd has failed 56 times over last 180 seconds, restarting sctpd to clean state...
+Mar  1 21:23:27 localhost systemd-udevd[298916]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Mar  1 21:23:27 localhost systemd-udevd[298916]: envoy_cntr_ns: Could not generate persistent MAC: No data available
+Mar  1 21:23:27 localhost systemd[1]: Stopping Magma sctpd service...
+Mar  1 21:23:27 localhost systemd[1]: magma@mobilityd.service: Succeeded.
+Mar  1 21:23:27 localhost systemd[1]: Stopped Magma mobilityd service.
+Mar  1 21:23:27 localhost systemd[1]: Started Magma mobilityd service.
+Mar  1 21:23:27 localhost systemd[1]: sctpd.service: Succeeded.
+Mar  1 21:23:27 localhost systemd[1]: Stopped Magma sctpd service.
+Mar  1 21:23:27 localhost systemd[1]: Starting Magma sctpd service...
+Mar  1 21:23:27 localhost systemd[1]: systemd-sysctl.service: Succeeded.
+Mar  1 21:23:27 localhost systemd[1]: Stopped Apply Kernel Variables.
+Mar  1 21:23:27 localhost systemd[1]: Stopping Apply Kernel Variables...
+Mar  1 21:23:27 localhost systemd[1]: Starting Apply Kernel Variables...
+Mar  1 21:23:27 localhost systemd-sysctl[299069]: Not setting net/ipv4/conf/all/promote_secondaries (explicit setting exists).
+Mar  1 21:23:27 localhost systemd-sysctl[299069]: Not setting net/ipv4/conf/default/promote_secondaries (explicit setting exists).
+Mar  1 21:23:27 localhost systemd[1]: Finished Apply Kernel Variables.
+Mar  1 21:23:27 localhost sctpd[299060]: STATEFUL#011mme -> use_stateless
+Mar  1 21:23:27 localhost sctpd[299060]: STATEFUL#011pipelined -> clean_restart
+Mar  1 21:23:27 localhost sctpd[299060]: STATEFUL#011pipelined -> redis_enabled
+Mar  1 21:23:27 localhost sctpd[299060]: STATEFUL#011sessiond -> support_stateless
+Mar  1 21:23:27 localhost sctpd[299060]: Check returning return_codes.STATEFUL
+Mar  1 21:23:27 localhost sctpd[299060]: AGW is stateful, nothing to be done
+Mar  1 21:23:27 localhost sctpd[299070]: I0301 21:23:27.689801 299070 magma_logging_init.h:28] Setting verbosity to 4
+Mar  1 21:23:27 localhost systemd[1]: Started Magma sctpd service.
+Mar  1 21:23:27 localhost health[297767]: INFO:root:Service pipelined has failed 718 times over last 180 seconds, restarting sctpd to clean state...
+Mar  1 21:23:27 localhost systemd-networkd[1776950]: envoy_cntr: Link DOWN
+Mar  1 21:23:28 localhost kernel: [4716389.987854] vport_gtp: Unknown symbol rpl_gtp_create_flow_based_dev (err -2)
+Mar  1 21:23:28 localhost kernel: [4716389.987864] vport_gtp: disagrees about version of symbol ovs_netdev_link
+Mar  1 21:23:28 localhost kernel: [4716389.987866] vport_gtp: Unknown symbol ovs_netdev_link (err -22)
+Mar  1 21:23:28 localhost kernel: [4716389.987888] vport_gtp: Unknown symbol rpl_rtnl_delete_link (err -2)
+Mar  1 21:23:28 localhost kernel: [4716389.987893] vport_gtp: disagrees about version of symbol ovs_netdev_tunnel_destroy
+Mar  1 21:23:28 localhost kernel: [4716389.987894] vport_gtp: Unknown symbol ovs_netdev_tunnel_destroy (err -22)
+Mar  1 21:23:28 localhost kernel: [4716389.987901] vport_gtp: disagrees about version of symbol __ovs_vport_ops_register
+Mar  1 21:23:28 localhost kernel: [4716389.987902] vport_gtp: Unknown symbol __ovs_vport_ops_register (err -22)
+Mar  1 21:23:28 localhost kernel: [4716389.987907] vport_gtp: disagrees about version of symbol ovs_vport_ops_unregister
+Mar  1 21:23:28 localhost kernel: [4716389.987908] vport_gtp: Unknown symbol ovs_vport_ops_unregister (err -22)
+Mar  1 21:23:28 localhost kernel: [4716389.987914] vport_gtp: disagrees about version of symbol ovs_vport_alloc
+Mar  1 21:23:28 localhost kernel: [4716389.987915] vport_gtp: Unknown symbol ovs_vport_alloc (err -22)
+Mar  1 21:23:28 localhost kernel: [4716389.987920] vport_gtp: disagrees about version of symbol ovs_vport_free
+Mar  1 21:23:28 localhost kernel: [4716389.987921] vport_gtp: Unknown symbol ovs_vport_free (err -22)
+Mar  1 21:23:28 localhost systemd[1]: Stopping Magma sctpd service...
+Mar  1 21:23:28 localhost kernel: [4716390.011274] vport_gtp: Unknown symbol rpl_gtp_create_flow_based_dev (err -2)
+Mar  1 21:23:28 localhost kernel: [4716390.011281] vport_gtp: disagrees about version of symbol ovs_netdev_link
+Mar  1 21:23:28 localhost kernel: [4716390.011283] vport_gtp: Unknown symbol ovs_netdev_link (err -22)
+Mar  1 21:23:28 localhost kernel: [4716390.011304] vport_gtp: Unknown symbol rpl_rtnl_delete_link (err -2)
+Mar  1 21:23:28 localhost kernel: [4716390.011309] vport_gtp: disagrees about version of symbol ovs_netdev_tunnel_destroy
+Mar  1 21:23:28 localhost kernel: [4716390.011309] vport_gtp: Unknown symbol ovs_netdev_tunnel_destroy (err -22)
+Mar  1 21:23:28 localhost kernel: [4716390.011316] vport_gtp: disagrees about version of symbol __ovs_vport_ops_register
+Mar  1 21:23:28 localhost kernel: [4716390.011316] vport_gtp: Unknown symbol __ovs_vport_ops_register (err -22)
+Mar  1 21:23:28 localhost kernel: [4716390.011322] vport_gtp: disagrees about version of symbol ovs_vport_ops_unregister
+Mar  1 21:23:28 localhost kernel: [4716390.011323] vport_gtp: Unknown symbol ovs_vport_ops_unregister (err -22)
+Mar  1 21:23:28 localhost kernel: [4716390.011329] vport_gtp: disagrees about version of symbol ovs_vport_alloc
+Mar  1 21:23:28 localhost kernel: [4716390.011330] vport_gtp: Unknown symbol ovs_vport_alloc (err -22)
+Mar  1 21:23:28 localhost kernel: [4716390.011334] vport_gtp: disagrees about version of symbol ovs_vport_free
+Mar  1 21:23:28 localhost kernel: [4716390.011335] vport_gtp: Unknown symbol ovs_vport_free (err -22)
+Mar  1 21:23:28 localhost systemd[1]: sctpd.service: Succeeded.
+Mar  1 21:23:28 localhost systemd[1]: Stopped Magma sctpd service.
+Mar  1 21:23:28 localhost systemd[1]: Starting Magma sctpd service...
+Mar  1 21:23:28 localhost mobilityd[299053]: INFO:root:Sentry disabled because of missing dsn_python. See documentation (Configure > AGW) on how to configure Sentry dsn.
+Mar  1 21:23:28 localhost mobilityd[299053]: INFO:root:Using GW info: {'default': {2: ('192.48.0.1', 'eth1')}, 2: [('192.48.0.1', 'eth1', True)]}
+Mar  1 21:23:28 localhost mobilityd[299053]: INFO:root:GW probe: timer stopped
+Mar  1 21:23:28 localhost mobilityd[299053]: INFO:root:Using allocator: 0 static ip: False multi_apn False
+Mar  1 21:23:28 localhost mobilityd[299053]: INFO:root:IPv6 allocator: 0 static ip: False
+Mar  1 21:23:28 localhost mobilityd[299053]: INFO:root:Adding IPv4 block
+Mar  1 21:23:28 localhost mobilityd[299053]: WARNING:root:IPv6 ip block is not specified in mconfig, skipping
+Mar  1 21:23:28 localhost mobilityd[299053]: INFO:root:Starting mobilityd...
+Mar  1 21:23:28 localhost mobilityd[299053]: INFO:root:Listening on address 127.0.0.1:60051
+Mar  1 21:23:28 localhost systemd[1]: systemd-sysctl.service: Succeeded.
+Mar  1 21:23:28 localhost systemd[1]: Stopped Apply Kernel Variables.
+Mar  1 21:23:28 localhost systemd[1]: Stopping Apply Kernel Variables...
+Mar  1 21:23:28 localhost sctpd[299105]: STATEFUL#011mme -> use_stateless
+Mar  1 21:23:28 localhost sctpd[299105]: STATEFUL#011pipelined -> clean_restart
+Mar  1 21:23:28 localhost sctpd[299105]: STATEFUL#011pipelined -> redis_enabled
+Mar  1 21:23:28 localhost sctpd[299105]: STATEFUL#011sessiond -> support_stateless
+Mar  1 21:23:28 localhost sctpd[299105]: Check returning return_codes.STATEFUL
+Mar  1 21:23:28 localhost sctpd[299105]: AGW is stateful, nothing to be done
+Mar  1 21:23:28 localhost systemd[1]: Starting Apply Kernel Variables...
+Mar  1 21:23:28 localhost systemd-sysctl[299115]: Not setting net/ipv4/conf/all/promote_secondaries (explicit setting exists).
+Mar  1 21:23:28 localhost systemd-sysctl[299115]: Not setting net/ipv4/conf/default/promote_secondaries (explicit setting exists).
+Mar  1 21:23:28 localhost systemd[1]: Finished Apply Kernel Variables.
+Mar  1 21:23:28 localhost sctpd[299116]: I0301 21:23:28.688130 299116 magma_logging_init.h:28] Setting verbosity to 4
+Mar  1 21:23:28 localhost systemd[1]: Started Magma sctpd service.
+Mar  1 21:23:29 localhost systemd[1]: run-netns-envoy_ns1.mount: Succeeded.
+Mar  1 21:23:29 localhost systemd[230598]: run-netns-envoy_ns1.mount: Succeeded.
+Mar  1 21:23:29 localhost kernel: [4716391.054698] vport_gtp: Unknown symbol rpl_gtp_create_flow_based_dev (err -2)
+Mar  1 21:23:29 localhost kernel: [4716391.054725] vport_gtp: disagrees about version of symbol ovs_netdev_link
+Mar  1 21:23:29 localhost kernel: [4716391.054727] vport_gtp: Unknown symbol ovs_netdev_link (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.054750] vport_gtp: Unknown symbol rpl_rtnl_delete_link (err -2)
+Mar  1 21:23:29 localhost kernel: [4716391.054756] vport_gtp: disagrees about version of symbol ovs_netdev_tunnel_destroy
+Mar  1 21:23:29 localhost kernel: [4716391.054757] vport_gtp: Unknown symbol ovs_netdev_tunnel_destroy (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.054764] vport_gtp: disagrees about version of symbol __ovs_vport_ops_register
+Mar  1 21:23:29 localhost kernel: [4716391.054765] vport_gtp: Unknown symbol __ovs_vport_ops_register (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.054771] vport_gtp: disagrees about version of symbol ovs_vport_ops_unregister
+Mar  1 21:23:29 localhost kernel: [4716391.054772] vport_gtp: Unknown symbol ovs_vport_ops_unregister (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.054779] vport_gtp: disagrees about version of symbol ovs_vport_alloc
+Mar  1 21:23:29 localhost kernel: [4716391.054780] vport_gtp: Unknown symbol ovs_vport_alloc (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.054785] vport_gtp: disagrees about version of symbol ovs_vport_free
+Mar  1 21:23:29 localhost kernel: [4716391.054786] vport_gtp: Unknown symbol ovs_vport_free (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.138172] vport_gtp: Unknown symbol rpl_gtp_create_flow_based_dev (err -2)
+Mar  1 21:23:29 localhost kernel: [4716391.138185] vport_gtp: disagrees about version of symbol ovs_netdev_link
+Mar  1 21:23:29 localhost kernel: [4716391.138187] vport_gtp: Unknown symbol ovs_netdev_link (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.138220] vport_gtp: Unknown symbol rpl_rtnl_delete_link (err -2)
+Mar  1 21:23:29 localhost kernel: [4716391.138228] vport_gtp: disagrees about version of symbol ovs_netdev_tunnel_destroy
+Mar  1 21:23:29 localhost kernel: [4716391.138229] vport_gtp: Unknown symbol ovs_netdev_tunnel_destroy (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.138239] vport_gtp: disagrees about version of symbol __ovs_vport_ops_register
+Mar  1 21:23:29 localhost kernel: [4716391.138241] vport_gtp: Unknown symbol __ovs_vport_ops_register (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.138250] vport_gtp: disagrees about version of symbol ovs_vport_ops_unregister
+Mar  1 21:23:29 localhost kernel: [4716391.138252] vport_gtp: Unknown symbol ovs_vport_ops_unregister (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.138261] vport_gtp: disagrees about version of symbol ovs_vport_alloc
+Mar  1 21:23:29 localhost kernel: [4716391.138263] vport_gtp: Unknown symbol ovs_vport_alloc (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.138270] vport_gtp: disagrees about version of symbol ovs_vport_free
+Mar  1 21:23:29 localhost kernel: [4716391.138272] vport_gtp: Unknown symbol ovs_vport_free (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.144675] IPv6: ADDRCONF(NETDEV_CHANGE): envoy_cntr_ns: link becomes ready
+Mar  1 21:23:29 localhost kernel: [4716391.144739] IPv6: ADDRCONF(NETDEV_CHANGE): envoy_cntr: link becomes ready
+Mar  1 21:23:29 localhost kernel: [4716391.149520] IPv6: ADDRCONF(NETDEV_CHANGE): proxy_port_ns: link becomes ready
+Mar  1 21:23:29 localhost kernel: [4716391.164207] vport_gtp: Unknown symbol rpl_gtp_create_flow_based_dev (err -2)
+Mar  1 21:23:29 localhost kernel: [4716391.164219] vport_gtp: disagrees about version of symbol ovs_netdev_link
+Mar  1 21:23:29 localhost kernel: [4716391.164221] vport_gtp: Unknown symbol ovs_netdev_link (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.164250] vport_gtp: Unknown symbol rpl_rtnl_delete_link (err -2)
+Mar  1 21:23:29 localhost kernel: [4716391.164256] vport_gtp: disagrees about version of symbol ovs_netdev_tunnel_destroy
+Mar  1 21:23:29 localhost kernel: [4716391.164257] vport_gtp: Unknown symbol ovs_netdev_tunnel_destroy (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.164266] vport_gtp: disagrees about version of symbol __ovs_vport_ops_register
+Mar  1 21:23:29 localhost kernel: [4716391.164267] vport_gtp: Unknown symbol __ovs_vport_ops_register (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.164274] vport_gtp: disagrees about version of symbol ovs_vport_ops_unregister
+Mar  1 21:23:29 localhost kernel: [4716391.164275] vport_gtp: Unknown symbol ovs_vport_ops_unregister (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.164282] vport_gtp: disagrees about version of symbol ovs_vport_alloc
+Mar  1 21:23:29 localhost kernel: [4716391.164284] vport_gtp: Unknown symbol ovs_vport_alloc (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.164289] vport_gtp: disagrees about version of symbol ovs_vport_free
+Mar  1 21:23:29 localhost kernel: [4716391.164290] vport_gtp: Unknown symbol ovs_vport_free (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.245202] vport_gtp: Unknown symbol rpl_gtp_create_flow_based_dev (err -2)
+Mar  1 21:23:29 localhost kernel: [4716391.245216] vport_gtp: disagrees about version of symbol ovs_netdev_link
+Mar  1 21:23:29 localhost kernel: [4716391.245218] vport_gtp: Unknown symbol ovs_netdev_link (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.245254] vport_gtp: Unknown symbol rpl_rtnl_delete_link (err -2)
+Mar  1 21:23:29 localhost kernel: [4716391.245263] vport_gtp: disagrees about version of symbol ovs_netdev_tunnel_destroy
+Mar  1 21:23:29 localhost kernel: [4716391.245264] vport_gtp: Unknown symbol ovs_netdev_tunnel_destroy (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.245275] vport_gtp: disagrees about version of symbol __ovs_vport_ops_register
+Mar  1 21:23:29 localhost kernel: [4716391.245277] vport_gtp: Unknown symbol __ovs_vport_ops_register (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.245287] vport_gtp: disagrees about version of symbol ovs_vport_ops_unregister
+Mar  1 21:23:29 localhost kernel: [4716391.245310] vport_gtp: Unknown symbol ovs_vport_ops_unregister (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.245321] vport_gtp: disagrees about version of symbol ovs_vport_alloc
+Mar  1 21:23:29 localhost kernel: [4716391.245323] vport_gtp: Unknown symbol ovs_vport_alloc (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.245331] vport_gtp: disagrees about version of symbol ovs_vport_free
+Mar  1 21:23:29 localhost kernel: [4716391.245332] vport_gtp: Unknown symbol ovs_vport_free (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.321891] vport_gtp: Unknown symbol rpl_gtp_create_flow_based_dev (err -2)
+Mar  1 21:23:29 localhost kernel: [4716391.321905] vport_gtp: disagrees about version of symbol ovs_netdev_link
+Mar  1 21:23:29 localhost kernel: [4716391.321907] vport_gtp: Unknown symbol ovs_netdev_link (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.321967] vport_gtp: Unknown symbol rpl_rtnl_delete_link (err -2)
+Mar  1 21:23:29 localhost kernel: [4716391.321976] vport_gtp: disagrees about version of symbol ovs_netdev_tunnel_destroy
+Mar  1 21:23:29 localhost kernel: [4716391.321978] vport_gtp: Unknown symbol ovs_netdev_tunnel_destroy (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.321988] vport_gtp: disagrees about version of symbol __ovs_vport_ops_register
+Mar  1 21:23:29 localhost kernel: [4716391.321990] vport_gtp: Unknown symbol __ovs_vport_ops_register (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.322000] vport_gtp: disagrees about version of symbol ovs_vport_ops_unregister
+Mar  1 21:23:29 localhost kernel: [4716391.322001] vport_gtp: Unknown symbol ovs_vport_ops_unregister (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.322011] vport_gtp: disagrees about version of symbol ovs_vport_alloc
+Mar  1 21:23:29 localhost kernel: [4716391.322013] vport_gtp: Unknown symbol ovs_vport_alloc (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.322021] vport_gtp: disagrees about version of symbol ovs_vport_free
+Mar  1 21:23:29 localhost kernel: [4716391.322022] vport_gtp: Unknown symbol ovs_vport_free (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.361088] vport_gtp: Unknown symbol rpl_gtp_create_flow_based_dev (err -2)
+Mar  1 21:23:29 localhost kernel: [4716391.361099] vport_gtp: disagrees about version of symbol ovs_netdev_link
+Mar  1 21:23:29 localhost kernel: [4716391.361101] vport_gtp: Unknown symbol ovs_netdev_link (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.361133] vport_gtp: Unknown symbol rpl_rtnl_delete_link (err -2)
+Mar  1 21:23:29 localhost kernel: [4716391.361141] vport_gtp: disagrees about version of symbol ovs_netdev_tunnel_destroy
+Mar  1 21:23:29 localhost kernel: [4716391.361142] vport_gtp: Unknown symbol ovs_netdev_tunnel_destroy (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.361151] vport_gtp: disagrees about version of symbol __ovs_vport_ops_register
+Mar  1 21:23:29 localhost kernel: [4716391.361152] vport_gtp: Unknown symbol __ovs_vport_ops_register (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.361161] vport_gtp: disagrees about version of symbol ovs_vport_ops_unregister
+Mar  1 21:23:29 localhost kernel: [4716391.361163] vport_gtp: Unknown symbol ovs_vport_ops_unregister (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.361172] vport_gtp: disagrees about version of symbol ovs_vport_alloc
+Mar  1 21:23:29 localhost kernel: [4716391.361173] vport_gtp: Unknown symbol ovs_vport_alloc (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.361180] vport_gtp: disagrees about version of symbol ovs_vport_free
+Mar  1 21:23:29 localhost kernel: [4716391.361182] vport_gtp: Unknown symbol ovs_vport_free (err -22)
+Mar  1 21:23:29 localhost ovs-vsctl: ovs|00001|vsctl|INFO|Called as /usr/bin/ovs-vsctl --all destroy Flow_Sample_Collector_Set
+Mar  1 21:23:29 localhost systemd[1]: magma@envoy_controller.service: Succeeded.
+Mar  1 21:23:29 localhost networkd-dispatcher[665]: WARNING:Unknown index 5300 seen, reloading interface list
+Mar  1 21:23:29 localhost ovs-vsctl: ovs|00001|vsctl|INFO|Called as /usr/bin/ovs-vsctl set bridge gtp_br0 protocols=OpenFlow10,OpenFlow13,OpenFlow14 other-config:disable-in-band=true
+Mar  1 21:23:29 localhost systemd[1]: Stopped Magma envoy controller service.
+Mar  1 21:23:29 localhost ovs-vsctl: ovs|00001|vsctl|INFO|Called as /usr/bin/ovs-vsctl set-controller gtp_br0 tcp:127.0.0.1:6633 tcp:127.0.0.1:6654
+Mar  1 21:23:29 localhost envoy_controller[299175]: I0301 21:23:29.289587  299175 main.go:71] Creating 'ENVOY_CONTROLLER' Service
+Mar  1 21:23:29 localhost envoy_controller[299175]: W0301 21:23:29.289657  299175 service_config.go:206] Cannot find '/etc/magma/configs/feg/envoy_controller.yml': stat /etc/magma/configs/feg/envoy_controller.yml: no such file or directory, or Legacy Service Registry Configuration: '/etc/magma/feg/envoy_controller.yml': stat /etc/magma/feg/envoy_controller.yml: no such file or directory
+Mar  1 21:23:29 localhost envoy_controller[299175]: E0301 21:23:29.289699  299175 service_config.go:176] Error Loading feg::envoy_controller configs from '/etc/magma/feg/envoy_controller.yml': open /etc/magma/feg/envoy_controller.yml: no such file or directory
+Mar  1 21:23:29 localhost envoy_controller[299175]: W0301 21:23:29.289721  299175 service.go:101] Failed to load config for service ENVOY_CONTROLLER: open /etc/magma/feg/envoy_controller.yml: no such file or directory
+Mar  1 21:23:29 localhost envoy_controller[299175]: I0301 21:23:29.289779  299175 control_plane.go:188] Starting Envoy control plane
+Mar  1 21:23:29 localhost envoy_controller[299175]: I0301 21:23:29.289821  299175 control_plane.go:85] cb.Report() fetches 0,  callbacks 0
+Mar  1 21:23:29 localhost envoy_controller[299175]: I0301 21:23:29.290400  299175 control_plane.go:167] Gateway listening HTTP/1.1 on port 18001
+Mar  1 21:23:29 localhost envoy_controller[299175]: I0301 21:23:29.290453  299175 control_plane.go:154] Management server listening on port 18000
+Mar  1 21:23:29 localhost envoy_controller[299173]: net.ipv4.conf.all.rp_filter = 0
+Mar  1 21:23:29 localhost systemd[1]: Starting Magma envoy controller service...
+Mar  1 21:23:29 localhost ovs-vsctl: ovs|00001|vsctl|INFO|Called as /usr/bin/ovs-vsctl set-fail-mode gtp_br0 secure
+Mar  1 21:23:29 localhost envoy_controller[299174]: net.ipv4.conf.all.route_localnet = 1
+Mar  1 21:23:29 localhost systemd-udevd[298958]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Mar  1 21:23:29 localhost systemd-udevd[298958]: envoy_cntr: Could not generate persistent MAC: No data available
+Mar  1 21:23:29 localhost systemd-udevd[298916]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Mar  1 21:23:29 localhost kernel: [4716391.405137] vport_gtp: Unknown symbol rpl_gtp_create_flow_based_dev (err -2)
+Mar  1 21:23:29 localhost kernel: [4716391.405145] vport_gtp: disagrees about version of symbol ovs_netdev_link
+Mar  1 21:23:29 localhost kernel: [4716391.405146] vport_gtp: Unknown symbol ovs_netdev_link (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.405167] vport_gtp: Unknown symbol rpl_rtnl_delete_link (err -2)
+Mar  1 21:23:29 localhost kernel: [4716391.405172] vport_gtp: disagrees about version of symbol ovs_netdev_tunnel_destroy
+Mar  1 21:23:29 localhost kernel: [4716391.405173] vport_gtp: Unknown symbol ovs_netdev_tunnel_destroy (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.405179] vport_gtp: disagrees about version of symbol __ovs_vport_ops_register
+Mar  1 21:23:29 localhost kernel: [4716391.405180] vport_gtp: Unknown symbol __ovs_vport_ops_register (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.405186] vport_gtp: disagrees about version of symbol ovs_vport_ops_unregister
+Mar  1 21:23:29 localhost kernel: [4716391.405187] vport_gtp: Unknown symbol ovs_vport_ops_unregister (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.405193] vport_gtp: disagrees about version of symbol ovs_vport_alloc
+Mar  1 21:23:29 localhost kernel: [4716391.405194] vport_gtp: Unknown symbol ovs_vport_alloc (err -22)
+Mar  1 21:23:29 localhost kernel: [4716391.405198] vport_gtp: disagrees about version of symbol ovs_vport_free
+Mar  1 21:23:29 localhost kernel: [4716391.405199] vport_gtp: Unknown symbol ovs_vport_free (err -22)
+Mar  1 21:23:29 localhost systemd-udevd[298916]: envoy_cntr_ns: Could not generate persistent MAC: No data available
+Mar  1 21:23:29 localhost systemd-networkd[1776950]: envoy_cntr: Link UP
+Mar  1 21:23:29 localhost systemd-networkd[1776950]: envoy_cntr: Gained carrier
+Mar  1 21:23:29 localhost ovs-vsctl: ovs|00001|vsctl|INFO|Called as /usr/bin/ovs-vsctl set Controller 7d4aedb4-af64-47de-bf0f-95b8e41883a6 inactivity_probe=300
+Mar  1 21:23:29 localhost systemd-networkd[1776950]: proxy_port: Gained carrier
+Mar  1 21:23:29 localhost systemd[1]: Started Magma envoy controller service.
+Mar  1 21:23:29 localhost systemd[1]: Starting Magma pipelined service...
+Mar  1 21:23:29 localhost systemd[1]: Starting Magma envoy service...
+Mar  1 21:23:29 localhost ovs-vsctl: ovs|00001|vsctl|INFO|Called as /usr/bin/ovs-vsctl set Controller e411a321-5cf9-40e7-b63b-3403c14ea0a6 inactivity_probe=300
+Mar  1 21:23:29 localhost ovs-vsctl: ovs|00001|vsctl|INFO|Called as /usr/bin/ovs-vsctl set-manager ptcp:6640
+Mar  1 21:23:29 localhost systemd[1]: Started Magma pipelined service.
+Mar  1 21:23:29 localhost systemd[1]: Starting Magma OAI MME service...
+Mar  1 21:23:29 localhost mme[299203]: ERROR:root:Error retrieving config for mme, key not found: enable_nat
+Mar  1 21:23:29 localhost mme[299203]: ERROR:root:Error retrieving config for mme, key not found: congestion_control_enabled
+Mar  1 21:23:29 localhost mme[299203]: ERROR:root:Error retrieving config for mme, key not found: amf_default_slice_service_type
+Mar  1 21:23:29 localhost mme[299203]: ERROR:root:Error retrieving config for mme, key not found: amf_default_slice_differentiator
+Mar  1 21:23:29 localhost mme[299203]: ERROR:root:Error retrieving config for mme, key not found: amf_name
+Mar  1 21:23:29 localhost mme[299203]: ERROR:root:Error retrieving config for mme, key not found: amf_region_id
+Mar  1 21:23:29 localhost mme[299203]: ERROR:root:Error retrieving config for mme, key not found: amf_set_id
+Mar  1 21:23:29 localhost mme[299203]: ERROR:root:Error retrieving config for mme, key not found: amf_pointer
+Mar  1 21:23:29 localhost mme[299203]: ERROR:root:Error retrieving config for mme, key not found: default_dnn
+Mar  1 21:23:29 localhost mme[299203]: ERROR:root:Error retrieving config for spgw, key not found: ovs_internal_sampling_fwd_tbl
+Mar  1 21:23:29 localhost mme[299203]: WARNING:root:Service (spgw) missing in mconfig
+Mar  1 21:23:30 localhost systemd-networkd[1776950]: envoy_cntr: Gained IPv6LL
+Mar  1 21:23:31 localhost pipelined[299202]: INFO:root:Sentry disabled because of missing dsn_python. See documentation (Configure > AGW) on how to configure Sentry dsn.
+Mar  1 21:23:31 localhost pipelined[299202]: INFO:root:Nat: True
+Mar  1 21:23:31 localhost pipelined[299202]: INFO:root:enable5g_features: True
+Mar  1 21:23:31 localhost pipelined[299202]: INFO:root:set tuning params: {'enable': True, 'S1_cpu': '2-3', 'S1_queue_size': 2048, 'SGi_cpu': '2-3', 'SGi_queue_size': 1024}
+Mar  1 21:23:31 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:23:32 localhost pipelined[299261]: ls: cannot access '/sys/class/net/eth1/device/msi_irqs': No such file or directory
+Mar  1 21:23:32 localhost pipelined[299239]: Error: Could not find interrupts for eth1
+Mar  1 21:23:32 localhost pipelined[299239]: IFACE CORE MASK -> FILE
+Mar  1 21:23:32 localhost pipelined[299239]: =======================
+Mar  1 21:23:32 localhost pipelined[299288]: ls: cannot access '/sys/class/net/eth0/device/msi_irqs': No such file or directory
+Mar  1 21:23:32 localhost pipelined[299266]: Error: Could not find interrupts for eth0
+Mar  1 21:23:32 localhost pipelined[299266]: IFACE CORE MASK -> FILE
+Mar  1 21:23:32 localhost pipelined[299266]: =======================
+Mar  1 21:23:32 localhost pipelined[299293]: Cannot set device ring parameters: Operation not supported
+Mar  1 21:23:32 localhost pipelined[299300]: Cannot set device ring parameters: Operation not supported
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:pipelined.ebpf:eBPF manager: Not initilized
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:root:added uplink bridge controller
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:root:added classifier and ng service controller
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:loading app magma.pipelined.app.inout
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:loading app magma.pipelined.app.startup_flows
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:loading app magma.pipelined.app.uplink_bridge
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:loading app magma.pipelined.app.classifier
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:loading app magma.pipelined.app.ng_services
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:loading app magma.pipelined.app.arp
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:loading app magma.pipelined.app.ipv6_solicitation
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:loading app magma.pipelined.app.access_control
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:loading app magma.pipelined.app.he
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:loading app magma.pipelined.app.gy
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:loading app magma.pipelined.app.enforcement
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:loading app magma.pipelined.app.enforcement_stats
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:loading app ryu.controller.ofp_handler
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:loading app ryu.app.ofctl.service
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:loading app ryu.controller.ofp_handler
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:instantiating app None of DPSet
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:creating context dpset
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:pipelined.qos.common:QoS: apn_ambr_enabled: True
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:instantiating app magma.pipelined.app.inout of InOutController
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:InOutController:inout config: InOutConfig(gtp_port=32768, uplink_port=4294967294, mtr_ip='10.1.0.1', mtr_port=15577, li_port_name=None, enable_nat=True, non_nat_gw_probe_frequency=20, non_nat_arp_egress_port='uplink_br0', setup_type='LTE', uplink_gw_mac='ff:ff:ff:ff:ff:ff', he_proxy_port=15, he_proxy_eth_mac='e6:8f:a2:80:80:80', mtr_mac='32:68:82:65:48:9a', virtual_mac='12:3b:37:58:1d:4f')
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:instantiating app magma.pipelined.app.startup_flows of StartupFlows
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:StartupFlows:Clean restart enabled, startup flows will not query flows.
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:instantiating app magma.pipelined.app.uplink_bridge of UplinkBridgeController
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:UplinkBridgeController:uplink bridge app config: UplinkBridgeConfig(uplink_bridge='uplink_br0', uplink_eth_port_name='eth0', uplink_patch='patch-agw', enable_nat=True, virtual_mac='fa:16:3e:93:9b:0f', dhcp_port='dhcp0', sgi_management_iface_vlan='', sgi_management_iface_ip_addr='', dev_vlan_in='vlan_pop_in', dev_vlan_out='vlan_pop_out', ovs_vlan_workaround=True, sgi_management_iface_gw='', sgi_management_iface_ipv6_addr='', sgi_management_iface_ipv6_gw='', sgi_ip_monitoring=True)
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:instantiating app magma.pipelined.app.classifier of Classifier
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:instantiating app magma.pipelined.app.ng_services of NGServiceController
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:root: NGServicer : Node state manager launched
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:instantiating app magma.pipelined.app.arp of ArpController
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:instantiating app magma.pipelined.app.ipv6_solicitation of IPV6SolicitationController
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:IPV6SolicitationController:IPv6 Router using ll_addr fa:16:3e:93:9b:0f, and src ip fe80::f816:3eff:fee8:bcef
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:instantiating app magma.pipelined.app.access_control of AccessControlController
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:instantiating app magma.pipelined.app.he of HeaderEnrichmentController
+Mar  1 21:23:32 localhost systemd[1]: Stopping Magma sctpd service...
+Mar  1 21:23:32 localhost ovs-vsctl: ovs|00001|vsctl|INFO|Called as ovs-vsctl --may-exist add-port gtp_br0 proxy_port -- set interface proxy_port ofport_request=15
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:HeaderEnrichmentController:Header Enrichment app config: heConfig(he_proxy_port=15, he_enabled=True, encryption_enabled=False, encryption_algorithm=None, encryption_key=None, hash_function=None, encoding_type=None, uplink_port=4294967294, gtp_port=32768)
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:instantiating app magma.pipelined.app.gy of GYController
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:instantiating app magma.pipelined.app.enforcement of EnforcementController
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:instantiating app magma.pipelined.app.enforcement_stats of EnforcementStatsController
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:EnforcementStatsController:Stored ovs_pid 23121, new ovs pid 23121
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:instantiating app ryu.controller.ofp_handler of OFPHandler
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:ryu.base.app_manager:instantiating app ryu.app.ofctl.service of OfctlService
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:root:Running GTP stats collector...
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:root:Starting pipelined...
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:root:Listening on address 127.0.0.1:50063
+Mar  1 21:23:32 localhost sessiond[298963]: I0301 21:23:32.915526 298980 LocalSessionManagerHandler.cpp:102] Pipelined has been restarted, attempting to sync flows, old epoch = 0, new epoch = 1646169810
+Mar  1 21:23:32 localhost sessiond[298963]: I0301 21:23:32.916393 298963 LocalSessionManagerHandler.cpp:223] Sending a setup call to PipelineD with epoch: 1646169810
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:GYController:Received Setup request with epoch - 1646169810, current epoch  is - 1646169810
+Mar  1 21:23:32 localhost pipelined[299202]: WARNING:GYController:Datapath not initilized, setup failed
+Mar  1 21:23:32 localhost sessiond[298963]: I0301 21:23:32.929527 298963 LocalSessionManagerHandler.cpp:194] PipelineD setup failed, retrying PipelineD setup after delay, for epoch: 1646169810
+Mar  1 21:23:32 localhost pipelined[299202]: INFO:InOutController:Received Setup request with epoch - 1646169810, current epoch  is - 1646169810
+Mar  1 21:23:32 localhost pipelined[299202]: WARNING:InOutController:Datapath not initilized, setup failed
+Mar  1 21:23:32 localhost sessiond[298963]: I0301 21:23:32.930841 298963 LocalSessionManagerHandler.cpp:194] PipelineD setup failed, retrying PipelineD setup after delay, for epoch: 1646169810
+Mar  1 21:23:33 localhost systemd[1]: sctpd.service: Succeeded.
+Mar  1 21:23:33 localhost systemd[1]: Stopped Magma sctpd service.
+Mar  1 21:23:33 localhost systemd[1]: Starting Magma sctpd service...
+Mar  1 21:23:33 localhost control_proxy[297919]: 2022-03-01T21:23:32.787Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.526s
+Mar  1 21:23:33 localhost policydb[298219]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  1 21:23:33 localhost systemd[1]: systemd-sysctl.service: Succeeded.
+Mar  1 21:23:33 localhost systemd[1]: Stopped Apply Kernel Variables.
+Mar  1 21:23:33 localhost systemd[1]: Stopping Apply Kernel Variables...
+Mar  1 21:23:33 localhost systemd[1]: Starting Apply Kernel Variables...
+Mar  1 21:23:33 localhost systemd-sysctl[299468]: Not setting net/ipv4/conf/all/promote_secondaries (explicit setting exists).
+Mar  1 21:23:33 localhost systemd-sysctl[299468]: Not setting net/ipv4/conf/default/promote_secondaries (explicit setting exists).
+Mar  1 21:23:33 localhost systemd[1]: Finished Apply Kernel Variables.
+Mar  1 21:23:33 localhost sctpd[299459]: STATEFUL#011mme -> use_stateless
+Mar  1 21:23:33 localhost sctpd[299459]: STATEFUL#011pipelined -> clean_restart
+Mar  1 21:23:33 localhost sctpd[299459]: STATEFUL#011pipelined -> redis_enabled
+Mar  1 21:23:33 localhost sctpd[299459]: STATEFUL#011sessiond -> support_stateless
+Mar  1 21:23:33 localhost sctpd[299459]: Check returning return_codes.STATEFUL
+Mar  1 21:23:33 localhost sctpd[299459]: AGW is stateful, nothing to be done
+Mar  1 21:23:33 localhost sctpd[299469]: I0301 21:23:33.451397 299469 magma_logging_init.h:28] Setting verbosity to 4
+Mar  1 21:23:33 localhost control_proxy[297919]: 2022-03-01T21:23:33.317Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.272s
+Mar  1 21:23:33 localhost policydb[298219]: INFO:root:Processing 0 basename -> policy updates
+Mar  1 21:23:33 localhost systemd[1]: Started Magma sctpd service.
+Mar  1 21:23:33 localhost control_proxy[297919]: 2022-03-01T21:23:33.317Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.289s
+Mar  1 21:23:33 localhost policydb[298219]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  1 21:23:34 localhost control_proxy[297919]: 2022-03-01T21:23:33.317Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.270s
+Mar  1 21:23:34 localhost policydb[298219]: INFO:root:Processing 0 rating group updates
+Mar  1 21:23:34 localhost pipelined[299202]: INFO:InOutController:Nat is on
+Mar  1 21:23:34 localhost pipelined[299202]: INFO:UplinkBridgeController:Delete all flows: ovs-ofctl del-flows uplink_br0
+Mar  1 21:23:34 localhost pipelined[299202]: INFO:UplinkBridgeController:SGi has valid IP, skip reconfiguration [{'addr': '192.48.0.25', 'netmask': '255.255.255.0', 'broadcast': '192.48.0.255'}]
+Mar  1 21:23:34 localhost pipelined[299202]: INFO:UplinkBridgeController:SGi has valid IP, skip reconfiguration [{'addr': 'fe80::f816:3eff:fe93:9b0f%eth0', 'netmask': 'ffff:ffff:ffff:ffff::'}]
+Mar  1 21:23:34 localhost pipelined[299202]: INFO:ArpController:APR: special mac 12:3b:37:58:1d:4f
+Mar  1 21:23:34 localhost pipelined[299202]: INFO:pipelined.qos.qos_tc_impl:Init LinuxTC module uplink:eth0 downlink:eth1
+Mar  1 21:23:34 localhost pipelined[299202]: INFO:pipelined.qos.common:Qos Setup: clean start
+Mar  1 21:23:34 localhost pipelined[299202]: INFO:pipelined.qos.tc_pyroute2:initialized
+Mar  1 21:23:34 localhost pipelined[299202]: INFO:pipelined.qos.qos_tc_impl:destroying existing leaf qos classes
+Mar  1 21:23:34 localhost pipelined[299202]: INFO:pipelined.qos.qos_tc_impl:destroying existing parent classes
+Mar  1 21:23:34 localhost pipelined[299202]: INFO:pipelined.qos.qos_tc_impl:destroying All qos classes: done
+Mar  1 21:23:34 localhost pipelined[299202]: INFO:AccessControlController:Add blocking rule for: 192.48.0.25, iface eth0
+Mar  1 21:23:34 localhost pipelined[299202]: INFO:AccessControlController:Add blocking rule for: 192.48.0.34, iface eth1
+Mar  1 21:23:34 localhost pipelined[299202]: INFO:AccessControlController:Add blocking rule for: 192.168.128.1, iface gtp_br0
+Mar  1 21:23:34 localhost pipelined[299202]: INFO:AccessControlController:Add blocking rule for: 10.1.0.1, iface mtr0
+Mar  1 21:23:34 localhost pipelined[299202]: INFO:AccessControlController:Add blocking rule for: 10.5.0.2, iface envoy_cntr
+Mar  1 21:23:35 localhost magmad[297596]: ERROR:root:GetServiceInfo Error for mme! [StatusCode.UNAVAILABLE] failed to connect to all addresses
+Mar  1 21:23:36 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:23:37 localhost sessiond[298963]: I0301 21:23:37.933362 298963 LocalSessionManagerHandler.cpp:223] Sending a setup call to PipelineD with epoch: 1646169810
+Mar  1 21:23:37 localhost pipelined[299202]: INFO:InOutController:Received Setup request with epoch - 1646169810, current epoch  is - 1646169810
+Mar  1 21:23:37 localhost pipelined[299202]: INFO:InOutController:Controller is in clean restart mode, remaining flows were removed, continuing with setup.
+Mar  1 21:23:37 localhost pipelined[299202]: INFO:InOutController:Using GW: mac: 12:3b:37:58:1d:4f match {'reg1': 1} actions: [NXActionRegLoad2(dst='eth_dst',experimenter=8992,len=None,mask=None,subtype=33,type=65535,value='12:3b:37:58:1d:4f')]
+Mar  1 21:23:37 localhost pipelined[299202]: INFO:GYController:Received Setup request with epoch - 1646169810, current epoch  is - 1646169810
+Mar  1 21:23:37 localhost pipelined[299202]: INFO:EnforcementController:Received Setup request with epoch - 1646169810, current epoch  is - 1646169810
+Mar  1 21:23:37 localhost pipelined[299202]: INFO:EnforcementStatsController:Received Setup request with epoch - 1646169810, current epoch  is - 1646169810
+Mar  1 21:23:37 localhost pipelined[299202]: INFO:EnforcementController:Controller is in clean restart mode, remaining flows were removed, continuing with setup.
+Mar  1 21:23:37 localhost sessiond[298963]: I0301 21:23:37.962128 298963 LocalSessionManagerHandler.cpp:171] Successfully setup PipelineD with epoch: 1646169810
+Mar  1 21:23:37 localhost pipelined[299202]: INFO:EnforcementController:Initialized proxy_controller <magma.pipelined.app.he.HeaderEnrichmentController object at 0x7f32f723aa00>
+Mar  1 21:23:37 localhost pipelined[299202]: INFO:GYController:Controller is in clean restart mode, remaining flows were removed, continuing with setup.
+Mar  1 21:23:37 localhost pipelined[299202]: INFO:GYController:Initialized proxy_controller <magma.pipelined.app.he.HeaderEnrichmentController object at 0x7f32f723aa00>
+Mar  1 21:23:37 localhost pipelined[299202]: INFO:EnforcementStatsController:Controller is in clean restart mode, remaining flows were removed, continuing with setup.
+Mar  1 21:23:37 localhost pipelined[299202]: INFO:EnforcementStatsController:Initialized proxy_controller <magma.pipelined.app.he.HeaderEnrichmentController object at 0x7f32f723aa00>
+Mar  1 21:23:37 localhost sessiond[298963]: I0301 21:23:37.970042 298963 LocalSessionManagerHandler.cpp:171] Successfully setup PipelineD with epoch: 1646169810
+Mar  1 21:23:41 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:23:45 localhost magmad[297596]: ERROR:root:GetServiceInfo Error for mme! [StatusCode.UNAVAILABLE] failed to connect to all addresses
+Mar  1 21:23:47 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:23:48 localhost magmad[297596]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:23:48 localhost magmad[297596]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:23:48 localhost magmad[297596]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:23:48 localhost magmad[297596]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:23:48 localhost magmad[297596]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:23:48 localhost magmad[297596]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:23:48 localhost magmad[297596]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:23:48 localhost magmad[297596]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:23:52 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:23:55 localhost magmad[297596]: ERROR:root:GetServiceInfo Error for mme! [StatusCode.UNAVAILABLE] failed to connect to all addresses
+Mar  1 21:23:57 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:24:02 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:24:03 localhost mme[299238]: STATEFUL#011mme -> use_stateless
+Mar  1 21:24:03 localhost mme[299238]: STATEFUL#011pipelined -> clean_restart
+Mar  1 21:24:03 localhost mme[299238]: STATEFUL#011pipelined -> redis_enabled
+Mar  1 21:24:03 localhost mme[299238]: STATEFUL#011sessiond -> support_stateless
+Mar  1 21:24:03 localhost mme[299238]: Check returning return_codes.STATEFUL
+Mar  1 21:24:03 localhost mme[299238]: Restarting sctpd
+Mar  1 21:24:03 localhost systemd[1]: Started Magma OAI MME service.
+Mar  1 21:24:03 localhost mme[299546]: Initializing OAI Logging
+Mar  1 21:24:03 localhost mme[299546]: Initializing OAI Logging to syslog
+Mar  1 21:24:03 localhost mme[299546]: Initializing shared logging
+Mar  1 21:24:03 localhost mme[299546]: Initializing shared logging Done
+Mar  1 21:24:04 localhost mme[299570]: iface_types         : [bareudp, erspan, geneve, gre, gtpu, internal, ip6erspan, ip6gre, lisp, patch, stt, system, tap, vxlan]
+Mar  1 21:24:04 localhost mme[299546]: Server running (127.0.0.1:6654)
+Mar  1 21:24:05 localhost magmad[297596]: ERROR:root:GetServiceInfo Error for mme! [StatusCode.UNAVAILABLE] failed to connect to all addresses
+Mar  1 21:24:07 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:24:09 localhost systemd[1]: Started Magma envoy service.
+Mar  1 21:24:09 localhost envoy_controller[299175]: I0301 21:24:09.329987  299175 control_plane.go:89] OnStreamOpen 1 open for type.googleapis.com/envoy.api.v2.Cluster
+Mar  1 21:24:09 localhost envoy_controller[299175]: I0301 21:24:09.330056  299175 control_plane.go:89] OnStreamOpen 2 open for
+Mar  1 21:24:09 localhost envoy_controller[299175]: I0301 21:24:09.331764  299175 control_plane.go:98] OnStreamRequest
+Mar  1 21:24:11 localhost sctpd[299469]: I0301 21:24:11.043596 299474 sctpd_downlink_impl.cpp:57] SctpdDownlinkImpl::req->ppid()=18
+Mar  1 21:24:11 localhost sctpd[299469]: I0301 21:24:11.043639 299474 sctpd_downlink_impl.cpp:59] SctpdDownlinkImpl::req->port()=36412
+Mar  1 21:24:11 localhost sctpd[299469]: I0301 21:24:11.043648 299474 sctpd_downlink_impl.cpp:44] SctpdDownlinkImpl::Init creating new socket and listener
+Mar  1 21:24:11 localhost sctpd[299469]: I0301 21:24:11.044375 299613 sctp_connection.cpp:89] starting sctp connection listener sd = 15
+Mar  1 21:24:11 localhost sctpd[299469]: I0301 21:24:11.045871 299474 sctpd_downlink_impl.cpp:57] SctpdDownlinkImpl::req->ppid()=60
+Mar  1 21:24:11 localhost sctpd[299469]: I0301 21:24:11.045912 299474 sctpd_downlink_impl.cpp:59] SctpdDownlinkImpl::req->port()=38412
+Mar  1 21:24:11 localhost sctpd[299469]: I0301 21:24:11.045924 299474 sctpd_downlink_impl.cpp:44] SctpdDownlinkImpl::Init creating new socket and listener
+Mar  1 21:24:11 localhost sctpd[299469]: I0301 21:24:11.046182 299614 sctp_connection.cpp:89] starting sctp connection listener sd = 17
+Mar  1 21:24:12 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:24:16 localhost magmad[297596]: INFO:root:Setting logging level to INFO
+Mar  1 21:24:17 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:24:19 localhost control_proxy[297919]: 2022-03-01T21:23:18.186Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.263s
+Mar  1 21:24:19 localhost magmad[297596]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Mar  1 21:24:22 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:24:24 localhost envoy_controller[299175]: I0301 21:24:24.331777  299175 control_plane.go:89] OnStreamOpen 3 open for type.googleapis.com/envoy.api.v2.Listener
+Mar  1 21:24:24 localhost envoy_controller[299175]: I0301 21:24:24.332559  299175 control_plane.go:98] OnStreamRequest
+Mar  1 21:24:24 localhost magmad[297596]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  1 21:24:27 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:24:32 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:24:34 localhost control_proxy[297919]: 2022-03-01T21:24:34.174Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.520s
+Mar  1 21:24:34 localhost policydb[298219]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  1 21:24:34 localhost control_proxy[297919]: 2022-03-01T21:24:34.174Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.266s
+Mar  1 21:24:34 localhost policydb[298219]: INFO:root:Processing 0 basename -> policy updates
+Mar  1 21:24:35 localhost control_proxy[297919]: 2022-03-01T21:24:34.174Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.288s
+Mar  1 21:24:35 localhost policydb[298219]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  1 21:24:35 localhost magmad[297596]: INFO:root:Checking for upgrade...
+Mar  1 21:24:35 localhost magmad[297596]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Mar  1 21:24:35 localhost control_proxy[297919]: 2022-03-01T21:24:35.262Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.269s
+Mar  1 21:24:35 localhost policydb[298219]: INFO:root:Processing 0 rating group updates
+Mar  1 21:24:36 localhost control_proxy[297919]: 2022-03-01T21:24:35.262Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.560s
+Mar  1 21:24:36 localhost magmad[297596]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  1 21:24:37 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:25:02 localhost smsd[297753]: message repeated 5 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:25:05 localhost magmad[297596]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:25:05 localhost magmad[297596]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:25:05 localhost magmad[297596]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:25:05 localhost magmad[297596]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:25:05 localhost magmad[297596]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:25:05 localhost magmad[297596]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:25:05 localhost magmad[297596]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:25:05 localhost magmad[297596]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:25:07 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:25:22 localhost smsd[297753]: message repeated 3 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:25:24 localhost magmad[297596]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  1 21:25:27 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:25:32 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:25:35 localhost magmad[297596]: INFO:root:Checking for upgrade...
+Mar  1 21:25:35 localhost magmad[297596]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Mar  1 21:25:36 localhost control_proxy[297919]: 2022-03-01T21:25:35.321Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.526s
+Mar  1 21:25:36 localhost policydb[298219]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  1 21:25:36 localhost control_proxy[297919]: 2022-03-01T21:25:36.119Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.284s
+Mar  1 21:25:36 localhost policydb[298219]: INFO:root:Processing 0 basename -> policy updates
+Mar  1 21:25:36 localhost magmad[297596]: INFO:root:Setting logging level to INFO
+Mar  1 21:25:36 localhost control_proxy[297919]: 2022-03-01T21:25:36.119Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.278s
+Mar  1 21:25:36 localhost policydb[298219]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  1 21:25:36 localhost control_proxy[297919]: 2022-03-01T21:25:36.119Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.274s
+Mar  1 21:25:36 localhost policydb[298219]: INFO:root:Processing 0 rating group updates
+Mar  1 21:25:37 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:25:52 localhost smsd[297753]: message repeated 3 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:25:55 localhost control_proxy[297919]: 2022-03-01T21:25:55.079Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.265s
+Mar  1 21:25:55 localhost magmad[297596]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  1 21:25:57 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:26:02 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:26:05 localhost magmad[297596]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:26:05 localhost magmad[297596]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:26:05 localhost magmad[297596]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:26:05 localhost magmad[297596]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:26:05 localhost magmad[297596]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:26:05 localhost magmad[297596]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:26:05 localhost magmad[297596]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:26:05 localhost magmad[297596]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:26:07 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:26:09 localhost subscriberdb[297662]: INFO:root:get digest stored in gateway:
+Mar  1 21:26:09 localhost control_proxy[297919]: 2022-03-01T21:26:09.080Z [127.0.0.1 -> subscriberdb-controller.magmasi.wavelabs.in,8443] "POST /magma.lte.SubscriberDBCloud/CheckInSync HTTP/2" 200 0bytes 0.502s
+Mar  1 21:26:09 localhost subscriberdb[297662]: ERROR:root:Internal Error in subscriberdb-Orc8r communication. If AGW and Orc8r are deployed at a commit hash, upgrade AGW and Orc8r to latest commit hash.
+Mar  1 21:26:09 localhost control_proxy[297919]: 2022-03-01T21:26:09.080Z [127.0.0.1 -> subscriberdb-controller.magmasi.wavelabs.in,8443] "POST /magma.lte.SubscriberDBCloud/Sync HTTP/2" 200 0bytes 0.252s
+Mar  1 21:26:09 localhost subscriberdb[297662]: ERROR:root:Internal Error in subscriberdb-Orc8r communication. If AGW and Orc8r are deployed at a commit hash, upgrade AGW and Orc8r to latest commit hash.
+Mar  1 21:26:10 localhost control_proxy[297919]: 2022-03-01T21:26:09.080Z [127.0.0.1 -> subscriberdb-controller.magmasi.wavelabs.in,8443] "POST /magma.lte.SubscriberDBCloud/ListSubscribers HTTP/2" 200 26194bytes 0.622s
+Mar  1 21:26:10 localhost subscriberdb[297662]: INFO:root:Successfully fetched all subscriber pages from the cloud!
+Mar  1 21:26:12 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:26:17 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:26:19 localhost control_proxy[297919]: 2022-03-01T21:25:19.085Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.508s
+Mar  1 21:26:19 localhost magmad[297596]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Mar  1 21:26:22 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:26:24 localhost magmad[297596]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  1 21:26:27 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:26:33 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:26:35 localhost magmad[297596]: INFO:root:Checking for upgrade...
+Mar  1 21:26:35 localhost magmad[297596]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Mar  1 21:26:37 localhost control_proxy[297919]: 2022-03-01T21:26:37.006Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.272s
+Mar  1 21:26:37 localhost policydb[298219]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  1 21:26:37 localhost control_proxy[297919]: 2022-03-01T21:26:37.006Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.269s
+Mar  1 21:26:37 localhost policydb[298219]: INFO:root:Processing 0 basename -> policy updates
+Mar  1 21:26:37 localhost control_proxy[297919]: 2022-03-01T21:26:37.006Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.276s
+Mar  1 21:26:37 localhost policydb[298219]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  1 21:26:38 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:26:38 localhost control_proxy[297919]: 2022-03-01T21:26:37.006Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.266s
+Mar  1 21:26:38 localhost policydb[298219]: INFO:root:Processing 0 rating group updates
+Mar  1 21:26:43 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:26:53 localhost smsd[297753]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:26:56 localhost magmad[297596]: INFO:root:Setting logging level to INFO
+Mar  1 21:26:58 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:27:08 localhost smsd[297753]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  1 21:27:11 localhost subscriberdb[297662]: INFO:root:update root digest stored in gateway:
+Mar  1 21:27:13 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:27:14 localhost magmad[297596]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:27:14 localhost magmad[297596]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:27:14 localhost magmad[297596]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:27:14 localhost magmad[297596]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:27:14 localhost magmad[297596]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:27:14 localhost magmad[297596]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:27:14 localhost magmad[297596]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:27:14 localhost magmad[297596]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  1 21:27:15 localhost control_proxy[297919]: 2022-03-01T21:27:14.601Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.567s
+Mar  1 21:27:15 localhost magmad[297596]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  1 21:27:18 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:27:23 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:27:24 localhost magmad[297596]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  1 21:27:28 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:27:33 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:27:34 localhost systemd[1]: Started Session 4654 of user ubuntu.
+Mar  1 21:27:35 localhost magmad[297596]: INFO:root:Checking for upgrade...
+Mar  1 21:27:35 localhost magmad[297596]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Mar  1 21:27:38 localhost control_proxy[297919]: 2022-03-01T21:27:38.160Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.281s
+Mar  1 21:27:38 localhost policydb[298219]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  1 21:27:38 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:27:38 localhost control_proxy[297919]: 2022-03-01T21:27:38.160Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.275s
+Mar  1 21:27:38 localhost policydb[298219]: INFO:root:Processing 0 basename -> policy updates
+Mar  1 21:27:39 localhost control_proxy[297919]: 2022-03-01T21:27:38.160Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.280s
+Mar  1 21:27:39 localhost policydb[298219]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  1 21:27:39 localhost control_proxy[297919]: 2022-03-01T21:27:39.009Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.265s
+Mar  1 21:27:39 localhost policydb[298219]: INFO:root:Processing 0 rating group updates
+Mar  1 21:27:43 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  1 21:27:48 localhost smsd[297753]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
