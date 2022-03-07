@@ -1,0 +1,1415 @@
+Mar  7 12:42:31 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:42:41 localhost smsd[23056]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  7 12:42:41 localhost sctpd[23226]: I0307 12:42:41.737898 23711 sctp_connection.cpp:167] HandleClientSock sd = 19
+Mar  7 12:42:41 localhost sctpd[23226]: I0307 12:42:41.738029 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:42:41 localhost sctpd[23226]: I0307 12:42:41.742055 23711 sctp_connection.cpp:167] HandleClientSock sd = 19
+Mar  7 12:42:41 localhost sctpd[23226]: I0307 12:42:41.742125 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:42:46 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:42:47 localhost magmad[22887]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:42:47 localhost magmad[22887]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:42:47 localhost magmad[22887]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:42:47 localhost magmad[22887]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:42:47 localhost magmad[22887]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:42:47 localhost magmad[22887]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:42:47 localhost magmad[22887]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:42:47 localhost magmad[22887]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:42:47 localhost control_proxy[23095]: 2022-03-07T12:42:47.423Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.532s
+Mar  7 12:42:47 localhost magmad[22887]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  7 12:42:50 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:42:50 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:42:51 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:42:53 localhost sctpd[23226]: I0307 12:42:53.829670 23711 sctp_connection.cpp:167] HandleClientSock sd = 19
+Mar  7 12:42:53 localhost sctpd[23226]: I0307 12:42:53.829810 23711 sctp_connection.cpp:220] [sd:19] msg of len 42 on 63:0
+Mar  7 12:42:53 localhost sctpd[23226]: I0307 12:42:53.834019 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:42:53 localhost sctpd[23226]: I0307 12:42:53.834782 23711 sctp_connection.cpp:167] HandleClientSock sd = 19
+Mar  7 12:42:53 localhost sctpd[23226]: I0307 12:42:53.834862 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:42:56 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:43:01 localhost sctpd[23226]: I0307 12:43:01.239667 23711 sctp_connection.cpp:167] HandleClientSock sd = 19
+Mar  7 12:43:01 localhost sctpd[23226]: I0307 12:43:01.239779 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:43:01 localhost sctpd[23226]: I0307 12:43:01.239791 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 63
+Mar  7 12:43:01 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:43:06 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:43:08 localhost magmad[22887]: INFO:root:Checking for upgrade...
+Mar  7 12:43:08 localhost magmad[22887]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Mar  7 12:43:08 localhost control_proxy[23095]: 2022-03-07T12:42:08.435Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.352s
+Mar  7 12:43:08 localhost magmad[22887]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Mar  7 12:43:10 localhost magmad[22887]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  7 12:43:10 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:43:10 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:43:11 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:43:13 localhost sctpd[23226]: I0307 12:43:13.213261 23711 sctp_connection.cpp:167] HandleClientSock sd = 23
+Mar  7 12:43:13 localhost sctpd[23226]: I0307 12:43:13.213366 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:43:13 localhost sctpd[23226]: I0307 12:43:13.214561 23711 sctp_connection.cpp:167] HandleClientSock sd = 23
+Mar  7 12:43:13 localhost sctpd[23226]: I0307 12:43:13.214596 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:43:13 localhost sctpd[23226]: I0307 12:43:13.338449 23711 sctp_connection.cpp:167] HandleClientSock sd = 24
+Mar  7 12:43:13 localhost sctpd[23226]: I0307 12:43:13.338527 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:43:13 localhost sctpd[23226]: I0307 12:43:13.339121 23711 sctp_connection.cpp:167] HandleClientSock sd = 24
+Mar  7 12:43:13 localhost sctpd[23226]: I0307 12:43:13.339164 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:43:13 localhost control_proxy[23095]: 2022-03-07T12:43:13.336Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.271s
+Mar  7 12:43:13 localhost policydb[23032]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  7 12:43:13 localhost control_proxy[23095]: 2022-03-07T12:43:13.336Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.270s
+Mar  7 12:43:13 localhost policydb[23032]: INFO:root:Processing 0 basename -> policy updates
+Mar  7 12:43:14 localhost control_proxy[23095]: 2022-03-07T12:43:13.336Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.284s
+Mar  7 12:43:14 localhost policydb[23032]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  7 12:43:14 localhost sctpd[23226]: I0307 12:43:14.402364 23711 sctp_connection.cpp:167] HandleClientSock sd = 23
+Mar  7 12:43:14 localhost sctpd[23226]: I0307 12:43:14.402464 23711 sctp_connection.cpp:220] [sd:23] msg of len 42 on 64:0
+Mar  7 12:43:14 localhost sctpd[23226]: I0307 12:43:14.404711 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:43:14 localhost sctpd[23226]: I0307 12:43:14.405545 23711 sctp_connection.cpp:167] HandleClientSock sd = 23
+Mar  7 12:43:14 localhost sctpd[23226]: I0307 12:43:14.405633 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:43:14 localhost control_proxy[23095]: 2022-03-07T12:43:14.178Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.264s
+Mar  7 12:43:14 localhost policydb[23032]: INFO:root:Processing 0 rating group updates
+Mar  7 12:43:16 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:43:21 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:43:21 localhost sctpd[23226]: I0307 12:43:21.850025 23711 sctp_connection.cpp:167] HandleClientSock sd = 23
+Mar  7 12:43:21 localhost sctpd[23226]: I0307 12:43:21.850122 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:43:21 localhost sctpd[23226]: I0307 12:43:21.850133 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 64
+Mar  7 12:43:21 localhost sctpd[23226]: I0307 12:43:21.898788 23711 sctp_connection.cpp:167] HandleClientSock sd = 24
+Mar  7 12:43:21 localhost sctpd[23226]: I0307 12:43:21.898866 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:43:21 localhost sctpd[23226]: I0307 12:43:21.898880 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 65
+Mar  7 12:43:26 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:43:30 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:43:30 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:43:31 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:43:33 localhost sctpd[23226]: I0307 12:43:33.568578 23711 sctp_connection.cpp:167] HandleClientSock sd = 25
+Mar  7 12:43:33 localhost sctpd[23226]: I0307 12:43:33.568665 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:43:33 localhost sctpd[23226]: I0307 12:43:33.569344 23711 sctp_connection.cpp:167] HandleClientSock sd = 25
+Mar  7 12:43:33 localhost sctpd[23226]: I0307 12:43:33.569376 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:43:34 localhost sctpd[23226]: I0307 12:43:34.628463 23711 sctp_connection.cpp:167] HandleClientSock sd = 25
+Mar  7 12:43:34 localhost sctpd[23226]: I0307 12:43:34.628561 23711 sctp_connection.cpp:220] [sd:25] msg of len 42 on 66:0
+Mar  7 12:43:34 localhost sctpd[23226]: I0307 12:43:34.630546 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:43:34 localhost sctpd[23226]: I0307 12:43:34.631265 23711 sctp_connection.cpp:167] HandleClientSock sd = 25
+Mar  7 12:43:34 localhost sctpd[23226]: I0307 12:43:34.631346 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:43:36 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:43:38 localhost magmad[22887]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:43:38 localhost magmad[22887]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:43:38 localhost magmad[22887]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:43:38 localhost magmad[22887]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:43:38 localhost magmad[22887]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:43:38 localhost magmad[22887]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:43:38 localhost magmad[22887]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:43:38 localhost magmad[22887]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:43:41 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:43:42 localhost sctpd[23226]: I0307 12:43:42.035327 23711 sctp_connection.cpp:167] HandleClientSock sd = 25
+Mar  7 12:43:42 localhost sctpd[23226]: I0307 12:43:42.035534 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:43:42 localhost sctpd[23226]: I0307 12:43:42.035548 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 66
+Mar  7 12:43:46 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:43:48 localhost magmad[22887]: INFO:root:Setting logging level to INFO
+Mar  7 12:43:50 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:43:50 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:43:51 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:43:53 localhost sctpd[23226]: I0307 12:43:53.663456 23711 sctp_connection.cpp:167] HandleClientSock sd = 26
+Mar  7 12:43:53 localhost sctpd[23226]: I0307 12:43:53.663537 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:43:53 localhost sctpd[23226]: I0307 12:43:53.664430 23711 sctp_connection.cpp:167] HandleClientSock sd = 26
+Mar  7 12:43:53 localhost sctpd[23226]: I0307 12:43:53.664463 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:43:54 localhost sctpd[23226]: I0307 12:43:54.722867 23711 sctp_connection.cpp:167] HandleClientSock sd = 26
+Mar  7 12:43:54 localhost sctpd[23226]: I0307 12:43:54.722959 23711 sctp_connection.cpp:220] [sd:26] msg of len 42 on 67:0
+Mar  7 12:43:54 localhost sctpd[23226]: I0307 12:43:54.725694 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:43:54 localhost sctpd[23226]: I0307 12:43:54.726460 23711 sctp_connection.cpp:167] HandleClientSock sd = 26
+Mar  7 12:43:54 localhost sctpd[23226]: I0307 12:43:54.726524 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:43:56 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:44:01 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:44:02 localhost sctpd[23226]: I0307 12:44:02.128430 23711 sctp_connection.cpp:167] HandleClientSock sd = 26
+Mar  7 12:44:02 localhost sctpd[23226]: I0307 12:44:02.128818 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:44:02 localhost sctpd[23226]: I0307 12:44:02.128845 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 67
+Mar  7 12:44:06 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:44:07 localhost control_proxy[23095]: 2022-03-07T12:44:06.968Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.508s
+Mar  7 12:44:07 localhost magmad[22887]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  7 12:44:10 localhost magmad[22887]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  7 12:44:10 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:44:10 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:44:11 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:44:13 localhost sctpd[23226]: I0307 12:44:13.654645 23711 sctp_connection.cpp:167] HandleClientSock sd = 27
+Mar  7 12:44:13 localhost sctpd[23226]: I0307 12:44:13.654803 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:44:13 localhost sctpd[23226]: I0307 12:44:13.655932 23711 sctp_connection.cpp:167] HandleClientSock sd = 27
+Mar  7 12:44:13 localhost sctpd[23226]: I0307 12:44:13.655968 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:44:14 localhost sctpd[23226]: I0307 12:44:14.721833 23711 sctp_connection.cpp:167] HandleClientSock sd = 27
+Mar  7 12:44:14 localhost sctpd[23226]: I0307 12:44:14.721923 23711 sctp_connection.cpp:220] [sd:27] msg of len 42 on 68:0
+Mar  7 12:44:14 localhost sctpd[23226]: I0307 12:44:14.724155 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:44:14 localhost sctpd[23226]: I0307 12:44:14.725059 23711 sctp_connection.cpp:167] HandleClientSock sd = 27
+Mar  7 12:44:14 localhost sctpd[23226]: I0307 12:44:14.725144 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:44:14 localhost control_proxy[23095]: 2022-03-07T12:44:14.503Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.276s
+Mar  7 12:44:14 localhost policydb[23032]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  7 12:44:15 localhost control_proxy[23095]: 2022-03-07T12:44:14.503Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.267s
+Mar  7 12:44:15 localhost policydb[23032]: INFO:root:Processing 0 basename -> policy updates
+Mar  7 12:44:15 localhost control_proxy[23095]: 2022-03-07T12:44:15.053Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.282s
+Mar  7 12:44:15 localhost policydb[23032]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  7 12:44:15 localhost control_proxy[23095]: 2022-03-07T12:44:15.053Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.272s
+Mar  7 12:44:15 localhost policydb[23032]: INFO:root:Processing 0 rating group updates
+Mar  7 12:44:16 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:44:21 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:44:22 localhost sctpd[23226]: I0307 12:44:22.124428 23711 sctp_connection.cpp:167] HandleClientSock sd = 27
+Mar  7 12:44:22 localhost sctpd[23226]: I0307 12:44:22.124505 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:44:22 localhost sctpd[23226]: I0307 12:44:22.124516 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 68
+Mar  7 12:44:26 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:44:30 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:44:30 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:44:31 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.235589 23711 sctp_connection.cpp:167] HandleClientSock sd = 28
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.235672 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.236490 23711 sctp_connection.cpp:167] HandleClientSock sd = 28
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.236527 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.362836 23711 sctp_connection.cpp:167] HandleClientSock sd = 29
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.362895 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.363729 23711 sctp_connection.cpp:167] HandleClientSock sd = 29
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.363790 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.526568 23711 sctp_connection.cpp:167] HandleClientSock sd = 30
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.526628 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.527343 23711 sctp_connection.cpp:167] HandleClientSock sd = 30
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.527411 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.670663 23711 sctp_connection.cpp:167] HandleClientSock sd = 31
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.670742 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.671478 23711 sctp_connection.cpp:167] HandleClientSock sd = 31
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.671545 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.813704 23711 sctp_connection.cpp:167] HandleClientSock sd = 32
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.813771 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.814572 23711 sctp_connection.cpp:167] HandleClientSock sd = 32
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.814639 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.967434 23711 sctp_connection.cpp:167] HandleClientSock sd = 33
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.967497 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.968242 23711 sctp_connection.cpp:167] HandleClientSock sd = 33
+Mar  7 12:44:35 localhost sctpd[23226]: I0307 12:44:35.968312 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.130791 23711 sctp_connection.cpp:167] HandleClientSock sd = 34
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.130856 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.131819 23711 sctp_connection.cpp:167] HandleClientSock sd = 34
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.131886 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.285799 23711 sctp_connection.cpp:167] HandleClientSock sd = 35
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.285856 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.286653 23711 sctp_connection.cpp:167] HandleClientSock sd = 35
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.286697 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.445500 23711 sctp_connection.cpp:167] HandleClientSock sd = 36
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.445559 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.446528 23711 sctp_connection.cpp:167] HandleClientSock sd = 36
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.446593 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.609308 23711 sctp_connection.cpp:167] HandleClientSock sd = 37
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.609377 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.610298 23711 sctp_connection.cpp:167] HandleClientSock sd = 37
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.610371 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.769451 23711 sctp_connection.cpp:167] HandleClientSock sd = 38
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.769520 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.770524 23711 sctp_connection.cpp:167] HandleClientSock sd = 38
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.770593 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:44:36 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.943243 23711 sctp_connection.cpp:167] HandleClientSock sd = 39
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.943313 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.944192 23711 sctp_connection.cpp:167] HandleClientSock sd = 39
+Mar  7 12:44:36 localhost sctpd[23226]: I0307 12:44:36.944262 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:44:38 localhost sctpd[23226]: I0307 12:44:38.010044 23711 sctp_connection.cpp:167] HandleClientSock sd = 28
+Mar  7 12:44:38 localhost sctpd[23226]: I0307 12:44:38.010121 23711 sctp_connection.cpp:220] [sd:28] msg of len 42 on 69:0
+Mar  7 12:44:38 localhost sctpd[23226]: I0307 12:44:38.012293 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:44:38 localhost sctpd[23226]: I0307 12:44:38.013167 23711 sctp_connection.cpp:167] HandleClientSock sd = 28
+Mar  7 12:44:38 localhost sctpd[23226]: I0307 12:44:38.013226 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:44:38 localhost magmad[22887]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:44:38 localhost magmad[22887]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:44:38 localhost magmad[22887]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:44:38 localhost magmad[22887]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:44:38 localhost magmad[22887]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:44:38 localhost magmad[22887]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:44:38 localhost magmad[22887]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:44:38 localhost magmad[22887]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:44:41 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.513409 23711 sctp_connection.cpp:167] HandleClientSock sd = 28
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.513542 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.513553 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 69
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.564154 23711 sctp_connection.cpp:167] HandleClientSock sd = 29
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.564234 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.564245 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 70
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.609834 23711 sctp_connection.cpp:167] HandleClientSock sd = 30
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.609903 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.609915 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 71
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.668924 23711 sctp_connection.cpp:167] HandleClientSock sd = 31
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.668993 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.669004 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 72
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.712441 23711 sctp_connection.cpp:167] HandleClientSock sd = 32
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.712510 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.712522 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 73
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.774132 23711 sctp_connection.cpp:167] HandleClientSock sd = 33
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.774200 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.774211 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 74
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.823333 23711 sctp_connection.cpp:167] HandleClientSock sd = 34
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.823400 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.823410 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 75
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.874392 23711 sctp_connection.cpp:167] HandleClientSock sd = 35
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.874467 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.874477 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 76
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.927979 23711 sctp_connection.cpp:167] HandleClientSock sd = 36
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.928081 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.928094 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 77
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.978718 23711 sctp_connection.cpp:167] HandleClientSock sd = 37
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.978788 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:44:45 localhost sctpd[23226]: I0307 12:44:45.978799 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 78
+Mar  7 12:44:46 localhost sctpd[23226]: I0307 12:44:46.036394 23711 sctp_connection.cpp:167] HandleClientSock sd = 38
+Mar  7 12:44:46 localhost sctpd[23226]: I0307 12:44:46.036460 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:44:46 localhost sctpd[23226]: I0307 12:44:46.036471 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 79
+Mar  7 12:44:46 localhost sctpd[23226]: I0307 12:44:46.088665 23711 sctp_connection.cpp:167] HandleClientSock sd = 39
+Mar  7 12:44:46 localhost sctpd[23226]: I0307 12:44:46.088740 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:44:46 localhost sctpd[23226]: I0307 12:44:46.088752 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 80
+Mar  7 12:44:46 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:44:50 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:44:50 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:44:52 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:44:57 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:44:57 localhost sctpd[23226]: I0307 12:44:57.735239 23711 sctp_connection.cpp:167] HandleClientSock sd = 40
+Mar  7 12:44:57 localhost sctpd[23226]: I0307 12:44:57.735309 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:44:57 localhost sctpd[23226]: I0307 12:44:57.736045 23711 sctp_connection.cpp:167] HandleClientSock sd = 40
+Mar  7 12:44:57 localhost sctpd[23226]: I0307 12:44:57.736088 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:44:58 localhost sctpd[23226]: I0307 12:44:58.794790 23711 sctp_connection.cpp:167] HandleClientSock sd = 40
+Mar  7 12:44:58 localhost sctpd[23226]: I0307 12:44:58.794876 23711 sctp_connection.cpp:220] [sd:40] msg of len 42 on 81:0
+Mar  7 12:44:58 localhost sctpd[23226]: I0307 12:44:58.796985 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:44:58 localhost sctpd[23226]: I0307 12:44:58.797827 23711 sctp_connection.cpp:167] HandleClientSock sd = 40
+Mar  7 12:44:58 localhost sctpd[23226]: I0307 12:44:58.797889 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:45:02 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:45:06 localhost sctpd[23226]: I0307 12:45:06.192497 23711 sctp_connection.cpp:167] HandleClientSock sd = 40
+Mar  7 12:45:06 localhost sctpd[23226]: I0307 12:45:06.192572 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:45:06 localhost sctpd[23226]: I0307 12:45:06.192584 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 81
+Mar  7 12:45:07 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:45:08 localhost magmad[22887]: INFO:root:Setting logging level to INFO
+Mar  7 12:45:09 localhost control_proxy[23095]: 2022-03-07T12:44:09.012Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.254s
+Mar  7 12:45:09 localhost magmad[22887]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Mar  7 12:45:10 localhost magmad[22887]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  7 12:45:10 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:45:10 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:45:12 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:45:15 localhost control_proxy[23095]: 2022-03-07T12:45:15.639Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.273s
+Mar  7 12:45:15 localhost policydb[23032]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  7 12:45:16 localhost control_proxy[23095]: 2022-03-07T12:45:15.639Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.269s
+Mar  7 12:45:16 localhost policydb[23032]: INFO:root:Processing 0 basename -> policy updates
+Mar  7 12:45:16 localhost control_proxy[23095]: 2022-03-07T12:45:16.187Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.306s
+Mar  7 12:45:16 localhost policydb[23032]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  7 12:45:16 localhost control_proxy[23095]: 2022-03-07T12:45:16.187Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.279s
+Mar  7 12:45:16 localhost policydb[23032]: INFO:root:Processing 0 rating group updates
+Mar  7 12:45:17 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:45:18 localhost sctpd[23226]: I0307 12:45:18.416978 23711 sctp_connection.cpp:167] HandleClientSock sd = 41
+Mar  7 12:45:18 localhost sctpd[23226]: I0307 12:45:18.417058 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:45:18 localhost sctpd[23226]: I0307 12:45:18.418213 23711 sctp_connection.cpp:167] HandleClientSock sd = 41
+Mar  7 12:45:18 localhost sctpd[23226]: I0307 12:45:18.418324 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:45:19 localhost sctpd[23226]: I0307 12:45:19.475106 23711 sctp_connection.cpp:167] HandleClientSock sd = 41
+Mar  7 12:45:19 localhost sctpd[23226]: I0307 12:45:19.475183 23711 sctp_connection.cpp:220] [sd:41] msg of len 42 on 82:0
+Mar  7 12:45:19 localhost sctpd[23226]: I0307 12:45:19.477237 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:45:19 localhost sctpd[23226]: I0307 12:45:19.477977 23711 sctp_connection.cpp:167] HandleClientSock sd = 41
+Mar  7 12:45:19 localhost sctpd[23226]: I0307 12:45:19.478042 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:45:22 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:45:26 localhost sctpd[23226]: I0307 12:45:26.878055 23711 sctp_connection.cpp:167] HandleClientSock sd = 41
+Mar  7 12:45:26 localhost sctpd[23226]: I0307 12:45:26.878135 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:45:26 localhost sctpd[23226]: I0307 12:45:26.878147 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 82
+Mar  7 12:45:27 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:45:27 localhost control_proxy[23095]: 2022-03-07T12:45:26.485Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.638s
+Mar  7 12:45:27 localhost magmad[22887]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  7 12:45:30 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:45:30 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:45:32 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:45:37 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:45:38 localhost sctpd[23226]: I0307 12:45:38.814882 23711 sctp_connection.cpp:167] HandleClientSock sd = 42
+Mar  7 12:45:38 localhost sctpd[23226]: I0307 12:45:38.814970 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:45:38 localhost sctpd[23226]: I0307 12:45:38.815795 23711 sctp_connection.cpp:167] HandleClientSock sd = 42
+Mar  7 12:45:38 localhost sctpd[23226]: I0307 12:45:38.815837 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:45:38 localhost sctpd[23226]: I0307 12:45:38.939154 23711 sctp_connection.cpp:167] HandleClientSock sd = 43
+Mar  7 12:45:38 localhost sctpd[23226]: I0307 12:45:38.939227 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:45:38 localhost sctpd[23226]: I0307 12:45:38.939968 23711 sctp_connection.cpp:167] HandleClientSock sd = 43
+Mar  7 12:45:38 localhost sctpd[23226]: I0307 12:45:38.940032 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:45:40 localhost sctpd[23226]: I0307 12:45:40.002035 23711 sctp_connection.cpp:167] HandleClientSock sd = 42
+Mar  7 12:45:40 localhost sctpd[23226]: I0307 12:45:40.002121 23711 sctp_connection.cpp:220] [sd:42] msg of len 42 on 83:0
+Mar  7 12:45:40 localhost sctpd[23226]: I0307 12:45:40.004281 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:45:40 localhost sctpd[23226]: I0307 12:45:40.004856 23711 sctp_connection.cpp:167] HandleClientSock sd = 42
+Mar  7 12:45:40 localhost sctpd[23226]: I0307 12:45:40.004927 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:45:42 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:45:47 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:45:47 localhost sctpd[23226]: I0307 12:45:47.399981 23711 sctp_connection.cpp:167] HandleClientSock sd = 42
+Mar  7 12:45:47 localhost sctpd[23226]: I0307 12:45:47.400061 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:45:47 localhost sctpd[23226]: I0307 12:45:47.400079 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 83
+Mar  7 12:45:47 localhost sctpd[23226]: I0307 12:45:47.449647 23711 sctp_connection.cpp:167] HandleClientSock sd = 43
+Mar  7 12:45:47 localhost sctpd[23226]: I0307 12:45:47.449730 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:45:47 localhost sctpd[23226]: I0307 12:45:47.449748 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 84
+Mar  7 12:45:50 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:45:50 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:45:52 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:45:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:45:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:45:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:45:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:45:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:45:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:45:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:45:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:45:57 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:45:59 localhost sctpd[23226]: I0307 12:45:59.114970 23711 sctp_connection.cpp:167] HandleClientSock sd = 44
+Mar  7 12:45:59 localhost sctpd[23226]: I0307 12:45:59.115054 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:45:59 localhost sctpd[23226]: I0307 12:45:59.115823 23711 sctp_connection.cpp:167] HandleClientSock sd = 44
+Mar  7 12:45:59 localhost sctpd[23226]: I0307 12:45:59.115866 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:45:59 localhost sctpd[23226]: I0307 12:45:59.234499 23711 sctp_connection.cpp:167] HandleClientSock sd = 45
+Mar  7 12:45:59 localhost sctpd[23226]: I0307 12:45:59.234575 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:45:59 localhost sctpd[23226]: I0307 12:45:59.235355 23711 sctp_connection.cpp:167] HandleClientSock sd = 45
+Mar  7 12:45:59 localhost sctpd[23226]: I0307 12:45:59.235416 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:46:00 localhost sctpd[23226]: I0307 12:46:00.296085 23711 sctp_connection.cpp:167] HandleClientSock sd = 44
+Mar  7 12:46:00 localhost sctpd[23226]: I0307 12:46:00.296161 23711 sctp_connection.cpp:220] [sd:44] msg of len 42 on 85:0
+Mar  7 12:46:00 localhost sctpd[23226]: I0307 12:46:00.298214 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:46:00 localhost sctpd[23226]: I0307 12:46:00.298856 23711 sctp_connection.cpp:167] HandleClientSock sd = 44
+Mar  7 12:46:00 localhost sctpd[23226]: I0307 12:46:00.298923 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:46:02 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:46:07 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:46:07 localhost sctpd[23226]: I0307 12:46:07.680605 23711 sctp_connection.cpp:167] HandleClientSock sd = 44
+Mar  7 12:46:07 localhost sctpd[23226]: I0307 12:46:07.680688 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:46:07 localhost sctpd[23226]: I0307 12:46:07.680704 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 85
+Mar  7 12:46:07 localhost sctpd[23226]: I0307 12:46:07.729910 23711 sctp_connection.cpp:167] HandleClientSock sd = 45
+Mar  7 12:46:07 localhost sctpd[23226]: I0307 12:46:07.729986 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:46:07 localhost sctpd[23226]: I0307 12:46:07.730003 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 86
+Mar  7 12:46:10 localhost magmad[22887]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  7 12:46:10 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:46:10 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:46:12 localhost subscriberdb[22954]: INFO:root:get digest stored in gateway:
+Mar  7 12:46:12 localhost control_proxy[23095]: 2022-03-07T12:46:12.132Z [127.0.0.1 -> subscriberdb-controller.magmasi.wavelabs.in,8443] "POST /magma.lte.SubscriberDBCloud/CheckInSync HTTP/2" 200 0bytes 0.250s
+Mar  7 12:46:12 localhost subscriberdb[22954]: ERROR:root:Internal Error in subscriberdb-Orc8r communication. If AGW and Orc8r are deployed at a commit hash, upgrade AGW and Orc8r to latest commit hash.
+Mar  7 12:46:12 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:46:12 localhost control_proxy[23095]: 2022-03-07T12:46:12.132Z [127.0.0.1 -> subscriberdb-controller.magmasi.wavelabs.in,8443] "POST /magma.lte.SubscriberDBCloud/Sync HTTP/2" 200 0bytes 0.250s
+Mar  7 12:46:12 localhost subscriberdb[22954]: ERROR:root:Internal Error in subscriberdb-Orc8r communication. If AGW and Orc8r are deployed at a commit hash, upgrade AGW and Orc8r to latest commit hash.
+Mar  7 12:46:12 localhost control_proxy[23095]: 2022-03-07T12:46:12.132Z [127.0.0.1 -> subscriberdb-controller.magmasi.wavelabs.in,8443] "POST /magma.lte.SubscriberDBCloud/ListSubscribers HTTP/2" 200 26194bytes 0.295s
+Mar  7 12:46:12 localhost subscriberdb[22954]: INFO:root:Successfully fetched all subscriber pages from the cloud!
+Mar  7 12:46:13 localhost subscriberdb[22954]: INFO:root:update root digest stored in gateway:
+Mar  7 12:46:17 localhost policydb[23032]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  7 12:46:17 localhost control_proxy[23095]: 2022-03-07T12:46:16.829Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.295s
+Mar  7 12:46:17 localhost control_proxy[23095]: 2022-03-07T12:46:17.128Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.267s
+Mar  7 12:46:17 localhost policydb[23032]: INFO:root:Processing 0 basename -> policy updates
+Mar  7 12:46:17 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:46:17 localhost control_proxy[23095]: 2022-03-07T12:46:17.128Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.276s
+Mar  7 12:46:17 localhost policydb[23032]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  7 12:46:17 localhost control_proxy[23095]: 2022-03-07T12:46:17.128Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.273s
+Mar  7 12:46:17 localhost policydb[23032]: INFO:root:Processing 0 rating group updates
+Mar  7 12:46:19 localhost sctpd[23226]: I0307 12:46:19.338920 23711 sctp_connection.cpp:167] HandleClientSock sd = 46
+Mar  7 12:46:19 localhost sctpd[23226]: I0307 12:46:19.338999 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:46:19 localhost sctpd[23226]: I0307 12:46:19.339828 23711 sctp_connection.cpp:167] HandleClientSock sd = 46
+Mar  7 12:46:19 localhost sctpd[23226]: I0307 12:46:19.339855 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:46:20 localhost sctpd[23226]: I0307 12:46:20.395557 23711 sctp_connection.cpp:167] HandleClientSock sd = 46
+Mar  7 12:46:20 localhost sctpd[23226]: I0307 12:46:20.395642 23711 sctp_connection.cpp:220] [sd:46] msg of len 42 on 87:0
+Mar  7 12:46:20 localhost sctpd[23226]: I0307 12:46:20.397871 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:46:20 localhost sctpd[23226]: I0307 12:46:20.398509 23711 sctp_connection.cpp:167] HandleClientSock sd = 46
+Mar  7 12:46:20 localhost sctpd[23226]: I0307 12:46:20.398579 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:46:22 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:46:27 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:46:27 localhost magmad[22887]: INFO:root:Setting logging level to INFO
+Mar  7 12:46:27 localhost sctpd[23226]: I0307 12:46:27.783515 23711 sctp_connection.cpp:167] HandleClientSock sd = 46
+Mar  7 12:46:27 localhost sctpd[23226]: I0307 12:46:27.783592 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:46:27 localhost sctpd[23226]: I0307 12:46:27.783603 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 87
+Mar  7 12:46:30 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:46:30 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:46:32 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:46:37 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:46:39 localhost sctpd[23226]: I0307 12:46:39.355741 23711 sctp_connection.cpp:167] HandleClientSock sd = 47
+Mar  7 12:46:39 localhost sctpd[23226]: I0307 12:46:39.355821 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:46:39 localhost sctpd[23226]: I0307 12:46:39.356735 23711 sctp_connection.cpp:167] HandleClientSock sd = 47
+Mar  7 12:46:39 localhost sctpd[23226]: I0307 12:46:39.356766 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:46:40 localhost sctpd[23226]: I0307 12:46:40.415729 23711 sctp_connection.cpp:167] HandleClientSock sd = 47
+Mar  7 12:46:40 localhost sctpd[23226]: I0307 12:46:40.415809 23711 sctp_connection.cpp:220] [sd:47] msg of len 42 on 88:0
+Mar  7 12:46:40 localhost sctpd[23226]: I0307 12:46:40.417646 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:46:40 localhost sctpd[23226]: I0307 12:46:40.418308 23711 sctp_connection.cpp:167] HandleClientSock sd = 47
+Mar  7 12:46:40 localhost sctpd[23226]: I0307 12:46:40.418365 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:46:42 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:46:46 localhost control_proxy[23095]: 2022-03-07T12:46:46.179Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.512s
+Mar  7 12:46:46 localhost magmad[22887]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  7 12:46:47 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:46:47 localhost sctpd[23226]: I0307 12:46:47.865587 23711 sctp_connection.cpp:167] HandleClientSock sd = 47
+Mar  7 12:46:47 localhost sctpd[23226]: I0307 12:46:47.865666 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:46:47 localhost sctpd[23226]: I0307 12:46:47.865677 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 88
+Mar  7 12:46:50 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:46:50 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:46:52 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:46:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:46:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:46:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:46:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:46:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:46:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:46:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:46:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:46:57 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:46:59 localhost sctpd[23226]: I0307 12:46:59.457278 23711 sctp_connection.cpp:167] HandleClientSock sd = 48
+Mar  7 12:46:59 localhost sctpd[23226]: I0307 12:46:59.457358 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:46:59 localhost sctpd[23226]: I0307 12:46:59.458091 23711 sctp_connection.cpp:167] HandleClientSock sd = 48
+Mar  7 12:46:59 localhost sctpd[23226]: I0307 12:46:59.458122 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:47:00 localhost sctpd[23226]: I0307 12:47:00.531777 23711 sctp_connection.cpp:167] HandleClientSock sd = 48
+Mar  7 12:47:00 localhost sctpd[23226]: I0307 12:47:00.531857 23711 sctp_connection.cpp:220] [sd:48] msg of len 42 on 89:0
+Mar  7 12:47:00 localhost sctpd[23226]: I0307 12:47:00.533670 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:47:00 localhost sctpd[23226]: I0307 12:47:00.534368 23711 sctp_connection.cpp:167] HandleClientSock sd = 48
+Mar  7 12:47:00 localhost sctpd[23226]: I0307 12:47:00.534428 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:47:02 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:47:07 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:47:07 localhost sctpd[23226]: I0307 12:47:07.922571 23711 sctp_connection.cpp:167] HandleClientSock sd = 48
+Mar  7 12:47:07 localhost sctpd[23226]: I0307 12:47:07.922647 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:47:07 localhost sctpd[23226]: I0307 12:47:07.922658 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 89
+Mar  7 12:47:09 localhost control_proxy[23095]: 2022-03-07T12:46:09.320Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.500s
+Mar  7 12:47:09 localhost magmad[22887]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Mar  7 12:47:10 localhost magmad[22887]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  7 12:47:10 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:47:10 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:47:12 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:47:17 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:47:18 localhost control_proxy[23095]: 2022-03-07T12:47:17.979Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.537s
+Mar  7 12:47:18 localhost policydb[23032]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  7 12:47:18 localhost control_proxy[23095]: 2022-03-07T12:47:18.519Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.268s
+Mar  7 12:47:18 localhost policydb[23032]: INFO:root:Processing 0 basename -> policy updates
+Mar  7 12:47:19 localhost control_proxy[23095]: 2022-03-07T12:47:18.519Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.278s
+Mar  7 12:47:19 localhost policydb[23032]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  7 12:47:19 localhost control_proxy[23095]: 2022-03-07T12:47:19.075Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.280s
+Mar  7 12:47:19 localhost policydb[23032]: INFO:root:Processing 0 rating group updates
+Mar  7 12:47:19 localhost sctpd[23226]: I0307 12:47:19.478521 23711 sctp_connection.cpp:167] HandleClientSock sd = 49
+Mar  7 12:47:19 localhost sctpd[23226]: I0307 12:47:19.478601 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:47:19 localhost sctpd[23226]: I0307 12:47:19.479312 23711 sctp_connection.cpp:167] HandleClientSock sd = 49
+Mar  7 12:47:19 localhost sctpd[23226]: I0307 12:47:19.479343 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:47:22 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:47:27 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:47:30 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:47:30 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:47:31 localhost sctpd[23226]: I0307 12:47:31.684444 23711 sctp_connection.cpp:167] HandleClientSock sd = 49
+Mar  7 12:47:31 localhost sctpd[23226]: I0307 12:47:31.684525 23711 sctp_connection.cpp:220] [sd:49] msg of len 42 on 90:0
+Mar  7 12:47:31 localhost sctpd[23226]: I0307 12:47:31.686170 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:47:31 localhost sctpd[23226]: I0307 12:47:31.686830 23711 sctp_connection.cpp:167] HandleClientSock sd = 49
+Mar  7 12:47:31 localhost sctpd[23226]: I0307 12:47:31.686863 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:47:32 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:47:37 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:47:39 localhost sctpd[23226]: I0307 12:47:39.061107 23711 sctp_connection.cpp:167] HandleClientSock sd = 49
+Mar  7 12:47:39 localhost sctpd[23226]: I0307 12:47:39.061177 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:47:39 localhost sctpd[23226]: I0307 12:47:39.061188 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 90
+Mar  7 12:47:42 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:47:47 localhost magmad[22887]: INFO:root:Setting logging level to INFO
+Mar  7 12:47:48 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:47:50 localhost sctpd[23226]: I0307 12:47:50.736440 23711 sctp_connection.cpp:167] HandleClientSock sd = 50
+Mar  7 12:47:50 localhost sctpd[23226]: I0307 12:47:50.736523 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:47:50 localhost sctpd[23226]: I0307 12:47:50.737246 23711 sctp_connection.cpp:167] HandleClientSock sd = 50
+Mar  7 12:47:50 localhost sctpd[23226]: I0307 12:47:50.737277 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:47:50 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:47:50 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:47:53 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:48:03 localhost smsd[23056]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Mar  7 12:48:03 localhost sctpd[23226]: I0307 12:48:03.196789 23711 sctp_connection.cpp:167] HandleClientSock sd = 50
+Mar  7 12:48:03 localhost sctpd[23226]: I0307 12:48:03.196877 23711 sctp_connection.cpp:220] [sd:50] msg of len 42 on 91:0
+Mar  7 12:48:03 localhost sctpd[23226]: I0307 12:48:03.200274 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:48:03 localhost sctpd[23226]: I0307 12:48:03.201002 23711 sctp_connection.cpp:167] HandleClientSock sd = 50
+Mar  7 12:48:03 localhost sctpd[23226]: I0307 12:48:03.201072 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:48:05 localhost magmad[22887]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:48:05 localhost magmad[22887]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:48:05 localhost magmad[22887]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:48:05 localhost magmad[22887]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:48:05 localhost magmad[22887]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:48:05 localhost magmad[22887]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:48:05 localhost magmad[22887]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:48:05 localhost magmad[22887]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:48:06 localhost control_proxy[23095]: 2022-03-07T12:48:05.717Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.512s
+Mar  7 12:48:06 localhost magmad[22887]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  7 12:48:08 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:48:08 localhost magmad[22887]: INFO:root:Checking for upgrade...
+Mar  7 12:48:08 localhost magmad[22887]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Mar  7 12:48:10 localhost sctpd[23226]: I0307 12:48:10.608569 23711 sctp_connection.cpp:167] HandleClientSock sd = 50
+Mar  7 12:48:10 localhost sctpd[23226]: I0307 12:48:10.608649 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:48:10 localhost sctpd[23226]: I0307 12:48:10.608660 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 91
+Mar  7 12:48:10 localhost magmad[22887]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  7 12:48:10 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:48:10 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:48:13 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:48:18 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:48:19 localhost control_proxy[23095]: 2022-03-07T12:48:19.379Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.521s
+Mar  7 12:48:19 localhost policydb[23032]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  7 12:48:20 localhost control_proxy[23095]: 2022-03-07T12:48:19.379Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.272s
+Mar  7 12:48:20 localhost policydb[23032]: INFO:root:Processing 0 basename -> policy updates
+Mar  7 12:48:20 localhost control_proxy[23095]: 2022-03-07T12:48:20.177Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.276s
+Mar  7 12:48:20 localhost policydb[23032]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  7 12:48:20 localhost control_proxy[23095]: 2022-03-07T12:48:20.177Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.267s
+Mar  7 12:48:20 localhost policydb[23032]: INFO:root:Processing 0 rating group updates
+Mar  7 12:48:22 localhost sctpd[23226]: I0307 12:48:22.331202 23711 sctp_connection.cpp:167] HandleClientSock sd = 51
+Mar  7 12:48:22 localhost sctpd[23226]: I0307 12:48:22.331277 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:48:22 localhost sctpd[23226]: I0307 12:48:22.332101 23711 sctp_connection.cpp:167] HandleClientSock sd = 51
+Mar  7 12:48:22 localhost sctpd[23226]: I0307 12:48:22.332131 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:48:23 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:48:23 localhost sctpd[23226]: I0307 12:48:23.390312 23711 sctp_connection.cpp:167] HandleClientSock sd = 51
+Mar  7 12:48:23 localhost sctpd[23226]: I0307 12:48:23.390386 23711 sctp_connection.cpp:220] [sd:51] msg of len 42 on 92:0
+Mar  7 12:48:23 localhost sctpd[23226]: I0307 12:48:23.392446 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:48:23 localhost sctpd[23226]: I0307 12:48:23.393196 23711 sctp_connection.cpp:167] HandleClientSock sd = 51
+Mar  7 12:48:23 localhost sctpd[23226]: I0307 12:48:23.393255 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:48:28 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:48:30 localhost sctpd[23226]: I0307 12:48:30.810945 23711 sctp_connection.cpp:167] HandleClientSock sd = 51
+Mar  7 12:48:30 localhost sctpd[23226]: I0307 12:48:30.811024 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:48:30 localhost sctpd[23226]: I0307 12:48:30.811036 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 92
+Mar  7 12:48:30 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:48:30 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:48:33 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:48:38 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:48:42 localhost sctpd[23226]: I0307 12:48:42.351178 23711 sctp_connection.cpp:167] HandleClientSock sd = 52
+Mar  7 12:48:42 localhost sctpd[23226]: I0307 12:48:42.351258 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:48:42 localhost sctpd[23226]: I0307 12:48:42.352020 23711 sctp_connection.cpp:167] HandleClientSock sd = 52
+Mar  7 12:48:42 localhost sctpd[23226]: I0307 12:48:42.352051 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:48:43 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:48:43 localhost sctpd[23226]: I0307 12:48:43.416822 23711 sctp_connection.cpp:167] HandleClientSock sd = 52
+Mar  7 12:48:43 localhost sctpd[23226]: I0307 12:48:43.416875 23711 sctp_connection.cpp:220] [sd:52] msg of len 42 on 93:0
+Mar  7 12:48:43 localhost sctpd[23226]: I0307 12:48:43.418658 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:48:43 localhost sctpd[23226]: I0307 12:48:43.419354 23711 sctp_connection.cpp:167] HandleClientSock sd = 52
+Mar  7 12:48:43 localhost sctpd[23226]: I0307 12:48:43.419416 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:48:48 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:48:50 localhost sctpd[23226]: I0307 12:48:50.814741 23711 sctp_connection.cpp:167] HandleClientSock sd = 52
+Mar  7 12:48:50 localhost sctpd[23226]: I0307 12:48:50.814821 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:48:50 localhost sctpd[23226]: I0307 12:48:50.814832 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 93
+Mar  7 12:48:50 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:48:50 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:48:53 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:48:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:48:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:48:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:48:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:48:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:48:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:48:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:48:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:48:58 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:49:02 localhost sctpd[23226]: I0307 12:49:02.771391 23711 sctp_connection.cpp:167] HandleClientSock sd = 53
+Mar  7 12:49:02 localhost sctpd[23226]: I0307 12:49:02.771471 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:49:02 localhost sctpd[23226]: I0307 12:49:02.772146 23711 sctp_connection.cpp:167] HandleClientSock sd = 53
+Mar  7 12:49:02 localhost sctpd[23226]: I0307 12:49:02.772177 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:49:03 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:49:03 localhost sctpd[23226]: I0307 12:49:03.837275 23711 sctp_connection.cpp:167] HandleClientSock sd = 53
+Mar  7 12:49:03 localhost sctpd[23226]: I0307 12:49:03.837348 23711 sctp_connection.cpp:220] [sd:53] msg of len 42 on 94:0
+Mar  7 12:49:03 localhost sctpd[23226]: I0307 12:49:03.839406 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:49:03 localhost sctpd[23226]: I0307 12:49:03.840016 23711 sctp_connection.cpp:167] HandleClientSock sd = 53
+Mar  7 12:49:03 localhost sctpd[23226]: I0307 12:49:03.840068 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:49:06 localhost magmad[22887]: INFO:root:Setting logging level to INFO
+Mar  7 12:49:08 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:49:10 localhost control_proxy[23095]: 2022-03-07T12:48:09.880Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.279s
+Mar  7 12:49:10 localhost magmad[22887]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Mar  7 12:49:10 localhost magmad[22887]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  7 12:49:10 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:49:10 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:49:11 localhost sctpd[23226]: I0307 12:49:11.241927 23711 sctp_connection.cpp:167] HandleClientSock sd = 53
+Mar  7 12:49:11 localhost sctpd[23226]: I0307 12:49:11.242007 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:49:11 localhost sctpd[23226]: I0307 12:49:11.242017 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 94
+Mar  7 12:49:13 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:49:18 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:49:21 localhost control_proxy[23095]: 2022-03-07T12:49:20.784Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.521s
+Mar  7 12:49:21 localhost policydb[23032]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  7 12:49:21 localhost control_proxy[23095]: 2022-03-07T12:49:21.308Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.268s
+Mar  7 12:49:21 localhost policydb[23032]: INFO:root:Processing 0 basename -> policy updates
+Mar  7 12:49:21 localhost control_proxy[23095]: 2022-03-07T12:49:21.308Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.278s
+Mar  7 12:49:21 localhost policydb[23032]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  7 12:49:22 localhost control_proxy[23095]: 2022-03-07T12:49:21.308Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.278s
+Mar  7 12:49:22 localhost policydb[23032]: INFO:root:Processing 0 rating group updates
+Mar  7 12:49:22 localhost sctpd[23226]: I0307 12:49:22.814507 23711 sctp_connection.cpp:167] HandleClientSock sd = 54
+Mar  7 12:49:22 localhost sctpd[23226]: I0307 12:49:22.814589 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:49:22 localhost sctpd[23226]: I0307 12:49:22.815407 23711 sctp_connection.cpp:167] HandleClientSock sd = 54
+Mar  7 12:49:22 localhost sctpd[23226]: I0307 12:49:22.815439 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:49:23 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:49:23 localhost sctpd[23226]: I0307 12:49:23.882081 23711 sctp_connection.cpp:167] HandleClientSock sd = 54
+Mar  7 12:49:23 localhost sctpd[23226]: I0307 12:49:23.882164 23711 sctp_connection.cpp:220] [sd:54] msg of len 42 on 95:0
+Mar  7 12:49:23 localhost sctpd[23226]: I0307 12:49:23.884364 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:49:23 localhost sctpd[23226]: I0307 12:49:23.885056 23711 sctp_connection.cpp:167] HandleClientSock sd = 54
+Mar  7 12:49:23 localhost sctpd[23226]: I0307 12:49:23.885108 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:49:25 localhost control_proxy[23095]: 2022-03-07T12:49:25.250Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.258s
+Mar  7 12:49:25 localhost magmad[22887]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  7 12:49:28 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:49:30 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:49:30 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:49:31 localhost sctpd[23226]: I0307 12:49:31.284611 23711 sctp_connection.cpp:167] HandleClientSock sd = 54
+Mar  7 12:49:31 localhost sctpd[23226]: I0307 12:49:31.284695 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:49:31 localhost sctpd[23226]: I0307 12:49:31.284708 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 95
+Mar  7 12:49:33 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:49:38 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:49:42 localhost sctpd[23226]: I0307 12:49:42.856786 23711 sctp_connection.cpp:167] HandleClientSock sd = 55
+Mar  7 12:49:42 localhost sctpd[23226]: I0307 12:49:42.856868 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:49:42 localhost sctpd[23226]: I0307 12:49:42.857555 23711 sctp_connection.cpp:167] HandleClientSock sd = 55
+Mar  7 12:49:42 localhost sctpd[23226]: I0307 12:49:42.857587 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:49:43 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:49:43 localhost sctpd[23226]: I0307 12:49:43.922803 23711 sctp_connection.cpp:167] HandleClientSock sd = 55
+Mar  7 12:49:43 localhost sctpd[23226]: I0307 12:49:43.922876 23711 sctp_connection.cpp:220] [sd:55] msg of len 42 on 96:0
+Mar  7 12:49:43 localhost sctpd[23226]: I0307 12:49:43.924753 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:49:43 localhost sctpd[23226]: I0307 12:49:43.925519 23711 sctp_connection.cpp:167] HandleClientSock sd = 55
+Mar  7 12:49:43 localhost sctpd[23226]: I0307 12:49:43.925576 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:49:48 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:49:50 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:49:50 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:49:51 localhost sctpd[23226]: I0307 12:49:51.356844 23711 sctp_connection.cpp:167] HandleClientSock sd = 55
+Mar  7 12:49:51 localhost sctpd[23226]: I0307 12:49:51.356969 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:49:51 localhost sctpd[23226]: I0307 12:49:51.356981 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 96
+Mar  7 12:49:53 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:49:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:49:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:49:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:49:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:49:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:49:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:49:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:49:56 localhost magmad[22887]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:49:58 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:50:03 localhost sctpd[23226]: I0307 12:50:03.042815 23711 sctp_connection.cpp:167] HandleClientSock sd = 56
+Mar  7 12:50:03 localhost sctpd[23226]: I0307 12:50:03.042901 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:50:03 localhost sctpd[23226]: I0307 12:50:03.044417 23711 sctp_connection.cpp:167] HandleClientSock sd = 56
+Mar  7 12:50:03 localhost sctpd[23226]: I0307 12:50:03.044462 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:50:03 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:50:08 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:50:10 localhost magmad[22887]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  7 12:50:10 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:50:10 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:50:13 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:50:15 localhost sctpd[23226]: I0307 12:50:15.381572 23711 sctp_connection.cpp:167] HandleClientSock sd = 56
+Mar  7 12:50:15 localhost sctpd[23226]: I0307 12:50:15.381654 23711 sctp_connection.cpp:220] [sd:56] msg of len 42 on 97:0
+Mar  7 12:50:15 localhost sctpd[23226]: I0307 12:50:15.385705 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:50:15 localhost sctpd[23226]: I0307 12:50:15.386386 23711 sctp_connection.cpp:167] HandleClientSock sd = 56
+Mar  7 12:50:15 localhost sctpd[23226]: I0307 12:50:15.386436 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:50:18 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:50:22 localhost control_proxy[23095]: 2022-03-07T12:50:22.203Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.523s
+Mar  7 12:50:22 localhost policydb[23032]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  7 12:50:22 localhost sctpd[23226]: I0307 12:50:22.805454 23711 sctp_connection.cpp:167] HandleClientSock sd = 56
+Mar  7 12:50:22 localhost sctpd[23226]: I0307 12:50:22.805542 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:50:22 localhost sctpd[23226]: I0307 12:50:22.805554 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 97
+Mar  7 12:50:23 localhost control_proxy[23095]: 2022-03-07T12:50:22.203Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.269s
+Mar  7 12:50:23 localhost policydb[23032]: INFO:root:Processing 0 basename -> policy updates
+Mar  7 12:50:23 localhost control_proxy[23095]: 2022-03-07T12:50:23.002Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.286s
+Mar  7 12:50:23 localhost policydb[23032]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  7 12:50:23 localhost control_proxy[23095]: 2022-03-07T12:50:23.002Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.266s
+Mar  7 12:50:23 localhost policydb[23032]: INFO:root:Processing 0 rating group updates
+Mar  7 12:50:23 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:50:26 localhost magmad[22887]: INFO:root:Setting logging level to INFO
+Mar  7 12:50:28 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:50:30 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:50:30 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:50:34 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:50:34 localhost sctpd[23226]: I0307 12:50:34.659240 23711 sctp_connection.cpp:167] HandleClientSock sd = 57
+Mar  7 12:50:34 localhost sctpd[23226]: I0307 12:50:34.659320 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:50:34 localhost sctpd[23226]: I0307 12:50:34.660060 23711 sctp_connection.cpp:167] HandleClientSock sd = 57
+Mar  7 12:50:34 localhost sctpd[23226]: I0307 12:50:34.660091 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:50:34 localhost sctpd[23226]: I0307 12:50:34.799988 23711 sctp_connection.cpp:167] HandleClientSock sd = 58
+Mar  7 12:50:34 localhost sctpd[23226]: I0307 12:50:34.800060 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:50:34 localhost sctpd[23226]: I0307 12:50:34.800925 23711 sctp_connection.cpp:167] HandleClientSock sd = 58
+Mar  7 12:50:34 localhost sctpd[23226]: I0307 12:50:34.800976 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:50:35 localhost sctpd[23226]: I0307 12:50:35.860793 23711 sctp_connection.cpp:167] HandleClientSock sd = 57
+Mar  7 12:50:35 localhost sctpd[23226]: I0307 12:50:35.860879 23711 sctp_connection.cpp:220] [sd:57] msg of len 42 on 98:0
+Mar  7 12:50:35 localhost sctpd[23226]: I0307 12:50:35.863061 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:50:35 localhost sctpd[23226]: I0307 12:50:35.863926 23711 sctp_connection.cpp:167] HandleClientSock sd = 57
+Mar  7 12:50:35 localhost sctpd[23226]: I0307 12:50:35.863991 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:50:39 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:50:43 localhost sctpd[23226]: I0307 12:50:43.285202 23711 sctp_connection.cpp:167] HandleClientSock sd = 57
+Mar  7 12:50:43 localhost sctpd[23226]: I0307 12:50:43.285326 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:50:43 localhost sctpd[23226]: I0307 12:50:43.285339 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 98
+Mar  7 12:50:43 localhost sctpd[23226]: I0307 12:50:43.341017 23711 sctp_connection.cpp:167] HandleClientSock sd = 58
+Mar  7 12:50:43 localhost sctpd[23226]: I0307 12:50:43.341094 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:50:43 localhost sctpd[23226]: I0307 12:50:43.341106 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 99
+Mar  7 12:50:44 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:50:45 localhost control_proxy[23095]: 2022-03-07T12:50:44.739Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.416s
+Mar  7 12:50:45 localhost magmad[22887]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  7 12:50:49 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:50:50 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:50:50 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:50:54 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:50:55 localhost sctpd[23226]: I0307 12:50:55.042389 23711 sctp_connection.cpp:167] HandleClientSock sd = 59
+Mar  7 12:50:55 localhost sctpd[23226]: I0307 12:50:55.042533 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:50:55 localhost sctpd[23226]: I0307 12:50:55.043534 23711 sctp_connection.cpp:167] HandleClientSock sd = 59
+Mar  7 12:50:55 localhost sctpd[23226]: I0307 12:50:55.043565 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:50:56 localhost sctpd[23226]: I0307 12:50:56.105121 23711 sctp_connection.cpp:167] HandleClientSock sd = 59
+Mar  7 12:50:56 localhost sctpd[23226]: I0307 12:50:56.105209 23711 sctp_connection.cpp:220] [sd:59] msg of len 42 on 100:0
+Mar  7 12:50:56 localhost sctpd[23226]: I0307 12:50:56.107388 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:50:56 localhost sctpd[23226]: I0307 12:50:56.108230 23711 sctp_connection.cpp:167] HandleClientSock sd = 59
+Mar  7 12:50:56 localhost sctpd[23226]: I0307 12:50:56.108283 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:50:59 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:51:03 localhost sctpd[23226]: I0307 12:51:03.551553 23711 sctp_connection.cpp:167] HandleClientSock sd = 59
+Mar  7 12:51:03 localhost sctpd[23226]: I0307 12:51:03.551638 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:51:03 localhost sctpd[23226]: I0307 12:51:03.551651 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 100
+Mar  7 12:51:04 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:51:09 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:51:10 localhost control_proxy[23095]: 2022-03-07T12:50:10.217Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.254s
+Mar  7 12:51:10 localhost magmad[22887]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Mar  7 12:51:10 localhost magmad[22887]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  7 12:51:10 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:51:10 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:51:13 localhost subscriberdb[22954]: INFO:root:get digest stored in gateway:
+Mar  7 12:51:13 localhost control_proxy[23095]: 2022-03-07T12:51:13.534Z [127.0.0.1 -> subscriberdb-controller.magmasi.wavelabs.in,8443] "POST /magma.lte.SubscriberDBCloud/CheckInSync HTTP/2" 200 0bytes 0.248s
+Mar  7 12:51:13 localhost subscriberdb[22954]: ERROR:root:Internal Error in subscriberdb-Orc8r communication. If AGW and Orc8r are deployed at a commit hash, upgrade AGW and Orc8r to latest commit hash.
+Mar  7 12:51:14 localhost control_proxy[23095]: 2022-03-07T12:51:13.534Z [127.0.0.1 -> subscriberdb-controller.magmasi.wavelabs.in,8443] "POST /magma.lte.SubscriberDBCloud/Sync HTTP/2" 200 0bytes 0.247s
+Mar  7 12:51:14 localhost subscriberdb[22954]: ERROR:root:Internal Error in subscriberdb-Orc8r communication. If AGW and Orc8r are deployed at a commit hash, upgrade AGW and Orc8r to latest commit hash.
+Mar  7 12:51:14 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:51:14 localhost control_proxy[23095]: 2022-03-07T12:51:14.035Z [127.0.0.1 -> subscriberdb-controller.magmasi.wavelabs.in,8443] "POST /magma.lte.SubscriberDBCloud/ListSubscribers HTTP/2" 200 26194bytes 0.290s
+Mar  7 12:51:14 localhost subscriberdb[22954]: INFO:root:Successfully fetched all subscriber pages from the cloud!
+Mar  7 12:51:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:51:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:51:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:51:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:51:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:51:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:51:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:51:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:51:14 localhost subscriberdb[22954]: INFO:root:update root digest stored in gateway:
+Mar  7 12:51:15 localhost sctpd[23226]: I0307 12:51:15.306923 23711 sctp_connection.cpp:167] HandleClientSock sd = 60
+Mar  7 12:51:15 localhost sctpd[23226]: I0307 12:51:15.307006 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:51:15 localhost sctpd[23226]: I0307 12:51:15.307857 23711 sctp_connection.cpp:167] HandleClientSock sd = 60
+Mar  7 12:51:15 localhost sctpd[23226]: I0307 12:51:15.307890 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:51:16 localhost sctpd[23226]: I0307 12:51:16.366868 23711 sctp_connection.cpp:167] HandleClientSock sd = 60
+Mar  7 12:51:16 localhost sctpd[23226]: I0307 12:51:16.366950 23711 sctp_connection.cpp:220] [sd:60] msg of len 42 on 101:0
+Mar  7 12:51:16 localhost sctpd[23226]: I0307 12:51:16.369029 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:51:16 localhost sctpd[23226]: I0307 12:51:16.369789 23711 sctp_connection.cpp:167] HandleClientSock sd = 60
+Mar  7 12:51:16 localhost sctpd[23226]: I0307 12:51:16.369836 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:51:19 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:51:23 localhost sctpd[23226]: I0307 12:51:23.823513 23711 sctp_connection.cpp:167] HandleClientSock sd = 60
+Mar  7 12:51:23 localhost sctpd[23226]: I0307 12:51:23.823590 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:51:23 localhost sctpd[23226]: I0307 12:51:23.823601 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 101
+Mar  7 12:51:24 localhost control_proxy[23095]: 2022-03-07T12:51:23.624Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.540s
+Mar  7 12:51:24 localhost policydb[23032]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  7 12:51:24 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:51:24 localhost control_proxy[23095]: 2022-03-07T12:51:24.168Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.268s
+Mar  7 12:51:24 localhost policydb[23032]: INFO:root:Processing 0 basename -> policy updates
+Mar  7 12:51:24 localhost control_proxy[23095]: 2022-03-07T12:51:24.168Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.281s
+Mar  7 12:51:24 localhost policydb[23032]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  7 12:51:24 localhost control_proxy[23095]: 2022-03-07T12:51:24.168Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.263s
+Mar  7 12:51:24 localhost policydb[23032]: INFO:root:Processing 0 rating group updates
+Mar  7 12:51:29 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:51:30 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:51:30 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:51:34 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:51:35 localhost sctpd[23226]: I0307 12:51:35.934474 23711 sctp_connection.cpp:167] HandleClientSock sd = 61
+Mar  7 12:51:35 localhost sctpd[23226]: I0307 12:51:35.934556 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:51:35 localhost sctpd[23226]: I0307 12:51:35.935277 23711 sctp_connection.cpp:167] HandleClientSock sd = 61
+Mar  7 12:51:35 localhost sctpd[23226]: I0307 12:51:35.935307 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:51:36 localhost sctpd[23226]: I0307 12:51:36.070338 23711 sctp_connection.cpp:167] HandleClientSock sd = 62
+Mar  7 12:51:36 localhost sctpd[23226]: I0307 12:51:36.070436 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:51:36 localhost sctpd[23226]: I0307 12:51:36.071141 23711 sctp_connection.cpp:167] HandleClientSock sd = 62
+Mar  7 12:51:36 localhost sctpd[23226]: I0307 12:51:36.071192 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:51:37 localhost sctpd[23226]: I0307 12:51:37.123028 23711 sctp_connection.cpp:167] HandleClientSock sd = 61
+Mar  7 12:51:37 localhost sctpd[23226]: I0307 12:51:37.123106 23711 sctp_connection.cpp:220] [sd:61] msg of len 42 on 102:0
+Mar  7 12:51:37 localhost sctpd[23226]: I0307 12:51:37.124902 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:51:37 localhost sctpd[23226]: I0307 12:51:37.125581 23711 sctp_connection.cpp:167] HandleClientSock sd = 61
+Mar  7 12:51:37 localhost sctpd[23226]: I0307 12:51:37.125627 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:51:39 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:51:44 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:51:44 localhost sctpd[23226]: I0307 12:51:44.538085 23711 sctp_connection.cpp:167] HandleClientSock sd = 61
+Mar  7 12:51:44 localhost sctpd[23226]: I0307 12:51:44.538173 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:51:44 localhost sctpd[23226]: I0307 12:51:44.538185 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 102
+Mar  7 12:51:44 localhost sctpd[23226]: I0307 12:51:44.587208 23711 sctp_connection.cpp:167] HandleClientSock sd = 62
+Mar  7 12:51:44 localhost sctpd[23226]: I0307 12:51:44.587285 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:51:44 localhost sctpd[23226]: I0307 12:51:44.587296 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 103
+Mar  7 12:51:45 localhost magmad[22887]: INFO:root:Setting logging level to INFO
+Mar  7 12:51:49 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:51:50 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:51:50 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:51:54 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:51:56 localhost sctpd[23226]: I0307 12:51:56.335536 23711 sctp_connection.cpp:167] HandleClientSock sd = 63
+Mar  7 12:51:56 localhost sctpd[23226]: I0307 12:51:56.335649 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:51:56 localhost sctpd[23226]: I0307 12:51:56.337841 23711 sctp_connection.cpp:167] HandleClientSock sd = 63
+Mar  7 12:51:56 localhost sctpd[23226]: I0307 12:51:56.337913 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:51:57 localhost sctpd[23226]: I0307 12:51:57.400313 23711 sctp_connection.cpp:167] HandleClientSock sd = 63
+Mar  7 12:51:57 localhost sctpd[23226]: I0307 12:51:57.400399 23711 sctp_connection.cpp:220] [sd:63] msg of len 42 on 104:0
+Mar  7 12:51:57 localhost sctpd[23226]: I0307 12:51:57.402935 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:51:57 localhost sctpd[23226]: I0307 12:51:57.403870 23711 sctp_connection.cpp:167] HandleClientSock sd = 63
+Mar  7 12:51:57 localhost sctpd[23226]: I0307 12:51:57.403926 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:51:59 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:52:04 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:52:04 localhost sctpd[23226]: I0307 12:52:04.797402 23711 sctp_connection.cpp:167] HandleClientSock sd = 63
+Mar  7 12:52:04 localhost sctpd[23226]: I0307 12:52:04.797802 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:52:04 localhost sctpd[23226]: I0307 12:52:04.797816 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 104
+Mar  7 12:52:04 localhost control_proxy[23095]: 2022-03-07T12:52:04.419Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.508s
+Mar  7 12:52:04 localhost magmad[22887]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  7 12:52:09 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:52:10 localhost magmad[22887]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  7 12:52:10 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:52:10 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:52:14 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:52:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:52:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:52:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:52:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:52:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:52:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:52:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:52:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:52:16 localhost sctpd[23226]: I0307 12:52:16.361852 23711 sctp_connection.cpp:167] HandleClientSock sd = 64
+Mar  7 12:52:16 localhost sctpd[23226]: I0307 12:52:16.361943 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:52:16 localhost sctpd[23226]: I0307 12:52:16.362920 23711 sctp_connection.cpp:167] HandleClientSock sd = 64
+Mar  7 12:52:16 localhost sctpd[23226]: I0307 12:52:16.362954 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:52:19 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:52:24 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:52:25 localhost control_proxy[23095]: 2022-03-07T12:52:25.054Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.515s
+Mar  7 12:52:25 localhost policydb[23032]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  7 12:52:25 localhost control_proxy[23095]: 2022-03-07T12:52:25.054Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.262s
+Mar  7 12:52:25 localhost policydb[23032]: INFO:root:Processing 0 basename -> policy updates
+Mar  7 12:52:26 localhost control_proxy[23095]: 2022-03-07T12:52:25.054Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.271s
+Mar  7 12:52:26 localhost policydb[23032]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  7 12:52:26 localhost control_proxy[23095]: 2022-03-07T12:52:26.116Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.265s
+Mar  7 12:52:26 localhost policydb[23032]: INFO:root:Processing 0 rating group updates
+Mar  7 12:52:28 localhost sctpd[23226]: I0307 12:52:28.612828 23711 sctp_connection.cpp:167] HandleClientSock sd = 64
+Mar  7 12:52:28 localhost sctpd[23226]: I0307 12:52:28.612953 23711 sctp_connection.cpp:220] [sd:64] msg of len 42 on 105:0
+Mar  7 12:52:28 localhost sctpd[23226]: I0307 12:52:28.615875 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:52:28 localhost sctpd[23226]: I0307 12:52:28.616770 23711 sctp_connection.cpp:167] HandleClientSock sd = 64
+Mar  7 12:52:28 localhost sctpd[23226]: I0307 12:52:28.616852 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:52:29 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:52:30 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:52:30 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:52:34 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:52:36 localhost sctpd[23226]: I0307 12:52:36.034999 23711 sctp_connection.cpp:167] HandleClientSock sd = 64
+Mar  7 12:52:36 localhost sctpd[23226]: I0307 12:52:36.035089 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:52:36 localhost sctpd[23226]: I0307 12:52:36.035102 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 105
+Mar  7 12:52:39 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:52:44 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:52:47 localhost sctpd[23226]: I0307 12:52:47.632325 23711 sctp_connection.cpp:167] HandleClientSock sd = 65
+Mar  7 12:52:47 localhost sctpd[23226]: I0307 12:52:47.632411 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:52:47 localhost sctpd[23226]: I0307 12:52:47.633183 23711 sctp_connection.cpp:167] HandleClientSock sd = 65
+Mar  7 12:52:47 localhost sctpd[23226]: I0307 12:52:47.633213 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:52:48 localhost sctpd[23226]: I0307 12:52:48.692030 23711 sctp_connection.cpp:167] HandleClientSock sd = 65
+Mar  7 12:52:48 localhost sctpd[23226]: I0307 12:52:48.692121 23711 sctp_connection.cpp:220] [sd:65] msg of len 42 on 106:0
+Mar  7 12:52:48 localhost sctpd[23226]: I0307 12:52:48.693805 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:52:48 localhost sctpd[23226]: I0307 12:52:48.694620 23711 sctp_connection.cpp:167] HandleClientSock sd = 65
+Mar  7 12:52:48 localhost sctpd[23226]: I0307 12:52:48.694696 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:52:49 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:52:50 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:52:50 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:52:54 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:52:56 localhost sctpd[23226]: I0307 12:52:56.125838 23711 sctp_connection.cpp:167] HandleClientSock sd = 65
+Mar  7 12:52:56 localhost sctpd[23226]: I0307 12:52:56.125962 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:52:56 localhost sctpd[23226]: I0307 12:52:56.125973 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 106
+Mar  7 12:52:59 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:53:04 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:53:05 localhost magmad[22887]: INFO:root:Setting logging level to INFO
+Mar  7 12:53:07 localhost sctpd[23226]: I0307 12:53:07.689482 23711 sctp_connection.cpp:167] HandleClientSock sd = 66
+Mar  7 12:53:07 localhost sctpd[23226]: I0307 12:53:07.689575 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:53:07 localhost sctpd[23226]: I0307 12:53:07.690382 23711 sctp_connection.cpp:167] HandleClientSock sd = 66
+Mar  7 12:53:07 localhost sctpd[23226]: I0307 12:53:07.690415 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:53:09 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:53:10 localhost magmad[22887]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  7 12:53:10 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:53:10 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:53:11 localhost control_proxy[23095]: 2022-03-07T12:52:10.535Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.716s
+Mar  7 12:53:11 localhost magmad[22887]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Mar  7 12:53:14 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:53:19 localhost sctpd[23226]: I0307 12:53:19.849181 23711 sctp_connection.cpp:167] HandleClientSock sd = 66
+Mar  7 12:53:19 localhost sctpd[23226]: I0307 12:53:19.849308 23711 sctp_connection.cpp:220] [sd:66] msg of len 42 on 107:0
+Mar  7 12:53:19 localhost sctpd[23226]: I0307 12:53:19.851836 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:53:19 localhost sctpd[23226]: I0307 12:53:19.852710 23711 sctp_connection.cpp:167] HandleClientSock sd = 66
+Mar  7 12:53:19 localhost sctpd[23226]: I0307 12:53:19.852785 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:53:19 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:53:23 localhost magmad[22887]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:53:23 localhost magmad[22887]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:53:23 localhost magmad[22887]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:53:23 localhost magmad[22887]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:53:23 localhost magmad[22887]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:53:23 localhost magmad[22887]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:53:23 localhost magmad[22887]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:53:23 localhost magmad[22887]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:53:23 localhost magmad[22887]: INFO:root:Checking for upgrade...
+Mar  7 12:53:23 localhost magmad[22887]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Mar  7 12:53:24 localhost control_proxy[23095]: 2022-03-07T12:53:23.967Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.507s
+Mar  7 12:53:24 localhost magmad[22887]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  7 12:53:24 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:53:26 localhost control_proxy[23095]: 2022-03-07T12:53:26.423Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.270s
+Mar  7 12:53:26 localhost policydb[23032]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  7 12:53:26 localhost control_proxy[23095]: 2022-03-07T12:53:26.423Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.265s
+Mar  7 12:53:26 localhost policydb[23032]: INFO:root:Processing 0 basename -> policy updates
+Mar  7 12:53:27 localhost control_proxy[23095]: 2022-03-07T12:53:26.423Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.279s
+Mar  7 12:53:27 localhost sctpd[23226]: I0307 12:53:27.269167 23711 sctp_connection.cpp:167] HandleClientSock sd = 66
+Mar  7 12:53:27 localhost sctpd[23226]: I0307 12:53:27.269351 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:53:27 localhost sctpd[23226]: I0307 12:53:27.269367 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 107
+Mar  7 12:53:27 localhost policydb[23032]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  7 12:53:27 localhost control_proxy[23095]: 2022-03-07T12:53:27.300Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.262s
+Mar  7 12:53:27 localhost policydb[23032]: INFO:root:Processing 0 rating group updates
+Mar  7 12:53:30 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:53:30 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:53:30 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:53:35 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:53:38 localhost sctpd[23226]: I0307 12:53:38.911413 23711 sctp_connection.cpp:167] HandleClientSock sd = 67
+Mar  7 12:53:38 localhost sctpd[23226]: I0307 12:53:38.911486 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:53:38 localhost sctpd[23226]: I0307 12:53:38.913305 23711 sctp_connection.cpp:167] HandleClientSock sd = 67
+Mar  7 12:53:38 localhost sctpd[23226]: I0307 12:53:38.913344 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:53:39 localhost sctpd[23226]: I0307 12:53:39.973690 23711 sctp_connection.cpp:167] HandleClientSock sd = 67
+Mar  7 12:53:39 localhost sctpd[23226]: I0307 12:53:39.973783 23711 sctp_connection.cpp:220] [sd:67] msg of len 42 on 108:0
+Mar  7 12:53:39 localhost sctpd[23226]: I0307 12:53:39.975706 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:53:39 localhost sctpd[23226]: I0307 12:53:39.976476 23711 sctp_connection.cpp:167] HandleClientSock sd = 67
+Mar  7 12:53:39 localhost sctpd[23226]: I0307 12:53:39.976524 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:53:40 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:53:45 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:53:47 localhost sctpd[23226]: I0307 12:53:47.461990 23711 sctp_connection.cpp:167] HandleClientSock sd = 67
+Mar  7 12:53:47 localhost sctpd[23226]: I0307 12:53:47.462092 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:53:47 localhost sctpd[23226]: I0307 12:53:47.462105 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 108
+Mar  7 12:53:50 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:53:50 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:53:50 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:53:55 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:53:59 localhost sctpd[23226]: I0307 12:53:59.081033 23711 sctp_connection.cpp:167] HandleClientSock sd = 68
+Mar  7 12:53:59 localhost sctpd[23226]: I0307 12:53:59.081113 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:53:59 localhost sctpd[23226]: I0307 12:53:59.081921 23711 sctp_connection.cpp:167] HandleClientSock sd = 68
+Mar  7 12:53:59 localhost sctpd[23226]: I0307 12:53:59.081950 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:54:00 localhost sctpd[23226]: I0307 12:54:00.140879 23711 sctp_connection.cpp:167] HandleClientSock sd = 68
+Mar  7 12:54:00 localhost sctpd[23226]: I0307 12:54:00.140954 23711 sctp_connection.cpp:220] [sd:68] msg of len 42 on 109:0
+Mar  7 12:54:00 localhost sctpd[23226]: I0307 12:54:00.142910 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:54:00 localhost sctpd[23226]: I0307 12:54:00.143783 23711 sctp_connection.cpp:167] HandleClientSock sd = 68
+Mar  7 12:54:00 localhost sctpd[23226]: I0307 12:54:00.143847 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:54:00 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:54:05 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:54:07 localhost sctpd[23226]: I0307 12:54:07.565135 23711 sctp_connection.cpp:167] HandleClientSock sd = 68
+Mar  7 12:54:07 localhost sctpd[23226]: I0307 12:54:07.565210 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:54:07 localhost sctpd[23226]: I0307 12:54:07.565222 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 109
+Mar  7 12:54:10 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:54:10 localhost magmad[22887]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  7 12:54:10 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:54:10 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:54:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:54:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:54:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:54:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:54:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:54:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:54:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:54:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:54:15 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:54:19 localhost sctpd[23226]: I0307 12:54:19.252331 23711 sctp_connection.cpp:167] HandleClientSock sd = 69
+Mar  7 12:54:19 localhost sctpd[23226]: I0307 12:54:19.252411 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:54:19 localhost sctpd[23226]: I0307 12:54:19.253064 23711 sctp_connection.cpp:167] HandleClientSock sd = 69
+Mar  7 12:54:19 localhost sctpd[23226]: I0307 12:54:19.253093 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:54:20 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:54:20 localhost sctpd[23226]: I0307 12:54:20.310518 23711 sctp_connection.cpp:167] HandleClientSock sd = 69
+Mar  7 12:54:20 localhost sctpd[23226]: I0307 12:54:20.310598 23711 sctp_connection.cpp:220] [sd:69] msg of len 42 on 110:0
+Mar  7 12:54:20 localhost sctpd[23226]: I0307 12:54:20.312237 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:54:20 localhost sctpd[23226]: I0307 12:54:20.312928 23711 sctp_connection.cpp:167] HandleClientSock sd = 69
+Mar  7 12:54:20 localhost sctpd[23226]: I0307 12:54:20.312952 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:54:25 localhost magmad[22887]: INFO:root:Setting logging level to INFO
+Mar  7 12:54:25 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:54:27 localhost sctpd[23226]: I0307 12:54:27.741345 23711 sctp_connection.cpp:167] HandleClientSock sd = 69
+Mar  7 12:54:27 localhost sctpd[23226]: I0307 12:54:27.741425 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:54:27 localhost sctpd[23226]: I0307 12:54:27.741436 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 110
+Mar  7 12:54:28 localhost control_proxy[23095]: 2022-03-07T12:54:27.610Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.518s
+Mar  7 12:54:28 localhost policydb[23032]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  7 12:54:28 localhost control_proxy[23095]: 2022-03-07T12:54:28.131Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.261s
+Mar  7 12:54:28 localhost policydb[23032]: INFO:root:Processing 0 basename -> policy updates
+Mar  7 12:54:28 localhost control_proxy[23095]: 2022-03-07T12:54:28.131Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.279s
+Mar  7 12:54:28 localhost policydb[23032]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  7 12:54:28 localhost control_proxy[23095]: 2022-03-07T12:54:28.131Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.263s
+Mar  7 12:54:28 localhost policydb[23032]: INFO:root:Processing 0 rating group updates
+Mar  7 12:54:30 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:54:30 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:54:30 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:54:35 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:54:39 localhost sctpd[23226]: I0307 12:54:39.497205 23711 sctp_connection.cpp:167] HandleClientSock sd = 70
+Mar  7 12:54:39 localhost sctpd[23226]: I0307 12:54:39.497284 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:54:39 localhost sctpd[23226]: I0307 12:54:39.498062 23711 sctp_connection.cpp:167] HandleClientSock sd = 70
+Mar  7 12:54:39 localhost sctpd[23226]: I0307 12:54:39.498090 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:54:40 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:54:40 localhost sctpd[23226]: I0307 12:54:40.561550 23711 sctp_connection.cpp:167] HandleClientSock sd = 70
+Mar  7 12:54:40 localhost sctpd[23226]: I0307 12:54:40.561631 23711 sctp_connection.cpp:220] [sd:70] msg of len 42 on 111:0
+Mar  7 12:54:40 localhost sctpd[23226]: I0307 12:54:40.563864 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:54:40 localhost sctpd[23226]: I0307 12:54:40.564652 23711 sctp_connection.cpp:167] HandleClientSock sd = 70
+Mar  7 12:54:40 localhost sctpd[23226]: I0307 12:54:40.564734 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:54:43 localhost control_proxy[23095]: 2022-03-07T12:54:43.484Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.262s
+Mar  7 12:54:43 localhost magmad[22887]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  7 12:54:45 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:54:48 localhost sctpd[23226]: I0307 12:54:48.005813 23711 sctp_connection.cpp:167] HandleClientSock sd = 70
+Mar  7 12:54:48 localhost sctpd[23226]: I0307 12:54:48.005903 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:54:48 localhost sctpd[23226]: I0307 12:54:48.005920 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 111
+Mar  7 12:54:50 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:54:50 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:54:50 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:54:55 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:54:59 localhost sctpd[23226]: I0307 12:54:59.933598 23711 sctp_connection.cpp:167] HandleClientSock sd = 71
+Mar  7 12:54:59 localhost sctpd[23226]: I0307 12:54:59.933677 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:54:59 localhost sctpd[23226]: I0307 12:54:59.934584 23711 sctp_connection.cpp:167] HandleClientSock sd = 71
+Mar  7 12:54:59 localhost sctpd[23226]: I0307 12:54:59.934612 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:55:00 localhost sctpd[23226]: I0307 12:55:00.077129 23711 sctp_connection.cpp:167] HandleClientSock sd = 72
+Mar  7 12:55:00 localhost sctpd[23226]: I0307 12:55:00.077193 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:55:00 localhost sctpd[23226]: I0307 12:55:00.077877 23711 sctp_connection.cpp:167] HandleClientSock sd = 72
+Mar  7 12:55:00 localhost sctpd[23226]: I0307 12:55:00.077919 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:55:00 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:55:01 localhost sctpd[23226]: I0307 12:55:01.139750 23711 sctp_connection.cpp:167] HandleClientSock sd = 71
+Mar  7 12:55:01 localhost sctpd[23226]: I0307 12:55:01.139830 23711 sctp_connection.cpp:220] [sd:71] msg of len 42 on 112:0
+Mar  7 12:55:01 localhost sctpd[23226]: I0307 12:55:01.141779 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:55:01 localhost sctpd[23226]: I0307 12:55:01.142627 23711 sctp_connection.cpp:167] HandleClientSock sd = 71
+Mar  7 12:55:01 localhost sctpd[23226]: I0307 12:55:01.142709 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:55:05 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:55:08 localhost sctpd[23226]: I0307 12:55:08.596292 23711 sctp_connection.cpp:167] HandleClientSock sd = 71
+Mar  7 12:55:08 localhost sctpd[23226]: I0307 12:55:08.596374 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:55:08 localhost sctpd[23226]: I0307 12:55:08.596386 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 112
+Mar  7 12:55:08 localhost sctpd[23226]: I0307 12:55:08.642571 23711 sctp_connection.cpp:167] HandleClientSock sd = 72
+Mar  7 12:55:08 localhost sctpd[23226]: I0307 12:55:08.642657 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:55:08 localhost sctpd[23226]: I0307 12:55:08.642668 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 113
+Mar  7 12:55:10 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:55:10 localhost magmad[22887]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  7 12:55:10 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:55:10 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:55:11 localhost control_proxy[23095]: 2022-03-07T12:54:11.280Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.258s
+Mar  7 12:55:11 localhost magmad[22887]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Mar  7 12:55:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:55:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:55:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:55:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:55:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:55:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:55:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:55:14 localhost magmad[22887]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:55:15 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:55:20 localhost sctpd[23226]: I0307 12:55:20.375070 23711 sctp_connection.cpp:167] HandleClientSock sd = 73
+Mar  7 12:55:20 localhost sctpd[23226]: I0307 12:55:20.375150 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:55:20 localhost sctpd[23226]: I0307 12:55:20.375810 23711 sctp_connection.cpp:167] HandleClientSock sd = 73
+Mar  7 12:55:20 localhost sctpd[23226]: I0307 12:55:20.375840 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:55:20 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:55:21 localhost sctpd[23226]: I0307 12:55:21.436581 23711 sctp_connection.cpp:167] HandleClientSock sd = 73
+Mar  7 12:55:21 localhost sctpd[23226]: I0307 12:55:21.436664 23711 sctp_connection.cpp:220] [sd:73] msg of len 42 on 114:0
+Mar  7 12:55:21 localhost sctpd[23226]: I0307 12:55:21.438462 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:55:21 localhost sctpd[23226]: I0307 12:55:21.439193 23711 sctp_connection.cpp:167] HandleClientSock sd = 73
+Mar  7 12:55:21 localhost sctpd[23226]: I0307 12:55:21.439273 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:55:25 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:55:28 localhost sctpd[23226]: I0307 12:55:28.832018 23711 sctp_connection.cpp:167] HandleClientSock sd = 73
+Mar  7 12:55:28 localhost sctpd[23226]: I0307 12:55:28.832098 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:55:28 localhost sctpd[23226]: I0307 12:55:28.832110 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 114
+Mar  7 12:55:29 localhost control_proxy[23095]: 2022-03-07T12:55:28.982Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.517s
+Mar  7 12:55:29 localhost policydb[23032]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  7 12:55:29 localhost control_proxy[23095]: 2022-03-07T12:55:29.504Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.262s
+Mar  7 12:55:29 localhost policydb[23032]: INFO:root:Processing 0 basename -> policy updates
+Mar  7 12:55:30 localhost control_proxy[23095]: 2022-03-07T12:55:29.504Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.277s
+Mar  7 12:55:30 localhost policydb[23032]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  7 12:55:30 localhost control_proxy[23095]: 2022-03-07T12:55:30.053Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.258s
+Mar  7 12:55:30 localhost policydb[23032]: INFO:root:Processing 0 rating group updates
+Mar  7 12:55:30 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:55:30 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:55:30 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:55:35 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:55:40 localhost sctpd[23226]: I0307 12:55:40.550750 23711 sctp_connection.cpp:167] HandleClientSock sd = 74
+Mar  7 12:55:40 localhost sctpd[23226]: I0307 12:55:40.550833 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:55:40 localhost sctpd[23226]: I0307 12:55:40.551627 23711 sctp_connection.cpp:167] HandleClientSock sd = 74
+Mar  7 12:55:40 localhost sctpd[23226]: I0307 12:55:40.551677 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:55:40 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:55:41 localhost sctpd[23226]: I0307 12:55:41.620159 23711 sctp_connection.cpp:167] HandleClientSock sd = 74
+Mar  7 12:55:41 localhost sctpd[23226]: I0307 12:55:41.620244 23711 sctp_connection.cpp:220] [sd:74] msg of len 42 on 115:0
+Mar  7 12:55:41 localhost sctpd[23226]: I0307 12:55:41.621929 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:55:41 localhost sctpd[23226]: I0307 12:55:41.622679 23711 sctp_connection.cpp:167] HandleClientSock sd = 74
+Mar  7 12:55:41 localhost sctpd[23226]: I0307 12:55:41.622742 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:55:44 localhost magmad[22887]: INFO:root:Setting logging level to INFO
+Mar  7 12:55:45 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:55:49 localhost sctpd[23226]: I0307 12:55:49.059841 23711 sctp_connection.cpp:167] HandleClientSock sd = 74
+Mar  7 12:55:49 localhost sctpd[23226]: I0307 12:55:49.059921 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:55:49 localhost sctpd[23226]: I0307 12:55:49.059931 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 115
+Mar  7 12:55:50 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:55:50 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:55:50 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:55:55 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:56:00 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:56:01 localhost sctpd[23226]: I0307 12:56:01.134312 23711 sctp_connection.cpp:167] HandleClientSock sd = 75
+Mar  7 12:56:01 localhost sctpd[23226]: I0307 12:56:01.134395 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:56:01 localhost sctpd[23226]: I0307 12:56:01.135172 23711 sctp_connection.cpp:167] HandleClientSock sd = 75
+Mar  7 12:56:01 localhost sctpd[23226]: I0307 12:56:01.135206 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:56:03 localhost control_proxy[23095]: 2022-03-07T12:56:03.078Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.876s
+Mar  7 12:56:03 localhost magmad[22887]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  7 12:56:05 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:56:10 localhost magmad[22887]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  7 12:56:10 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:56:11 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:56:11 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:56:13 localhost sctpd[23226]: I0307 12:56:13.195145 23711 sctp_connection.cpp:167] HandleClientSock sd = 75
+Mar  7 12:56:13 localhost sctpd[23226]: I0307 12:56:13.195230 23711 sctp_connection.cpp:220] [sd:75] msg of len 42 on 116:0
+Mar  7 12:56:13 localhost sctpd[23226]: I0307 12:56:13.197141 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:56:13 localhost sctpd[23226]: I0307 12:56:13.197999 23711 sctp_connection.cpp:167] HandleClientSock sd = 75
+Mar  7 12:56:13 localhost sctpd[23226]: I0307 12:56:13.198071 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:56:14 localhost subscriberdb[22954]: INFO:root:get digest stored in gateway:
+Mar  7 12:56:15 localhost control_proxy[23095]: 2022-03-07T12:56:14.925Z [127.0.0.1 -> subscriberdb-controller.magmasi.wavelabs.in,8443] "POST /magma.lte.SubscriberDBCloud/CheckInSync HTTP/2" 200 0bytes 0.252s
+Mar  7 12:56:15 localhost subscriberdb[22954]: ERROR:root:Internal Error in subscriberdb-Orc8r communication. If AGW and Orc8r are deployed at a commit hash, upgrade AGW and Orc8r to latest commit hash.
+Mar  7 12:56:15 localhost control_proxy[23095]: 2022-03-07T12:56:15.180Z [127.0.0.1 -> subscriberdb-controller.magmasi.wavelabs.in,8443] "POST /magma.lte.SubscriberDBCloud/Sync HTTP/2" 200 0bytes 0.249s
+Mar  7 12:56:15 localhost subscriberdb[22954]: ERROR:root:Internal Error in subscriberdb-Orc8r communication. If AGW and Orc8r are deployed at a commit hash, upgrade AGW and Orc8r to latest commit hash.
+Mar  7 12:56:15 localhost control_proxy[23095]: 2022-03-07T12:56:15.180Z [127.0.0.1 -> subscriberdb-controller.magmasi.wavelabs.in,8443] "POST /magma.lte.SubscriberDBCloud/ListSubscribers HTTP/2" 200 26194bytes 0.295s
+Mar  7 12:56:15 localhost subscriberdb[22954]: INFO:root:Successfully fetched all subscriber pages from the cloud!
+Mar  7 12:56:16 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:56:16 localhost subscriberdb[22954]: INFO:root:update root digest stored in gateway:
+Mar  7 12:56:20 localhost sctpd[23226]: I0307 12:56:20.665777 23711 sctp_connection.cpp:167] HandleClientSock sd = 75
+Mar  7 12:56:20 localhost sctpd[23226]: I0307 12:56:20.665855 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:56:20 localhost sctpd[23226]: I0307 12:56:20.665868 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 116
+Mar  7 12:56:21 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:56:26 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:56:30 localhost control_proxy[23095]: 2022-03-07T12:56:30.343Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.513s
+Mar  7 12:56:30 localhost policydb[23032]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  7 12:56:31 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:56:31 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:56:31 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:56:31 localhost control_proxy[23095]: 2022-03-07T12:56:30.343Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.265s
+Mar  7 12:56:31 localhost policydb[23032]: INFO:root:Processing 0 basename -> policy updates
+Mar  7 12:56:31 localhost control_proxy[23095]: 2022-03-07T12:56:31.127Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.275s
+Mar  7 12:56:31 localhost policydb[23032]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  7 12:56:31 localhost control_proxy[23095]: 2022-03-07T12:56:31.127Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.263s
+Mar  7 12:56:31 localhost policydb[23032]: INFO:root:Processing 0 rating group updates
+Mar  7 12:56:32 localhost sctpd[23226]: I0307 12:56:32.456585 23711 sctp_connection.cpp:167] HandleClientSock sd = 76
+Mar  7 12:56:32 localhost sctpd[23226]: I0307 12:56:32.456665 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:56:32 localhost sctpd[23226]: I0307 12:56:32.457477 23711 sctp_connection.cpp:167] HandleClientSock sd = 76
+Mar  7 12:56:32 localhost sctpd[23226]: I0307 12:56:32.457506 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:56:32 localhost magmad[22887]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:56:32 localhost magmad[22887]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:56:32 localhost magmad[22887]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:56:32 localhost magmad[22887]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:56:32 localhost magmad[22887]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:56:32 localhost magmad[22887]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:56:32 localhost magmad[22887]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:56:32 localhost magmad[22887]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:56:33 localhost sctpd[23226]: I0307 12:56:33.524016 23711 sctp_connection.cpp:167] HandleClientSock sd = 76
+Mar  7 12:56:33 localhost sctpd[23226]: I0307 12:56:33.524102 23711 sctp_connection.cpp:220] [sd:76] msg of len 42 on 117:0
+Mar  7 12:56:33 localhost sctpd[23226]: I0307 12:56:33.525991 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:56:33 localhost sctpd[23226]: I0307 12:56:33.526890 23711 sctp_connection.cpp:167] HandleClientSock sd = 76
+Mar  7 12:56:33 localhost sctpd[23226]: I0307 12:56:33.526968 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:56:36 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:56:40 localhost sctpd[23226]: I0307 12:56:40.958053 23711 sctp_connection.cpp:167] HandleClientSock sd = 76
+Mar  7 12:56:40 localhost sctpd[23226]: I0307 12:56:40.958138 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:56:40 localhost sctpd[23226]: I0307 12:56:40.958150 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 117
+Mar  7 12:56:41 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:56:46 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:56:51 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:56:51 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:56:51 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:56:52 localhost sctpd[23226]: I0307 12:56:52.764393 23711 sctp_connection.cpp:167] HandleClientSock sd = 77
+Mar  7 12:56:52 localhost sctpd[23226]: I0307 12:56:52.764473 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:56:52 localhost sctpd[23226]: I0307 12:56:52.765312 23711 sctp_connection.cpp:167] HandleClientSock sd = 77
+Mar  7 12:56:52 localhost sctpd[23226]: I0307 12:56:52.765345 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:56:53 localhost sctpd[23226]: I0307 12:56:53.835826 23711 sctp_connection.cpp:167] HandleClientSock sd = 77
+Mar  7 12:56:53 localhost sctpd[23226]: I0307 12:56:53.835914 23711 sctp_connection.cpp:220] [sd:77] msg of len 42 on 118:0
+Mar  7 12:56:53 localhost sctpd[23226]: I0307 12:56:53.838052 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:56:53 localhost sctpd[23226]: I0307 12:56:53.838697 23711 sctp_connection.cpp:167] HandleClientSock sd = 77
+Mar  7 12:56:53 localhost sctpd[23226]: I0307 12:56:53.838750 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:56:56 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:57:01 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:57:01 localhost sctpd[23226]: I0307 12:57:01.257565 23711 sctp_connection.cpp:167] HandleClientSock sd = 77
+Mar  7 12:57:01 localhost sctpd[23226]: I0307 12:57:01.257650 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:57:01 localhost sctpd[23226]: I0307 12:57:01.257661 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 118
+Mar  7 12:57:04 localhost magmad[22887]: INFO:root:Setting logging level to INFO
+Mar  7 12:57:06 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:57:10 localhost magmad[22887]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  7 12:57:11 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:57:11 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:57:11 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:57:11 localhost control_proxy[23095]: 2022-03-07T12:56:11.589Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.255s
+Mar  7 12:57:11 localhost magmad[22887]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Mar  7 12:57:13 localhost sctpd[23226]: I0307 12:57:13.198678 23711 sctp_connection.cpp:167] HandleClientSock sd = 78
+Mar  7 12:57:13 localhost sctpd[23226]: I0307 12:57:13.198760 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:57:13 localhost sctpd[23226]: I0307 12:57:13.199615 23711 sctp_connection.cpp:167] HandleClientSock sd = 78
+Mar  7 12:57:13 localhost sctpd[23226]: I0307 12:57:13.199645 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:57:13 localhost sctpd[23226]: I0307 12:57:13.351577 23711 sctp_connection.cpp:167] HandleClientSock sd = 79
+Mar  7 12:57:13 localhost sctpd[23226]: I0307 12:57:13.351647 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:57:13 localhost sctpd[23226]: I0307 12:57:13.352365 23711 sctp_connection.cpp:167] HandleClientSock sd = 79
+Mar  7 12:57:13 localhost sctpd[23226]: I0307 12:57:13.352409 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:57:14 localhost sctpd[23226]: I0307 12:57:14.414708 23711 sctp_connection.cpp:167] HandleClientSock sd = 78
+Mar  7 12:57:14 localhost sctpd[23226]: I0307 12:57:14.414820 23711 sctp_connection.cpp:220] [sd:78] msg of len 42 on 119:0
+Mar  7 12:57:14 localhost sctpd[23226]: I0307 12:57:14.416535 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:57:14 localhost sctpd[23226]: I0307 12:57:14.417244 23711 sctp_connection.cpp:167] HandleClientSock sd = 78
+Mar  7 12:57:14 localhost sctpd[23226]: I0307 12:57:14.417320 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:57:16 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:57:21 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:57:21 localhost sctpd[23226]: I0307 12:57:21.844136 23711 sctp_connection.cpp:167] HandleClientSock sd = 78
+Mar  7 12:57:21 localhost sctpd[23226]: I0307 12:57:21.844226 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:57:21 localhost sctpd[23226]: I0307 12:57:21.844238 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 119
+Mar  7 12:57:21 localhost sctpd[23226]: I0307 12:57:21.897001 23711 sctp_connection.cpp:167] HandleClientSock sd = 79
+Mar  7 12:57:21 localhost sctpd[23226]: I0307 12:57:21.897078 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:57:21 localhost sctpd[23226]: I0307 12:57:21.897090 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 120
+Mar  7 12:57:23 localhost control_proxy[23095]: 2022-03-07T12:57:22.571Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.507s
+Mar  7 12:57:23 localhost magmad[22887]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  7 12:57:26 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:57:31 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:57:31 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:57:31 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:57:32 localhost control_proxy[23095]: 2022-03-07T12:57:31.728Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.522s
+Mar  7 12:57:32 localhost policydb[23032]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  7 12:57:32 localhost control_proxy[23095]: 2022-03-07T12:57:32.253Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.262s
+Mar  7 12:57:32 localhost policydb[23032]: INFO:root:Processing 0 basename -> policy updates
+Mar  7 12:57:32 localhost control_proxy[23095]: 2022-03-07T12:57:32.253Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.276s
+Mar  7 12:57:32 localhost policydb[23032]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  7 12:57:32 localhost magmad[22887]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:57:32 localhost magmad[22887]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:57:32 localhost magmad[22887]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:57:32 localhost magmad[22887]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:57:32 localhost magmad[22887]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:57:32 localhost magmad[22887]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:57:33 localhost magmad[22887]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:57:33 localhost magmad[22887]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:57:33 localhost control_proxy[23095]: 2022-03-07T12:57:32.253Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.260s
+Mar  7 12:57:33 localhost policydb[23032]: INFO:root:Processing 0 rating group updates
+Mar  7 12:57:33 localhost sctpd[23226]: I0307 12:57:33.843742 23711 sctp_connection.cpp:167] HandleClientSock sd = 80
+Mar  7 12:57:33 localhost sctpd[23226]: I0307 12:57:33.843830 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:57:33 localhost sctpd[23226]: I0307 12:57:33.844529 23711 sctp_connection.cpp:167] HandleClientSock sd = 80
+Mar  7 12:57:33 localhost sctpd[23226]: I0307 12:57:33.844559 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:57:34 localhost sctpd[23226]: I0307 12:57:34.901787 23711 sctp_connection.cpp:167] HandleClientSock sd = 80
+Mar  7 12:57:34 localhost sctpd[23226]: I0307 12:57:34.901876 23711 sctp_connection.cpp:220] [sd:80] msg of len 42 on 121:0
+Mar  7 12:57:34 localhost sctpd[23226]: I0307 12:57:34.903868 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:57:34 localhost sctpd[23226]: I0307 12:57:34.904546 23711 sctp_connection.cpp:167] HandleClientSock sd = 80
+Mar  7 12:57:34 localhost sctpd[23226]: I0307 12:57:34.904604 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:57:36 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:57:41 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:57:42 localhost sctpd[23226]: I0307 12:57:42.310075 23711 sctp_connection.cpp:167] HandleClientSock sd = 80
+Mar  7 12:57:42 localhost sctpd[23226]: I0307 12:57:42.310148 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:57:42 localhost sctpd[23226]: I0307 12:57:42.310160 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 121
+Mar  7 12:57:46 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:57:51 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:57:51 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:57:51 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:57:54 localhost sctpd[23226]: I0307 12:57:54.184707 23711 sctp_connection.cpp:167] HandleClientSock sd = 81
+Mar  7 12:57:54 localhost sctpd[23226]: I0307 12:57:54.184789 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:57:54 localhost sctpd[23226]: I0307 12:57:54.185603 23711 sctp_connection.cpp:167] HandleClientSock sd = 81
+Mar  7 12:57:54 localhost sctpd[23226]: I0307 12:57:54.185636 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:57:55 localhost sctpd[23226]: I0307 12:57:55.240710 23711 sctp_connection.cpp:167] HandleClientSock sd = 81
+Mar  7 12:57:55 localhost sctpd[23226]: I0307 12:57:55.240799 23711 sctp_connection.cpp:220] [sd:81] msg of len 42 on 122:0
+Mar  7 12:57:55 localhost sctpd[23226]: I0307 12:57:55.242756 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:57:55 localhost sctpd[23226]: I0307 12:57:55.243363 23711 sctp_connection.cpp:167] HandleClientSock sd = 81
+Mar  7 12:57:55 localhost sctpd[23226]: I0307 12:57:55.243417 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:57:56 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:58:01 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:58:02 localhost sctpd[23226]: I0307 12:58:02.663920 23711 sctp_connection.cpp:167] HandleClientSock sd = 81
+Mar  7 12:58:02 localhost sctpd[23226]: I0307 12:58:02.664016 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:58:02 localhost sctpd[23226]: I0307 12:58:02.664029 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 122
+Mar  7 12:58:06 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:58:10 localhost magmad[22887]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  7 12:58:11 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:58:11 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:58:11 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:58:14 localhost sctpd[23226]: I0307 12:58:14.351469 23711 sctp_connection.cpp:167] HandleClientSock sd = 82
+Mar  7 12:58:14 localhost sctpd[23226]: I0307 12:58:14.351552 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:58:14 localhost sctpd[23226]: I0307 12:58:14.352249 23711 sctp_connection.cpp:167] HandleClientSock sd = 82
+Mar  7 12:58:14 localhost sctpd[23226]: I0307 12:58:14.352293 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:58:15 localhost sctpd[23226]: I0307 12:58:15.411907 23711 sctp_connection.cpp:167] HandleClientSock sd = 82
+Mar  7 12:58:15 localhost sctpd[23226]: I0307 12:58:15.412009 23711 sctp_connection.cpp:220] [sd:82] msg of len 42 on 123:0
+Mar  7 12:58:15 localhost sctpd[23226]: I0307 12:58:15.413693 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:58:15 localhost sctpd[23226]: I0307 12:58:15.414446 23711 sctp_connection.cpp:167] HandleClientSock sd = 82
+Mar  7 12:58:15 localhost sctpd[23226]: I0307 12:58:15.414525 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:58:16 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:58:21 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:58:22 localhost sctpd[23226]: I0307 12:58:22.836356 23711 sctp_connection.cpp:167] HandleClientSock sd = 82
+Mar  7 12:58:22 localhost sctpd[23226]: I0307 12:58:22.836457 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:58:22 localhost sctpd[23226]: I0307 12:58:22.836472 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 123
+Mar  7 12:58:23 localhost magmad[22887]: INFO:root:Setting logging level to INFO
+Mar  7 12:58:26 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:58:31 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:58:31 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:58:31 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:58:33 localhost control_proxy[23095]: 2022-03-07T12:58:33.123Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.515s
+Mar  7 12:58:33 localhost policydb[23032]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  7 12:58:33 localhost control_proxy[23095]: 2022-03-07T12:58:33.123Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.264s
+Mar  7 12:58:33 localhost policydb[23032]: INFO:root:Processing 0 basename -> policy updates
+Mar  7 12:58:34 localhost control_proxy[23095]: 2022-03-07T12:58:33.123Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.275s
+Mar  7 12:58:34 localhost policydb[23032]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  7 12:58:34 localhost control_proxy[23095]: 2022-03-07T12:58:34.190Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.261s
+Mar  7 12:58:34 localhost policydb[23032]: INFO:root:Processing 0 rating group updates
+Mar  7 12:58:34 localhost sctpd[23226]: I0307 12:58:34.599436 23711 sctp_connection.cpp:167] HandleClientSock sd = 83
+Mar  7 12:58:34 localhost sctpd[23226]: I0307 12:58:34.599524 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:58:34 localhost sctpd[23226]: I0307 12:58:34.600311 23711 sctp_connection.cpp:167] HandleClientSock sd = 83
+Mar  7 12:58:34 localhost sctpd[23226]: I0307 12:58:34.600342 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:58:35 localhost sctpd[23226]: I0307 12:58:35.661808 23711 sctp_connection.cpp:167] HandleClientSock sd = 83
+Mar  7 12:58:35 localhost sctpd[23226]: I0307 12:58:35.661906 23711 sctp_connection.cpp:220] [sd:83] msg of len 42 on 124:0
+Mar  7 12:58:35 localhost sctpd[23226]: I0307 12:58:35.663954 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:58:35 localhost sctpd[23226]: I0307 12:58:35.664674 23711 sctp_connection.cpp:167] HandleClientSock sd = 83
+Mar  7 12:58:35 localhost sctpd[23226]: I0307 12:58:35.664731 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:58:36 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:58:41 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:58:42 localhost magmad[22887]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:58:42 localhost magmad[22887]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:58:42 localhost magmad[22887]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:58:42 localhost magmad[22887]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:58:42 localhost magmad[22887]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:58:42 localhost magmad[22887]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:58:42 localhost magmad[22887]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:58:42 localhost magmad[22887]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:58:42 localhost magmad[22887]: INFO:root:Checking for upgrade...
+Mar  7 12:58:42 localhost magmad[22887]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Mar  7 12:58:42 localhost control_proxy[23095]: 2022-03-07T12:58:42.086Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.259s
+Mar  7 12:58:42 localhost magmad[22887]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  7 12:58:43 localhost sctpd[23226]: I0307 12:58:43.123167 23711 sctp_connection.cpp:167] HandleClientSock sd = 83
+Mar  7 12:58:43 localhost sctpd[23226]: I0307 12:58:43.123255 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:58:43 localhost sctpd[23226]: I0307 12:58:43.123266 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 124
+Mar  7 12:58:46 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:58:51 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:58:51 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:58:51 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:58:55 localhost sctpd[23226]: I0307 12:58:55.027714 23711 sctp_connection.cpp:167] HandleClientSock sd = 84
+Mar  7 12:58:55 localhost sctpd[23226]: I0307 12:58:55.027791 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:58:55 localhost sctpd[23226]: I0307 12:58:55.028568 23711 sctp_connection.cpp:167] HandleClientSock sd = 84
+Mar  7 12:58:55 localhost sctpd[23226]: I0307 12:58:55.028600 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:58:56 localhost sctpd[23226]: I0307 12:58:56.091289 23711 sctp_connection.cpp:167] HandleClientSock sd = 84
+Mar  7 12:58:56 localhost sctpd[23226]: I0307 12:58:56.091373 23711 sctp_connection.cpp:220] [sd:84] msg of len 42 on 125:0
+Mar  7 12:58:56 localhost sctpd[23226]: I0307 12:58:56.093020 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:58:56 localhost sctpd[23226]: I0307 12:58:56.093827 23711 sctp_connection.cpp:167] HandleClientSock sd = 84
+Mar  7 12:58:56 localhost sctpd[23226]: I0307 12:58:56.093879 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:58:56 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:59:01 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:59:03 localhost sctpd[23226]: I0307 12:59:03.550994 23711 sctp_connection.cpp:167] HandleClientSock sd = 84
+Mar  7 12:59:03 localhost sctpd[23226]: I0307 12:59:03.551100 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:59:03 localhost sctpd[23226]: I0307 12:59:03.551113 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 125
+Mar  7 12:59:06 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:59:10 localhost magmad[22887]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  7 12:59:11 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:59:11 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:59:11 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:59:12 localhost control_proxy[23095]: 2022-03-07T12:58:11.900Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.255s
+Mar  7 12:59:12 localhost magmad[22887]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Mar  7 12:59:15 localhost sctpd[23226]: I0307 12:59:15.421317 23711 sctp_connection.cpp:167] HandleClientSock sd = 85
+Mar  7 12:59:15 localhost sctpd[23226]: I0307 12:59:15.421406 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:59:15 localhost sctpd[23226]: I0307 12:59:15.422120 23711 sctp_connection.cpp:167] HandleClientSock sd = 85
+Mar  7 12:59:15 localhost sctpd[23226]: I0307 12:59:15.422150 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:59:16 localhost sctpd[23226]: I0307 12:59:16.476847 23711 sctp_connection.cpp:167] HandleClientSock sd = 85
+Mar  7 12:59:16 localhost sctpd[23226]: I0307 12:59:16.476945 23711 sctp_connection.cpp:220] [sd:85] msg of len 42 on 126:0
+Mar  7 12:59:16 localhost sctpd[23226]: I0307 12:59:16.478850 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:59:16 localhost sctpd[23226]: I0307 12:59:16.479688 23711 sctp_connection.cpp:167] HandleClientSock sd = 85
+Mar  7 12:59:16 localhost sctpd[23226]: I0307 12:59:16.479775 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:59:17 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:59:22 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:59:23 localhost sctpd[23226]: I0307 12:59:23.917172 23711 sctp_connection.cpp:167] HandleClientSock sd = 85
+Mar  7 12:59:23 localhost sctpd[23226]: I0307 12:59:23.917265 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:59:23 localhost sctpd[23226]: I0307 12:59:23.917277 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 126
+Mar  7 12:59:27 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:59:31 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:59:31 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:59:32 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:59:32 localhost magmad[22887]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:59:33 localhost magmad[22887]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:59:33 localhost magmad[22887]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:59:33 localhost magmad[22887]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:59:33 localhost magmad[22887]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:59:33 localhost magmad[22887]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:59:33 localhost magmad[22887]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:59:33 localhost magmad[22887]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Mar  7 12:59:35 localhost control_proxy[23095]: 2022-03-07T12:59:34.514Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 47bytes 0.515s
+Mar  7 12:59:35 localhost policydb[23032]: INFO:root:Processing 1 policy updates (resync=True)
+Mar  7 12:59:35 localhost control_proxy[23095]: 2022-03-07T12:59:35.034Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.266s
+Mar  7 12:59:35 localhost policydb[23032]: INFO:root:Processing 0 basename -> policy updates
+Mar  7 12:59:35 localhost control_proxy[23095]: 2022-03-07T12:59:35.034Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 5113bytes 0.273s
+Mar  7 12:59:35 localhost policydb[23032]: INFO:root:Processing 222 SID -> apn -> policy updates
+Mar  7 12:59:35 localhost sctpd[23226]: I0307 12:59:35.808979 23711 sctp_connection.cpp:167] HandleClientSock sd = 86
+Mar  7 12:59:35 localhost sctpd[23226]: I0307 12:59:35.809067 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:59:35 localhost sctpd[23226]: I0307 12:59:35.809754 23711 sctp_connection.cpp:167] HandleClientSock sd = 86
+Mar  7 12:59:35 localhost sctpd[23226]: I0307 12:59:35.809783 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:59:35 localhost control_proxy[23095]: 2022-03-07T12:59:35.034Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.262s
+Mar  7 12:59:35 localhost policydb[23032]: INFO:root:Processing 0 rating group updates
+Mar  7 12:59:36 localhost sctpd[23226]: I0307 12:59:36.866500 23711 sctp_connection.cpp:167] HandleClientSock sd = 86
+Mar  7 12:59:36 localhost sctpd[23226]: I0307 12:59:36.866593 23711 sctp_connection.cpp:220] [sd:86] msg of len 42 on 127:0
+Mar  7 12:59:36 localhost sctpd[23226]: I0307 12:59:36.868476 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:59:36 localhost sctpd[23226]: I0307 12:59:36.869339 23711 sctp_connection.cpp:167] HandleClientSock sd = 86
+Mar  7 12:59:36 localhost sctpd[23226]: I0307 12:59:36.869426 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 12:59:37 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:59:42 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:59:43 localhost magmad[22887]: INFO:root:Setting logging level to INFO
+Mar  7 12:59:44 localhost sctpd[23226]: I0307 12:59:44.302596 23711 sctp_connection.cpp:167] HandleClientSock sd = 86
+Mar  7 12:59:44 localhost sctpd[23226]: I0307 12:59:44.302726 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 12:59:44 localhost sctpd[23226]: I0307 12:59:44.302740 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 127
+Mar  7 12:59:47 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:59:51 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 12:59:51 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 12:59:52 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:59:56 localhost sctpd[23226]: I0307 12:59:56.386152 23711 sctp_connection.cpp:167] HandleClientSock sd = 87
+Mar  7 12:59:56 localhost sctpd[23226]: I0307 12:59:56.386265 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 12:59:56 localhost sctpd[23226]: I0307 12:59:56.387086 23711 sctp_connection.cpp:167] HandleClientSock sd = 87
+Mar  7 12:59:56 localhost sctpd[23226]: I0307 12:59:56.387115 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 12:59:57 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 12:59:57 localhost sctpd[23226]: I0307 12:59:57.451961 23711 sctp_connection.cpp:167] HandleClientSock sd = 87
+Mar  7 12:59:57 localhost sctpd[23226]: I0307 12:59:57.452049 23711 sctp_connection.cpp:220] [sd:87] msg of len 42 on 128:0
+Mar  7 12:59:57 localhost sctpd[23226]: I0307 12:59:57.454041 23708 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 12:59:57 localhost sctpd[23226]: I0307 12:59:57.454747 23711 sctp_connection.cpp:167] HandleClientSock sd = 87
+Mar  7 12:59:57 localhost sctpd[23226]: I0307 12:59:57.454804 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 13:00:02 localhost control_proxy[23095]: 2022-03-07T13:00:01.620Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.551s
+Mar  7 13:00:02 localhost magmad[22887]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Mar  7 13:00:02 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 13:00:04 localhost sctpd[23226]: I0307 13:00:04.850497 23711 sctp_connection.cpp:167] HandleClientSock sd = 87
+Mar  7 13:00:04 localhost sctpd[23226]: I0307 13:00:04.850589 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 13:00:04 localhost sctpd[23226]: I0307 13:00:04.850600 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 128
+Mar  7 13:00:07 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 13:00:10 localhost magmad[22887]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Mar  7 13:00:11 localhost mobilityd[22958]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Mar  7 13:00:11 localhost mobilityd[22958]: INFO:root:GW-v6 probe: timer started
+Mar  7 13:00:12 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 13:00:16 localhost sctpd[23226]: I0307 13:00:16.639039 23711 sctp_connection.cpp:167] HandleClientSock sd = 88
+Mar  7 13:00:16 localhost sctpd[23226]: I0307 13:00:16.639122 23711 sctp_connection.cpp:189] SCTP association change event received
+Mar  7 13:00:16 localhost sctpd[23226]: I0307 13:00:16.639786 23711 sctp_connection.cpp:167] HandleClientSock sd = 88
+Mar  7 13:00:16 localhost sctpd[23226]: I0307 13:00:16.639819 23711 sctp_connection.cpp:193] Unhandled notification type 32776
+Mar  7 13:00:17 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 13:00:17 localhost sctpd[23226]: I0307 13:00:17.702656 23711 sctp_connection.cpp:167] HandleClientSock sd = 88
+Mar  7 13:00:17 localhost sctpd[23226]: I0307 13:00:17.702737 23711 sctp_connection.cpp:220] [sd:88] msg of len 42 on 129:0
+Mar  7 13:00:17 localhost sctpd[23226]: I0307 13:00:17.704548 23231 sctpd_downlink_impl.cpp:76] SctpdDownlinkImpl::SendDl starting
+Mar  7 13:00:17 localhost sctpd[23226]: I0307 13:00:17.705159 23711 sctp_connection.cpp:167] HandleClientSock sd = 88
+Mar  7 13:00:17 localhost sctpd[23226]: I0307 13:00:17.705214 23711 sctp_connection.cpp:193] Unhandled notification type 32777
+Mar  7 13:00:22 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Mar  7 13:00:25 localhost sctpd[23226]: I0307 13:00:25.133266 23711 sctp_connection.cpp:167] HandleClientSock sd = 88
+Mar  7 13:00:25 localhost sctpd[23226]: I0307 13:00:25.133350 23711 sctp_connection.cpp:185] SCTP_SHUTDOWN_EVENT received
+Mar  7 13:00:25 localhost sctpd[23226]: I0307 13:00:25.133361 23711 sctp_connection.cpp:280] Sending close connection for assoc_id 129
+Mar  7 13:00:25 localhost systemd[1]: Started Session 13 of user ubuntu.
+Mar  7 13:00:27 localhost smsd[23056]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
