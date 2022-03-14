@@ -1,0 +1,47 @@
+000000 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  UTIL   common/log.c                    :0734    Initializing OAI logging Done
+000001 Mon Mar 14 09:13:03 2022 7FCDA1777980 DEBUG CONFIG tasks/mme_app/mme_app_embedded_s:0064    mme_config.config_file /var/opt/magma/tmp/mme.conf
+000002 Mon Mar 14 09:13:03 2022 7FCDA1777980 DEBUG CONFIG tasks/mme_app/mme_app_embedded_s:0107    spgw_config.config_file /var/opt/magma/tmp/spgw.conf
+000003 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  MME-AP tasks/mme_app/mme_config.c      :1028    Number of GUMMEIs configured =1
+000004 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  MME-AP tasks/mme_app/mme_config.c      :1093    MME_CONFIG_STRING_RESTRICTED_PLMN_LIST 
+000005 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  MME-AP tasks/mme_app/mme_config.c      :1096    Number of restricted PLMNs configured =0
+000006 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  MME-AP tasks/mme_app/mme_config.c      :1156    MME_CONFIG_STRING_FED_MODE_MAP 
+000007 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  MME-AP tasks/mme_app/mme_config.c      :1159    Number of mode maps configured =0
+000008 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  MME-AP tasks/mme_app/mme_config.c      :1266    MME_CONFIG_STRING_BLOCKED_IMEI_LIST 
+000009 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  MME-AP tasks/mme_app/mme_config.c      :1269    Number of blocked IMEIs configured =0
+000010 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  MME-AP tasks/mme_app/mme_config.c      :1316    MME_CONFIG_STRING_SRVC_AREA_CODE_2_TACS_MAP 
+000011 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  MME-AP tasks/mme_app/mme_config.c      :1319    Number of SRVC_AREA_CODE_2_TACS configured =0
+000012 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  MME-AP tasks/mme_app/mme_config.c      :1405    Parsing configuration file found S1-MME: 172.16.5.121/22 on eth1
+000013 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  MME-AP tasks/mme_app/mme_config.c      :1426    Parsing configuration file found S11: 172.16.5.121/22 on eth1
+000014 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  MME-AP tasks/mme_app/mme_config.c      :1698    MME_CONFIG_STRING_SENTRY_CONFIG 
+000015 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  SPGW-A tasks/sgw/spgw_config.c         :0094    Parsing configuration file provided /var/opt/magma/tmp/spgw.conf
+000016 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  SPGW-A tasks/sgw/sgw_config.c          :0110    Parsing configuration file provided /var/opt/magma/tmp/spgw.conf
+000017 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  SPGW-A tasks/sgw/sgw_config.c          :0149    Parsing configuration file found S1u_S12_S4_up: 172.16.5.121/22 on eth1
+000018 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  SPGW-A tasks/sgw/sgw_config.c          :0166    Parsing configuration file found S5_S8_up: 172.16.5.100/22 on eth0
+000019 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  SPGW-A tasks/sgw/sgw_config.c          :0183    Parsing configuration file found S11: 127.0.0.1/8 on lo
+000020 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  SPGW-A tasks/sgw/sgw_config.c          :0210    Parsing configuration file found S1u_S12_S4_up: fe80::f816:3eff:fe61:7794 on eth1
+000021 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  SPGW-A tasks/sgw/sgw_config.c          :0306    Pipelined config enable: False
+000022 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  SPGW-A tasks/sgw/sgw_config.c          :0314    Multi tunnel enable: True
+000023 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  SPGW-A tasks/sgw/sgw_config.c          :0320    GTP-U echo response enable: True
+000024 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  SPGW-A tasks/sgw/sgw_config.c          :0326    GTP-U checksum enable: False
+000025 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  SPGW-A tasks/sgw/sgw_config.c          :0333    AGW L3 tunneling enable: False
+000026 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  SPGW-A tasks/sgw/sgw_config.c          :0340    eBPF enabled: False
+000027 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  SPGW-A tasks/sgw/pgw_config.c          :0248    Parsing configuration file provided /var/opt/magma/tmp/spgw.conf
+000028 Mon Mar 14 09:13:03 2022 7FCDA1777980 DEBUG SPGW-A tasks/sgw/pgw_config.c          :0274    Parsing configuration file found SGI: on gtp_br0
+000029 Mon Mar 14 09:13:03 2022 7FCDA1777980 DEBUG SPGW-A tasks/sgw/pgw_config.c          :0283    No masquerading for SGI
+000030 Mon Mar 14 09:13:03 2022 7FCDA1777980 DEBUG SPGW-A tasks/sgw/pgw_config.c          :0287    CLAMP TCP MSS
+000031 Mon Mar 14 09:13:03 2022 7FCDA1777980 DEBUG SPGW-A tasks/sgw/pgw_config.c          :0364    Parsing configuration file default primary DNS IPv4 address: 8.8.8.8
+000032 Mon Mar 14 09:13:03 2022 7FCDA1777980 DEBUG SPGW-A tasks/sgw/pgw_config.c          :0368    Parsing configuration file default secondary DNS IPv4 address: 8.8.4.4
+000033 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  SPGW-A tasks/sgw/pgw_config.c          :0385    Parsing configuration file Nat enable: True
+000034 Mon Mar 14 09:13:03 2022 7FCDA1777980 DEBUG SPGW-A tasks/sgw/pgw_config.c          :0395    Parsing configuration file P-CSCF IPv4 address: 172.27.23.150
+000035 Mon Mar 14 09:13:03 2022 7FCDA1777980 DEBUG SPGW-A tasks/sgw/pgw_config.c          :0408    Parsing configuration file P-CSCF IPv6 address: 2a12:577:9941:f99c:0002:0001:c731:f114
+000036 Mon Mar 14 09:13:03 2022 7FCDA1777980 DEBUG SPGW-A tasks/sgw/pgw_config.c          :0421    Parsing configuration file DNS SERVER IPv6 address: 2a12:577:9941:f99c:0002:0001:c731:f114
+000037 Mon Mar 14 09:13:03 2022 7FCDA1777980 DEBUG SPGW-A tasks/sgw/pgw_config.c          :0447    UE MTU : 1400
+000038 Mon Mar 14 09:13:03 2022 7FCDA1777980 WARNI SPGW-A tasks/sgw/pgw_config.c          :0540    CONFIG P-GW / PCEF not found
+000039 Mon Mar 14 09:13:03 2022 7FCDA1777980 DEBUG SPGW-A tasks/sgw/pgw_config.c          :0099    Found SGI interface MTU=1500
+000040 Mon Mar 14 09:13:03 2022 7FCDA1777980 INFO  SPGW-A tasks/sgw/pgw_config.c          :0112    No interface for S5_S8 user plane: error No such device
+000041 Mon Mar 14 09:13:03 2022 7FCDA1777980 DEBUG SPGW-A tasks/sgw/pgw_config.c          :0153    mobilityD IP block read: retry attempt: 1
+000042 Mon Mar 14 09:13:04 2022 7FCDA1777980 DEBUG SPGW-A tasks/sgw/pgw_config.c          :0153    mobilityD IP block read: retry attempt: 2
+000043 Mon Mar 14 09:13:05 2022 7FCDA1777980 DEBUG SPGW-A tasks/sgw/pgw_config.c          :0153    mobilityD IP block read: retry attempt: 3
+000044 Mon Mar 14 09:13:07 2022 7FCDA1777980 DEBUG SPGW-A tasks/sgw/pgw_config.c          :0153    mobilityD IP block read: retry attempt: 4
+000045 Mon Mar 14 09:13:11 2022 7FCDA1777980 DEBUG SPGW-A tasks/sgw/pgw_config.c          :0153    mobilityD IP block read: retry attempt: 5
+000046 Mon Mar 14 09:13:19 2022 7FCDA1777980 DEBUG SPGW-A tasks/sgw/pgw_config.c          :0153    mobilityD IP block read: retry attempt: 6
