@@ -1,0 +1,184 @@
+Apr 12 10:08:31 localhost smsd[24892]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Apr 12 10:08:32 localhost control_proxy[24955]: 2022-04-12T10:08:31.715Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.512s
+Apr 12 10:08:32 localhost magmad[24746]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Apr 12 10:08:34 localhost sctpd[25085]: I0412 10:08:34.424427 25481 sctp_connection.cpp:195] Unhandled notification type 32776
+Apr 12 10:08:35 localhost mobilityd[24796]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Apr 12 10:08:35 localhost mobilityd[24796]: INFO:root:GW-v6 probe: timer started
+Apr 12 10:08:36 localhost magmad[24746]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Apr 12 10:08:36 localhost smsd[24892]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 12 10:08:38 localhost dhclient[601]: DHCPREQUEST for 172.16.5.121 on eth1 to 172.16.5.2 port 67 (xid=0x6123bf67)
+Apr 12 10:08:40 localhost control_proxy[24955]: 2022-04-12T10:08:40.029Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 173bytes 0.270s
+Apr 12 10:08:40 localhost policydb[24875]: INFO:root:Processing 4 policy updates (resync=True)
+Apr 12 10:08:40 localhost control_proxy[24955]: 2022-04-12T10:08:40.029Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.273s
+Apr 12 10:08:40 localhost policydb[24875]: INFO:root:Processing 0 basename -> policy updates
+Apr 12 10:08:40 localhost control_proxy[24955]: 2022-04-12T10:08:40.029Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 13513bytes 0.308s
+Apr 12 10:08:40 localhost policydb[24875]: INFO:root:Processing 222 SID -> apn -> policy updates
+Apr 12 10:08:41 localhost control_proxy[24955]: 2022-04-12T10:08:40.029Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.260s
+Apr 12 10:08:41 localhost policydb[24875]: INFO:root:Processing 0 rating group updates
+Apr 12 10:08:41 localhost smsd[24892]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 12 10:08:44 localhost sctpd[25085]: I0412 10:08:44.466619 25481 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 12 10:08:44 localhost sctpd[25085]: I0412 10:08:44.696830 25481 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 12 10:08:44 localhost sctpd[25085]: I0412 10:08:44.818418 25481 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 12 10:08:44 localhost sctpd[25085]: I0412 10:08:44.940510 25481 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 12 10:08:44 localhost mme[25406]: [SIG][D]MME_UNIT_TEST Flag is Disabled
+Apr 12 10:08:44 localhost mme[25406]: filename /var/run/mme.pid failed to be written
+Apr 12 10:08:44 localhost mme[25406]: [DEBUG] Sending S6A-UPDATE_LOCATION_REQUEST with IMSI: 222700000000001
+Apr 12 10:08:44 localhost mme[25406]: [INFO] Received S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001; Status: ; StatusCode: 2001
+Apr 12 10:08:44 localhost mme[25406]: [INFO] sent itti S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001
+Apr 12 10:08:45 localhost sctpd[25085]: I0412 10:08:45.061066 25481 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 12 10:08:45 localhost mobilityd[24796]: WARNING:root:Re-allocate IP 192.168.128.96 for sid IMSI222700000000001.default,ipv4 without MME releasing it first ip-state-map
+Apr 12 10:08:45 localhost mobilityd[24796]: INFO:root:Allocating the same IP 192.168.128.96 for sid IMSI222700000000001.default,ipv4
+Apr 12 10:08:45 localhost mobilityd[24796]: INFO:root:Allocated IP 192.168.128.96 for sid IMSI222700000000001 for apn default
+Apr 12 10:08:45 localhost policydb[24875]: INFO:root:Creating a session for subscriber ID: IMSI222700000000001
+Apr 12 10:08:45 localhost sessiond[24804]: I0412 10:08:45.288571 24804 SetMessageManagerHandler.cpp:342] Processing a CreateSessionResponse for IMSI222700000000001-100888
+Apr 12 10:08:45 localhost sessiond[24804]: I0412 10:08:45.288924 24804 SessionState.cpp:2774] RuleID allowlist_sid-IMSI222700000000001-default doesn't have a version registered for IMSI222700000000001-100888, this is unexpected
+Apr 12 10:08:46 localhost smsd[24892]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 12 10:08:48 localhost mme[25406]: PDUSessionResourceSetupRequestTransfer ::= {
+Apr 12 10:08:48 localhost mme[25406]:     protocolIEs: ProtocolIE-Container ::= {
+Apr 12 10:08:48 localhost mme[25406]:         PDUSessionResourceSetupRequestTransferIEs ::= {
+Apr 12 10:08:48 localhost mme[25406]:             id: 130
+Apr 12 10:08:48 localhost mme[25406]:             criticality: 0 (reject)
+Apr 12 10:08:48 localhost mme[25406]:             value: PDUSessionAggregateMaximumBitRate ::= {
+Apr 12 10:08:48 localhost mme[25406]:                 pDUSessionAggregateMaximumBitRateDL: 100000000
+Apr 12 10:08:48 localhost mme[25406]:                 pDUSessionAggregateMaximumBitRateUL: 100000000
+Apr 12 10:08:48 localhost mme[25406]:             }
+Apr 12 10:08:48 localhost mme[25406]:         }
+Apr 12 10:08:48 localhost mme[25406]:         PDUSessionResourceSetupRequestTransferIEs ::= {
+Apr 12 10:08:48 localhost mme[25406]:             id: 139
+Apr 12 10:08:48 localhost mme[25406]:             criticality: 0 (reject)
+Apr 12 10:08:48 localhost mme[25406]:             value: GTPTunnel ::= {
+Apr 12 10:08:48 localhost mme[25406]:                 transportLayerAddress: AC 10 05 79
+Apr 12 10:08:48 localhost mme[25406]:                 gTP-TEID: 7F FF FF FF
+Apr 12 10:08:48 localhost mme[25406]:             }
+Apr 12 10:08:48 localhost mme[25406]:         }
+Apr 12 10:08:48 localhost mme[25406]:         PDUSessionResourceSetupRequestTransferIEs ::= {
+Apr 12 10:08:48 localhost mme[25406]:             id: 134
+Apr 12 10:08:48 localhost mme[25406]:             criticality: 0 (reject)
+Apr 12 10:08:48 localhost mme[25406]:             value: 0 (ipv4)
+Apr 12 10:08:48 localhost mme[25406]:         }
+Apr 12 10:08:48 localhost mme[25406]:         PDUSessionResourceSetupRequestTransferIEs ::= {
+Apr 12 10:08:48 localhost mme[25406]:             id: 136
+Apr 12 10:08:48 localhost mme[25406]:             criticality: 0 (reject)
+Apr 12 10:08:48 localhost mme[25406]:             value: QosFlowSetupRequestList ::= {
+Apr 12 10:08:48 localhost mme[25406]:                 QosFlowSetupRequestItem ::= {
+Apr 12 10:08:48 localhost mme[25406]:                     qosFlowIdentifier: 9
+Apr 12 10:08:48 localhost mme[25406]:                     qosFlowLevelQosParameters: QosFlowLevelQosParameters ::= {
+Apr 12 10:08:48 localhost mme[25406]:                         qosCharacteristics: NonDynamic5QIDescriptor ::= {
+Apr 12 10:08:48 localhost mme[25406]:                             fiveQI: 9
+Apr 12 10:08:48 localhost mme[25406]:                         }
+Apr 12 10:08:48 localhost mme[25406]:                         allocationAndRetentionPriority: AllocationAndRetentionPriority ::= {
+Apr 12 10:08:48 localhost mme[25406]:                             priorityLevelARP: 15
+Apr 12 10:08:48 localhost mme[25406]:                             pre-emptionCapability: 0 (shall-not-trigger-pre-emption)
+Apr 12 10:08:48 localhost mme[25406]:                             pre-emptionVulnerability: 0 (not-pre-emptable)
+Apr 12 10:08:48 localhost mme[25406]:                         }
+Apr 12 10:08:48 localhost mme[25406]:                     }
+Apr 12 10:08:48 localhost mme[25406]:                 }
+Apr 12 10:08:48 localhost mme[25406]:             }
+Apr 12 10:08:48 localhost mme[25406]:         }
+Apr 12 10:08:48 localhost mme[25406]:     }
+Apr 12 10:08:48 localhost mme[25406]: }
+Apr 12 10:08:48 localhost sctpd[25085]: I0412 10:08:48.178752 25481 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 12 10:08:48 localhost sessiond[24804]: I0412 10:08:48.182113 24804 SessionStateEnforcer.cpp:869]  AMF teid: 40000000 ip address 10.10.10.11 of imsi: IMSI222700000000001 fteid: 2147483647 pdu id: 1 UE ip address 192.168.128.96
+Apr 12 10:08:48 localhost eventd[24889]: DEBUG:root:Logging event: stream_name: "sessiond"
+Apr 12 10:08:48 localhost eventd[24889]: event_type: "session_created"
+Apr 12 10:08:48 localhost eventd[24889]: tag: "IMSI222700000000001"
+Apr 12 10:08:48 localhost eventd[24889]: value: "{\"mac_addr\":\"\",\"user_location\":\"\",\"spgw_ip\":\"\",\"imei\":\"\",\"pdp_start_time\":93963290506032,\"session_id\":\"IMSI222700000000001-100888\",\"apn\":\"default\",\"msisdn\":\"\",\"charging_characteristics\":\"\",\"ipv6_addr\":\"\",\"ip_addr\":\"192.168.128.96\",\"imsi\":\"IMSI222700000000001\"}"
+Apr 12 10:08:48 localhost eventd[24889]: ERROR:root:Connection to FluentBit failed: [Errno 111] Connection refused
+Apr 12 10:08:48 localhost eventd[24889]: INFO:root:FluentBit (td-agent-bit) may not be enabled or configured correctly
+Apr 12 10:08:48 localhost sessiond[24804]: I0412 10:08:48.194638 24832 SessionEvents.cpp:131] Could not log session_created event {"mac_addr":"","user_location":"","spgw_ip":"","imei":"","pdp_start_time":93963290506032,"session_id":"IMSI222700000000001-100888","apn":"default","msisdn":"","charging_characteristics":"","ipv6_addr":"","ip_addr":"192.168.128.96","imsi":"IMSI222700000000001"}, Error Message: Could not connect to FluentBit locally, Details: [Errno 111] Connection refused
+Apr 12 10:08:48 localhost mobilityd[24796]: WARNING:root:Re-allocate IP 192.168.128.96 for sid IMSI222700000000001.default,ipv4 without MME releasing it first ip-state-map
+Apr 12 10:08:48 localhost mobilityd[24796]: INFO:root:Allocating the same IP 192.168.128.96 for sid IMSI222700000000001.default,ipv4
+Apr 12 10:08:48 localhost mobilityd[24796]: INFO:root:Allocated IP 192.168.128.96 for sid IMSI222700000000001 for apn default
+Apr 12 10:08:48 localhost policydb[24875]: INFO:root:Creating a session for subscriber ID: IMSI222700000000001
+Apr 12 10:08:48 localhost sessiond[24804]: I0412 10:08:48.397871 24804 SetMessageManagerHandler.cpp:342] Processing a CreateSessionResponse for IMSI222700000000001-710604
+Apr 12 10:08:48 localhost sessiond[24804]: I0412 10:08:48.398049 24804 SessionState.cpp:2774] RuleID allowlist_sid-IMSI222700000000001-default doesn't have a version registered for IMSI222700000000001-710604, this is unexpected
+Apr 12 10:08:48 localhost mme[25406]: PDUSessionResourceSetupRequestTransfer ::= {
+Apr 12 10:08:48 localhost mme[25406]:     protocolIEs: ProtocolIE-Container ::= {
+Apr 12 10:08:48 localhost mme[25406]:         PDUSessionResourceSetupRequestTransferIEs ::= {
+Apr 12 10:08:48 localhost mme[25406]:             id: 130
+Apr 12 10:08:48 localhost mme[25406]:             criticality: 0 (reject)
+Apr 12 10:08:48 localhost mme[25406]:             value: PDUSessionAggregateMaximumBitRate ::= {
+Apr 12 10:08:48 localhost mme[25406]:                 pDUSessionAggregateMaximumBitRateDL: 100000000
+Apr 12 10:08:48 localhost mme[25406]:                 pDUSessionAggregateMaximumBitRateUL: 100000000
+Apr 12 10:08:48 localhost mme[25406]:             }
+Apr 12 10:08:48 localhost mme[25406]:         }
+Apr 12 10:08:48 localhost mme[25406]:         PDUSessionResourceSetupRequestTransferIEs ::= {
+Apr 12 10:08:48 localhost mme[25406]:             id: 139
+Apr 12 10:08:48 localhost mme[25406]:             criticality: 0 (reject)
+Apr 12 10:08:48 localhost mme[25406]:             value: GTPTunnel ::= {
+Apr 12 10:08:48 localhost mme[25406]:                 transportLayerAddress: AC 10 05 79
+Apr 12 10:08:48 localhost mme[25406]:                 gTP-TEID: 80 00 00 00
+Apr 12 10:08:48 localhost mme[25406]:             }
+Apr 12 10:08:48 localhost mme[25406]:         }
+Apr 12 10:08:48 localhost mme[25406]:         PDUSessionResourceSetupRequestTransferIEs ::= {
+Apr 12 10:08:48 localhost mme[25406]:             id: 134
+Apr 12 10:08:48 localhost mme[25406]:             criticality: 0 (reject)
+Apr 12 10:08:48 localhost mme[25406]:             value: 0 (ipv4)
+Apr 12 10:08:48 localhost mme[25406]:         }
+Apr 12 10:08:48 localhost mme[25406]:         PDUSessionResourceSetupRequestTransferIEs ::= {
+Apr 12 10:08:48 localhost mme[25406]:             id: 136
+Apr 12 10:08:48 localhost mme[25406]:             criticality: 0 (reject)
+Apr 12 10:08:48 localhost mme[25406]:             value: QosFlowSetupRequestList ::= {
+Apr 12 10:08:48 localhost mme[25406]:                 QosFlowSetupRequestItem ::= {
+Apr 12 10:08:48 localhost mme[25406]:                     qosFlowIdentifier: 9
+Apr 12 10:08:48 localhost mme[25406]:                     qosFlowLevelQosParameters: QosFlowLevelQosParameters ::= {
+Apr 12 10:08:48 localhost mme[25406]:                         qosCharacteristics: NonDynamic5QIDescriptor ::= {
+Apr 12 10:08:48 localhost mme[25406]:                             fiveQI: 9
+Apr 12 10:08:48 localhost mme[25406]:                         }
+Apr 12 10:08:48 localhost mme[25406]:                         allocationAndRetentionPriority: AllocationAndRetentionPriority ::= {
+Apr 12 10:08:48 localhost mme[25406]:                             priorityLevelARP: 15
+Apr 12 10:08:48 localhost mme[25406]:                             pre-emptionCapability: 0 (shall-not-trigger-pre-emption)
+Apr 12 10:08:48 localhost mme[25406]:                             pre-emptionVulnerability: 0 (not-pre-emptable)
+Apr 12 10:08:48 localhost mme[25406]:                         }
+Apr 12 10:08:48 localhost mme[25406]:                     }
+Apr 12 10:08:48 localhost mme[25406]:                 }
+Apr 12 10:08:48 localhost mme[25406]:             }
+Apr 12 10:08:48 localhost mme[25406]:         }
+Apr 12 10:08:48 localhost mme[25406]:     }
+Apr 12 10:08:48 localhost mme[25406]: }
+Apr 12 10:08:48 localhost sctpd[25085]: I0412 10:08:48.474349 25481 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 12 10:08:48 localhost sessiond[24804]: I0412 10:08:48.476982 24804 SessionStateEnforcer.cpp:869]  AMF teid: 40000000 ip address 10.10.10.11 of imsi: IMSI222700000000001 fteid: 2147483648 pdu id: 2 UE ip address 192.168.128.96
+Apr 12 10:08:48 localhost eventd[24889]: DEBUG:root:Logging event: stream_name: "sessiond"
+Apr 12 10:08:48 localhost eventd[24889]: event_type: "session_created"
+Apr 12 10:08:48 localhost eventd[24889]: tag: "IMSI222700000000001"
+Apr 12 10:08:48 localhost eventd[24889]: value: "{\"mac_addr\":\"\",\"user_location\":\"\",\"spgw_ip\":\"\",\"imei\":\"\",\"pdp_start_time\":93963290506032,\"session_id\":\"IMSI222700000000001-710604\",\"apn\":\"default\",\"msisdn\":\"\",\"charging_characteristics\":\"\",\"ipv6_addr\":\"\",\"ip_addr\":\"192.168.128.96\",\"imsi\":\"IMSI222700000000001\"}"
+Apr 12 10:08:48 localhost eventd[24889]: ERROR:root:Connection to FluentBit failed: [Errno 111] Connection refused
+Apr 12 10:08:48 localhost eventd[24889]: INFO:root:FluentBit (td-agent-bit) may not be enabled or configured correctly
+Apr 12 10:08:48 localhost sessiond[24804]: I0412 10:08:48.481528 24832 SessionEvents.cpp:131] Could not log session_created event {"mac_addr":"","user_location":"","spgw_ip":"","imei":"","pdp_start_time":93963290506032,"session_id":"IMSI222700000000001-710604","apn":"default","msisdn":"","charging_characteristics":"","ipv6_addr":"","ip_addr":"192.168.128.96","imsi":"IMSI222700000000001"}, Error Message: Could not connect to FluentBit locally, Details: [Errno 111] Connection refused
+Apr 12 10:08:49 localhost sessiond[24804]: I0412 10:08:49.650566 24804 SetMessageManagerHandler.cpp:142] Release request for session from IMSI: IMSI222700000000001 pdu_id 2
+Apr 12 10:08:49 localhost sessiond[24804]: I0412 10:08:49.652918 24804 SetMessageManagerHandler.cpp:142] Release request for session from IMSI: IMSI222700000000001 pdu_id 1
+Apr 12 10:08:49 localhost mobilityd[24796]: INFO:root:Released IP 192.168.128.96 for sid IMSI222700000000001
+Apr 12 10:08:49 localhost mobilityd[24796]: WARNING:root:IP not found in used list, check if IP is already released: <IMSI222700000000001.default,ipv4, 192.168.128.96>
+Apr 12 10:08:49 localhost mme[25406]: ReleaseIPv4Address fails with code 5, msg: IP 192.168.128.96 not in use
+Apr 12 10:08:49 localhost policydb[24875]: INFO:root:Terminating session: IMSI222700000000001-710604
+Apr 12 10:08:49 localhost eventd[24889]: DEBUG:root:Logging event: stream_name: "sessiond"
+Apr 12 10:08:49 localhost eventd[24889]: event_type: "session_terminated"
+Apr 12 10:08:49 localhost eventd[24889]: tag: "IMSI222700000000001"
+Apr 12 10:08:49 localhost eventd[24889]: value: "{\"mac_addr\":\"\",\"user_location\":\"\",\"spgw_ip\":\"\",\"imei\":\"\",\"record_sequence_number\":1,\"pdp_end_time\":19,\"charging_rx\":0,\"duration\":-93963290506013,\"ip_addr\":\"192.168.128.96\",\"monitoring_tx\":0,\"ipv6_addr\":\"\",\"msisdn\":\"\",\"apn\":\"default\",\"session_id\":\"IMSI222700000000001-710604\",\"list_of_service_data\":[],\"charging_characteristics\":\"\",\"total_tx\":0,\"cause_for_rec_closing\":0,\"imsi\":\"IMSI222700000000001\",\"total_rx\":0,\"monitoring_rx\":0,\"charging_tx\":0,\"pdp_start_time\":93963290506032}"
+Apr 12 10:08:49 localhost policydb[24875]: INFO:root:Terminating session: IMSI222700000000001-100888
+Apr 12 10:08:49 localhost eventd[24889]: DEBUG:root:Logging event: stream_name: "sessiond"
+Apr 12 10:08:49 localhost eventd[24889]: event_type: "session_terminated"
+Apr 12 10:08:49 localhost eventd[24889]: tag: "IMSI222700000000001"
+Apr 12 10:08:49 localhost eventd[24889]: value: "{\"mac_addr\":\"\",\"user_location\":\"\",\"spgw_ip\":\"\",\"imei\":\"\",\"record_sequence_number\":1,\"pdp_end_time\":19,\"charging_rx\":0,\"duration\":-93963290506013,\"ip_addr\":\"192.168.128.96\",\"monitoring_tx\":0,\"ipv6_addr\":\"\",\"msisdn\":\"\",\"apn\":\"default\",\"session_id\":\"IMSI222700000000001-100888\",\"list_of_service_data\":[],\"charging_characteristics\":\"\",\"total_tx\":0,\"cause_for_rec_closing\":0,\"imsi\":\"IMSI222700000000001\",\"total_rx\":0,\"monitoring_rx\":0,\"charging_tx\":0,\"pdp_start_time\":93963290506032}"
+Apr 12 10:08:49 localhost eventd[24889]: ERROR:root:Connection to FluentBit failed: [Errno 111] Connection refused
+Apr 12 10:08:49 localhost eventd[24889]: ERROR:root:Connection to FluentBit failed: [Errno 111] Connection refused
+Apr 12 10:08:49 localhost eventd[24889]: INFO:root:FluentBit (td-agent-bit) may not be enabled or configured correctly
+Apr 12 10:08:49 localhost eventd[24889]: INFO:root:FluentBit (td-agent-bit) may not be enabled or configured correctly
+Apr 12 10:08:49 localhost sessiond[24804]: I0412 10:08:49.682735 24832 SessionEvents.cpp:291] Could not log session_terminated event {"mac_addr":"","user_location":"","spgw_ip":"","imei":"","record_sequence_number":1,"pdp_end_time":19,"charging_rx":0,"duration":-93963290506013,"ip_addr":"192.168.128.96","monitoring_tx":0,"ipv6_addr":"","msisdn":"","apn":"default","session_id":"IMSI222700000000001-100888","list_of_service_data":[],"charging_characteristics":"","total_tx":0,"cause_for_rec_closing":0,"imsi":"IMSI222700000000001","total_rx":0,"monitoring_rx":0,"charging_tx":0,"pdp_start_time":93963290506032}, Error Message: Could not connect to FluentBit locally, Details: [Errno 111] Connection refused
+Apr 12 10:08:49 localhost sessiond[24804]: I0412 10:08:49.683140 24832 SessionEvents.cpp:291] Could not log session_terminated event {"mac_addr":"","user_location":"","spgw_ip":"","imei":"","record_sequence_number":1,"pdp_end_time":19,"charging_rx":0,"duration":-93963290506013,"ip_addr":"192.168.128.96","monitoring_tx":0,"ipv6_addr":"","msisdn":"","apn":"default","session_id":"IMSI222700000000001-710604","list_of_service_data":[],"charging_characteristics":"","total_tx":0,"cause_for_rec_closing":0,"imsi":"IMSI222700000000001","total_rx":0,"monitoring_rx":0,"charging_tx":0,"pdp_start_time":93963290506032}, Error Message: Could not connect to FluentBit locally, Details: [Errno 111] Connection refused
+Apr 12 10:08:49 localhost sctpd[25085]: I0412 10:08:49.904911 25481 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 12 10:08:51 localhost smsd[24892]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 12 10:08:54 localhost sessiond[24804]: I0412 10:08:54.659199 24804 SessionStateEnforcer.cpp:377] Nothing to remove as no respective entry found for session id IMSI222700000000001-710604 of IMSI IMSI222700000000001
+Apr 12 10:08:54 localhost sessiond[24804]: I0412 10:08:54.659281 24804 SessionStateEnforcer.cpp:377] Nothing to remove as no respective entry found for session id IMSI222700000000001-100888 of IMSI IMSI222700000000001
+Apr 12 10:08:55 localhost dhclient[601]: DHCPREQUEST for 172.16.5.121 on eth1 to 172.16.5.2 port 67 (xid=0x6123bf67)
+Apr 12 10:08:55 localhost mobilityd[24796]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Apr 12 10:08:55 localhost mobilityd[24796]: INFO:root:GW-v6 probe: timer started
+Apr 12 10:08:56 localhost smsd[24892]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 12 10:08:57 localhost systemd[1]: Started Session 2092 of user ubuntu.
+Apr 12 10:08:57 localhost systemd[1]: Starting Refresh fwupd metadata and update motd...
+Apr 12 10:08:57 localhost dbus-daemon[635]: [system] Activating via systemd: service name='org.freedesktop.fwupd' unit='fwupd.service' requested by ':1.5063' (uid=62803 pid=25893 comm="/usr/bin/fwupdmgr refresh " label="unconfined")
+Apr 12 10:08:57 localhost systemd[1]: Starting Firmware update daemon...
+Apr 12 10:08:58 localhost dbus-daemon[635]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Apr 12 10:08:58 localhost systemd[1]: Started Firmware update daemon.
+Apr 12 10:08:58 localhost systemd[1]: fwupd-refresh.service: Succeeded.
+Apr 12 10:08:58 localhost systemd[1]: Finished Refresh fwupd metadata and update motd.
