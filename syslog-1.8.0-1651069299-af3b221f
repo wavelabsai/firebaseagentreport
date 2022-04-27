@@ -1,0 +1,48 @@
+Apr 27 07:32:33 localhost smsd[3555223]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Apr 27 07:32:33 localhost mobilityd[3555125]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Apr 27 07:32:33 localhost mobilityd[3555125]: INFO:root:GW-v6 probe: timer started
+Apr 27 07:32:35 localhost sctpd[3555412]: I0427 07:32:35.425845 3555763 sctp_connection.cpp:195] Unhandled notification type 32776
+Apr 27 07:32:36 localhost magmad[3555075]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 27 07:32:36 localhost magmad[3555075]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 27 07:32:36 localhost magmad[3555075]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 27 07:32:36 localhost magmad[3555075]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 27 07:32:36 localhost magmad[3555075]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 27 07:32:36 localhost magmad[3555075]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 27 07:32:36 localhost magmad[3555075]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 27 07:32:36 localhost magmad[3555075]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 27 07:32:36 localhost sctpd[3555412]: I0427 07:32:36.487668 3555763 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 27 07:32:36 localhost sctpd[3555412]: I0427 07:32:36.710173 3555763 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 27 07:32:36 localhost sctpd[3555412]: I0427 07:32:36.829316 3555763 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 27 07:32:36 localhost mme[3555722]: [DEBUG] Sending S6A-UPDATE_LOCATION_REQUEST with IMSI: 222700000000001
+Apr 27 07:32:36 localhost mme[3555722]: [INFO] Received S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001; Status: ; StatusCode: 2001
+Apr 27 07:32:36 localhost mme[3555722]: [INFO] sent itti S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001
+Apr 27 07:32:36 localhost control_proxy[3555280]: 2022-04-27T07:32:36.411Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 173bytes 0.520s
+Apr 27 07:32:36 localhost policydb[3555202]: INFO:root:Processing 4 policy updates (resync=True)
+Apr 27 07:32:36 localhost sctpd[3555412]: I0427 07:32:36.949607 3555763 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 27 07:32:37 localhost control_proxy[3555280]: 2022-04-27T07:32:36.411Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.272s
+Apr 27 07:32:37 localhost policydb[3555202]: INFO:root:Processing 0 basename -> policy updates
+Apr 27 07:32:37 localhost control_proxy[3555280]: 2022-04-27T07:32:37.207Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 13536bytes 0.332s
+Apr 27 07:32:37 localhost policydb[3555202]: INFO:root:Processing 223 SID -> apn -> policy updates
+Apr 27 07:32:37 localhost control_proxy[3555280]: 2022-04-27T07:32:37.207Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.274s
+Apr 27 07:32:37 localhost policydb[3555202]: INFO:root:Processing 0 rating group updates
+Apr 27 07:32:38 localhost sctpd[3555412]: I0427 07:32:38.338656 3555763 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 27 07:32:38 localhost smsd[3555223]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 27 07:32:40 localhost sctpd[3555412]: I0427 07:32:40.568017 3555763 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 27 07:32:40 localhost sctpd[3555412]: I0427 07:32:40.683445 3555763 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 27 07:32:40 localhost sctpd[3555412]: I0427 07:32:40.796640 3555763 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 27 07:32:40 localhost mme[3555722]: [DEBUG] Sending S6A-UPDATE_LOCATION_REQUEST with IMSI: 222700000000001
+Apr 27 07:32:40 localhost mme[3555722]: [INFO] Received S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001; Status: ; StatusCode: 2001
+Apr 27 07:32:40 localhost mme[3555722]: [INFO] sent itti S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001
+Apr 27 07:32:40 localhost sctpd[3555412]: I0427 07:32:40.922617 3555763 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 27 07:32:41 localhost sctpd[3555412]: I0427 07:32:41.190069 3555763 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 27 07:32:43 localhost smsd[3555223]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 27 07:32:48 localhost smsd[3555223]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 27 07:32:53 localhost systemd[1]: Started Session 5092 of user ubuntu.
+Apr 27 07:32:53 localhost mobilityd[3555125]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Apr 27 07:32:53 localhost mobilityd[3555125]: INFO:root:GW-v6 probe: timer started
+Apr 27 07:32:54 localhost smsd[3555223]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 27 07:32:55 localhost mobilityd[3555125]: DEBUG:root:Received GetSubscriberIPTable
+Apr 27 07:32:55 localhost mobilityd[3555125]: INFO:root:GRPC message:
+Apr 27 07:32:55 localhost mobilityd[3555125]:   magma.orc8r.Void {}
+Apr 27 07:32:55 localhost mobilityd[3555125]: INFO:root:GRPC message:
+Apr 27 07:32:55 localhost mobilityd[3555125]:   magma.lte.SubscriberIPTable {}
