@@ -1,0 +1,17 @@
+Apr 28 07:18:27 localhost smsd[3781880]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 28 07:18:28 localhost control_proxy[3781959]: 2022-04-28T07:18:28.689Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.260s
+Apr 28 07:18:28 localhost magmad[3781719]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Apr 28 07:18:32 localhost smsd[3781880]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 28 07:18:34 localhost sctpd[3784525]: I0428 07:18:34.103965 3784897 sctp_connection.cpp:195] Unhandled notification type 32776
+Apr 28 07:18:34 localhost sctpd[3784525]: I0428 07:18:34.869355 3784897 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 28 07:18:37 localhost smsd[3781880]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 28 07:18:38 localhost mobilityd[3784440]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Apr 28 07:18:38 localhost mobilityd[3784440]: INFO:root:GW-v6 probe: timer started
+Apr 28 07:18:42 localhost smsd[3781880]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 28 07:18:45 localhost systemd[1]: Started Session 5144 of user ubuntu.
+Apr 28 07:18:47 localhost mobilityd[3784440]: DEBUG:root:Received GetSubscriberIPTable
+Apr 28 07:18:47 localhost mobilityd[3784440]: INFO:root:GRPC message:
+Apr 28 07:18:47 localhost mobilityd[3784440]:   magma.orc8r.Void {}
+Apr 28 07:18:47 localhost mobilityd[3784440]: INFO:root:GRPC message:
+Apr 28 07:18:47 localhost mobilityd[3784440]:   magma.lte.SubscriberIPTable {}
+Apr 28 07:18:47 localhost smsd[3781880]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
