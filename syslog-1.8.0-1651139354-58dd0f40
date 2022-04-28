@@ -1,0 +1,380 @@
+Apr 28 10:28:13 localhost smsd[3855185]: message repeated 2 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Apr 28 10:28:13 localhost sctpd[3855335]: I0428 10:28:13.840387 3855853 sctp_connection.cpp:195] Unhandled notification type 32776
+Apr 28 10:28:14 localhost sctpd[3855335]: I0428 10:28:14.910596 3855853 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 28 10:28:16 localhost magmad[3855020]: INFO:root:Setting logging level to INFO
+Apr 28 10:28:18 localhost mobilityd[3855090]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Apr 28 10:28:18 localhost mobilityd[3855090]: INFO:root:GW-v6 probe: timer started
+Apr 28 10:28:18 localhost smsd[3855185]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 28 10:28:33 localhost smsd[3855185]: message repeated 3 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Apr 28 10:28:34 localhost magmad[3855020]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 28 10:28:34 localhost magmad[3855020]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 28 10:28:34 localhost magmad[3855020]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 28 10:28:34 localhost magmad[3855020]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 28 10:28:34 localhost magmad[3855020]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 28 10:28:34 localhost magmad[3855020]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 28 10:28:34 localhost magmad[3855020]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 28 10:28:34 localhost magmad[3855020]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 28 10:28:35 localhost control_proxy[3855239]: 2022-04-28T10:28:34.973Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.527s
+Apr 28 10:28:35 localhost magmad[3855020]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Apr 28 10:28:37 localhost sctpd[3855335]: I0428 10:28:37.430657 3855853 sctp_connection.cpp:195] Unhandled notification type 32776
+Apr 28 10:28:38 localhost sctpd[3855335]: I0428 10:28:38.486738 3855853 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 28 10:28:38 localhost mobilityd[3855090]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Apr 28 10:28:38 localhost mobilityd[3855090]: INFO:root:GW-v6 probe: timer started
+Apr 28 10:28:38 localhost smsd[3855185]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 28 10:28:53 localhost smsd[3855185]: message repeated 3 times: [ INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.]
+Apr 28 10:28:55 localhost magmad[3855020]: INFO:root:Checking for upgrade...
+Apr 28 10:28:55 localhost magmad[3855020]: WARNING:root:magmad package_version config missing or set to default 0.0.0-0, skipping upgrade
+Apr 28 10:28:55 localhost control_proxy[3855239]: 2022-04-28T10:27:55.132Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.345s
+Apr 28 10:28:55 localhost magmad[3855020]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+Apr 28 10:28:58 localhost mobilityd[3855090]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Apr 28 10:28:58 localhost mobilityd[3855090]: INFO:root:GW-v6 probe: timer started
+Apr 28 10:28:58 localhost sctpd[3855335]: I0428 10:28:58.743377 3855853 sctp_connection.cpp:195] Unhandled notification type 32776
+Apr 28 10:28:59 localhost magmad[3855020]: INFO:root:[SyncRPC] Got heartBeat from cloud
+Apr 28 10:28:59 localhost smsd[3855185]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 28 10:29:01 localhost control_proxy[3855239]: 2022-04-28T10:29:01.559Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 173bytes 0.273s
+Apr 28 10:29:01 localhost policydb[3855166]: INFO:root:Processing 4 policy updates (resync=True)
+Apr 28 10:29:02 localhost control_proxy[3855239]: 2022-04-28T10:29:01.559Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.267s
+Apr 28 10:29:02 localhost policydb[3855166]: INFO:root:Processing 0 basename -> policy updates
+Apr 28 10:29:02 localhost control_proxy[3855239]: 2022-04-28T10:29:02.106Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 13536bytes 0.292s
+Apr 28 10:29:02 localhost policydb[3855166]: INFO:root:Processing 223 SID -> apn -> policy updates
+Apr 28 10:29:02 localhost control_proxy[3855239]: 2022-04-28T10:29:02.106Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.261s
+Apr 28 10:29:02 localhost policydb[3855166]: INFO:root:Processing 0 rating group updates
+Apr 28 10:29:04 localhost smsd[3855185]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 28 10:29:06 localhost systemd[1]: Stopping Magma Redis datastore service...
+Apr 28 10:29:06 localhost systemd[1]: Stopping Magma enodebd service...
+Apr 28 10:29:06 localhost systemd[1]: Stopping Magma envoy controller service...
+Apr 28 10:29:06 localhost systemd[1]: Stopping Magma health service...
+Apr 28 10:29:06 localhost systemd[1]: Stopping Magma eventd service...
+Apr 28 10:29:06 localhost redis[3856712]: Could not connect to Redis at 127.0.0.1:6379: Connection refused
+Apr 28 10:29:06 localhost systemd[1]: magma@redis.service: Control process exited, code=exited, status=1/FAILURE
+Apr 28 10:29:06 localhost systemd[1]: Stopping Magma OAI MME service...
+Apr 28 10:29:06 localhost mme[3855786]: [SIG][D]MME_UNIT_TEST Flag is Disabled
+Apr 28 10:29:06 localhost mme[3855786]: filename /var/run/mme.pid failed to be written
+Apr 28 10:29:06 localhost mme[3855786]: Received SIGINT or SIGTERM
+Apr 28 10:29:06 localhost mme[3855786]: TASK_S6A terminated
+Apr 28 10:29:06 localhost systemd[1]: Stopping Magma envoy service...
+Apr 28 10:29:06 localhost mme[3855786]: TASK_S1AP terminated
+Apr 28 10:29:06 localhost mme[3855786]: TASK_MME_APP terminated
+Apr 28 10:29:06 localhost systemd[1]: Stopping Magma policydb service...
+Apr 28 10:29:06 localhost policydb[3855166]: INFO:root:Stopping policydb with reason SIGTERM...
+Apr 28 10:29:06 localhost systemd[1]: Stopping Magma smsd service...
+Apr 28 10:29:06 localhost smsd[3855185]: INFO:root:Stopping smsd with reason SIGTERM...
+Apr 28 10:29:06 localhost systemd[1]: Stopping Magma control_proxy service...
+Apr 28 10:29:06 localhost systemd[1]: Stopping Magma directoryd service...
+Apr 28 10:29:06 localhost systemd[1]: Stopping Magma ctraced service...
+Apr 28 10:29:06 localhost systemd[1]: Stopping Magma magmad service...
+Apr 28 10:29:06 localhost mme[3855786]: TASK_SERVICE303 terminated
+Apr 28 10:29:06 localhost ctraced[3855195]: INFO:root:Stopping ctraced with reason SIGTERM...
+Apr 28 10:29:06 localhost systemd[1]: Stopping Magma state service...
+Apr 28 10:29:06 localhost mme[3855786]: TASK_ASYNC_GRPC_SERVICE terminated
+Apr 28 10:29:07 localhost state[3855173]: INFO:root:Stopping state with reason SIGTERM...
+Apr 28 10:29:07 localhost eventd[3855177]: INFO:root:Stopping eventd with reason SIGTERM...
+Apr 28 10:29:07 localhost systemd[1]: Stopping Magma dnsd service...
+Apr 28 10:29:07 localhost dnsmasq[3855284]: exiting on receipt of SIGTERM
+Apr 28 10:29:07 localhost enodebd[3855097]: INFO:root:Stopping enodebd with reason SIGTERM...
+Apr 28 10:29:07 localhost health[3855197]: INFO:root:Stopping health with reason SIGTERM...
+Apr 28 10:29:07 localhost directoryd[3855094]: INFO:root:Stopping directoryd with reason SIGTERM...
+Apr 28 10:29:07 localhost systemd[1]: magma@control_proxy.service: Succeeded.
+Apr 28 10:29:07 localhost systemd[1]: Stopped Magma control_proxy service.
+Apr 28 10:29:07 localhost mme[3855786]: TASK_SERVICE303_SERVER terminated
+Apr 28 10:29:07 localhost envoy_controller[3855224]: I0428 10:29:07.004908 3855224 control_plane.go:138] OnStreamClosed 3 closed
+Apr 28 10:29:07 localhost envoy_controller[3855224]: I0428 10:29:07.005003 3855224 control_plane.go:138] OnStreamClosed 1 closed
+Apr 28 10:29:07 localhost envoy_controller[3855224]: I0428 10:29:07.005048 3855224 control_plane.go:138] OnStreamClosed 2 closed
+Apr 28 10:29:07 localhost systemd[1]: magma_dp@envoy.service: Succeeded.
+Apr 28 10:29:07 localhost magmad[3855020]: INFO:root:Stopping magmad with reason SIGTERM...
+Apr 28 10:29:07 localhost systemd[1]: Stopped Magma envoy service.
+Apr 28 10:29:07 localhost magmad[3855020]: ERROR:root:Exception in callback <function MetricsCollector._make_sync_done_func.<locals>.<lambda> at 0x7fb55f308ee0>: RuntimeError('Event loop is closed')
+Apr 28 10:29:07 localhost mme[3855786]: terminate called without an active exception
+Apr 28 10:29:07 localhost magmad[3855020]: ERROR:root:Exception in callback <function MetricsCollector._make_sync_done_func.<locals>.<lambda> at 0x7fb55c4078b0>: RuntimeError('Event loop is closed')
+Apr 28 10:29:07 localhost magmad[3855020]: ERROR:root:Exception in callback <function MetricsCollector._make_sync_done_func.<locals>.<lambda> at 0x7fb55c4074c0>: RuntimeError('Event loop is closed')
+Apr 28 10:29:07 localhost magmad[3855020]: ERROR:root:Exception in callback <function MetricsCollector._make_sync_done_func.<locals>.<lambda> at 0x7fb55c407af0>: RuntimeError('Event loop is closed')
+Apr 28 10:29:07 localhost magmad[3855020]: ERROR:root:Exception in callback <function MetricsCollector._make_sync_done_func.<locals>.<lambda> at 0x7fb55c444a60>: RuntimeError('Event loop is closed')
+Apr 28 10:29:07 localhost magmad[3855020]: ERROR:root:Exception in callback <function MetricsCollector._make_sync_done_func.<locals>.<lambda> at 0x7fb55c444c10>: RuntimeError('Event loop is closed')
+Apr 28 10:29:07 localhost magmad[3855020]: ERROR:root:Exception in callback <function MetricsCollector._make_sync_done_func.<locals>.<lambda> at 0x7fb55c4441f0>: RuntimeError('Event loop is closed')
+Apr 28 10:29:07 localhost magmad[3855020]: ERROR:root:[SyncRPC] Failing to forward request, err: Socket closed
+Apr 28 10:29:07 localhost mme[3855786]: [TRACE] Entering shared_log_exit
+Apr 28 10:29:07 localhost magmad[3855020]: ERROR:root:Exception in callback <function MetricsCollector._make_sync_done_func.<locals>.<lambda> at 0x7fb55c444b80>: RuntimeError('Event loop is closed')
+Apr 28 10:29:07 localhost magmad[3855020]: WARNING:root:[SyncRPC] Transient gRPC error, retrying: Socket closed
+Apr 28 10:29:07 localhost sessiond[3855101]: I0428 10:29:07.073786 3855116 PolicyLoader.cpp:45] Client disconnected from 127.0.0.1:6380
+Apr 28 10:29:07 localhost systemd[1]: magma@redis.service: Failed with result 'exit-code'.
+Apr 28 10:29:07 localhost systemd[1]: Stopped Magma Redis datastore service.
+Apr 28 10:29:07 localhost envoy_controller[3856733]: ERROR:root:Failed to write to redis, status Error 111 connecting to 127.0.0.1:6380. Connection refused.
+Apr 28 10:29:07 localhost envoy_controller[3856733]: ERROR:root:Logging exit info instead
+Apr 28 10:29:07 localhost envoy_controller[3856733]: latest_service_result: SUCCESS
+Apr 28 10:29:07 localhost envoy_controller[3856733]: latest_exit_code: KILLED
+Apr 28 10:29:07 localhost dnsd[3856730]: ERROR:root:Failed to write to redis, status Error 111 connecting to 127.0.0.1:6380. Connection refused.
+Apr 28 10:29:07 localhost dnsd[3856730]: ERROR:root:Logging exit info instead
+Apr 28 10:29:07 localhost dnsd[3856730]: latest_service_result: SUCCESS
+Apr 28 10:29:07 localhost dnsd[3856730]: latest_exit_code: EXITED
+Apr 28 10:29:07 localhost systemd[1]: magma@dnsd.service: Succeeded.
+Apr 28 10:29:07 localhost systemd[1]: Stopped Magma dnsd service.
+Apr 28 10:29:08 localhost systemd-udevd[3856745]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 28 10:29:08 localhost systemd-udevd[3856745]: Using default interface naming scheme 'v245'.
+Apr 28 10:29:08 localhost systemd-networkd[409]: proxy_port: Lost carrier
+Apr 28 10:29:08 localhost networkd-dispatcher[641]: WARNING:Unknown index 4 seen, reloading interface list
+Apr 28 10:29:08 localhost systemd-udevd[3856745]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 28 10:29:08 localhost systemd-udevd[3856745]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 28 10:29:08 localhost systemd-udevd[3856745]: envoy_cntr_ns: Could not generate persistent MAC: No data available
+Apr 28 10:29:08 localhost systemd-networkd[409]: envoy_cntr: Lost carrier
+Apr 28 10:29:08 localhost networkd-dispatcher[641]: WARNING:Unknown index 75260 seen, reloading interface list
+Apr 28 10:29:08 localhost systemd-udevd[3856745]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 28 10:29:08 localhost systemd-udevd[3856745]: envoy_cntr_ns: Could not generate persistent MAC: No data available
+Apr 28 10:29:08 localhost eventd[3856759]: ERROR:root:Failed to write to redis, status Error 111 connecting to 127.0.0.1:6380. Connection refused.
+Apr 28 10:29:08 localhost eventd[3856759]: ERROR:root:Logging exit info instead
+Apr 28 10:29:08 localhost eventd[3856759]: latest_service_result: SUCCESS
+Apr 28 10:29:08 localhost eventd[3856759]: latest_exit_code: EXITED
+Apr 28 10:29:08 localhost ctraced[3856760]: ERROR:root:Failed to write to redis, status Error 111 connecting to 127.0.0.1:6380. Connection refused.
+Apr 28 10:29:08 localhost ctraced[3856760]: ERROR:root:Logging exit info instead
+Apr 28 10:29:08 localhost ctraced[3856760]: latest_service_result: SUCCESS
+Apr 28 10:29:08 localhost ctraced[3856760]: latest_exit_code: EXITED
+Apr 28 10:29:08 localhost directoryd[3856756]: ERROR:root:Failed to write to redis, status Error 111 connecting to 127.0.0.1:6380. Connection refused.
+Apr 28 10:29:08 localhost directoryd[3856756]: ERROR:root:Logging exit info instead
+Apr 28 10:29:08 localhost directoryd[3856756]: latest_service_result: SUCCESS
+Apr 28 10:29:08 localhost directoryd[3856756]: latest_exit_code: EXITED
+Apr 28 10:29:08 localhost systemd[1]: magma@eventd.service: Succeeded.
+Apr 28 10:29:08 localhost systemd[1]: Stopped Magma eventd service.
+Apr 28 10:29:08 localhost smsd[3856766]: ERROR:root:Failed to write to redis, status Error 111 connecting to 127.0.0.1:6380. Connection refused.
+Apr 28 10:29:08 localhost smsd[3856766]: ERROR:root:Logging exit info instead
+Apr 28 10:29:08 localhost smsd[3856766]: latest_service_result: SUCCESS
+Apr 28 10:29:08 localhost smsd[3856766]: latest_exit_code: EXITED
+Apr 28 10:29:08 localhost enodebd[3856787]: ERROR:root:Failed to write to redis, status Error 111 connecting to 127.0.0.1:6380. Connection refused.
+Apr 28 10:29:08 localhost enodebd[3856787]: ERROR:root:Logging exit info instead
+Apr 28 10:29:08 localhost enodebd[3856787]: latest_service_result: SUCCESS
+Apr 28 10:29:08 localhost enodebd[3856787]: latest_exit_code: EXITED
+Apr 28 10:29:08 localhost state[3856769]: ERROR:root:Failed to write to redis, status Error 111 connecting to 127.0.0.1:6380. Connection refused.
+Apr 28 10:29:08 localhost state[3856769]: ERROR:root:Logging exit info instead
+Apr 28 10:29:08 localhost state[3856769]: latest_service_result: SUCCESS
+Apr 28 10:29:08 localhost state[3856769]: latest_exit_code: EXITED
+Apr 28 10:29:08 localhost systemd[1]: magma@enodebd.service: Succeeded.
+Apr 28 10:29:08 localhost systemd[1]: Stopped Magma enodebd service.
+Apr 28 10:29:08 localhost health[3856757]: ERROR:root:Failed to write to redis, status Error 111 connecting to 127.0.0.1:6380. Connection refused.
+Apr 28 10:29:08 localhost health[3856757]: ERROR:root:Logging exit info instead
+Apr 28 10:29:08 localhost health[3856757]: latest_service_result: SUCCESS
+Apr 28 10:29:08 localhost health[3856757]: latest_exit_code: EXITED
+Apr 28 10:29:08 localhost systemd[1]: magma@smsd.service: Succeeded.
+Apr 28 10:29:08 localhost systemd[1]: Stopped Magma smsd service.
+Apr 28 10:29:08 localhost systemd[1]: magma@ctraced.service: Succeeded.
+Apr 28 10:29:08 localhost systemd[1]: Stopped Magma ctraced service.
+Apr 28 10:29:08 localhost systemd[1]: magma@health.service: Succeeded.
+Apr 28 10:29:08 localhost systemd[1]: Stopped Magma health service.
+Apr 28 10:29:08 localhost systemd[1]: magma@directoryd.service: Succeeded.
+Apr 28 10:29:08 localhost systemd[1]: Stopped Magma directoryd service.
+Apr 28 10:29:08 localhost policydb[3856762]: ERROR:root:Failed to write to redis, status Error 111 connecting to 127.0.0.1:6380. Connection refused.
+Apr 28 10:29:08 localhost policydb[3856762]: ERROR:root:Logging exit info instead
+Apr 28 10:29:08 localhost policydb[3856762]: latest_service_result: SUCCESS
+Apr 28 10:29:08 localhost policydb[3856762]: latest_exit_code: EXITED
+Apr 28 10:29:08 localhost magmad[3856758]: ERROR:root:Failed to write to redis, status Error 111 connecting to 127.0.0.1:6380. Connection refused.
+Apr 28 10:29:08 localhost magmad[3856758]: ERROR:root:Logging exit info instead
+Apr 28 10:29:08 localhost magmad[3856758]: latest_service_result: SUCCESS
+Apr 28 10:29:08 localhost magmad[3856758]: latest_exit_code: EXITED
+Apr 28 10:29:08 localhost systemd[1]: magma@state.service: Succeeded.
+Apr 28 10:29:08 localhost systemd[1]: Stopped Magma state service.
+Apr 28 10:29:08 localhost systemd[1]: magma@policydb.service: Succeeded.
+Apr 28 10:29:08 localhost systemd[1]: Stopped Magma policydb service.
+Apr 28 10:29:08 localhost systemd[1]: magma@magmad.service: Succeeded.
+Apr 28 10:29:08 localhost systemd[1]: Stopped Magma magmad service.
+Apr 28 10:29:08 localhost sctpd[3855335]: I0428 10:29:08.714350 3855853 sctpd_uplink_client.cpp:38] sctpul.sendul error
+Apr 28 10:29:08 localhost sctpd[3855335]: I0428 10:29:08.714377 3855853 sctpd_uplink_client.cpp:39] grpc error (14): Connect Failed
+Apr 28 10:29:09 localhost systemd-networkd[409]: envoy_cntr: Link DOWN
+Apr 28 10:29:09 localhost systemd[1]: magma@mme.service: Main process exited, code=killed, status=6/ABRT
+Apr 28 10:29:09 localhost mme[3856830]: ERROR:root:Failed to write to redis, status Error 111 connecting to 127.0.0.1:6380. Connection refused.
+Apr 28 10:29:09 localhost mme[3856830]: ERROR:root:Logging exit info instead
+Apr 28 10:29:09 localhost mme[3856830]: latest_service_result: SIGNAL
+Apr 28 10:29:09 localhost mme[3856830]: latest_exit_code: KILLED
+Apr 28 10:29:10 localhost systemd[1]: magma@mme.service: Failed with result 'signal'.
+Apr 28 10:29:10 localhost systemd[1]: Stopped Magma OAI MME service.
+Apr 28 10:29:10 localhost systemd[1]: Stopping Magma pipelined service...
+Apr 28 10:29:10 localhost systemd[1]: Stopping Magma session manager service...
+Apr 28 10:29:10 localhost pipelined[3855214]: INFO:root:Stopping pipelined with reason SIGTERM...
+Apr 28 10:29:10 localhost systemd[3756037]: run-netns-envoy_ns1.mount: Succeeded.
+Apr 28 10:29:10 localhost systemd[1]: run-netns-envoy_ns1.mount: Succeeded.
+Apr 28 10:29:10 localhost systemd[1]: magma@envoy_controller.service: Succeeded.
+Apr 28 10:29:10 localhost systemd[1]: Stopped Magma envoy controller service.
+Apr 28 10:29:10 localhost systemd[3117]: run-netns-envoy_ns1.mount: Succeeded.
+Apr 28 10:29:10 localhost sessiond[3856836]: ERROR:root:Failed to write to redis, status Error 111 connecting to 127.0.0.1:6380. Connection refused.
+Apr 28 10:29:10 localhost sessiond[3856836]: ERROR:root:Logging exit info instead
+Apr 28 10:29:10 localhost sessiond[3856836]: latest_service_result: SUCCESS
+Apr 28 10:29:10 localhost sessiond[3856836]: latest_exit_code: KILLED
+Apr 28 10:29:10 localhost systemd[1]: magma@sessiond.service: Succeeded.
+Apr 28 10:29:10 localhost systemd[1]: Stopped Magma session manager service.
+Apr 28 10:29:10 localhost pipelined[3856843]: ERROR:root:Failed to write to redis, status Error 111 connecting to 127.0.0.1:6380. Connection refused.
+Apr 28 10:29:10 localhost pipelined[3856843]: ERROR:root:Logging exit info instead
+Apr 28 10:29:10 localhost pipelined[3856843]: latest_service_result: SUCCESS
+Apr 28 10:29:10 localhost pipelined[3856843]: latest_exit_code: EXITED
+Apr 28 10:29:10 localhost systemd[1]: magma@pipelined.service: Succeeded.
+Apr 28 10:29:10 localhost systemd[1]: Stopped Magma pipelined service.
+Apr 28 10:29:10 localhost mobilityd[3855090]: INFO:root:Stopping mobilityd with reason SIGTERM...
+Apr 28 10:29:10 localhost systemd[1]: Stopping Magma mobilityd service...
+Apr 28 10:29:18 localhost mobilityd[3855090]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Apr 28 10:29:18 localhost mobilityd[3855090]: INFO:root:GW-v6 probe: timer started
+Apr 28 10:29:21 localhost systemd[1]: Started Session 5154 of user ubuntu.
+Apr 28 10:29:23 localhost systemd[1]: Started Session 5155 of user ubuntu.
+Apr 28 10:29:23 localhost sctpd[3855335]: I0428 10:29:23.249887 3855853 sctpd_uplink_client.cpp:72] sctpul.closeassoc error
+Apr 28 10:29:23 localhost sctpd[3855335]: I0428 10:29:23.249940 3855853 sctpd_uplink_client.cpp:73] grpc error (14): Connect Failed
+Apr 28 10:29:32 localhost sctpd[3855335]: I0428 10:29:32.419798 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:29:32 localhost sctpd[3855335]: I0428 10:29:32.419907 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:29:38 localhost mobilityd[3855090]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Apr 28 10:29:38 localhost mobilityd[3855090]: INFO:root:GW-v6 probe: timer started
+Apr 28 10:29:58 localhost mobilityd[3855090]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Apr 28 10:29:58 localhost mobilityd[3855090]: INFO:root:GW-v6 probe: timer started
+Apr 28 10:30:04 localhost sctpd[3855335]: I0428 10:30:04.220821 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:30:04 localhost sctpd[3855335]: I0428 10:30:04.220909 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:30:18 localhost mobilityd[3855090]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Apr 28 10:30:18 localhost mobilityd[3855090]: INFO:root:GW-v6 probe: timer started
+Apr 28 10:30:26 localhost sctpd[3855335]: I0428 10:30:26.816766 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:30:26 localhost sctpd[3855335]: I0428 10:30:26.816848 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:30:28 localhost sctpd[3855335]: I0428 10:30:28.817588 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:30:28 localhost sctpd[3855335]: I0428 10:30:28.817631 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:30:38 localhost mobilityd[3855090]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Apr 28 10:30:38 localhost mobilityd[3855090]: INFO:root:GW-v6 probe: timer started
+Apr 28 10:30:40 localhost systemd[1]: magma@mobilityd.service: State 'stop-sigterm' timed out. Killing.
+Apr 28 10:30:40 localhost systemd[1]: magma@mobilityd.service: Killing process 3855090 (python3) with signal SIGKILL.
+Apr 28 10:30:40 localhost systemd[1]: magma@mobilityd.service: Killing process 3855367 (default-executo) with signal SIGKILL.
+Apr 28 10:30:40 localhost systemd[1]: magma@mobilityd.service: Main process exited, code=killed, status=9/KILL
+Apr 28 10:30:40 localhost mobilityd[3857707]: ERROR:root:Failed to write to redis, status Error 111 connecting to 127.0.0.1:6380. Connection refused.
+Apr 28 10:30:40 localhost mobilityd[3857707]: ERROR:root:Logging exit info instead
+Apr 28 10:30:40 localhost mobilityd[3857707]: latest_service_result: TIMEOUT
+Apr 28 10:30:40 localhost mobilityd[3857707]: latest_exit_code: KILLED
+Apr 28 10:30:40 localhost systemd[1]: magma@mobilityd.service: Failed with result 'timeout'.
+Apr 28 10:30:40 localhost systemd[1]: Stopped Magma mobilityd service.
+Apr 28 10:30:40 localhost systemd[1]: Stopping Magma subscriberdb service...
+Apr 28 10:30:40 localhost subscriberdb[3855088]: INFO:root:Stopping subscriberdb with reason SIGTERM...
+Apr 28 10:30:41 localhost subscriberdb[3857724]: ERROR:root:Failed to write to redis, status Error 111 connecting to 127.0.0.1:6380. Connection refused.
+Apr 28 10:30:41 localhost subscriberdb[3857724]: ERROR:root:Logging exit info instead
+Apr 28 10:30:41 localhost subscriberdb[3857724]: latest_service_result: SUCCESS
+Apr 28 10:30:41 localhost subscriberdb[3857724]: latest_exit_code: EXITED
+Apr 28 10:30:41 localhost systemd[1]: magma@subscriberdb.service: Succeeded.
+Apr 28 10:30:41 localhost systemd[1]: Stopped Magma subscriberdb service.
+Apr 28 10:30:49 localhost sctpd[3855335]: I0428 10:30:49.395735 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:30:49 localhost sctpd[3855335]: I0428 10:30:49.395814 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:31:11 localhost sctpd[3855335]: I0428 10:31:11.947827 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:31:11 localhost sctpd[3855335]: I0428 10:31:11.947909 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:31:34 localhost sctpd[3855335]: I0428 10:31:34.551828 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:31:34 localhost sctpd[3855335]: I0428 10:31:34.551934 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:31:56 localhost sctpd[3855335]: I0428 10:31:56.981914 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:31:56 localhost sctpd[3855335]: I0428 10:31:56.982020 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:32:19 localhost sctpd[3855335]: I0428 10:32:19.490839 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:32:19 localhost sctpd[3855335]: I0428 10:32:19.490921 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:32:42 localhost sctpd[3855335]: I0428 10:32:42.226784 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:32:42 localhost sctpd[3855335]: I0428 10:32:42.226859 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:33:04 localhost sctpd[3855335]: I0428 10:33:04.894791 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:33:04 localhost sctpd[3855335]: I0428 10:33:04.894928 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:33:27 localhost sctpd[3855335]: I0428 10:33:27.417627 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:33:27 localhost sctpd[3855335]: I0428 10:33:27.417701 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:33:49 localhost sctpd[3855335]: I0428 10:33:49.879989 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:33:49 localhost sctpd[3855335]: I0428 10:33:49.880092 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:34:21 localhost sctpd[3855335]: I0428 10:34:21.733855 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:34:21 localhost sctpd[3855335]: I0428 10:34:21.733969 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:34:44 localhost sctpd[3855335]: I0428 10:34:44.342744 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:34:44 localhost sctpd[3855335]: I0428 10:34:44.342849 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:35:06 localhost sctpd[3855335]: I0428 10:35:06.972735 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:35:06 localhost sctpd[3855335]: I0428 10:35:06.972807 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:35:29 localhost sctpd[3855335]: I0428 10:35:29.527784 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:35:29 localhost sctpd[3855335]: I0428 10:35:29.527887 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:35:51 localhost sctpd[3855335]: I0428 10:35:51.975780 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:35:51 localhost sctpd[3855335]: I0428 10:35:51.975857 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:36:23 localhost sctpd[3855335]: I0428 10:36:23.727720 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:36:23 localhost sctpd[3855335]: I0428 10:36:23.727792 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:36:25 localhost sctpd[3855335]: I0428 10:36:25.728780 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:36:25 localhost sctpd[3855335]: I0428 10:36:25.728857 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:36:46 localhost sctpd[3855335]: I0428 10:36:46.397825 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:36:46 localhost sctpd[3855335]: I0428 10:36:46.397928 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:37:09 localhost sctpd[3855335]: I0428 10:37:09.112773 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:37:09 localhost sctpd[3855335]: I0428 10:37:09.112887 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:37:31 localhost sctpd[3855335]: I0428 10:37:31.721585 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:37:31 localhost sctpd[3855335]: I0428 10:37:31.721633 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:37:54 localhost sctpd[3855335]: I0428 10:37:54.323804 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:37:54 localhost sctpd[3855335]: I0428 10:37:54.323889 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:38:17 localhost sctpd[3855335]: I0428 10:38:17.013715 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:38:17 localhost sctpd[3855335]: I0428 10:38:17.013787 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:38:40 localhost sctpd[3855335]: I0428 10:38:40.056821 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:38:40 localhost sctpd[3855335]: I0428 10:38:40.056933 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:39:03 localhost sctpd[3855335]: I0428 10:39:03.100728 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:39:03 localhost sctpd[3855335]: I0428 10:39:03.100808 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:39:05 localhost sctpd[3855335]: I0428 10:39:05.101748 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:39:05 localhost sctpd[3855335]: I0428 10:39:05.101832 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:39:25 localhost sctpd[3855335]: I0428 10:39:25.874770 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:39:25 localhost sctpd[3855335]: I0428 10:39:25.874847 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:39:48 localhost sctpd[3855335]: I0428 10:39:48.554692 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:39:48 localhost sctpd[3855335]: I0428 10:39:48.554761 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:40:11 localhost sctpd[3855335]: I0428 10:40:11.583691 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:40:11 localhost sctpd[3855335]: I0428 10:40:11.583762 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:40:34 localhost sctpd[3855335]: I0428 10:40:34.335762 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:40:34 localhost sctpd[3855335]: I0428 10:40:34.335839 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:40:57 localhost sctpd[3855335]: I0428 10:40:57.027710 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:40:57 localhost sctpd[3855335]: I0428 10:40:57.027774 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:41:19 localhost sctpd[3855335]: I0428 10:41:19.636756 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:41:19 localhost sctpd[3855335]: I0428 10:41:19.636853 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:41:42 localhost sctpd[3855335]: I0428 10:41:42.347776 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:41:42 localhost sctpd[3855335]: I0428 10:41:42.347877 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:42:14 localhost sctpd[3855335]: I0428 10:42:14.220763 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:42:14 localhost sctpd[3855335]: I0428 10:42:14.220841 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:42:37 localhost sctpd[3855335]: I0428 10:42:37.167788 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:42:37 localhost sctpd[3855335]: I0428 10:42:37.167861 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:42:59 localhost sctpd[3855335]: I0428 10:42:59.914777 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:42:59 localhost sctpd[3855335]: I0428 10:42:59.914856 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:43:22 localhost sctpd[3855335]: I0428 10:43:22.696735 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:43:22 localhost sctpd[3855335]: I0428 10:43:22.696822 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:43:45 localhost sctpd[3855335]: I0428 10:43:45.528820 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:43:45 localhost sctpd[3855335]: I0428 10:43:45.528919 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:44:08 localhost sctpd[3855335]: I0428 10:44:08.389703 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:44:08 localhost sctpd[3855335]: I0428 10:44:08.389776 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:44:10 localhost sctpd[3855335]: I0428 10:44:10.390811 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:44:10 localhost sctpd[3855335]: I0428 10:44:10.390894 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:44:31 localhost sctpd[3855335]: I0428 10:44:31.504746 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:44:31 localhost sctpd[3855335]: I0428 10:44:31.504818 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:44:54 localhost sctpd[3855335]: I0428 10:44:54.372622 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:44:54 localhost sctpd[3855335]: I0428 10:44:54.372684 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:45:25 localhost sctpd[3855335]: I0428 10:45:25.836866 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:45:25 localhost sctpd[3855335]: I0428 10:45:25.836982 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:45:49 localhost sctpd[3855335]: I0428 10:45:49.032635 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:45:49 localhost sctpd[3855335]: I0428 10:45:49.032696 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:46:12 localhost sctpd[3855335]: I0428 10:46:12.125584 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:46:12 localhost sctpd[3855335]: I0428 10:46:12.125669 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:46:35 localhost sctpd[3855335]: I0428 10:46:35.048808 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:46:35 localhost sctpd[3855335]: I0428 10:46:35.048931 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:46:58 localhost sctpd[3855335]: I0428 10:46:58.009860 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:46:58 localhost sctpd[3855335]: I0428 10:46:58.009975 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:47:20 localhost sctpd[3855335]: I0428 10:47:20.753779 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:47:20 localhost sctpd[3855335]: I0428 10:47:20.753901 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:47:52 localhost sctpd[3855335]: I0428 10:47:52.575760 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:47:52 localhost sctpd[3855335]: I0428 10:47:52.575867 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:47:54 localhost sctpd[3855335]: I0428 10:47:54.576714 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:47:54 localhost sctpd[3855335]: I0428 10:47:54.576784 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:48:15 localhost sctpd[3855335]: I0428 10:48:15.725708 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:48:15 localhost sctpd[3855335]: I0428 10:48:15.725781 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:48:38 localhost sctpd[3855335]: I0428 10:48:38.733585 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:48:38 localhost sctpd[3855335]: I0428 10:48:38.733625 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:49:10 localhost sctpd[3855335]: I0428 10:49:10.868718 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:49:10 localhost sctpd[3855335]: I0428 10:49:10.868788 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:49:34 localhost sctpd[3855335]: I0428 10:49:34.125864 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:49:34 localhost sctpd[3855335]: I0428 10:49:34.125979 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:49:57 localhost sctpd[3855335]: I0428 10:49:57.178818 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:49:57 localhost sctpd[3855335]: I0428 10:49:57.178941 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:50:29 localhost sctpd[3855335]: I0428 10:50:29.473932 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:50:29 localhost sctpd[3855335]: I0428 10:50:29.474014 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:50:31 localhost sctpd[3855335]: I0428 10:50:31.474822 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:50:31 localhost sctpd[3855335]: I0428 10:50:31.474901 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:50:52 localhost sctpd[3855335]: I0428 10:50:52.698699 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:50:52 localhost sctpd[3855335]: I0428 10:50:52.698813 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:51:15 localhost sctpd[3855335]: I0428 10:51:15.786890 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:51:15 localhost sctpd[3855335]: I0428 10:51:15.786967 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:51:38 localhost sctpd[3855335]: I0428 10:51:38.875739 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:51:38 localhost sctpd[3855335]: I0428 10:51:38.875851 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:52:01 localhost sctpd[3855335]: I0428 10:52:01.948844 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:52:01 localhost sctpd[3855335]: I0428 10:52:01.948930 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:52:03 localhost sctpd[3855335]: I0428 10:52:03.949918 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:52:03 localhost sctpd[3855335]: I0428 10:52:03.951297 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:52:25 localhost sctpd[3855335]: I0428 10:52:25.176841 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:52:25 localhost sctpd[3855335]: I0428 10:52:25.178084 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:52:48 localhost sctpd[3855335]: I0428 10:52:48.327824 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:52:48 localhost sctpd[3855335]: I0428 10:52:48.329864 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:53:11 localhost sctpd[3855335]: I0428 10:53:11.459619 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:53:11 localhost sctpd[3855335]: I0428 10:53:11.460410 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:53:13 localhost sctpd[3855335]: I0428 10:53:13.461943 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:53:13 localhost sctpd[3855335]: I0428 10:53:13.463423 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:53:35 localhost sctpd[3855335]: I0428 10:53:35.020354 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:53:35 localhost sctpd[3855335]: I0428 10:53:35.022483 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:53:58 localhost sctpd[3855335]: I0428 10:53:58.309782 3855853 sctpd_uplink_client.cpp:56] sctpul.newassoc error
+Apr 28 10:53:58 localhost sctpd[3855335]: I0428 10:53:58.310587 3855853 sctpd_uplink_client.cpp:57] grpc error (4): Deadline Exceeded
+Apr 28 10:54:10 localhost systemd[1]: Started Session 5156 of user ubuntu.
