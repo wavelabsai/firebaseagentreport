@@ -1,0 +1,8 @@
+000366 Thu Apr 28 06:13:24 2022 7FA6CCFE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000367 Thu Apr 28 06:13:25 2022 7FA6CCFE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000368 Thu Apr 28 06:13:25 2022 7FA6CCFE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000369 Thu Apr 28 06:13:25 2022 7FA6CCFE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0084    [TRACE] :22 f2 07 
+000370 Thu Apr 28 06:13:30 2022 7FA6CCFE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000371 Thu Apr 28 06:13:30 2022 7FA6CCFE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 21182, Reset Flag = 0. Connected UEs = 0 
+000372 Thu Apr 28 06:13:30 2022 7FA6CCFE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 21182. No Connected UEs. Reset Flag = 0
+000373 Thu Apr 28 06:13:30 2022 7FA6CCFE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 21182 

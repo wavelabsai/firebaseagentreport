@@ -1,0 +1,21 @@
+Apr 28 06:13:18 localhost smsd[3746538]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 28 06:13:23 localhost smsd[3746538]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 28 06:13:24 localhost sctpd[3746709]: I0428 06:13:24.655601 3747166 sctp_connection.cpp:195] Unhandled notification type 32776
+Apr 28 06:13:24 localhost mobilityd[3746442]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth0')}, 2: [('172.16.4.1', 'eth0', True)]}
+Apr 28 06:13:24 localhost mobilityd[3746442]: INFO:root:GW-v6 probe: timer started
+Apr 28 06:13:25 localhost sctpd[3746709]: I0428 06:13:25.485985 3747166 sctp_connection.cpp:195] Unhandled notification type 32777
+Apr 28 06:13:28 localhost smsd[3746538]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+Apr 28 06:13:30 localhost systemd[1]: Started Session 5132 of user ubuntu.
+Apr 28 06:13:32 localhost mobilityd[3746442]: DEBUG:root:Received GetSubscriberIPTable
+Apr 28 06:13:32 localhost mobilityd[3746442]: INFO:root:GRPC message:
+Apr 28 06:13:32 localhost mobilityd[3746442]:   magma.orc8r.Void {}
+Apr 28 06:13:32 localhost mobilityd[3746442]: INFO:root:GRPC message:
+Apr 28 06:13:32 localhost mobilityd[3746442]:   magma.lte.SubscriberIPTable {}
+Apr 28 06:13:32 localhost magmad[3746371]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 28 06:13:32 localhost magmad[3746371]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 28 06:13:32 localhost magmad[3746371]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 28 06:13:32 localhost magmad[3746371]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 28 06:13:32 localhost magmad[3746371]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+Apr 28 06:13:33 localhost control_proxy[3746597]: 2022-04-28T06:13:32.926Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.467s
+Apr 28 06:13:33 localhost magmad[3746371]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+Apr 28 06:13:33 localhost smsd[3746538]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
