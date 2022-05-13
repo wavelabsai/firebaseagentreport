@@ -1,0 +1,430 @@
+000353 Fri May 13 17:10:11 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000354 Fri May 13 17:10:12 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000355 Fri May 13 17:10:12 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1935, Reset Flag = 0. Connected UEs = 0 
+000356 Fri May 13 17:10:12 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1935. No Connected UEs. Reset Flag = 0
+000357 Fri May 13 17:10:12 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1935 
+000358 Fri May 13 17:10:39 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000359 Fri May 13 17:10:40 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000360 Fri May 13 17:10:40 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1936, Reset Flag = 0. Connected UEs = 0 
+000361 Fri May 13 17:10:40 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1936. No Connected UEs. Reset Flag = 0
+000362 Fri May 13 17:10:40 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1936 
+000363 Fri May 13 17:11:06 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000364 Fri May 13 17:11:08 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000365 Fri May 13 17:11:08 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1937, Reset Flag = 0. Connected UEs = 0 
+000366 Fri May 13 17:11:08 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1937. No Connected UEs. Reset Flag = 0
+000367 Fri May 13 17:11:08 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1937 
+000368 Fri May 13 17:11:34 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000369 Fri May 13 17:11:36 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000370 Fri May 13 17:11:36 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1938, Reset Flag = 0. Connected UEs = 0 
+000371 Fri May 13 17:11:36 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1938. No Connected UEs. Reset Flag = 0
+000372 Fri May 13 17:11:36 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1938 
+000373 Fri May 13 17:11:59 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000374 Fri May 13 17:12:03 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000375 Fri May 13 17:12:03 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1939, Reset Flag = 0. Connected UEs = 0 
+000376 Fri May 13 17:12:03 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1939. No Connected UEs. Reset Flag = 0
+000377 Fri May 13 17:12:03 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1939 
+000378 Fri May 13 17:12:30 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000379 Fri May 13 17:12:31 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000380 Fri May 13 17:12:31 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1940, Reset Flag = 0. Connected UEs = 0 
+000381 Fri May 13 17:12:31 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1940. No Connected UEs. Reset Flag = 0
+000382 Fri May 13 17:12:31 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1940 
+000383 Fri May 13 17:12:52 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000384 Fri May 13 17:12:59 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000385 Fri May 13 17:12:59 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1941, Reset Flag = 0. Connected UEs = 0 
+000386 Fri May 13 17:12:59 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1941. No Connected UEs. Reset Flag = 0
+000387 Fri May 13 17:12:59 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1941 
+000388 Fri May 13 17:13:26 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000389 Fri May 13 17:13:27 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000390 Fri May 13 17:13:27 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1942, Reset Flag = 0. Connected UEs = 0 
+000391 Fri May 13 17:13:27 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1942. No Connected UEs. Reset Flag = 0
+000392 Fri May 13 17:13:27 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1942 
+000393 Fri May 13 17:13:54 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000394 Fri May 13 17:13:55 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000395 Fri May 13 17:13:55 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1943, Reset Flag = 0. Connected UEs = 0 
+000396 Fri May 13 17:13:55 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1943. No Connected UEs. Reset Flag = 0
+000397 Fri May 13 17:13:55 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1943 
+000398 Fri May 13 17:14:22 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000399 Fri May 13 17:14:23 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000400 Fri May 13 17:14:23 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1944, Reset Flag = 0. Connected UEs = 0 
+000401 Fri May 13 17:14:23 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1944. No Connected UEs. Reset Flag = 0
+000402 Fri May 13 17:14:23 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1944 
+000403 Fri May 13 17:14:50 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000404 Fri May 13 17:14:51 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000405 Fri May 13 17:14:51 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1945, Reset Flag = 0. Connected UEs = 0 
+000406 Fri May 13 17:14:51 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1945. No Connected UEs. Reset Flag = 0
+000407 Fri May 13 17:14:51 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1945 
+000408 Fri May 13 17:15:14 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000409 Fri May 13 17:15:19 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000410 Fri May 13 17:15:19 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1946, Reset Flag = 0. Connected UEs = 0 
+000411 Fri May 13 17:15:19 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1946. No Connected UEs. Reset Flag = 0
+000412 Fri May 13 17:15:19 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1946 
+000413 Fri May 13 17:15:46 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000414 Fri May 13 17:15:47 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000415 Fri May 13 17:15:47 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1947, Reset Flag = 0. Connected UEs = 0 
+000416 Fri May 13 17:15:47 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1947. No Connected UEs. Reset Flag = 0
+000417 Fri May 13 17:15:47 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1947 
+000418 Fri May 13 17:16:08 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000419 Fri May 13 17:16:15 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000420 Fri May 13 17:16:15 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1948, Reset Flag = 0. Connected UEs = 0 
+000421 Fri May 13 17:16:15 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1948. No Connected UEs. Reset Flag = 0
+000422 Fri May 13 17:16:15 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1948 
+000423 Fri May 13 17:16:41 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000424 Fri May 13 17:16:43 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000425 Fri May 13 17:16:43 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1949, Reset Flag = 0. Connected UEs = 0 
+000426 Fri May 13 17:16:43 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1949. No Connected UEs. Reset Flag = 0
+000427 Fri May 13 17:16:43 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1949 
+000428 Fri May 13 17:17:09 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000429 Fri May 13 17:17:10 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000430 Fri May 13 17:17:10 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1950, Reset Flag = 0. Connected UEs = 0 
+000431 Fri May 13 17:17:10 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1950. No Connected UEs. Reset Flag = 0
+000432 Fri May 13 17:17:10 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1950 
+000433 Fri May 13 17:17:37 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000434 Fri May 13 17:17:38 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000435 Fri May 13 17:17:38 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1951, Reset Flag = 0. Connected UEs = 0 
+000436 Fri May 13 17:17:38 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1951. No Connected UEs. Reset Flag = 0
+000437 Fri May 13 17:17:38 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1951 
+000438 Fri May 13 17:18:05 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000439 Fri May 13 17:18:06 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000440 Fri May 13 17:18:06 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1952, Reset Flag = 0. Connected UEs = 0 
+000441 Fri May 13 17:18:06 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1952. No Connected UEs. Reset Flag = 0
+000442 Fri May 13 17:18:06 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1952 
+000443 Fri May 13 17:18:29 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000444 Fri May 13 17:18:34 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000445 Fri May 13 17:18:34 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1953, Reset Flag = 0. Connected UEs = 0 
+000446 Fri May 13 17:18:34 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1953. No Connected UEs. Reset Flag = 0
+000447 Fri May 13 17:18:34 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1953 
+000448 Fri May 13 17:19:01 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000449 Fri May 13 17:19:02 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000450 Fri May 13 17:19:02 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1954, Reset Flag = 0. Connected UEs = 0 
+000451 Fri May 13 17:19:02 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1954. No Connected UEs. Reset Flag = 0
+000452 Fri May 13 17:19:02 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1954 
+000453 Fri May 13 17:19:23 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000454 Fri May 13 17:19:30 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000455 Fri May 13 17:19:30 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1955, Reset Flag = 0. Connected UEs = 0 
+000456 Fri May 13 17:19:30 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1955. No Connected UEs. Reset Flag = 0
+000457 Fri May 13 17:19:30 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1955 
+000458 Fri May 13 17:19:57 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000459 Fri May 13 17:19:58 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000460 Fri May 13 17:19:58 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1956, Reset Flag = 0. Connected UEs = 0 
+000461 Fri May 13 17:19:58 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1956. No Connected UEs. Reset Flag = 0
+000462 Fri May 13 17:19:58 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1956 
+000463 Fri May 13 17:20:25 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000464 Fri May 13 17:20:26 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000465 Fri May 13 17:20:26 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1957, Reset Flag = 0. Connected UEs = 0 
+000466 Fri May 13 17:20:26 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1957. No Connected UEs. Reset Flag = 0
+000467 Fri May 13 17:20:26 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1957 
+000468 Fri May 13 17:20:53 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000469 Fri May 13 17:20:54 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000470 Fri May 13 17:20:54 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1958, Reset Flag = 0. Connected UEs = 0 
+000471 Fri May 13 17:20:54 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1958. No Connected UEs. Reset Flag = 0
+000472 Fri May 13 17:20:54 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1958 
+000473 Fri May 13 17:21:21 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000474 Fri May 13 17:21:22 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000475 Fri May 13 17:21:22 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1959, Reset Flag = 0. Connected UEs = 0 
+000476 Fri May 13 17:21:22 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1959. No Connected UEs. Reset Flag = 0
+000477 Fri May 13 17:21:22 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1959 
+000478 Fri May 13 17:21:45 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000479 Fri May 13 17:21:50 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000480 Fri May 13 17:21:50 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1960, Reset Flag = 0. Connected UEs = 0 
+000481 Fri May 13 17:21:50 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1960. No Connected UEs. Reset Flag = 0
+000482 Fri May 13 17:21:50 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1960 
+000483 Fri May 13 17:22:17 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000484 Fri May 13 17:22:18 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000485 Fri May 13 17:22:18 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1961, Reset Flag = 0. Connected UEs = 0 
+000486 Fri May 13 17:22:18 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1961. No Connected UEs. Reset Flag = 0
+000487 Fri May 13 17:22:18 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1961 
+000488 Fri May 13 17:22:39 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000489 Fri May 13 17:22:46 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000490 Fri May 13 17:22:46 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1962, Reset Flag = 0. Connected UEs = 0 
+000491 Fri May 13 17:22:46 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1962. No Connected UEs. Reset Flag = 0
+000492 Fri May 13 17:22:46 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1962 
+000493 Fri May 13 17:23:13 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000494 Fri May 13 17:23:14 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000495 Fri May 13 17:23:14 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1963, Reset Flag = 0. Connected UEs = 0 
+000496 Fri May 13 17:23:14 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1963. No Connected UEs. Reset Flag = 0
+000497 Fri May 13 17:23:14 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1963 
+000498 Fri May 13 17:23:41 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000499 Fri May 13 17:23:42 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000500 Fri May 13 17:23:42 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1964, Reset Flag = 0. Connected UEs = 0 
+000501 Fri May 13 17:23:42 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1964. No Connected UEs. Reset Flag = 0
+000502 Fri May 13 17:23:42 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1964 
+000503 Fri May 13 17:24:09 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000504 Fri May 13 17:24:10 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000505 Fri May 13 17:24:10 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1965, Reset Flag = 0. Connected UEs = 0 
+000506 Fri May 13 17:24:10 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1965. No Connected UEs. Reset Flag = 0
+000507 Fri May 13 17:24:10 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1965 
+000508 Fri May 13 17:24:37 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000509 Fri May 13 17:24:38 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000510 Fri May 13 17:24:38 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1966, Reset Flag = 0. Connected UEs = 0 
+000511 Fri May 13 17:24:38 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1966. No Connected UEs. Reset Flag = 0
+000512 Fri May 13 17:24:38 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1966 
+000513 Fri May 13 17:25:01 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000514 Fri May 13 17:25:06 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000515 Fri May 13 17:25:06 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1967, Reset Flag = 0. Connected UEs = 0 
+000516 Fri May 13 17:25:06 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1967. No Connected UEs. Reset Flag = 0
+000517 Fri May 13 17:25:06 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1967 
+000518 Fri May 13 17:25:33 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000519 Fri May 13 17:25:34 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000520 Fri May 13 17:25:34 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1968, Reset Flag = 0. Connected UEs = 0 
+000521 Fri May 13 17:25:34 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1968. No Connected UEs. Reset Flag = 0
+000522 Fri May 13 17:25:34 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1968 
+000523 Fri May 13 17:25:55 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000524 Fri May 13 17:26:02 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000525 Fri May 13 17:26:02 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1969, Reset Flag = 0. Connected UEs = 0 
+000526 Fri May 13 17:26:02 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1969. No Connected UEs. Reset Flag = 0
+000527 Fri May 13 17:26:02 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1969 
+000528 Fri May 13 17:26:29 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000529 Fri May 13 17:26:30 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000530 Fri May 13 17:26:30 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1970, Reset Flag = 0. Connected UEs = 0 
+000531 Fri May 13 17:26:30 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1970. No Connected UEs. Reset Flag = 0
+000532 Fri May 13 17:26:30 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1970 
+000533 Fri May 13 17:26:57 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000534 Fri May 13 17:26:58 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000535 Fri May 13 17:26:58 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1971, Reset Flag = 0. Connected UEs = 0 
+000536 Fri May 13 17:26:58 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1971. No Connected UEs. Reset Flag = 0
+000537 Fri May 13 17:26:58 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1971 
+000538 Fri May 13 17:27:25 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000539 Fri May 13 17:27:27 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000540 Fri May 13 17:27:27 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1972, Reset Flag = 0. Connected UEs = 0 
+000541 Fri May 13 17:27:27 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1972. No Connected UEs. Reset Flag = 0
+000542 Fri May 13 17:27:27 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1972 
+000543 Fri May 13 17:27:54 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000544 Fri May 13 17:27:55 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000545 Fri May 13 17:27:55 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1973, Reset Flag = 0. Connected UEs = 0 
+000546 Fri May 13 17:27:55 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1973. No Connected UEs. Reset Flag = 0
+000547 Fri May 13 17:27:55 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1973 
+000548 Fri May 13 17:28:17 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000549 Fri May 13 17:28:23 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000550 Fri May 13 17:28:23 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1974, Reset Flag = 0. Connected UEs = 0 
+000551 Fri May 13 17:28:23 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1974. No Connected UEs. Reset Flag = 0
+000552 Fri May 13 17:28:23 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1974 
+000553 Fri May 13 17:28:50 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000554 Fri May 13 17:28:51 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000555 Fri May 13 17:28:51 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1975, Reset Flag = 0. Connected UEs = 0 
+000556 Fri May 13 17:28:51 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1975. No Connected UEs. Reset Flag = 0
+000557 Fri May 13 17:28:51 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1975 
+000558 Fri May 13 17:29:12 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000559 Fri May 13 17:29:19 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000560 Fri May 13 17:29:19 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1976, Reset Flag = 0. Connected UEs = 0 
+000561 Fri May 13 17:29:19 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1976. No Connected UEs. Reset Flag = 0
+000562 Fri May 13 17:29:19 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1976 
+000563 Fri May 13 17:29:46 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000564 Fri May 13 17:29:47 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000565 Fri May 13 17:29:47 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1977, Reset Flag = 0. Connected UEs = 0 
+000566 Fri May 13 17:29:47 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1977. No Connected UEs. Reset Flag = 0
+000567 Fri May 13 17:29:47 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1977 
+000568 Fri May 13 17:30:14 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000569 Fri May 13 17:30:15 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000570 Fri May 13 17:30:15 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1978, Reset Flag = 0. Connected UEs = 0 
+000571 Fri May 13 17:30:15 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1978. No Connected UEs. Reset Flag = 0
+000572 Fri May 13 17:30:15 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1978 
+000573 Fri May 13 17:30:42 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000574 Fri May 13 17:30:44 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000575 Fri May 13 17:30:44 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1979, Reset Flag = 0. Connected UEs = 0 
+000576 Fri May 13 17:30:44 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1979. No Connected UEs. Reset Flag = 0
+000577 Fri May 13 17:30:44 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1979 
+000578 Fri May 13 17:31:11 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000579 Fri May 13 17:31:12 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000580 Fri May 13 17:31:12 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1980, Reset Flag = 0. Connected UEs = 0 
+000581 Fri May 13 17:31:12 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1980. No Connected UEs. Reset Flag = 0
+000582 Fri May 13 17:31:12 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1980 
+000583 Fri May 13 17:31:34 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000584 Fri May 13 17:31:40 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000585 Fri May 13 17:31:40 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1981, Reset Flag = 0. Connected UEs = 0 
+000586 Fri May 13 17:31:40 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1981. No Connected UEs. Reset Flag = 0
+000587 Fri May 13 17:31:40 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1981 
+000588 Fri May 13 17:32:07 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000589 Fri May 13 17:32:08 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000590 Fri May 13 17:32:08 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1982, Reset Flag = 0. Connected UEs = 0 
+000591 Fri May 13 17:32:08 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1982. No Connected UEs. Reset Flag = 0
+000592 Fri May 13 17:32:08 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1982 
+000593 Fri May 13 17:32:29 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000594 Fri May 13 17:32:37 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000595 Fri May 13 17:32:37 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1983, Reset Flag = 0. Connected UEs = 0 
+000596 Fri May 13 17:32:37 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1983. No Connected UEs. Reset Flag = 0
+000597 Fri May 13 17:32:37 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1983 
+000598 Fri May 13 17:33:04 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000599 Fri May 13 17:33:05 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000600 Fri May 13 17:33:05 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1984, Reset Flag = 0. Connected UEs = 0 
+000601 Fri May 13 17:33:05 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1984. No Connected UEs. Reset Flag = 0
+000602 Fri May 13 17:33:05 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1984 
+000603 Fri May 13 17:33:32 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000604 Fri May 13 17:33:33 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000605 Fri May 13 17:33:33 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1985, Reset Flag = 0. Connected UEs = 0 
+000606 Fri May 13 17:33:33 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1985. No Connected UEs. Reset Flag = 0
+000607 Fri May 13 17:33:33 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1985 
+000608 Fri May 13 17:34:00 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000609 Fri May 13 17:34:01 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000610 Fri May 13 17:34:01 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1986, Reset Flag = 0. Connected UEs = 0 
+000611 Fri May 13 17:34:01 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1986. No Connected UEs. Reset Flag = 0
+000612 Fri May 13 17:34:01 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1986 
+000613 Fri May 13 17:34:28 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000614 Fri May 13 17:34:30 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000615 Fri May 13 17:34:30 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1987, Reset Flag = 0. Connected UEs = 0 
+000616 Fri May 13 17:34:30 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1987. No Connected UEs. Reset Flag = 0
+000617 Fri May 13 17:34:30 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1987 
+000618 Fri May 13 17:34:52 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000619 Fri May 13 17:34:58 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000620 Fri May 13 17:34:58 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1988, Reset Flag = 0. Connected UEs = 0 
+000621 Fri May 13 17:34:58 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1988. No Connected UEs. Reset Flag = 0
+000622 Fri May 13 17:34:58 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1988 
+000623 Fri May 13 17:35:25 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000624 Fri May 13 17:35:26 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000625 Fri May 13 17:35:26 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1989, Reset Flag = 0. Connected UEs = 0 
+000626 Fri May 13 17:35:26 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1989. No Connected UEs. Reset Flag = 0
+000627 Fri May 13 17:35:26 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1989 
+000628 Fri May 13 17:35:47 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000629 Fri May 13 17:35:54 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000630 Fri May 13 17:35:54 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1990, Reset Flag = 0. Connected UEs = 0 
+000631 Fri May 13 17:35:54 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1990. No Connected UEs. Reset Flag = 0
+000632 Fri May 13 17:35:54 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1990 
+000633 Fri May 13 17:36:21 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000634 Fri May 13 17:36:22 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000635 Fri May 13 17:36:22 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1991, Reset Flag = 0. Connected UEs = 0 
+000636 Fri May 13 17:36:22 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1991. No Connected UEs. Reset Flag = 0
+000637 Fri May 13 17:36:22 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1991 
+000638 Fri May 13 17:36:50 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000639 Fri May 13 17:36:51 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000640 Fri May 13 17:36:51 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1992, Reset Flag = 0. Connected UEs = 0 
+000641 Fri May 13 17:36:51 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1992. No Connected UEs. Reset Flag = 0
+000642 Fri May 13 17:36:51 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1992 
+000643 Fri May 13 17:37:18 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000644 Fri May 13 17:37:19 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000645 Fri May 13 17:37:19 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1993, Reset Flag = 0. Connected UEs = 0 
+000646 Fri May 13 17:37:19 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1993. No Connected UEs. Reset Flag = 0
+000647 Fri May 13 17:37:19 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1993 
+000648 Fri May 13 17:37:46 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000649 Fri May 13 17:37:48 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000650 Fri May 13 17:37:48 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1994, Reset Flag = 0. Connected UEs = 0 
+000651 Fri May 13 17:37:48 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1994. No Connected UEs. Reset Flag = 0
+000652 Fri May 13 17:37:48 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1994 
+000653 Fri May 13 17:38:10 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000654 Fri May 13 17:38:16 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000655 Fri May 13 17:38:16 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1995, Reset Flag = 0. Connected UEs = 0 
+000656 Fri May 13 17:38:16 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1995. No Connected UEs. Reset Flag = 0
+000657 Fri May 13 17:38:16 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1995 
+000658 Fri May 13 17:38:43 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000659 Fri May 13 17:38:44 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000660 Fri May 13 17:38:44 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1996, Reset Flag = 0. Connected UEs = 0 
+000661 Fri May 13 17:38:44 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1996. No Connected UEs. Reset Flag = 0
+000662 Fri May 13 17:38:44 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1996 
+000663 Fri May 13 17:39:05 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000664 Fri May 13 17:39:12 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000665 Fri May 13 17:39:12 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1997, Reset Flag = 0. Connected UEs = 0 
+000666 Fri May 13 17:39:12 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1997. No Connected UEs. Reset Flag = 0
+000667 Fri May 13 17:39:12 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1997 
+000668 Fri May 13 17:39:39 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000669 Fri May 13 17:39:40 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000670 Fri May 13 17:39:40 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1998, Reset Flag = 0. Connected UEs = 0 
+000671 Fri May 13 17:39:40 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1998. No Connected UEs. Reset Flag = 0
+000672 Fri May 13 17:39:40 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1998 
+000673 Fri May 13 17:40:08 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000674 Fri May 13 17:40:09 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000675 Fri May 13 17:40:09 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 1999, Reset Flag = 0. Connected UEs = 0 
+000676 Fri May 13 17:40:09 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 1999. No Connected UEs. Reset Flag = 0
+000677 Fri May 13 17:40:09 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 1999 
+000678 Fri May 13 17:40:36 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000679 Fri May 13 17:40:37 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000680 Fri May 13 17:40:37 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2000, Reset Flag = 0. Connected UEs = 0 
+000681 Fri May 13 17:40:37 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2000. No Connected UEs. Reset Flag = 0
+000682 Fri May 13 17:40:37 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2000 
+000683 Fri May 13 17:41:04 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000684 Fri May 13 17:41:05 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000685 Fri May 13 17:41:05 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2001, Reset Flag = 0. Connected UEs = 0 
+000686 Fri May 13 17:41:05 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2001. No Connected UEs. Reset Flag = 0
+000687 Fri May 13 17:41:05 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2001 
+000688 Fri May 13 17:41:28 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000689 Fri May 13 17:41:34 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000690 Fri May 13 17:41:34 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2002, Reset Flag = 0. Connected UEs = 0 
+000691 Fri May 13 17:41:34 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2002. No Connected UEs. Reset Flag = 0
+000692 Fri May 13 17:41:34 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2002 
+000693 Fri May 13 17:42:01 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000694 Fri May 13 17:42:02 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000695 Fri May 13 17:42:02 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2003, Reset Flag = 0. Connected UEs = 0 
+000696 Fri May 13 17:42:02 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2003. No Connected UEs. Reset Flag = 0
+000697 Fri May 13 17:42:02 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2003 
+000698 Fri May 13 17:42:23 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000699 Fri May 13 17:42:30 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000700 Fri May 13 17:42:30 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2004, Reset Flag = 0. Connected UEs = 0 
+000701 Fri May 13 17:42:30 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2004. No Connected UEs. Reset Flag = 0
+000702 Fri May 13 17:42:30 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2004 
+000703 Fri May 13 17:42:58 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000704 Fri May 13 17:42:59 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000705 Fri May 13 17:42:59 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2005, Reset Flag = 0. Connected UEs = 0 
+000706 Fri May 13 17:42:59 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2005. No Connected UEs. Reset Flag = 0
+000707 Fri May 13 17:42:59 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2005 
+000708 Fri May 13 17:43:26 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000709 Fri May 13 17:43:27 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000710 Fri May 13 17:43:27 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2006, Reset Flag = 0. Connected UEs = 0 
+000711 Fri May 13 17:43:27 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2006. No Connected UEs. Reset Flag = 0
+000712 Fri May 13 17:43:27 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2006 
+000713 Fri May 13 17:43:55 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000714 Fri May 13 17:43:56 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000715 Fri May 13 17:43:56 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2007, Reset Flag = 0. Connected UEs = 0 
+000716 Fri May 13 17:43:56 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2007. No Connected UEs. Reset Flag = 0
+000717 Fri May 13 17:43:56 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2007 
+000718 Fri May 13 17:44:23 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000719 Fri May 13 17:44:24 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000720 Fri May 13 17:44:24 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2008, Reset Flag = 0. Connected UEs = 0 
+000721 Fri May 13 17:44:24 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2008. No Connected UEs. Reset Flag = 0
+000722 Fri May 13 17:44:24 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2008 
+000723 Fri May 13 17:44:46 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000724 Fri May 13 17:44:53 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000725 Fri May 13 17:44:53 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2009, Reset Flag = 0. Connected UEs = 0 
+000726 Fri May 13 17:44:53 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2009. No Connected UEs. Reset Flag = 0
+000727 Fri May 13 17:44:53 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2009 
+000728 Fri May 13 17:45:20 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000729 Fri May 13 17:45:21 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000730 Fri May 13 17:45:21 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2010, Reset Flag = 0. Connected UEs = 0 
+000731 Fri May 13 17:45:21 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2010. No Connected UEs. Reset Flag = 0
+000732 Fri May 13 17:45:21 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2010 
+000733 Fri May 13 17:45:42 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000734 Fri May 13 17:45:50 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000735 Fri May 13 17:45:50 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2011, Reset Flag = 0. Connected UEs = 0 
+000736 Fri May 13 17:45:50 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2011. No Connected UEs. Reset Flag = 0
+000737 Fri May 13 17:45:50 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2011 
+000738 Fri May 13 17:46:17 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000739 Fri May 13 17:46:18 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000740 Fri May 13 17:46:18 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2012, Reset Flag = 0. Connected UEs = 0 
+000741 Fri May 13 17:46:18 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2012. No Connected UEs. Reset Flag = 0
+000742 Fri May 13 17:46:18 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2012 
+000743 Fri May 13 17:46:45 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000744 Fri May 13 17:46:46 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000745 Fri May 13 17:46:46 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2013, Reset Flag = 0. Connected UEs = 0 
+000746 Fri May 13 17:46:46 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2013. No Connected UEs. Reset Flag = 0
+000747 Fri May 13 17:46:46 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2013 
+000748 Fri May 13 17:47:14 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000749 Fri May 13 17:47:15 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000750 Fri May 13 17:47:15 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2014, Reset Flag = 0. Connected UEs = 0 
+000751 Fri May 13 17:47:15 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2014. No Connected UEs. Reset Flag = 0
+000752 Fri May 13 17:47:15 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2014 
+000753 Fri May 13 17:47:42 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000754 Fri May 13 17:47:43 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000755 Fri May 13 17:47:43 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2015, Reset Flag = 0. Connected UEs = 0 
+000756 Fri May 13 17:47:43 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2015. No Connected UEs. Reset Flag = 0
+000757 Fri May 13 17:47:43 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2015 
+000758 Fri May 13 17:48:05 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000759 Fri May 13 17:48:12 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000760 Fri May 13 17:48:12 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2016, Reset Flag = 0. Connected UEs = 0 
+000761 Fri May 13 17:48:12 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2016. No Connected UEs. Reset Flag = 0
+000762 Fri May 13 17:48:12 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2016 
+000763 Fri May 13 17:48:39 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000764 Fri May 13 17:48:40 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000765 Fri May 13 17:48:40 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2017, Reset Flag = 0. Connected UEs = 0 
+000766 Fri May 13 17:48:40 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2017. No Connected UEs. Reset Flag = 0
+000767 Fri May 13 17:48:40 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2017 
+000768 Fri May 13 17:49:01 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000769 Fri May 13 17:49:09 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000770 Fri May 13 17:49:09 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2018, Reset Flag = 0. Connected UEs = 0 
+000771 Fri May 13 17:49:09 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2018. No Connected UEs. Reset Flag = 0
+000772 Fri May 13 17:49:09 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2018 
+000773 Fri May 13 17:49:36 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000774 Fri May 13 17:49:37 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000775 Fri May 13 17:49:37 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2019, Reset Flag = 0. Connected UEs = 0 
+000776 Fri May 13 17:49:37 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2019. No Connected UEs. Reset Flag = 0
+000777 Fri May 13 17:49:37 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2019 
+000778 Fri May 13 17:50:05 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000779 Fri May 13 17:50:06 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000780 Fri May 13 17:50:06 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 2020, Reset Flag = 0. Connected UEs = 0 
+000781 Fri May 13 17:50:06 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 2020. No Connected UEs. Reset Flag = 0
+000782 Fri May 13 17:50:06 2022 7F4F2DAE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 2020 
