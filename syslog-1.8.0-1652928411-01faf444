@@ -1,1162 +1,1173 @@
-May 23 13:39:24 localhost mobilityd[498373]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth1')}, 2: [('172.16.4.1', 'eth1', True)]}
-May 23 13:39:24 localhost mobilityd[498373]: INFO:root:GW-v6 probe: timer started
-May 23 13:39:24 localhost smsd[498464]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-May 23 13:39:25 localhost magmad[498304]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-May 23 13:39:25 localhost magmad[498304]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-May 23 13:39:25 localhost magmad[498304]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-May 23 13:39:25 localhost magmad[498304]: ERROR:root:Metrics upload error for service magmad (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-May 23 13:39:25 localhost magmad[498304]: ERROR:root:Metrics upload error for service enodebd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-May 23 13:39:25 localhost magmad[498304]: ERROR:root:Metrics upload error for service pipelined (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-May 23 13:39:25 localhost magmad[498304]: ERROR:root:Metrics upload error for service state (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-May 23 13:39:25 localhost magmad[498304]: ERROR:root:Metrics upload error for service sessiond (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
-May 23 13:39:27 localhost control_proxy[498547]: 2022-05-23T13:39:26.505Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 173bytes 0.534s
-May 23 13:39:27 localhost policydb[498450]: INFO:root:Processing 4 policy updates (resync=True)
-May 23 13:39:27 localhost control_proxy[498547]: 2022-05-23T13:39:27.042Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.271s
-May 23 13:39:27 localhost policydb[498450]: INFO:root:Processing 0 basename -> policy updates
-May 23 13:39:27 localhost control_proxy[498547]: 2022-05-23T13:39:27.042Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 13536bytes 0.290s
-May 23 13:39:27 localhost policydb[498450]: INFO:root:Processing 223 SID -> apn -> policy updates
-May 23 13:39:27 localhost control_proxy[498547]: 2022-05-23T13:39:27.042Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 7bytes 0.271s
-May 23 13:39:27 localhost policydb[498450]: INFO:root:Processing 0 rating group updates
-May 23 13:39:29 localhost smsd[498464]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-May 23 13:39:31 localhost sctpd[498644]: I0523 13:39:31.857985 499133 sctp_connection.cpp:195] Unhandled notification type 32776
-May 23 13:39:32 localhost sctpd[498644]: I0523 13:39:32.917783 499133 sctp_connection.cpp:195] Unhandled notification type 32777
-May 23 13:39:33 localhost subscriberdb[498369]: INFO:root:M5GAuthenticationInformation Request:
-May 23 13:39:33 localhost subscriberdb[498369]: INFO:root:GRPC message:
-May 23 13:39:33 localhost subscriberdb[498369]:   magma.lte.M5GAuthenticationInformationRequest {
-May 23 13:39:33 localhost subscriberdb[498369]:     "userName": "222700000000001",
-May 23 13:39:33 localhost subscriberdb[498369]:     "servingNetworkName": "5G:mnc070.mcc222.3gppnetwork.org"
-May 23 13:39:33 localhost subscriberdb[498369]:   }
-May 23 13:39:33 localhost subscriberdb[498369]: INFO:root:M5GAuthenticationInformation Response:
-May 23 13:39:33 localhost subscriberdb[498369]: INFO:root:GRPC message:
-May 23 13:39:33 localhost subscriberdb[498369]:   magma.lte.M5GAuthenticationInformationAnswer {
-May 23 13:39:33 localhost subscriberdb[498369]:     "errorCode": "SUCCESS",
-May 23 13:39:33 localhost subscriberdb[498369]:     "m5gauthVectors": [
-May 23 13:39:33 localhost subscriberdb[498369]:       {
-May 23 13:39:33 localhost subscriberdb[498369]:         "rand": "eCXpo1gQeeF8XoU0jbkekw==",
-May 23 13:39:33 localhost subscriberdb[498369]:         "xresStar": "gbO43UfcQsT1tR1U7kstyQ==",
-May 23 13:39:33 localhost subscriberdb[498369]:         "autn": "KXQtzo1BgABGptZoYeodQQ==",
-May 23 13:39:33 localhost subscriberdb[498369]:         "kseaf": "92RiKLihIb5EBvZOEXEr+frwr9aQ49C1lpx3D/Fn/pw="
-May 23 13:39:33 localhost subscriberdb[498369]:       }
-May 23 13:39:33 localhost subscriberdb[498369]:     ]
-May 23 13:39:33 localhost subscriberdb[498369]:   }
-May 23 13:39:33 localhost sctpd[498644]: I0523 13:39:33.153242 499133 sctp_connection.cpp:195] Unhandled notification type 32777
-May 23 13:39:33 localhost sctpd[498644]: I0523 13:39:33.266476 499133 sctp_connection.cpp:195] Unhandled notification type 32777
-May 23 13:39:33 localhost mme[499075]: [DEBUG] Sending S6A-UPDATE_LOCATION_REQUEST with IMSI: 222700000000001
-May 23 13:39:33 localhost subscriberdb[498369]: INFO:root:ULR:
-May 23 13:39:33 localhost subscriberdb[498369]: INFO:root:GRPC message:
-May 23 13:39:33 localhost subscriberdb[498369]:   magma.feg.UpdateLocationRequest {
-May 23 13:39:33 localhost subscriberdb[498369]:     "userName": "222700000000001",
-May 23 13:39:33 localhost subscriberdb[498369]:     "visitedPlmn": "IvIH",
-May 23 13:39:33 localhost subscriberdb[498369]:     "initialAttach": true,
-May 23 13:39:33 localhost subscriberdb[498369]:     "featureListId1": {
-May 23 13:39:33 localhost subscriberdb[498369]:       "regionalSubscription": true
-May 23 13:39:33 localhost subscriberdb[498369]:     }
-May 23 13:39:33 localhost subscriberdb[498369]:   }
-May 23 13:39:33 localhost subscriberdb[498369]: INFO:root:ULA:
-May 23 13:39:33 localhost subscriberdb[498369]: INFO:root:GRPC message:
-May 23 13:39:33 localhost subscriberdb[498369]:   magma.feg.UpdateLocationAnswer {
-May 23 13:39:33 localhost subscriberdb[498369]:     "errorCode": "SUCCESS",
-May 23 13:39:33 localhost subscriberdb[498369]:     "totalAmbr": {
-May 23 13:39:33 localhost subscriberdb[498369]:       "maxBandwidthUl": 2000000000,
-May 23 13:39:33 localhost subscriberdb[498369]:       "maxBandwidthDl": 4000000000
-May 23 13:39:33 localhost subscriberdb[498369]:     },
-May 23 13:39:33 localhost subscriberdb[498369]:     "apn": [
-May 23 13:39:33 localhost subscriberdb[498369]:       {
-May 23 13:39:33 localhost subscriberdb[498369]:         "serviceSelection": "default",
-May 23 13:39:33 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:33 localhost subscriberdb[498369]:           "priorityLevel": 15
-May 23 13:39:33 localhost subscriberdb[498369]:         },
-May 23 13:39:33 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthUl": 100000000,
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthDl": 100000000
-May 23 13:39:33 localhost subscriberdb[498369]:         }
-May 23 13:39:33 localhost subscriberdb[498369]:       },
-May 23 13:39:33 localhost subscriberdb[498369]:       {
-May 23 13:39:33 localhost subscriberdb[498369]:         "contextId": 1,
-May 23 13:39:33 localhost subscriberdb[498369]:         "serviceSelection": "ggsn-cluster-A.provinceB.mnc012.mcc345.gprs",
-May 23 13:39:33 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:33 localhost subscriberdb[498369]:           "priorityLevel": 15
-May 23 13:39:33 localhost subscriberdb[498369]:         },
-May 23 13:39:33 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
-May 23 13:39:33 localhost subscriberdb[498369]:         }
-May 23 13:39:33 localhost subscriberdb[498369]:       },
-May 23 13:39:33 localhost subscriberdb[498369]:       {
-May 23 13:39:33 localhost subscriberdb[498369]:         "contextId": 2,
-May 23 13:39:33 localhost subscriberdb[498369]:         "serviceSelection": "internet",
-May 23 13:39:33 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:33 localhost subscriberdb[498369]:           "priorityLevel": 15,
-May 23 13:39:33 localhost subscriberdb[498369]:           "preemptionCapability": true,
-May 23 13:39:33 localhost subscriberdb[498369]:           "preemptionVulnerability": true
-May 23 13:39:33 localhost subscriberdb[498369]:         },
-May 23 13:39:33 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
-May 23 13:39:33 localhost subscriberdb[498369]:         }
-May 23 13:39:33 localhost subscriberdb[498369]:       },
-May 23 13:39:33 localhost subscriberdb[498369]:       {
-May 23 13:39:33 localhost subscriberdb[498369]:         "contextId": 3,
-May 23 13:39:33 localhost subscriberdb[498369]:         "serviceSelection": "internetv4v6",
-May 23 13:39:33 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:33 localhost subscriberdb[498369]:           "priorityLevel": 15
-May 23 13:39:33 localhost subscriberdb[498369]:         },
-May 23 13:39:33 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthUl": 45000000,
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthDl": 45000000
-May 23 13:39:33 localhost subscriberdb[498369]:         }
-May 23 13:39:33 localhost subscriberdb[498369]:       },
-May 23 13:39:33 localhost subscriberdb[498369]:       {
-May 23 13:39:33 localhost subscriberdb[498369]:         "contextId": 4,
-May 23 13:39:33 localhost subscriberdb[498369]:         "serviceSelection": "internetv6",
-May 23 13:39:33 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:33 localhost subscriberdb[498369]:           "priorityLevel": 15
-May 23 13:39:33 localhost subscriberdb[498369]:         },
-May 23 13:39:33 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthUl": 45000000,
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthDl": 45000000
-May 23 13:39:33 localhost subscriberdb[498369]:         }
-May 23 13:39:33 localhost subscriberdb[498369]:       },
-May 23 13:39:33 localhost subscriberdb[498369]:       {
-May 23 13:39:33 localhost subscriberdb[498369]:         "contextId": 5,
-May 23 13:39:33 localhost subscriberdb[498369]:         "serviceSelection": "oai",
-May 23 13:39:33 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:33 localhost subscriberdb[498369]:           "priorityLevel": 15
-May 23 13:39:33 localhost subscriberdb[498369]:         },
-May 23 13:39:33 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
-May 23 13:39:33 localhost subscriberdb[498369]:         }
-May 23 13:39:33 localhost subscriberdb[498369]:       },
-May 23 13:39:33 localhost subscriberdb[498369]:       {
-May 23 13:39:33 localhost subscriberdb[498369]:         "contextId": 6,
-May 23 13:39:33 localhost subscriberdb[498369]:         "serviceSelection": "oai.ipv4.ipv6",
-May 23 13:39:33 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:33 localhost subscriberdb[498369]:           "priorityLevel": 15
-May 23 13:39:33 localhost subscriberdb[498369]:         },
-May 23 13:39:33 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
-May 23 13:39:33 localhost subscriberdb[498369]:         }
-May 23 13:39:33 localhost subscriberdb[498369]:       },
-May 23 13:39:33 localhost subscriberdb[498369]:       {
-May 23 13:39:33 localhost subscriberdb[498369]:         "contextId": 7,
-May 23 13:39:33 localhost subscriberdb[498369]:         "serviceSelection": "province1.mnc012.mcc345.gprs",
-May 23 13:39:33 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:33 localhost subscriberdb[498369]:           "priorityLevel": 15
-May 23 13:39:33 localhost subscriberdb[498369]:         },
-May 23 13:39:33 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
-May 23 13:39:33 localhost subscriberdb[498369]:         }
-May 23 13:39:33 localhost subscriberdb[498369]:       },
-May 23 13:39:33 localhost subscriberdb[498369]:       {
-May 23 13:39:33 localhost subscriberdb[498369]:         "contextId": 8,
-May 23 13:39:33 localhost subscriberdb[498369]:         "serviceSelection": "wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wav",
-May 23 13:39:33 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:33 localhost subscriberdb[498369]:           "priorityLevel": 15
-May 23 13:39:33 localhost subscriberdb[498369]:         },
-May 23 13:39:33 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
-May 23 13:39:33 localhost subscriberdb[498369]:         }
-May 23 13:39:33 localhost subscriberdb[498369]:       },
-May 23 13:39:33 localhost subscriberdb[498369]:       {
-May 23 13:39:33 localhost subscriberdb[498369]:         "contextId": 9,
-May 23 13:39:33 localhost subscriberdb[498369]:         "serviceSelection": "wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wave",
-May 23 13:39:33 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:33 localhost subscriberdb[498369]:           "priorityLevel": 15
-May 23 13:39:33 localhost subscriberdb[498369]:         },
-May 23 13:39:33 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
-May 23 13:39:33 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
-May 23 13:39:33 localhost subscriberdb[498369]:         }
-May 23 13:39:33 localhost subscriberdb[498369]:       }
-May 23 13:39:33 localhost subscriberdb[498369]:     ]
-May 23 13:39:33 localhost subscriberdb[498369]:   }
-May 23 13:39:33 localhost mme[499075]: [INFO] Received S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001; Status: ; StatusCode: 2001
-May 23 13:39:33 localhost mme[499075]: [INFO] sent itti S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001
-May 23 13:39:33 localhost sctpd[498644]: I0523 13:39:33.381665 499133 sctp_connection.cpp:195] Unhandled notification type 32777
-May 23 13:39:34 localhost smsd[498464]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-May 23 13:39:34 localhost sctpd[498644]: I0523 13:39:34.773341 499133 sctp_connection.cpp:195] Unhandled notification type 32777
-May 23 13:39:37 localhost sctpd[498644]: I0523 13:39:37.002424 499133 sctp_connection.cpp:195] Unhandled notification type 32777
-May 23 13:39:37 localhost subscriberdb[498369]: INFO:root:M5GAuthenticationInformation Request:
-May 23 13:39:37 localhost subscriberdb[498369]: INFO:root:GRPC message:
-May 23 13:39:37 localhost subscriberdb[498369]:   magma.lte.M5GAuthenticationInformationRequest {
-May 23 13:39:37 localhost subscriberdb[498369]:     "userName": "222700000000001",
-May 23 13:39:37 localhost subscriberdb[498369]:     "servingNetworkName": "5G:mnc070.mcc222.3gppnetwork.org"
-May 23 13:39:37 localhost subscriberdb[498369]:   }
-May 23 13:39:37 localhost subscriberdb[498369]: INFO:root:M5GAuthenticationInformation Response:
-May 23 13:39:37 localhost subscriberdb[498369]: INFO:root:GRPC message:
-May 23 13:39:37 localhost subscriberdb[498369]:   magma.lte.M5GAuthenticationInformationAnswer {
-May 23 13:39:37 localhost subscriberdb[498369]:     "errorCode": "SUCCESS",
-May 23 13:39:37 localhost subscriberdb[498369]:     "m5gauthVectors": [
-May 23 13:39:37 localhost subscriberdb[498369]:       {
-May 23 13:39:37 localhost subscriberdb[498369]:         "rand": "RQ2d5kM7BcNZqWtsuDNuhA==",
-May 23 13:39:37 localhost subscriberdb[498369]:         "xresStar": "1RBGZGgxmH6wVO1qGIxBdw==",
-May 23 13:39:37 localhost subscriberdb[498369]:         "autn": "6hFwgs6LgACxlcdh08+6Ig==",
-May 23 13:39:37 localhost subscriberdb[498369]:         "kseaf": "FRd0NZ7F0GjPTCWIu/BuehNAUCCtmN30LophQED6BnE="
-May 23 13:39:37 localhost subscriberdb[498369]:       }
-May 23 13:39:37 localhost subscriberdb[498369]:     ]
-May 23 13:39:37 localhost subscriberdb[498369]:   }
-May 23 13:39:37 localhost sctpd[498644]: I0523 13:39:37.116043 499133 sctp_connection.cpp:195] Unhandled notification type 32777
-May 23 13:39:37 localhost sctpd[498644]: I0523 13:39:37.231478 499133 sctp_connection.cpp:195] Unhandled notification type 32777
-May 23 13:39:37 localhost mme[499075]: [DEBUG] Sending S6A-UPDATE_LOCATION_REQUEST with IMSI: 222700000000001
-May 23 13:39:37 localhost subscriberdb[498369]: INFO:root:ULR:
-May 23 13:39:37 localhost subscriberdb[498369]: INFO:root:GRPC message:
-May 23 13:39:37 localhost subscriberdb[498369]:   magma.feg.UpdateLocationRequest {
-May 23 13:39:37 localhost subscriberdb[498369]:     "userName": "222700000000001",
-May 23 13:39:37 localhost subscriberdb[498369]:     "visitedPlmn": "IvIH",
-May 23 13:39:37 localhost subscriberdb[498369]:     "initialAttach": true,
-May 23 13:39:37 localhost subscriberdb[498369]:     "featureListId1": {
-May 23 13:39:37 localhost subscriberdb[498369]:       "regionalSubscription": true
-May 23 13:39:37 localhost subscriberdb[498369]:     }
-May 23 13:39:37 localhost subscriberdb[498369]:   }
-May 23 13:39:37 localhost subscriberdb[498369]: INFO:root:ULA:
-May 23 13:39:37 localhost subscriberdb[498369]: INFO:root:GRPC message:
-May 23 13:39:37 localhost subscriberdb[498369]:   magma.feg.UpdateLocationAnswer {
-May 23 13:39:37 localhost subscriberdb[498369]:     "errorCode": "SUCCESS",
-May 23 13:39:37 localhost subscriberdb[498369]:     "totalAmbr": {
-May 23 13:39:37 localhost subscriberdb[498369]:       "maxBandwidthUl": 2000000000,
-May 23 13:39:37 localhost subscriberdb[498369]:       "maxBandwidthDl": 4000000000
-May 23 13:39:37 localhost subscriberdb[498369]:     },
-May 23 13:39:37 localhost subscriberdb[498369]:     "apn": [
-May 23 13:39:37 localhost subscriberdb[498369]:       {
-May 23 13:39:37 localhost subscriberdb[498369]:         "serviceSelection": "default",
-May 23 13:39:37 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:37 localhost subscriberdb[498369]:           "priorityLevel": 15
-May 23 13:39:37 localhost subscriberdb[498369]:         },
-May 23 13:39:37 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthUl": 100000000,
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthDl": 100000000
-May 23 13:39:37 localhost subscriberdb[498369]:         }
-May 23 13:39:37 localhost subscriberdb[498369]:       },
-May 23 13:39:37 localhost subscriberdb[498369]:       {
-May 23 13:39:37 localhost subscriberdb[498369]:         "contextId": 1,
-May 23 13:39:37 localhost subscriberdb[498369]:         "serviceSelection": "ggsn-cluster-A.provinceB.mnc012.mcc345.gprs",
-May 23 13:39:37 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:37 localhost subscriberdb[498369]:           "priorityLevel": 15
-May 23 13:39:37 localhost subscriberdb[498369]:         },
-May 23 13:39:37 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
-May 23 13:39:37 localhost subscriberdb[498369]:         }
-May 23 13:39:37 localhost subscriberdb[498369]:       },
-May 23 13:39:37 localhost subscriberdb[498369]:       {
-May 23 13:39:37 localhost subscriberdb[498369]:         "contextId": 2,
-May 23 13:39:37 localhost subscriberdb[498369]:         "serviceSelection": "internet",
-May 23 13:39:37 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:37 localhost subscriberdb[498369]:           "priorityLevel": 15,
-May 23 13:39:37 localhost subscriberdb[498369]:           "preemptionCapability": true,
-May 23 13:39:37 localhost subscriberdb[498369]:           "preemptionVulnerability": true
-May 23 13:39:37 localhost subscriberdb[498369]:         },
-May 23 13:39:37 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
-May 23 13:39:37 localhost subscriberdb[498369]:         }
-May 23 13:39:37 localhost subscriberdb[498369]:       },
-May 23 13:39:37 localhost subscriberdb[498369]:       {
-May 23 13:39:37 localhost subscriberdb[498369]:         "contextId": 3,
-May 23 13:39:37 localhost subscriberdb[498369]:         "serviceSelection": "internetv4v6",
-May 23 13:39:37 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:37 localhost subscriberdb[498369]:           "priorityLevel": 15
-May 23 13:39:37 localhost subscriberdb[498369]:         },
-May 23 13:39:37 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthUl": 45000000,
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthDl": 45000000
-May 23 13:39:37 localhost subscriberdb[498369]:         }
-May 23 13:39:37 localhost subscriberdb[498369]:       },
-May 23 13:39:37 localhost subscriberdb[498369]:       {
-May 23 13:39:37 localhost subscriberdb[498369]:         "contextId": 4,
-May 23 13:39:37 localhost subscriberdb[498369]:         "serviceSelection": "internetv6",
-May 23 13:39:37 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:37 localhost subscriberdb[498369]:           "priorityLevel": 15
-May 23 13:39:37 localhost subscriberdb[498369]:         },
-May 23 13:39:37 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthUl": 45000000,
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthDl": 45000000
-May 23 13:39:37 localhost subscriberdb[498369]:         }
-May 23 13:39:37 localhost subscriberdb[498369]:       },
-May 23 13:39:37 localhost subscriberdb[498369]:       {
-May 23 13:39:37 localhost subscriberdb[498369]:         "contextId": 5,
-May 23 13:39:37 localhost subscriberdb[498369]:         "serviceSelection": "oai",
-May 23 13:39:37 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:37 localhost subscriberdb[498369]:           "priorityLevel": 15
-May 23 13:39:37 localhost subscriberdb[498369]:         },
-May 23 13:39:37 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
-May 23 13:39:37 localhost subscriberdb[498369]:         }
-May 23 13:39:37 localhost subscriberdb[498369]:       },
-May 23 13:39:37 localhost subscriberdb[498369]:       {
-May 23 13:39:37 localhost subscriberdb[498369]:         "contextId": 6,
-May 23 13:39:37 localhost subscriberdb[498369]:         "serviceSelection": "oai.ipv4.ipv6",
-May 23 13:39:37 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:37 localhost subscriberdb[498369]:           "priorityLevel": 15
-May 23 13:39:37 localhost subscriberdb[498369]:         },
-May 23 13:39:37 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
-May 23 13:39:37 localhost subscriberdb[498369]:         }
-May 23 13:39:37 localhost subscriberdb[498369]:       },
-May 23 13:39:37 localhost subscriberdb[498369]:       {
-May 23 13:39:37 localhost subscriberdb[498369]:         "contextId": 7,
-May 23 13:39:37 localhost subscriberdb[498369]:         "serviceSelection": "province1.mnc012.mcc345.gprs",
-May 23 13:39:37 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:37 localhost subscriberdb[498369]:           "priorityLevel": 15
-May 23 13:39:37 localhost subscriberdb[498369]:         },
-May 23 13:39:37 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
-May 23 13:39:37 localhost subscriberdb[498369]:         }
-May 23 13:39:37 localhost subscriberdb[498369]:       },
-May 23 13:39:37 localhost subscriberdb[498369]:       {
-May 23 13:39:37 localhost subscriberdb[498369]:         "contextId": 8,
-May 23 13:39:37 localhost subscriberdb[498369]:         "serviceSelection": "wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wav",
-May 23 13:39:37 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:37 localhost subscriberdb[498369]:           "priorityLevel": 15
-May 23 13:39:37 localhost subscriberdb[498369]:         },
-May 23 13:39:37 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
-May 23 13:39:37 localhost subscriberdb[498369]:         }
-May 23 13:39:37 localhost subscriberdb[498369]:       },
-May 23 13:39:37 localhost subscriberdb[498369]:       {
-May 23 13:39:37 localhost subscriberdb[498369]:         "contextId": 9,
-May 23 13:39:37 localhost subscriberdb[498369]:         "serviceSelection": "wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wave",
-May 23 13:39:37 localhost subscriberdb[498369]:         "qosProfile": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "classId": 9,
-May 23 13:39:37 localhost subscriberdb[498369]:           "priorityLevel": 15
-May 23 13:39:37 localhost subscriberdb[498369]:         },
-May 23 13:39:37 localhost subscriberdb[498369]:         "ambr": {
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
-May 23 13:39:37 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
-May 23 13:39:37 localhost subscriberdb[498369]:         }
-May 23 13:39:37 localhost subscriberdb[498369]:       }
-May 23 13:39:37 localhost subscriberdb[498369]:     ]
-May 23 13:39:37 localhost subscriberdb[498369]:   }
-May 23 13:39:37 localhost mme[499075]: [INFO] Received S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001; Status: ; StatusCode: 2001
-May 23 13:39:37 localhost mme[499075]: [INFO] sent itti S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001
-May 23 13:39:37 localhost sctpd[498644]: I0523 13:39:37.345597 499133 sctp_connection.cpp:195] Unhandled notification type 32777
-May 23 13:39:39 localhost mobilityd[498373]: INFO:root:GRPC message:
-May 23 13:39:39 localhost mobilityd[498373]:   magma.lte.AllocateIPRequest {
-May 23 13:39:39 localhost mobilityd[498373]:     "sid": {
-May 23 13:39:39 localhost mobilityd[498373]:       "id": "222700000000001"
-May 23 13:39:39 localhost mobilityd[498373]:     },
-May 23 13:39:39 localhost mobilityd[498373]:     "apn": "default"
-May 23 13:39:39 localhost mobilityd[498373]:   }
-May 23 13:39:39 localhost mobilityd[498373]: WARNING:root:Re-allocate IP fdee:5:6c:375:46cb:8fed:f1db:9c1f for sid IMSI222700000000001.default,ipv4 without MME releasing it first ip-state-map
-May 23 13:39:39 localhost mobilityd[498373]: INFO:root:Allocating the same IP fdee:5:6c:375:46cb:8fed:f1db:9c1f for sid IMSI222700000000001.default,ipv4
-May 23 13:39:39 localhost mobilityd[498373]: INFO:root:Allocated IP fdee:5:6c:375:46cb:8fed:f1db:9c1f for sid IMSI222700000000001 for apn default
-May 23 13:39:39 localhost mobilityd[498373]: INFO:root:GRPC message:
-May 23 13:39:39 localhost mobilityd[498373]:   magma.lte.AllocateIPAddressResponse {
-May 23 13:39:39 localhost mobilityd[498373]:     "ipList": [
-May 23 13:39:39 localhost mobilityd[498373]:       {
-May 23 13:39:39 localhost mobilityd[498373]:         "address": "/e4ABQBsA3VGy4/t8ducHw=="
-May 23 13:39:39 localhost mobilityd[498373]:       }
-May 23 13:39:39 localhost mobilityd[498373]:     ],
-May 23 13:39:39 localhost mobilityd[498373]:     "vlan": "0"
-May 23 13:39:39 localhost mobilityd[498373]:   }
-May 23 13:39:39 localhost sessiond[498383]: I0523 13:39:39.516185 498408 GrpcMagmaUtils.cpp:58]
-May 23 13:39:39 localhost sessiond[498383]:   magma.lte.SetSMSessionContext {
-May 23 13:39:39 localhost sessiond[498383]:       common_context {
-May 23 13:39:39 localhost sessiond[498383]:         sid {
-May 23 13:39:39 localhost sessiond[498383]:           id: "IMSI222700000000001"
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:         ue_ipv4: "253.238.0.5"
-May 23 13:39:39 localhost sessiond[498383]:         apn: "default"
-May 23 13:39:39 localhost sessiond[498383]:         rat_type: TGPP_NR
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:       rat_specific_context {
-May 23 13:39:39 localhost sessiond[498383]:         m5gsm_session_context {
-May 23 13:39:39 localhost sessiond[498383]:           pdu_session_id: 1
-May 23 13:39:39 localhost sessiond[498383]:           gnode_endpoint {
-May 23 13:39:39 localhost sessiond[498383]:             end_ipv4_addr: "138.127.0.0"
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           procedure_trans_identity: "\001"
-May 23 13:39:39 localhost sessiond[498383]:           subscribed_qos {
-May 23 13:39:39 localhost sessiond[498383]:             apn_ambr_dl: 100000000
-May 23 13:39:39 localhost sessiond[498383]:             apn_ambr_ul: 100000000
-May 23 13:39:39 localhost sessiond[498383]:             priority_level: 15
-May 23 13:39:39 localhost sessiond[498383]:             qos_class_id: QCI_9
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:   }
-May 23 13:39:39 localhost sessiond[498383]: I0523 13:39:39.516463 498383 GrpcMagmaUtils.cpp:58]
-May 23 13:39:39 localhost sessiond[498383]:   magma.lte.CreateSessionRequest {
-May 23 13:39:39 localhost sessiond[498383]:       session_id: "IMSI222700000000001-456094"
-May 23 13:39:39 localhost sessiond[498383]:       common_context {
-May 23 13:39:39 localhost sessiond[498383]:         sid {
-May 23 13:39:39 localhost sessiond[498383]:           id: "IMSI222700000000001"
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:         ue_ipv4: "253.238.0.5"
-May 23 13:39:39 localhost sessiond[498383]:         apn: "default"
-May 23 13:39:39 localhost sessiond[498383]:         rat_type: TGPP_NR
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:       rat_specific_context {
-May 23 13:39:39 localhost sessiond[498383]:         m5gsm_session_context {
-May 23 13:39:39 localhost sessiond[498383]:           pdu_session_id: 1
-May 23 13:39:39 localhost sessiond[498383]:           gnode_endpoint {
-May 23 13:39:39 localhost sessiond[498383]:             end_ipv4_addr: "138.127.0.0"
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           procedure_trans_identity: "\001"
-May 23 13:39:39 localhost sessiond[498383]:           subscribed_qos {
-May 23 13:39:39 localhost sessiond[498383]:             apn_ambr_dl: 100000000
-May 23 13:39:39 localhost sessiond[498383]:             apn_ambr_ul: 100000000
-May 23 13:39:39 localhost sessiond[498383]:             priority_level: 15
-May 23 13:39:39 localhost sessiond[498383]:             qos_class_id: QCI_9
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:   }
-May 23 13:39:39 localhost sessiond[498383]: I0523 13:39:39.524245 498383 SetMessageManagerHandler.cpp:358] Processing a CreateSessionResponse for IMSI222700000000001-456094
-May 23 13:39:39 localhost sessiond[498383]: I0523 13:39:39.524268 498383 GrpcMagmaUtils.cpp:58]
-May 23 13:39:39 localhost sessiond[498383]:   magma.lte.CreateSessionResponse {
-May 23 13:39:39 localhost sessiond[498383]:       dynamic_rules {
-May 23 13:39:39 localhost sessiond[498383]:         policy_rule {
-May 23 13:39:39 localhost sessiond[498383]:           id: "allowlist_sid-IMSI222700000000001-default"
-May 23 13:39:39 localhost sessiond[498383]:           priority: 2
-May 23 13:39:39 localhost sessiond[498383]:           flow_list {
-May 23 13:39:39 localhost sessiond[498383]:             match {
-May 23 13:39:39 localhost sessiond[498383]:             }
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           flow_list {
-May 23 13:39:39 localhost sessiond[498383]:             match {
-May 23 13:39:39 localhost sessiond[498383]:               direction: DOWNLINK
-May 23 13:39:39 localhost sessiond[498383]:             }
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           tracking_type: NO_TRACKING
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:       session_id: "IMSI222700000000001-456094"
-May 23 13:39:39 localhost sessiond[498383]:   }
-May 23 13:39:39 localhost sessiond[498383]: I0523 13:39:39.524389 498383 SessionState.cpp:2788] RuleID allowlist_sid-IMSI222700000000001-default doesn't have a version registered for IMSI222700000000001-456094, this is unexpected
-May 23 13:39:39 localhost sessiond[498383]: I0523 13:39:39.524410 498383 GrpcMagmaUtils.cpp:58]
-May 23 13:39:39 localhost sessiond[498383]:   magma.lte.SetSMSessionContextAccess {
-May 23 13:39:39 localhost sessiond[498383]:       common_context {
-May 23 13:39:39 localhost sessiond[498383]:         sid {
-May 23 13:39:39 localhost sessiond[498383]:           id: "IMSI222700000000001"
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:         ue_ipv4: "253.238.0.5"
-May 23 13:39:39 localhost sessiond[498383]:         apn: "default"
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:       rat_specific_context {
-May 23 13:39:39 localhost sessiond[498383]:         m5g_session_context_rsp {
-May 23 13:39:39 localhost sessiond[498383]:           pdu_session_id: 1
-May 23 13:39:39 localhost sessiond[498383]:           subscribed_qos {
-May 23 13:39:39 localhost sessiond[498383]:             apn_ambr_dl: 100000000
-May 23 13:39:39 localhost sessiond[498383]:             apn_ambr_ul: 100000000
-May 23 13:39:39 localhost sessiond[498383]:             priority_level: 15
-May 23 13:39:39 localhost sessiond[498383]:             qos_class_id: QCI_9
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           M5gsm_cause: OPERATION_SUCCESS
-May 23 13:39:39 localhost sessiond[498383]:           M5G_sm_congestion_reattempt_indicator: true
-May 23 13:39:39 localhost sessiond[498383]:           upf_endpoint {
-May 23 13:39:39 localhost sessiond[498383]:             teid: 2147483649
-May 23 13:39:39 localhost sessiond[498383]:             end_ipv4_addr: "172.16.5.121"
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           procedure_trans_identity: "\001"
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:   }
-May 23 13:39:39 localhost policydb[498450]: INFO:root:Creating a session for subscriber ID: IMSI222700000000001
-May 23 13:39:39 localhost mme[499075]: PDUSessionResourceSetupRequestTransfer ::= {
-May 23 13:39:39 localhost mme[499075]:     protocolIEs: ProtocolIE-Container ::= {
-May 23 13:39:39 localhost mme[499075]:         PDUSessionResourceSetupRequestTransferIEs ::= {
-May 23 13:39:39 localhost mme[499075]:             id: 130
-May 23 13:39:39 localhost mme[499075]:             criticality: 0 (reject)
-May 23 13:39:39 localhost mme[499075]:             value: PDUSessionAggregateMaximumBitRate ::= {
-May 23 13:39:39 localhost mme[499075]:                 pDUSessionAggregateMaximumBitRateDL: 100000000
-May 23 13:39:39 localhost mme[499075]:                 pDUSessionAggregateMaximumBitRateUL: 100000000
-May 23 13:39:39 localhost mme[499075]:             }
-May 23 13:39:39 localhost mme[499075]:         }
-May 23 13:39:39 localhost mme[499075]:         PDUSessionResourceSetupRequestTransferIEs ::= {
-May 23 13:39:39 localhost mme[499075]:             id: 139
-May 23 13:39:39 localhost mme[499075]:             criticality: 0 (reject)
-May 23 13:39:39 localhost mme[499075]:             value: GTPTunnel ::= {
-May 23 13:39:39 localhost mme[499075]:                 transportLayerAddress: AC 10 05 79
-May 23 13:39:39 localhost mme[499075]:                 gTP-TEID: 80 00 00 01
-May 23 13:39:39 localhost mme[499075]:             }
-May 23 13:39:39 localhost mme[499075]:         }
-May 23 13:39:39 localhost mme[499075]:         PDUSessionResourceSetupRequestTransferIEs ::= {
-May 23 13:39:39 localhost mme[499075]:             id: 134
-May 23 13:39:39 localhost mme[499075]:             criticality: 0 (reject)
-May 23 13:39:39 localhost mme[499075]:             value: 0 (ipv4)
-May 23 13:39:39 localhost mme[499075]:         }
-May 23 13:39:39 localhost mme[499075]:         PDUSessionResourceSetupRequestTransferIEs ::= {
-May 23 13:39:39 localhost mme[499075]:             id: 136
-May 23 13:39:39 localhost mme[499075]:             criticality: 0 (reject)
-May 23 13:39:39 localhost mme[499075]:             value: QosFlowSetupRequestList ::= {
-May 23 13:39:39 localhost mme[499075]:                 QosFlowSetupRequestItem ::= {
-May 23 13:39:39 localhost mme[499075]:                     qosFlowIdentifier: 9
-May 23 13:39:39 localhost mme[499075]:                     qosFlowLevelQosParameters: QosFlowLevelQosParameters ::= {
-May 23 13:39:39 localhost mme[499075]:                         qosCharacteristics: NonDynamic5QIDescriptor ::= {
-May 23 13:39:39 localhost mme[499075]:                             fiveQI: 9
-May 23 13:39:39 localhost mme[499075]:                         }
-May 23 13:39:39 localhost mme[499075]:                         allocationAndRetentionPriority: AllocationAndRetentionPriority ::= {
-May 23 13:39:39 localhost mme[499075]:                             priorityLevelARP: 15
-May 23 13:39:39 localhost mme[499075]:                             pre-emptionCapability: 0 (shall-not-trigger-pre-emption)
-May 23 13:39:39 localhost mme[499075]:                             pre-emptionVulnerability: 0 (not-pre-emptable)
-May 23 13:39:39 localhost mme[499075]:                         }
-May 23 13:39:39 localhost mme[499075]:                     }
-May 23 13:39:39 localhost mme[499075]:                 }
-May 23 13:39:39 localhost mme[499075]:             }
-May 23 13:39:39 localhost mme[499075]:         }
-May 23 13:39:39 localhost mme[499075]:     }
-May 23 13:39:39 localhost mme[499075]: }
-May 23 13:39:39 localhost sctpd[498644]: I0523 13:39:39.619349 499133 sctp_connection.cpp:195] Unhandled notification type 32777
-May 23 13:39:39 localhost sessiond[498383]: I0523 13:39:39.621398 498408 GrpcMagmaUtils.cpp:58]
-May 23 13:39:39 localhost sessiond[498383]:   magma.lte.SetSMSessionContext {
-May 23 13:39:39 localhost sessiond[498383]:       common_context {
-May 23 13:39:39 localhost sessiond[498383]:         sid {
-May 23 13:39:39 localhost sessiond[498383]:           id: "IMSI222700000000001"
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:         rat_type: TGPP_NR
-May 23 13:39:39 localhost sessiond[498383]:         sm_session_version: 1
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:       rat_specific_context {
-May 23 13:39:39 localhost sessiond[498383]:         m5gsm_session_context {
-May 23 13:39:39 localhost sessiond[498383]:           pdu_session_id: 1
-May 23 13:39:39 localhost sessiond[498383]:           gnode_endpoint {
-May 23 13:39:39 localhost sessiond[498383]:             teid: 40000000
-May 23 13:39:39 localhost sessiond[498383]:             end_ipv4_addr: "10.10.10.11"
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:   }
-May 23 13:39:39 localhost sessiond[498383]: I0523 13:39:39.621743 498383 SessionStateEnforcer.cpp:879]  AMF teid: 40000000 ip address 10.10.10.11 of imsi: IMSI222700000000001 fteid: 2147483649 pdu id: 1 UE ip address 253.238.0.5
-May 23 13:39:39 localhost sessiond[498383]: I0523 13:39:39.621932 498383 GrpcMagmaUtils.cpp:58]
-May 23 13:39:39 localhost sessiond[498383]:   magma.lte.SessionSet {
-May 23 13:39:39 localhost sessiond[498383]:       subscriber_id: "IMSI222700000000001"
-May 23 13:39:39 localhost sessiond[498383]:       local_f_teid: 2147483649
-May 23 13:39:39 localhost sessiond[498383]:       session_version: 2
-May 23 13:39:39 localhost sessiond[498383]:       node_id {
-May 23 13:39:39 localhost sessiond[498383]:         node_id: "192.168.200.1"
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:       state {
-May 23 13:39:39 localhost sessiond[498383]:         state: CREATED
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:       set_gr_pdr {
-May 23 13:39:39 localhost sessiond[498383]:         pdr_id: 1
-May 23 13:39:39 localhost sessiond[498383]:         pdr_version: 1
-May 23 13:39:39 localhost sessiond[498383]:         precedence: 32
-May 23 13:39:39 localhost sessiond[498383]:         pdi {
-May 23 13:39:39 localhost sessiond[498383]:           local_f_teid: 2147483649
-May 23 13:39:39 localhost sessiond[498383]:           net_instance: "uplink"
-May 23 13:39:39 localhost sessiond[498383]:           ue_ipv4: "253.238.0.5"
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:         set_gr_far {
-May 23 13:39:39 localhost sessiond[498383]:           far_action_to_apply: FORW
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:         deactivate_flow_req {
-May 23 13:39:39 localhost sessiond[498383]:           sid {
-May 23 13:39:39 localhost sessiond[498383]:             id: "IMSI222700000000001"
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           ip_addr: "253.238.0.5"
-May 23 13:39:39 localhost sessiond[498383]:           uplink_tunnel: 2147483649
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:         activate_flow_req {
-May 23 13:39:39 localhost sessiond[498383]:           sid {
-May 23 13:39:39 localhost sessiond[498383]:             id: "IMSI222700000000001"
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           ip_addr: "253.238.0.5"
-May 23 13:39:39 localhost sessiond[498383]:           request_origin {
-May 23 13:39:39 localhost sessiond[498383]:             type: N4
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           apn_ambr {
-May 23 13:39:39 localhost sessiond[498383]:             max_bandwidth_ul: 100000000
-May 23 13:39:39 localhost sessiond[498383]:             max_bandwidth_dl: 100000000
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           uplink_tunnel: 2147483649
-May 23 13:39:39 localhost sessiond[498383]:           policies {
-May 23 13:39:39 localhost sessiond[498383]:             rule {
-May 23 13:39:39 localhost sessiond[498383]:               id: "allowlist_sid-IMSI222700000000001-default"
-May 23 13:39:39 localhost sessiond[498383]:               priority: 2
-May 23 13:39:39 localhost sessiond[498383]:               flow_list {
-May 23 13:39:39 localhost sessiond[498383]:                 match {
-May 23 13:39:39 localhost sessiond[498383]:                 }
-May 23 13:39:39 localhost sessiond[498383]:               }
-May 23 13:39:39 localhost sessiond[498383]:               qos {
-May 23 13:39:39 localhost sessiond[498383]:               }
-May 23 13:39:39 localhost sessiond[498383]:               tracking_type: NO_TRACKING
-May 23 13:39:39 localhost sessiond[498383]:             }
-May 23 13:39:39 localhost sessiond[498383]:             version: 1
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:       set_gr_pdr {
-May 23 13:39:39 localhost sessiond[498383]:         pdr_id: 2
-May 23 13:39:39 localhost sessiond[498383]:         pdr_version: 1
-May 23 13:39:39 localhost sessiond[498383]:         precedence: 32
-May 23 13:39:39 localhost sessiond[498383]:         pdi {
-May 23 13:39:39 localhost sessiond[498383]:           src_interface: 1
-May 23 13:39:39 localhost sessiond[498383]:           net_instance: "downlink"
-May 23 13:39:39 localhost sessiond[498383]:           ue_ipv4: "253.238.0.5"
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:         set_gr_far {
-May 23 13:39:39 localhost sessiond[498383]:           far_action_to_apply: FORW
-May 23 13:39:39 localhost sessiond[498383]:           fwd_parm {
-May 23 13:39:39 localhost sessiond[498383]:             outr_head_cr {
-May 23 13:39:39 localhost sessiond[498383]:               o_teid: 40000000
-May 23 13:39:39 localhost sessiond[498383]:               gnb_ipv4_adr: "10.10.10.11"
-May 23 13:39:39 localhost sessiond[498383]:             }
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:         deactivate_flow_req {
-May 23 13:39:39 localhost pipelined[498486]: INFO:root:Got RPC payload:
-May 23 13:39:39 localhost pipelined[498486]:   SessionSet {
-May 23 13:39:39 localhost pipelined[498486]:     subscriber_id: "IMSI222700000000001"
-May 23 13:39:39 localhost pipelined[498486]:     local_f_teid: 2147483649
-May 23 13:39:39 localhost pipelined[498486]:     session_version: 2
-May 23 13:39:39 localhost pipelined[498486]:     node_id {
-May 23 13:39:39 localhost pipelined[498486]:       node_id: "192.168.200.1"
-May 23 13:39:39 localhost pipelined[498486]:     }
-May 23 13:39:39 localhost pipelined[498486]:     state {
-May 23 13:39:39 localhost pipelined[498486]:       state: CREATED
-May 23 13:39:39 localhost pipelined[498486]:     }
-May 23 13:39:39 localhost pipelined[498486]:     set_gr_pdr {
-May 23 13:39:39 localhost pipelined[498486]:       pdr_id: 1
-May 23 13:39:39 localhost pipelined[498486]:       pdr_version: 1
-May 23 13:39:39 localhost pipelined[498486]:       precedence: 32
-May 23 13:39:39 localhost pipelined[498486]:       pdi {
-May 23 13:39:39 localhost pipelined[498486]:         local_f_teid: 2147483649
-May 23 13:39:39 localhost pipelined[498486]:         net_instance: "uplink"
-May 23 13:39:39 localhost pipelined[498486]:         ue_ipv4: "253.238.0.5"
-May 23 13:39:39 localhost pipelined[498486]:       }
-May 23 13:39:39 localhost pipelined[498486]:       set_gr_far {
-May 23 13:39:39 localhost pipelined[498486]:         far_action_to_apply: FORW
-May 23 13:39:39 localhost pipelined[498486]:       }
-May 23 13:39:39 localhost pipelined[498486]:       deactivate_flow_req {
-May 23 13:39:39 localhost pipelined[498486]:         sid {
-May 23 13:39:39 localhost pipelined[498486]:           id: "IMSI222700000000001"
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:         ip_addr: "253.238.0.5"
-May 23 13:39:39 localhost pipelined[498486]:         uplink_tunnel: 2147483649
-May 23 13:39:39 localhost pipelined[498486]:       }
-May 23 13:39:39 localhost pipelined[498486]:       activate_flow_req {
-May 23 13:39:39 localhost pipelined[498486]:         sid {
-May 23 13:39:39 localhost pipelined[498486]:           id: "IMSI222700000000001"
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:         ip_addr: "253.238.0.5"
-May 23 13:39:39 localhost pipelined[498486]:         request_origin {
-May 23 13:39:39 localhost pipelined[498486]:           type: N4
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:         apn_ambr {
-May 23 13:39:39 localhost pipelined[498486]:           max_bandwidth_ul: 100000000
-May 23 13:39:39 localhost pipelined[498486]:           max_bandwidth_dl: 100000000
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:         uplink_tunnel: 2147483649
-May 23 13:39:39 localhost pipelined[498486]:         policies {
-May 23 13:39:39 localhost pipelined[498486]:           rule {
-May 23 13:39:39 localhost pipelined[498486]:             id: "allowlist_sid-IMSI222700000000001-default"
-May 23 13:39:39 localhost pipelined[498486]:             priority: 2
-May 23 13:39:39 localhost pipelined[498486]:             flow_list {
-May 23 13:39:39 localhost pipelined[498486]:               match {
-May 23 13:39:39 localhost pipelined[498486]:               }
-May 23 13:39:39 localhost pipelined[498486]:             }
-May 23 13:39:39 localhost pipelined[498486]:             qos {
-May 23 13:39:39 localhost pipelined[498486]:             }
-May 23 13:39:39 localhost pipelined[498486]:             tracking_type: NO_TRACKING
-May 23 13:39:39 localhost pipelined[498486]:           }
-May 23 13:39:39 localhost pipelined[498486]:           version: 1
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:       }
-May 23 13:39:39 localhost pipelined[498486]:     }
-May 23 13:39:39 localhost pipelined[498486]:     set_gr_pdr {
-May 23 13:39:39 localhost pipelined[498486]:       pdr_id: 2
-May 23 13:39:39 localhost pipelined[498486]:       pdr_version: 1
-May 23 13:39:39 localhost pipelined[498486]:       precedence: 32
-May 23 13:39:39 localhost pipelined[498486]:       pdi {
-May 23 13:39:39 localhost pipelined[498486]:         src_interface: 1
-May 23 13:39:39 localhost pipelined[498486]:         net_instance: "downlink"
-May 23 13:39:39 localhost pipelined[498486]:         ue_ipv4: "253.238.0.5"
-May 23 13:39:39 localhost pipelined[498486]:       }
-May 23 13:39:39 localhost pipelined[498486]:       set_gr_far {
-May 23 13:39:39 localhost pipelined[498486]:         far_action_to_apply: FORW
-May 23 13:39:39 localhost pipelined[498486]:         fwd_parm {
-May 23 13:39:39 localhost pipelined[498486]:           outr_head_cr {
-May 23 13:39:39 localhost pipelined[498486]:             o_teid: 40000000
-May 23 13:39:39 localhost pipelined[498486]:             gnb_ipv4_adr: "10.10.10.11"
-May 23 13:39:39 localhost pipelined[498486]:           }
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:       }
-May 23 13:39:39 localhost pipelined[498486]:       deactivate_flow_req {
-May 23 13:39:39 localhost pipelined[498486]:         sid {
-May 23 13:39:39 localhost pipelined[498486]:           id: "IMSI222700000000001"
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:         ip_addr: "253.238.0.5"
-May 23 13:39:39 localhost pipelined[498486]:         downlink_tunnel: 40000000
-May 23 13:39:39 localhost pipelined[498486]:       }
-May 23 13:39:39 localhost pipelined[498486]:       activate_flow_req {
-May 23 13:39:39 localhost pipelined[498486]:         sid {
-May 23 13:39:39 localhost pipelined[498486]:           id: "IMSI222700000000001"
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:         ip_addr: "253.238.0.5"
-May 23 13:39:39 localhost pipelined[498486]:         request_origin {
-May 23 13:39:39 localhost pipelined[498486]:           type: N4
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:         apn_ambr {
-May 23 13:39:39 localhost pipelined[498486]:           max_bandwidth_ul: 100000000
-May 23 13:39:39 localhost eventd[498460]: DEBUG:root:Logging event: stream_name: "sessiond"
-May 23 13:39:39 localhost eventd[498460]: event_type: "session_created"
-May 23 13:39:39 localhost eventd[498460]: tag: "IMSI222700000000001"
-May 23 13:39:39 localhost eventd[498460]: value: "{\"mac_addr\":\"\",\"user_location\":\"\",\"spgw_ip\":\"\",\"imei\":\"\",\"pdp_start_time\":1,\"session_id\":\"IMSI222700000000001-456094\",\"apn\":\"default\",\"msisdn\":\"\",\"charging_characteristics\":\"\",\"ipv6_addr\":\"\",\"ip_addr\":\"253.238.0.5\",\"imsi\":\"IMSI222700000000001\"}"
-May 23 13:39:39 localhost eventd[498460]: ERROR:root:Connection to FluentBit failed: [Errno 111] Connection refused
-May 23 13:39:39 localhost eventd[498460]: INFO:root:FluentBit (td-agent-bit) may not be enabled or configured correctly
-May 23 13:39:39 localhost smsd[498464]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-May 23 13:39:39 localhost sessiond[498383]:           sid {
-May 23 13:39:39 localhost sessiond[498383]:             id: "IMSI222700000000001"
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           ip_addr: "253.238.0.5"
-May 23 13:39:39 localhost sessiond[498383]:           downlink_tunnel: 40000000
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:         activate_flow_req {
-May 23 13:39:39 localhost sessiond[498383]:           sid {
-May 23 13:39:39 localhost sessiond[498383]:             id: "IMSI222700000000001"
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           ip_addr: "253.238.0.5"
-May 23 13:39:39 localhost sessiond[498383]:           request_origin {
-May 23 13:39:39 localhost sessiond[498383]:             type: N4
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           apn_ambr {
-May 23 13:39:39 localhost sessiond[498383]:             max_bandwidth_ul: 100000000
-May 23 13:39:39 localhost sessiond[498383]:             max_bandwidth_dl: 100000000
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           downlink_tunnel: 40000000
-May 23 13:39:39 localhost sessiond[498383]:           policies {
-May 23 13:39:39 localhost sessiond[498383]:             rule {
-May 23 13:39:39 localhost sessiond[498383]:               id: "allowlist_sid-IMSI222700000000001-default"
-May 23 13:39:39 localhost sessiond[498383]:               priority: 2
-May 23 13:39:39 localhost sessiond[498383]:               flow_list {
-May 23 13:39:39 localhost sessiond[498383]:                 match {
-May 23 13:39:39 localhost sessiond[498383]:                   direction: DOWNLINK
-May 23 13:39:39 localhost sessiond[498383]:                 }
-May 23 13:39:39 localhost sessiond[498383]:               }
-May 23 13:39:39 localhost sessiond[498383]:               qos {
-May 23 13:39:39 localhost sessiond[498383]:               }
-May 23 13:39:39 localhost sessiond[498383]:               tracking_type: NO_TRACKING
-May 23 13:39:39 localhost sessiond[498383]:             }
-May 23 13:39:39 localhost sessiond[498383]:             version: 1
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:   }
-May 23 13:39:39 localhost sessiond[498383]: I0523 13:39:39.624850 498399 SessionEvents.cpp:132] Could not log session_created event {"mac_addr":"","user_location":"","spgw_ip":"","imei":"","pdp_start_time":1,"session_id":"IMSI222700000000001-456094","apn":"default","msisdn":"","charging_characteristics":"","ipv6_addr":"","ip_addr":"253.238.0.5","imsi":"IMSI222700000000001"}, Error Message: Could not connect to FluentBit locally, Details: [Errno 111] Connection refused
-May 23 13:39:39 localhost pipelined[498486]:           max_bandwidth_dl: 100000000
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:         downlink_tunnel: 40000000
-May 23 13:39:39 localhost pipelined[498486]:         policies {
-May 23 13:39:39 localhost pipelined[498486]:           rule {
-May 23 13:39:39 localhost pipelined[498486]:             id: "allowlist_sid-IMSI222700000000001-default"
-May 23 13:39:39 localhost pipelined[498486]:             priority: 2
-May 23 13:39:39 localhost pipelined[498486]:             flow_list {
-May 23 13:39:39 localhost pipelined[498486]:               match {
-May 23 13:39:39 localhost pipelined[498486]:                 direction: DOWNLINK
-May 23 13:39:39 localhost pipelined[498486]:               }
-May 23 13:39:39 localhost pipelined[498486]:             }
-May 23 13:39:39 localhost pipelined[498486]:             qos {
-May 23 13:39:39 localhost pipelined[498486]:             }
-May 23 13:39:39 localhost pipelined[498486]:             tracking_type: NO_TRACKING
-May 23 13:39:39 localhost pipelined[498486]:           }
-May 23 13:39:39 localhost pipelined[498486]:           version: 1
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:       }
-May 23 13:39:39 localhost pipelined[498486]:     }
-May 23 13:39:39 localhost pipelined[498486]:   }
-May 23 13:39:39 localhost sessiond[498383]: I0523 13:39:39.832528 498408 GrpcMagmaUtils.cpp:58]
-May 23 13:39:39 localhost sessiond[498383]:   magma.lte.SetSMSessionContext {
-May 23 13:39:39 localhost sessiond[498383]:       common_context {
-May 23 13:39:39 localhost sessiond[498383]:         sid {
-May 23 13:39:39 localhost sessiond[498383]:           id: "IMSI222700000000001"
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:         rat_type: TGPP_NR
-May 23 13:39:39 localhost sessiond[498383]:         sm_session_state: RELEASED_4
-May 23 13:39:39 localhost sessiond[498383]:         sm_session_version: 1
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:       rat_specific_context {
-May 23 13:39:39 localhost sessiond[498383]:         m5gsm_session_context {
-May 23 13:39:39 localhost sessiond[498383]:           pdu_session_id: 1
-May 23 13:39:39 localhost sessiond[498383]:           procedure_trans_identity: "\001"
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:   }
-May 23 13:39:39 localhost sessiond[498383]: I0523 13:39:39.832751 498383 SetMessageManagerHandler.cpp:144] Release request for session from IMSI: IMSI222700000000001 pdu_id 1
-May 23 13:39:39 localhost sessiond[498383]: I0523 13:39:39.833158 498383 GrpcMagmaUtils.cpp:58]
-May 23 13:39:39 localhost sessiond[498383]:   magma.lte.SessionSet {
-May 23 13:39:39 localhost sessiond[498383]:       subscriber_id: "IMSI222700000000001"
-May 23 13:39:39 localhost sessiond[498383]:       local_f_teid: 2147483649
-May 23 13:39:39 localhost sessiond[498383]:       session_version: 3
-May 23 13:39:39 localhost sessiond[498383]:       node_id {
-May 23 13:39:39 localhost sessiond[498383]:         node_id: "192.168.200.1"
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:       state {
-May 23 13:39:39 localhost sessiond[498383]:         state: RELEASE
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:       set_gr_pdr {
-May 23 13:39:39 localhost sessiond[498383]:         pdr_id: 1
-May 23 13:39:39 localhost sessiond[498383]:         pdr_version: 1
-May 23 13:39:39 localhost sessiond[498383]:         precedence: 32
-May 23 13:39:39 localhost sessiond[498383]:         pdr_state: REMOVE
-May 23 13:39:39 localhost sessiond[498383]:         pdi {
-May 23 13:39:39 localhost sessiond[498383]:           local_f_teid: 2147483649
-May 23 13:39:39 localhost sessiond[498383]:           net_instance: "uplink"
-May 23 13:39:39 localhost sessiond[498383]:           ue_ipv4: "253.238.0.5"
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:         set_gr_far {
-May 23 13:39:39 localhost sessiond[498383]:           far_action_to_apply: FORW
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:         deactivate_flow_req {
-May 23 13:39:39 localhost sessiond[498383]:           sid {
-May 23 13:39:39 localhost sessiond[498383]:             id: "IMSI222700000000001"
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           ip_addr: "253.238.0.5"
-May 23 13:39:39 localhost sessiond[498383]:           uplink_tunnel: 2147483649
-May 23 13:39:39 localhost sessiond[498383]:           policies {
-May 23 13:39:39 localhost sessiond[498383]:             rule_id: "allowlist_sid-IMSI222700000000001-default"
-May 23 13:39:39 localhost sessiond[498383]:             version: 1
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:         activate_flow_req {
-May 23 13:39:39 localhost sessiond[498383]:           sid {
-May 23 13:39:39 localhost sessiond[498383]:             id: "IMSI222700000000001"
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           ip_addr: "253.238.0.5"
-May 23 13:39:39 localhost sessiond[498383]:           request_origin {
-May 23 13:39:39 localhost sessiond[498383]:             type: N4
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           apn_ambr {
-May 23 13:39:39 localhost sessiond[498383]:             max_bandwidth_ul: 100000000
-May 23 13:39:39 localhost sessiond[498383]:             max_bandwidth_dl: 100000000
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           uplink_tunnel: 2147483649
-May 23 13:39:39 localhost sessiond[498383]:           policies {
-May 23 13:39:39 localhost sessiond[498383]:             rule {
-May 23 13:39:39 localhost sessiond[498383]:               id: "allowlist_sid-IMSI222700000000001-default"
-May 23 13:39:39 localhost sessiond[498383]:               priority: 2
-May 23 13:39:39 localhost sessiond[498383]:               flow_list {
-May 23 13:39:39 localhost sessiond[498383]:                 match {
-May 23 13:39:39 localhost sessiond[498383]:                 }
-May 23 13:39:39 localhost sessiond[498383]:               }
-May 23 13:39:39 localhost sessiond[498383]:               qos {
-May 23 13:39:39 localhost sessiond[498383]:               }
-May 23 13:39:39 localhost mobilityd[498373]: INFO:root:GRPC message:
-May 23 13:39:39 localhost mobilityd[498373]:   magma.lte.ReleaseIPRequest {
-May 23 13:39:39 localhost mobilityd[498373]:     "sid": {
-May 23 13:39:39 localhost mobilityd[498373]:       "id": "222700000000001"
-May 23 13:39:39 localhost mobilityd[498373]:     },
-May 23 13:39:39 localhost mobilityd[498373]:     "ip": {
-May 23 13:39:39 localhost mobilityd[498373]:       "address": "/e4ABQ=="
-May 23 13:39:39 localhost mobilityd[498373]:     },
-May 23 13:39:39 localhost mobilityd[498373]:     "apn": "default"
-May 23 13:39:39 localhost mobilityd[498373]:   }
-May 23 13:39:39 localhost mobilityd[498373]: WARNING:root:Releasing unknown <SID, IP> pair: <IMSI222700000000001.default,ipv4, 253.238.0.5> sid_ips_map[IMSI222700000000001.default,ipv4]: <mobilityd.IPDesc {ip: fdee:5:6c:375:46cb:8fed:f1db:9c1f, ip_block: fdee:5:6c::/48, state: IPState.ALLOCATED, sid: IMSI222700000000001.default,ipv4, type: IPType.IP_POOL }}>
-May 23 13:39:39 localhost pipelined[498486]: INFO:root:Got RPC payload:
-May 23 13:39:39 localhost pipelined[498486]:   SessionSet {
-May 23 13:39:39 localhost pipelined[498486]:     subscriber_id: "IMSI222700000000001"
-May 23 13:39:39 localhost pipelined[498486]:     local_f_teid: 2147483649
-May 23 13:39:39 localhost pipelined[498486]:     session_version: 3
-May 23 13:39:39 localhost pipelined[498486]:     node_id {
-May 23 13:39:39 localhost pipelined[498486]:       node_id: "192.168.200.1"
-May 23 13:39:39 localhost pipelined[498486]:     }
-May 23 13:39:39 localhost pipelined[498486]:     state {
-May 23 13:39:39 localhost pipelined[498486]:       state: RELEASE
-May 23 13:39:39 localhost pipelined[498486]:     }
-May 23 13:39:39 localhost pipelined[498486]:     set_gr_pdr {
-May 23 13:39:39 localhost pipelined[498486]:       pdr_id: 1
-May 23 13:39:39 localhost pipelined[498486]:       pdr_version: 1
-May 23 13:39:39 localhost pipelined[498486]:       precedence: 32
-May 23 13:39:39 localhost pipelined[498486]:       pdr_state: REMOVE
-May 23 13:39:39 localhost pipelined[498486]:       pdi {
-May 23 13:39:39 localhost pipelined[498486]:         local_f_teid: 2147483649
-May 23 13:39:39 localhost pipelined[498486]:         net_instance: "uplink"
-May 23 13:39:39 localhost pipelined[498486]:         ue_ipv4: "253.238.0.5"
-May 23 13:39:39 localhost pipelined[498486]:       }
-May 23 13:39:39 localhost pipelined[498486]:       set_gr_far {
-May 23 13:39:39 localhost pipelined[498486]:         far_action_to_apply: FORW
-May 23 13:39:39 localhost pipelined[498486]:       }
-May 23 13:39:39 localhost pipelined[498486]:       deactivate_flow_req {
-May 23 13:39:39 localhost pipelined[498486]:         sid {
-May 23 13:39:39 localhost pipelined[498486]:           id: "IMSI222700000000001"
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:         ip_addr: "253.238.0.5"
-May 23 13:39:39 localhost pipelined[498486]:         uplink_tunnel: 2147483649
-May 23 13:39:39 localhost pipelined[498486]:         policies {
-May 23 13:39:39 localhost pipelined[498486]:           rule_id: "allowlist_sid-IMSI222700000000001-default"
-May 23 13:39:39 localhost pipelined[498486]:           version: 1
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:       }
-May 23 13:39:39 localhost pipelined[498486]:       activate_flow_req {
-May 23 13:39:39 localhost pipelined[498486]:         sid {
-May 23 13:39:39 localhost pipelined[498486]:           id: "IMSI222700000000001"
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:         ip_addr: "253.238.0.5"
-May 23 13:39:39 localhost pipelined[498486]:         request_origin {
-May 23 13:39:39 localhost pipelined[498486]:           type: N4
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:         apn_ambr {
-May 23 13:39:39 localhost pipelined[498486]:           max_bandwidth_ul: 100000000
-May 23 13:39:39 localhost pipelined[498486]:           max_bandwidth_dl: 100000000
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:         uplink_tunnel: 2147483649
-May 23 13:39:39 localhost pipelined[498486]:         policies {
-May 23 13:39:39 localhost pipelined[498486]:           rule {
-May 23 13:39:39 localhost pipelined[498486]:             id: "allowlist_sid-IMSI222700000000001-default"
-May 23 13:39:39 localhost pipelined[498486]:             priority: 2
-May 23 13:39:39 localhost pipelined[498486]:             flow_list {
-May 23 13:39:39 localhost pipelined[498486]:               match {
-May 23 13:39:39 localhost pipelined[498486]:               }
-May 23 13:39:39 localhost pipelined[498486]:             }
-May 23 13:39:39 localhost pipelined[498486]:             qos {
-May 23 13:39:39 localhost pipelined[498486]:             }
-May 23 13:39:39 localhost pipelined[498486]:             tracking_type: NO_TRACKING
-May 23 13:39:39 localhost pipelined[498486]:           }
-May 23 13:39:39 localhost pipelined[498486]:           version: 1
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:       }
-May 23 13:39:39 localhost pipelined[498486]:     }
-May 23 13:39:39 localhost pipelined[498486]:     set_gr_pdr {
-May 23 13:39:39 localhost pipelined[498486]:       pdr_id: 2
-May 23 13:39:39 localhost pipelined[498486]:       pdr_version: 1
-May 23 13:39:39 localhost pipelined[498486]:       precedence: 32
-May 23 13:39:39 localhost pipelined[498486]:       pdr_state: REMOVE
-May 23 13:39:39 localhost pipelined[498486]:       pdi {
-May 23 13:39:39 localhost pipelined[498486]:         src_interface: 1
-May 23 13:39:39 localhost pipelined[498486]:         net_instance: "downlink"
-May 23 13:39:39 localhost pipelined[498486]:         ue_ipv4: "253.238.0.5"
-May 23 13:39:39 localhost pipelined[498486]:       }
-May 23 13:39:39 localhost pipelined[498486]:       set_gr_far {
-May 23 13:39:39 localhost pipelined[498486]:         far_action_to_apply: FORW
-May 23 13:39:39 localhost pipelined[498486]:         fwd_parm {
-May 23 13:39:39 localhost pipelined[498486]:           outr_head_cr {
-May 23 13:39:39 localhost pipelined[498486]:             o_teid: 40000000
-May 23 13:39:39 localhost pipelined[498486]:             gnb_ipv4_adr: "10.10.10.11"
-May 23 13:39:39 localhost pipelined[498486]:           }
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:       }
-May 23 13:39:39 localhost pipelined[498486]:       deactivate_flow_req {
-May 23 13:39:39 localhost pipelined[498486]:         sid {
-May 23 13:39:39 localhost pipelined[498486]:           id: "IMSI222700000000001"
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:         ip_addr: "253.238.0.5"
-May 23 13:39:39 localhost pipelined[498486]:         downlink_tunnel: 40000000
-May 23 13:39:39 localhost pipelined[498486]:         policies {
-May 23 13:39:39 localhost pipelined[498486]:           rule_id: "allowlist_sid-IMSI222700000000001-default"
-May 23 13:39:39 localhost mme[499075]: ReleaseIPv4Address fails with code 5, msg: (SID, IP) map not found: (IMSI222700000000001, 253.238.0.5)
-May 23 13:39:39 localhost sessiond[498383]:               tracking_type: NO_TRACKING
-May 23 13:39:39 localhost sessiond[498383]:             }
-May 23 13:39:39 localhost sessiond[498383]:             version: 1
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:       set_gr_pdr {
-May 23 13:39:39 localhost sessiond[498383]:         pdr_id: 2
-May 23 13:39:39 localhost sessiond[498383]:         pdr_version: 1
-May 23 13:39:39 localhost sessiond[498383]:         precedence: 32
-May 23 13:39:39 localhost sessiond[498383]:         pdr_state: REMOVE
-May 23 13:39:39 localhost sessiond[498383]:         pdi {
-May 23 13:39:39 localhost sessiond[498383]:           src_interface: 1
-May 23 13:39:39 localhost sessiond[498383]:           net_instance: "downlink"
-May 23 13:39:39 localhost sessiond[498383]:           ue_ipv4: "253.238.0.5"
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:         set_gr_far {
-May 23 13:39:39 localhost sessiond[498383]:           far_action_to_apply: FORW
-May 23 13:39:39 localhost sessiond[498383]:           fwd_parm {
-May 23 13:39:39 localhost sessiond[498383]:             outr_head_cr {
-May 23 13:39:39 localhost sessiond[498383]:               o_teid: 40000000
-May 23 13:39:39 localhost sessiond[498383]:               gnb_ipv4_adr: "10.10.10.11"
-May 23 13:39:39 localhost sessiond[498383]:             }
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:         deactivate_flow_req {
-May 23 13:39:39 localhost sessiond[498383]:           sid {
-May 23 13:39:39 localhost sessiond[498383]:             id: "IMSI222700000000001"
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           ip_addr: "253.238.0.5"
-May 23 13:39:39 localhost sessiond[498383]:           downlink_tunnel: 40000000
-May 23 13:39:39 localhost sessiond[498383]:           policies {
-May 23 13:39:39 localhost sessiond[498383]:             rule_id: "allowlist_sid-IMSI222700000000001-default"
-May 23 13:39:39 localhost sessiond[498383]:             version: 1
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:         activate_flow_req {
-May 23 13:39:39 localhost sessiond[498383]:           sid {
-May 23 13:39:39 localhost sessiond[498383]:             id: "IMSI222700000000001"
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           ip_addr: "253.238.0.5"
-May 23 13:39:39 localhost sessiond[498383]:           request_origin {
-May 23 13:39:39 localhost sessiond[498383]:             type: N4
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           apn_ambr {
-May 23 13:39:39 localhost sessiond[498383]:             max_bandwidth_ul: 100000000
-May 23 13:39:39 localhost sessiond[498383]:             max_bandwidth_dl: 100000000
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:           downlink_tunnel: 40000000
-May 23 13:39:39 localhost sessiond[498383]:           policies {
-May 23 13:39:39 localhost sessiond[498383]:             rule {
-May 23 13:39:39 localhost sessiond[498383]:               id: "allowlist_sid-IMSI222700000000001-default"
-May 23 13:39:39 localhost sessiond[498383]:               priority: 2
-May 23 13:39:39 localhost sessiond[498383]:               flow_list {
-May 23 13:39:39 localhost sessiond[498383]:                 match {
-May 23 13:39:39 localhost sessiond[498383]:                   direction: DOWNLINK
-May 23 13:39:39 localhost sessiond[498383]:                 }
-May 23 13:39:39 localhost sessiond[498383]:               }
-May 23 13:39:39 localhost sessiond[498383]:               qos {
-May 23 13:39:39 localhost sessiond[498383]:               }
-May 23 13:39:39 localhost sessiond[498383]:               tracking_type: NO_TRACKING
-May 23 13:39:39 localhost sessiond[498383]:             }
-May 23 13:39:39 localhost sessiond[498383]:             version: 1
-May 23 13:39:39 localhost sessiond[498383]:           }
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:   }
-May 23 13:39:39 localhost sessiond[498383]: I0523 13:39:39.848311 498383 GrpcMagmaUtils.cpp:58]
-May 23 13:39:39 localhost sessiond[498383]:   magma.lte.SessionTerminateRequest {
-May 23 13:39:39 localhost sessiond[498383]:       session_id: "IMSI222700000000001-456094"
-May 23 13:39:39 localhost sessiond[498383]:       request_number: 1
-May 23 13:39:39 localhost sessiond[498383]:       tgpp_ctx {
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:       common_context {
-May 23 13:39:39 localhost sessiond[498383]:         sid {
-May 23 13:39:39 localhost sessiond[498383]:           id: "IMSI222700000000001"
-May 23 13:39:39 localhost sessiond[498383]:         }
-May 23 13:39:39 localhost sessiond[498383]:         ue_ipv4: "253.238.0.5"
-May 23 13:39:39 localhost sessiond[498383]:         apn: "default"
-May 23 13:39:39 localhost sessiond[498383]:         rat_type: TGPP_NR
-May 23 13:39:39 localhost sessiond[498383]:       }
-May 23 13:39:39 localhost sessiond[498383]:   }
-May 23 13:39:39 localhost eventd[498460]: DEBUG:root:Logging event: stream_name: "sessiond"
-May 23 13:39:39 localhost eventd[498460]: event_type: "session_terminated"
-May 23 13:39:39 localhost eventd[498460]: tag: "IMSI222700000000001"
-May 23 13:39:39 localhost eventd[498460]: value: "{\"mac_addr\":\"\",\"user_location\":\"\",\"spgw_ip\":\"\",\"imei\":\"\",\"record_sequence_number\":1,\"pdp_end_time\":0,\"charging_rx\":0,\"duration\":-1,\"ip_addr\":\"253.238.0.5\",\"monitoring_tx\":0,\"ipv6_addr\":\"\",\"msisdn\":\"\",\"apn\":\"default\",\"session_id\":\"IMSI222700000000001-456094\",\"list_of_service_data\":[],\"charging_characteristics\":\"\",\"total_tx\":0,\"cause_for_rec_closing\":0,\"imsi\":\"IMSI222700000000001\",\"total_rx\":0,\"monitoring_rx\":0,\"charging_tx\":0,\"pdp_start_time\":1}"
-May 23 13:39:39 localhost eventd[498460]: ERROR:root:Connection to FluentBit failed: [Errno 111] Connection refused
-May 23 13:39:39 localhost eventd[498460]: INFO:root:FluentBit (td-agent-bit) may not be enabled or configured correctly
-May 23 13:39:39 localhost policydb[498450]: INFO:root:Terminating session: IMSI222700000000001-456094
-May 23 13:39:39 localhost pipelined[498486]:           version: 1
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:       }
-May 23 13:39:39 localhost pipelined[498486]:       activate_flow_req {
-May 23 13:39:39 localhost pipelined[498486]:         sid {
-May 23 13:39:39 localhost pipelined[498486]:           id: "IMSI222700000000001"
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:         ip_addr: "253.238.0.5"
-May 23 13:39:39 localhost pipelined[498486]:         request_origin {
-May 23 13:39:39 localhost pipelined[498486]:           type: N4
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:         apn_ambr {
-May 23 13:39:39 localhost pipelined[498486]:           max_bandwidth_ul: 100000000
-May 23 13:39:39 localhost pipelined[498486]:           max_bandwidth_dl: 100000000
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:         downlink_tunnel: 40000000
-May 23 13:39:39 localhost pipelined[498486]:         policies {
-May 23 13:39:39 localhost pipelined[498486]:           rule {
-May 23 13:39:39 localhost pipelined[498486]:             id: "allowlist_sid-IMSI222700000000001-default"
-May 23 13:39:39 localhost pipelined[498486]:             priority: 2
-May 23 13:39:39 localhost pipelined[498486]:             flow_list {
-May 23 13:39:39 localhost pipelined[498486]:               match {
-May 23 13:39:39 localhost pipelined[498486]:                 direction: DOWNLINK
-May 23 13:39:39 localhost pipelined[498486]:               }
-May 23 13:39:39 localhost pipelined[498486]:             }
-May 23 13:39:39 localhost pipelined[498486]:             qos {
-May 23 13:39:39 localhost pipelined[498486]:             }
-May 23 13:39:39 localhost pipelined[498486]:             tracking_type: NO_TRACKING
-May 23 13:39:39 localhost pipelined[498486]:           }
-May 23 13:39:39 localhost pipelined[498486]:           version: 1
-May 23 13:39:39 localhost pipelined[498486]:         }
-May 23 13:39:39 localhost pipelined[498486]:       }
-May 23 13:39:39 localhost pipelined[498486]:     }
-May 23 13:39:39 localhost pipelined[498486]:   }
-May 23 13:39:39 localhost sessiond[498383]: I0523 13:39:39.850733 498399 SessionEvents.cpp:292] Could not log session_terminated event {"mac_addr":"","user_location":"","spgw_ip":"","imei":"","record_sequence_number":1,"pdp_end_time":0,"charging_rx":0,"duration":-1,"ip_addr":"253.238.0.5","monitoring_tx":0,"ipv6_addr":"","msisdn":"","apn":"default","session_id":"IMSI222700000000001-456094","list_of_service_data":[],"charging_characteristics":"","total_tx":0,"cause_for_rec_closing":0,"imsi":"IMSI222700000000001","total_rx":0,"monitoring_rx":0,"charging_tx":0,"pdp_start_time":1}, Error Message: Could not connect to FluentBit locally, Details: [Errno 111] Connection refused
-May 23 13:39:39 localhost sctpd[498644]: I0523 13:39:39.992688 499133 sctp_connection.cpp:195] Unhandled notification type 32777
-May 23 13:39:44 localhost mobilityd[498373]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth1')}, 2: [('172.16.4.1', 'eth1', True)]}
-May 23 13:39:44 localhost mobilityd[498373]: INFO:root:GW-v6 probe: timer started
-May 23 13:39:44 localhost smsd[498464]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-May 23 13:39:44 localhost sessiond[498383]: I0523 13:39:44.837716 498383 SessionStateEnforcer.cpp:381] Nothing to remove as no respective entry found for session id IMSI222700000000001-456094 of IMSI IMSI222700000000001
-May 23 13:39:49 localhost smsd[498464]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
-May 23 13:39:50 localhost systemd[1]: Started Session 107 of user ubuntu.
-May 23 13:39:51 localhost mobilityd[498373]: INFO:root:GRPC message:
-May 23 13:39:51 localhost mobilityd[498373]:   magma.orc8r.Void {}
-May 23 13:39:51 localhost mobilityd[498373]: INFO:root:GRPC message:
-May 23 13:39:51 localhost mobilityd[498373]:   magma.lte.SubscriberIPTable {
-May 23 13:39:51 localhost mobilityd[498373]:     "entries": [
-May 23 13:39:51 localhost mobilityd[498373]:       {
-May 23 13:39:51 localhost mobilityd[498373]:         "sid": {
-May 23 13:39:51 localhost mobilityd[498373]:           "id": "222700000000001"
-May 23 13:39:51 localhost mobilityd[498373]:         },
-May 23 13:39:51 localhost mobilityd[498373]:         "ip": {
-May 23 13:39:51 localhost mobilityd[498373]:           "version": "IPV6",
-May 23 13:39:51 localhost mobilityd[498373]:           "address": "/e4ABQBsM/qt9s9yxcVt+A=="
-May 23 13:39:51 localhost mobilityd[498373]:         },
-May 23 13:39:51 localhost mobilityd[498373]:         "apn": "internet"
-May 23 13:39:51 localhost mobilityd[498373]:       },
-May 23 13:39:51 localhost mobilityd[498373]:       {
-May 23 13:39:51 localhost mobilityd[498373]:         "sid": {
-May 23 13:39:51 localhost mobilityd[498373]:           "id": "222700000000001"
-May 23 13:39:51 localhost mobilityd[498373]:         },
-May 23 13:39:51 localhost mobilityd[498373]:         "ip": {
-May 23 13:39:51 localhost mobilityd[498373]:           "version": "IPV6",
-May 23 13:39:51 localhost mobilityd[498373]:           "address": "/e4ABQBsbE808ynOAgd/Wg=="
-May 23 13:39:51 localhost mobilityd[498373]:         },
-May 23 13:39:51 localhost mobilityd[498373]:         "apn": "internetv4v6"
-May 23 13:39:51 localhost mobilityd[498373]:       },
-May 23 13:39:51 localhost mobilityd[498373]:       {
-May 23 13:39:51 localhost mobilityd[498373]:         "sid": {
-May 23 13:39:51 localhost mobilityd[498373]:           "id": "222700000000001"
-May 23 13:39:51 localhost mobilityd[498373]:         },
-May 23 13:39:51 localhost mobilityd[498373]:         "ip": {
-May 23 13:39:51 localhost mobilityd[498373]:           "version": "IPV6",
-May 23 13:39:51 localhost mobilityd[498373]:           "address": "/e4ABQBsA3VGy4/t8ducHw=="
-May 23 13:39:51 localhost mobilityd[498373]:         },
-May 23 13:39:51 localhost mobilityd[498373]:         "apn": "default"
-May 23 13:39:51 localhost mobilityd[498373]:       },
-May 23 13:39:51 localhost mobilityd[498373]:       {
-May 23 13:39:51 localhost mobilityd[498373]:         "sid": {
-May 23 13:39:51 localhost mobilityd[498373]:           "id": "222700000000001"
-May 23 13:39:51 localhost mobilityd[498373]:         },
-May 23 13:39:51 localhost mobilityd[498373]:         "ip": {
-May 23 13:39:51 localhost mobilityd[498373]:           "version": "IPV6",
-May 23 13:39:51 localhost mobilityd[498373]:           "address": "/e4ABQBsCesIbUwhBH9OIQ=="
-May 23 13:39:51 localhost mobilityd[498373]:         },
-May 23 13:39:51 localhost mobilityd[498373]:         "apn": "oai.ipv4.ipv6"
-May 23 13:39:51 localhost mobilityd[498373]:       },
-May 23 13:39:51 localhost mobilityd[498373]:       {
-May 23 13:39:51 localhost mobilityd[498373]:         "sid": {
-May 23 13:39:51 localhost mobilityd[498373]:           "id": "222700000000001"
-May 23 13:39:51 localhost mobilityd[498373]:         },
-May 23 13:39:51 localhost mobilityd[498373]:         "ip": {
-May 23 13:39:51 localhost mobilityd[498373]:           "version": "IPV6",
-May 23 13:39:51 localhost mobilityd[498373]:           "address": "/e4ABQBssINIVdRGdplgFg=="
-May 23 13:39:51 localhost mobilityd[498373]:         },
-May 23 13:39:51 localhost mobilityd[498373]:         "apn": "wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wav"
-May 23 13:39:51 localhost mobilityd[498373]:       },
-May 23 13:39:51 localhost mobilityd[498373]:       {
-May 23 13:39:51 localhost mobilityd[498373]:         "sid": {
-May 23 13:39:51 localhost mobilityd[498373]:           "id": "222700000000001"
-May 23 13:39:51 localhost mobilityd[498373]:         },
-May 23 13:39:51 localhost mobilityd[498373]:         "ip": {
-May 23 13:39:51 localhost mobilityd[498373]:           "version": "IPV6",
-May 23 13:39:51 localhost mobilityd[498373]:           "address": "/e4ABQBscaHwliyaIH6m0w=="
-May 23 13:39:51 localhost mobilityd[498373]:         },
-May 23 13:39:51 localhost mobilityd[498373]:         "apn": "oai"
-May 23 13:39:51 localhost mobilityd[498373]:       }
-May 23 13:39:51 localhost mobilityd[498373]:     ]
-May 23 13:39:51 localhost mobilityd[498373]:   }
+May 23 13:55:07 localhost control_proxy[498547]: 2022-05-23T13:54:07.588Z [127.0.0.1 -> streamer-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.Streamer/GetUpdates HTTP/2" 200 0bytes 60.261s
+May 23 13:55:07 localhost magmad[498304]: ERROR:root:Error! Streaming from the cloud failed! [StatusCode.ABORTED] error while streaming updates: rpc error: code = DeadlineExceeded desc = context deadline exceeded
+May 23 13:55:10 localhost smsd[498464]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+May 23 13:55:10 localhost control_proxy[498547]: 2022-05-23T13:55:10.147Z [127.0.0.1 -> state-controller.magmasi.wavelabs.in,8443] "POST /magma.orc8r.StateService/ReportStates HTTP/2" 200 5bytes 0.400s
+May 23 13:55:10 localhost magmad[498304]: INFO:root:Checkin Successful! Successfully sent states to the cloud!
+May 23 13:55:15 localhost smsd[498464]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+May 23 13:55:16 localhost sctpd[498644]: I0523 13:55:16.871279 499133 sctp_connection.cpp:195] Unhandled notification type 32776
+May 23 13:55:17 localhost sctpd[498644]: I0523 13:55:17.933244 499133 sctp_connection.cpp:195] Unhandled notification type 32777
+May 23 13:55:18 localhost subscriberdb[498369]: INFO:root:M5GAuthenticationInformation Request:
+May 23 13:55:18 localhost subscriberdb[498369]: INFO:root:GRPC message:
+May 23 13:55:18 localhost subscriberdb[498369]:   magma.lte.M5GAuthenticationInformationRequest {
+May 23 13:55:18 localhost subscriberdb[498369]:     "userName": "222700000000001",
+May 23 13:55:18 localhost subscriberdb[498369]:     "servingNetworkName": "5G:mnc070.mcc222.3gppnetwork.org"
+May 23 13:55:18 localhost subscriberdb[498369]:   }
+May 23 13:55:18 localhost subscriberdb[498369]: INFO:root:M5GAuthenticationInformation Response:
+May 23 13:55:18 localhost subscriberdb[498369]: INFO:root:GRPC message:
+May 23 13:55:18 localhost subscriberdb[498369]:   magma.lte.M5GAuthenticationInformationAnswer {
+May 23 13:55:18 localhost subscriberdb[498369]:     "errorCode": "SUCCESS",
+May 23 13:55:18 localhost subscriberdb[498369]:     "m5gauthVectors": [
+May 23 13:55:18 localhost subscriberdb[498369]:       {
+May 23 13:55:18 localhost subscriberdb[498369]:         "rand": "pdLJYNEClzLT4O6TpJf0GQ==",
+May 23 13:55:18 localhost subscriberdb[498369]:         "xresStar": "BlAzIS91NDx2iNuHx9PLLg==",
+May 23 13:55:18 localhost subscriberdb[498369]:         "autn": "pgua5DG0gABbddMXTpqHuw==",
+May 23 13:55:18 localhost subscriberdb[498369]:         "kseaf": "aQLFlFRdkQr6p+9BkU1L5rWLnWZH9A8+98DJPFbZCyo="
+May 23 13:55:18 localhost subscriberdb[498369]:       }
+May 23 13:55:18 localhost subscriberdb[498369]:     ]
+May 23 13:55:18 localhost subscriberdb[498369]:   }
+May 23 13:55:18 localhost sctpd[498644]: I0523 13:55:18.151791 499133 sctp_connection.cpp:195] Unhandled notification type 32777
+May 23 13:55:18 localhost sctpd[498644]: I0523 13:55:18.264961 499133 sctp_connection.cpp:195] Unhandled notification type 32777
+May 23 13:55:18 localhost mme[499075]: [DEBUG] Sending S6A-UPDATE_LOCATION_REQUEST with IMSI: 222700000000001
+May 23 13:55:18 localhost subscriberdb[498369]: INFO:root:ULR:
+May 23 13:55:18 localhost subscriberdb[498369]: INFO:root:GRPC message:
+May 23 13:55:18 localhost subscriberdb[498369]:   magma.feg.UpdateLocationRequest {
+May 23 13:55:18 localhost subscriberdb[498369]:     "userName": "222700000000001",
+May 23 13:55:18 localhost subscriberdb[498369]:     "visitedPlmn": "IvIH",
+May 23 13:55:18 localhost subscriberdb[498369]:     "initialAttach": true,
+May 23 13:55:18 localhost subscriberdb[498369]:     "featureListId1": {
+May 23 13:55:18 localhost subscriberdb[498369]:       "regionalSubscription": true
+May 23 13:55:18 localhost subscriberdb[498369]:     }
+May 23 13:55:18 localhost subscriberdb[498369]:   }
+May 23 13:55:18 localhost subscriberdb[498369]: INFO:root:ULA:
+May 23 13:55:18 localhost subscriberdb[498369]: INFO:root:GRPC message:
+May 23 13:55:18 localhost subscriberdb[498369]:   magma.feg.UpdateLocationAnswer {
+May 23 13:55:18 localhost subscriberdb[498369]:     "errorCode": "SUCCESS",
+May 23 13:55:18 localhost subscriberdb[498369]:     "totalAmbr": {
+May 23 13:55:18 localhost subscriberdb[498369]:       "maxBandwidthUl": 2000000000,
+May 23 13:55:18 localhost subscriberdb[498369]:       "maxBandwidthDl": 4000000000
+May 23 13:55:18 localhost subscriberdb[498369]:     },
+May 23 13:55:18 localhost subscriberdb[498369]:     "apn": [
+May 23 13:55:18 localhost subscriberdb[498369]:       {
+May 23 13:55:18 localhost subscriberdb[498369]:         "serviceSelection": "default",
+May 23 13:55:18 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:18 localhost subscriberdb[498369]:           "priorityLevel": 15
+May 23 13:55:18 localhost subscriberdb[498369]:         },
+May 23 13:55:18 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthUl": 100000000,
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthDl": 100000000
+May 23 13:55:18 localhost subscriberdb[498369]:         }
+May 23 13:55:18 localhost subscriberdb[498369]:       },
+May 23 13:55:18 localhost subscriberdb[498369]:       {
+May 23 13:55:18 localhost subscriberdb[498369]:         "contextId": 1,
+May 23 13:55:18 localhost subscriberdb[498369]:         "serviceSelection": "ggsn-cluster-A.provinceB.mnc012.mcc345.gprs",
+May 23 13:55:18 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:18 localhost subscriberdb[498369]:           "priorityLevel": 15
+May 23 13:55:18 localhost subscriberdb[498369]:         },
+May 23 13:55:18 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
+May 23 13:55:18 localhost subscriberdb[498369]:         }
+May 23 13:55:18 localhost subscriberdb[498369]:       },
+May 23 13:55:18 localhost subscriberdb[498369]:       {
+May 23 13:55:18 localhost subscriberdb[498369]:         "contextId": 2,
+May 23 13:55:18 localhost subscriberdb[498369]:         "serviceSelection": "internet",
+May 23 13:55:18 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:18 localhost subscriberdb[498369]:           "priorityLevel": 15,
+May 23 13:55:18 localhost subscriberdb[498369]:           "preemptionCapability": true,
+May 23 13:55:18 localhost subscriberdb[498369]:           "preemptionVulnerability": true
+May 23 13:55:18 localhost subscriberdb[498369]:         },
+May 23 13:55:18 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
+May 23 13:55:18 localhost subscriberdb[498369]:         }
+May 23 13:55:18 localhost subscriberdb[498369]:       },
+May 23 13:55:18 localhost subscriberdb[498369]:       {
+May 23 13:55:18 localhost subscriberdb[498369]:         "contextId": 3,
+May 23 13:55:18 localhost subscriberdb[498369]:         "serviceSelection": "internetv4v6",
+May 23 13:55:18 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:18 localhost subscriberdb[498369]:           "priorityLevel": 15
+May 23 13:55:18 localhost subscriberdb[498369]:         },
+May 23 13:55:18 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthUl": 45000000,
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthDl": 45000000
+May 23 13:55:18 localhost subscriberdb[498369]:         }
+May 23 13:55:18 localhost subscriberdb[498369]:       },
+May 23 13:55:18 localhost subscriberdb[498369]:       {
+May 23 13:55:18 localhost subscriberdb[498369]:         "contextId": 4,
+May 23 13:55:18 localhost subscriberdb[498369]:         "serviceSelection": "internetv6",
+May 23 13:55:18 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:18 localhost subscriberdb[498369]:           "priorityLevel": 15
+May 23 13:55:18 localhost subscriberdb[498369]:         },
+May 23 13:55:18 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthUl": 45000000,
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthDl": 45000000
+May 23 13:55:18 localhost subscriberdb[498369]:         }
+May 23 13:55:18 localhost subscriberdb[498369]:       },
+May 23 13:55:18 localhost subscriberdb[498369]:       {
+May 23 13:55:18 localhost subscriberdb[498369]:         "contextId": 5,
+May 23 13:55:18 localhost subscriberdb[498369]:         "serviceSelection": "oai",
+May 23 13:55:18 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:18 localhost subscriberdb[498369]:           "priorityLevel": 15
+May 23 13:55:18 localhost subscriberdb[498369]:         },
+May 23 13:55:18 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
+May 23 13:55:18 localhost subscriberdb[498369]:         }
+May 23 13:55:18 localhost subscriberdb[498369]:       },
+May 23 13:55:18 localhost subscriberdb[498369]:       {
+May 23 13:55:18 localhost subscriberdb[498369]:         "contextId": 6,
+May 23 13:55:18 localhost subscriberdb[498369]:         "serviceSelection": "oai.ipv4.ipv6",
+May 23 13:55:18 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:18 localhost subscriberdb[498369]:           "priorityLevel": 15
+May 23 13:55:18 localhost subscriberdb[498369]:         },
+May 23 13:55:18 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
+May 23 13:55:18 localhost subscriberdb[498369]:         }
+May 23 13:55:18 localhost subscriberdb[498369]:       },
+May 23 13:55:18 localhost subscriberdb[498369]:       {
+May 23 13:55:18 localhost subscriberdb[498369]:         "contextId": 7,
+May 23 13:55:18 localhost subscriberdb[498369]:         "serviceSelection": "province1.mnc012.mcc345.gprs",
+May 23 13:55:18 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:18 localhost subscriberdb[498369]:           "priorityLevel": 15
+May 23 13:55:18 localhost subscriberdb[498369]:         },
+May 23 13:55:18 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
+May 23 13:55:18 localhost subscriberdb[498369]:         }
+May 23 13:55:18 localhost subscriberdb[498369]:       },
+May 23 13:55:18 localhost subscriberdb[498369]:       {
+May 23 13:55:18 localhost subscriberdb[498369]:         "contextId": 8,
+May 23 13:55:18 localhost subscriberdb[498369]:         "serviceSelection": "wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wav",
+May 23 13:55:18 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:18 localhost subscriberdb[498369]:           "priorityLevel": 15
+May 23 13:55:18 localhost subscriberdb[498369]:         },
+May 23 13:55:18 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
+May 23 13:55:18 localhost subscriberdb[498369]:         }
+May 23 13:55:18 localhost subscriberdb[498369]:       },
+May 23 13:55:18 localhost subscriberdb[498369]:       {
+May 23 13:55:18 localhost subscriberdb[498369]:         "contextId": 9,
+May 23 13:55:18 localhost subscriberdb[498369]:         "serviceSelection": "wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wave",
+May 23 13:55:18 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:18 localhost subscriberdb[498369]:           "priorityLevel": 15
+May 23 13:55:18 localhost subscriberdb[498369]:         },
+May 23 13:55:18 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
+May 23 13:55:18 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
+May 23 13:55:18 localhost subscriberdb[498369]:         }
+May 23 13:55:18 localhost subscriberdb[498369]:       }
+May 23 13:55:18 localhost subscriberdb[498369]:     ]
+May 23 13:55:18 localhost subscriberdb[498369]:   }
+May 23 13:55:18 localhost mme[499075]: [INFO] Received S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001; Status: ; StatusCode: 2001
+May 23 13:55:18 localhost mme[499075]: [INFO] sent itti S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001
+May 23 13:55:18 localhost sctpd[498644]: I0523 13:55:18.366523 499133 sctp_connection.cpp:195] Unhandled notification type 32777
+May 23 13:55:19 localhost sctpd[498644]: I0523 13:55:19.747092 499133 sctp_connection.cpp:195] Unhandled notification type 32777
+May 23 13:55:19 localhost dnsmasq-dhcp[498546]: DHCPDISCOVER(eth1) 48:bf:74:03:3d:72 
+May 23 13:55:19 localhost dnsmasq-dhcp[498546]: DHCPOFFER(eth1) 172.16.7.250 48:bf:74:03:3d:72 
+May 23 13:55:20 localhost smsd[498464]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+May 23 13:55:20 localhost magmad[498304]: ERROR:root:Metrics upload error for service subscriberdb (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+May 23 13:55:20 localhost magmad[498304]: ERROR:root:Metrics upload error for service mobilityd (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+May 23 13:55:20 localhost magmad[498304]: ERROR:root:Metrics upload error for service mme (chunk 0)! [StatusCode.DEADLINE_EXCEEDED] Deadline Exceeded
+May 23 13:55:21 localhost sctpd[498644]: I0523 13:55:21.967384 499133 sctp_connection.cpp:195] Unhandled notification type 32777
+May 23 13:55:21 localhost subscriberdb[498369]: INFO:root:M5GAuthenticationInformation Request:
+May 23 13:55:21 localhost subscriberdb[498369]: INFO:root:GRPC message:
+May 23 13:55:21 localhost subscriberdb[498369]:   magma.lte.M5GAuthenticationInformationRequest {
+May 23 13:55:21 localhost subscriberdb[498369]:     "userName": "222700000000001",
+May 23 13:55:21 localhost subscriberdb[498369]:     "servingNetworkName": "5G:mnc070.mcc222.3gppnetwork.org"
+May 23 13:55:21 localhost subscriberdb[498369]:   }
+May 23 13:55:21 localhost subscriberdb[498369]: INFO:root:M5GAuthenticationInformation Response:
+May 23 13:55:21 localhost subscriberdb[498369]: INFO:root:GRPC message:
+May 23 13:55:21 localhost subscriberdb[498369]:   magma.lte.M5GAuthenticationInformationAnswer {
+May 23 13:55:21 localhost subscriberdb[498369]:     "errorCode": "SUCCESS",
+May 23 13:55:21 localhost subscriberdb[498369]:     "m5gauthVectors": [
+May 23 13:55:21 localhost subscriberdb[498369]:       {
+May 23 13:55:21 localhost subscriberdb[498369]:         "rand": "qrRdjnZ3kJ2Jq0ZUuA5GTw==",
+May 23 13:55:21 localhost subscriberdb[498369]:         "xresStar": "m5wV97prkcZC6fiLDIU7cw==",
+May 23 13:55:21 localhost subscriberdb[498369]:         "autn": "NvAVel77gABAi/d1816COg==",
+May 23 13:55:21 localhost subscriberdb[498369]:         "kseaf": "kF+UbNuO4qNdkZsYQ7ia3fmMhXPX9xiij/4QKHnirYw="
+May 23 13:55:21 localhost subscriberdb[498369]:       }
+May 23 13:55:21 localhost subscriberdb[498369]:     ]
+May 23 13:55:21 localhost subscriberdb[498369]:   }
+May 23 13:55:22 localhost sctpd[498644]: I0523 13:55:22.087579 499133 sctp_connection.cpp:195] Unhandled notification type 32777
+May 23 13:55:22 localhost sctpd[498644]: I0523 13:55:22.201881 499133 sctp_connection.cpp:195] Unhandled notification type 32777
+May 23 13:55:22 localhost mme[499075]: [DEBUG] Sending S6A-UPDATE_LOCATION_REQUEST with IMSI: 222700000000001
+May 23 13:55:22 localhost subscriberdb[498369]: INFO:root:ULR:
+May 23 13:55:22 localhost subscriberdb[498369]: INFO:root:GRPC message:
+May 23 13:55:22 localhost subscriberdb[498369]:   magma.feg.UpdateLocationRequest {
+May 23 13:55:22 localhost subscriberdb[498369]:     "userName": "222700000000001",
+May 23 13:55:22 localhost subscriberdb[498369]:     "visitedPlmn": "IvIH",
+May 23 13:55:22 localhost subscriberdb[498369]:     "initialAttach": true,
+May 23 13:55:22 localhost subscriberdb[498369]:     "featureListId1": {
+May 23 13:55:22 localhost subscriberdb[498369]:       "regionalSubscription": true
+May 23 13:55:22 localhost subscriberdb[498369]:     }
+May 23 13:55:22 localhost subscriberdb[498369]:   }
+May 23 13:55:22 localhost subscriberdb[498369]: INFO:root:ULA:
+May 23 13:55:22 localhost subscriberdb[498369]: INFO:root:GRPC message:
+May 23 13:55:22 localhost subscriberdb[498369]:   magma.feg.UpdateLocationAnswer {
+May 23 13:55:22 localhost subscriberdb[498369]:     "errorCode": "SUCCESS",
+May 23 13:55:22 localhost subscriberdb[498369]:     "totalAmbr": {
+May 23 13:55:22 localhost subscriberdb[498369]:       "maxBandwidthUl": 2000000000,
+May 23 13:55:22 localhost subscriberdb[498369]:       "maxBandwidthDl": 4000000000
+May 23 13:55:22 localhost subscriberdb[498369]:     },
+May 23 13:55:22 localhost subscriberdb[498369]:     "apn": [
+May 23 13:55:22 localhost subscriberdb[498369]:       {
+May 23 13:55:22 localhost subscriberdb[498369]:         "serviceSelection": "default",
+May 23 13:55:22 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:22 localhost subscriberdb[498369]:           "priorityLevel": 15
+May 23 13:55:22 localhost subscriberdb[498369]:         },
+May 23 13:55:22 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthUl": 100000000,
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthDl": 100000000
+May 23 13:55:22 localhost subscriberdb[498369]:         }
+May 23 13:55:22 localhost subscriberdb[498369]:       },
+May 23 13:55:22 localhost subscriberdb[498369]:       {
+May 23 13:55:22 localhost subscriberdb[498369]:         "contextId": 1,
+May 23 13:55:22 localhost subscriberdb[498369]:         "serviceSelection": "ggsn-cluster-A.provinceB.mnc012.mcc345.gprs",
+May 23 13:55:22 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:22 localhost subscriberdb[498369]:           "priorityLevel": 15
+May 23 13:55:22 localhost subscriberdb[498369]:         },
+May 23 13:55:22 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
+May 23 13:55:22 localhost subscriberdb[498369]:         }
+May 23 13:55:22 localhost subscriberdb[498369]:       },
+May 23 13:55:22 localhost subscriberdb[498369]:       {
+May 23 13:55:22 localhost subscriberdb[498369]:         "contextId": 2,
+May 23 13:55:22 localhost subscriberdb[498369]:         "serviceSelection": "internet",
+May 23 13:55:22 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:22 localhost subscriberdb[498369]:           "priorityLevel": 15,
+May 23 13:55:22 localhost subscriberdb[498369]:           "preemptionCapability": true,
+May 23 13:55:22 localhost subscriberdb[498369]:           "preemptionVulnerability": true
+May 23 13:55:22 localhost subscriberdb[498369]:         },
+May 23 13:55:22 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
+May 23 13:55:22 localhost subscriberdb[498369]:         }
+May 23 13:55:22 localhost subscriberdb[498369]:       },
+May 23 13:55:22 localhost subscriberdb[498369]:       {
+May 23 13:55:22 localhost subscriberdb[498369]:         "contextId": 3,
+May 23 13:55:22 localhost subscriberdb[498369]:         "serviceSelection": "internetv4v6",
+May 23 13:55:22 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:22 localhost subscriberdb[498369]:           "priorityLevel": 15
+May 23 13:55:22 localhost subscriberdb[498369]:         },
+May 23 13:55:22 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthUl": 45000000,
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthDl": 45000000
+May 23 13:55:22 localhost subscriberdb[498369]:         }
+May 23 13:55:22 localhost subscriberdb[498369]:       },
+May 23 13:55:22 localhost subscriberdb[498369]:       {
+May 23 13:55:22 localhost subscriberdb[498369]:         "contextId": 4,
+May 23 13:55:22 localhost subscriberdb[498369]:         "serviceSelection": "internetv6",
+May 23 13:55:22 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:22 localhost subscriberdb[498369]:           "priorityLevel": 15
+May 23 13:55:22 localhost subscriberdb[498369]:         },
+May 23 13:55:22 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthUl": 45000000,
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthDl": 45000000
+May 23 13:55:22 localhost subscriberdb[498369]:         }
+May 23 13:55:22 localhost subscriberdb[498369]:       },
+May 23 13:55:22 localhost subscriberdb[498369]:       {
+May 23 13:55:22 localhost subscriberdb[498369]:         "contextId": 5,
+May 23 13:55:22 localhost subscriberdb[498369]:         "serviceSelection": "oai",
+May 23 13:55:22 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:22 localhost subscriberdb[498369]:           "priorityLevel": 15
+May 23 13:55:22 localhost subscriberdb[498369]:         },
+May 23 13:55:22 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
+May 23 13:55:22 localhost subscriberdb[498369]:         }
+May 23 13:55:22 localhost subscriberdb[498369]:       },
+May 23 13:55:22 localhost subscriberdb[498369]:       {
+May 23 13:55:22 localhost subscriberdb[498369]:         "contextId": 6,
+May 23 13:55:22 localhost subscriberdb[498369]:         "serviceSelection": "oai.ipv4.ipv6",
+May 23 13:55:22 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:22 localhost subscriberdb[498369]:           "priorityLevel": 15
+May 23 13:55:22 localhost subscriberdb[498369]:         },
+May 23 13:55:22 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
+May 23 13:55:22 localhost subscriberdb[498369]:         }
+May 23 13:55:22 localhost subscriberdb[498369]:       },
+May 23 13:55:22 localhost subscriberdb[498369]:       {
+May 23 13:55:22 localhost subscriberdb[498369]:         "contextId": 7,
+May 23 13:55:22 localhost subscriberdb[498369]:         "serviceSelection": "province1.mnc012.mcc345.gprs",
+May 23 13:55:22 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:22 localhost subscriberdb[498369]:           "priorityLevel": 15
+May 23 13:55:22 localhost subscriberdb[498369]:         },
+May 23 13:55:22 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
+May 23 13:55:22 localhost subscriberdb[498369]:         }
+May 23 13:55:22 localhost subscriberdb[498369]:       },
+May 23 13:55:22 localhost subscriberdb[498369]:       {
+May 23 13:55:22 localhost subscriberdb[498369]:         "contextId": 8,
+May 23 13:55:22 localhost subscriberdb[498369]:         "serviceSelection": "wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wav",
+May 23 13:55:22 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:22 localhost subscriberdb[498369]:           "priorityLevel": 15
+May 23 13:55:22 localhost subscriberdb[498369]:         },
+May 23 13:55:22 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
+May 23 13:55:22 localhost subscriberdb[498369]:         }
+May 23 13:55:22 localhost subscriberdb[498369]:       },
+May 23 13:55:22 localhost subscriberdb[498369]:       {
+May 23 13:55:22 localhost subscriberdb[498369]:         "contextId": 9,
+May 23 13:55:22 localhost subscriberdb[498369]:         "serviceSelection": "wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wave",
+May 23 13:55:22 localhost subscriberdb[498369]:         "qosProfile": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "classId": 9,
+May 23 13:55:22 localhost subscriberdb[498369]:           "priorityLevel": 15
+May 23 13:55:22 localhost subscriberdb[498369]:         },
+May 23 13:55:22 localhost subscriberdb[498369]:         "ambr": {
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthUl": 1000000,
+May 23 13:55:22 localhost subscriberdb[498369]:           "maxBandwidthDl": 1000000
+May 23 13:55:22 localhost subscriberdb[498369]:         }
+May 23 13:55:22 localhost subscriberdb[498369]:       }
+May 23 13:55:22 localhost subscriberdb[498369]:     ]
+May 23 13:55:22 localhost subscriberdb[498369]:   }
+May 23 13:55:22 localhost mme[499075]: [INFO] Received S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001; Status: ; StatusCode: 2001
+May 23 13:55:22 localhost mme[499075]: [INFO] sent itti S6A-LOCATION-UPDATE_ANSWER for IMSI: 222700000000001
+May 23 13:55:22 localhost sctpd[498644]: I0523 13:55:22.315140 499133 sctp_connection.cpp:195] Unhandled notification type 32777
+May 23 13:55:24 localhost mobilityd[498373]: INFO:root:Using GW info: {'default': {2: ('172.16.4.1', 'eth1')}, 2: [('172.16.4.1', 'eth1', True)]}
+May 23 13:55:24 localhost mobilityd[498373]: INFO:root:GW-v6 probe: timer started
+May 23 13:55:24 localhost mobilityd[498373]: INFO:root:GRPC message:
+May 23 13:55:24 localhost mobilityd[498373]:   magma.lte.AllocateIPRequest {
+May 23 13:55:24 localhost mobilityd[498373]:     "sid": {
+May 23 13:55:24 localhost mobilityd[498373]:       "id": "222700000000001"
+May 23 13:55:24 localhost mobilityd[498373]:     },
+May 23 13:55:24 localhost mobilityd[498373]:     "apn": "default"
+May 23 13:55:24 localhost mobilityd[498373]:   }
+May 23 13:55:24 localhost mobilityd[498373]: WARNING:root:Re-allocate IP fdee:5:6c:375:46cb:8fed:f1db:9c1f for sid IMSI222700000000001.default,ipv4 without MME releasing it first ip-state-map
+May 23 13:55:24 localhost mobilityd[498373]: INFO:root:Allocating the same IP fdee:5:6c:375:46cb:8fed:f1db:9c1f for sid IMSI222700000000001.default,ipv4
+May 23 13:55:24 localhost mobilityd[498373]: INFO:root:Allocated IP fdee:5:6c:375:46cb:8fed:f1db:9c1f for sid IMSI222700000000001 for apn default
+May 23 13:55:24 localhost mobilityd[498373]: INFO:root:GRPC message:
+May 23 13:55:24 localhost mobilityd[498373]:   magma.lte.AllocateIPAddressResponse {
+May 23 13:55:24 localhost mobilityd[498373]:     "ipList": [
+May 23 13:55:24 localhost mobilityd[498373]:       {
+May 23 13:55:24 localhost mobilityd[498373]:         "address": "/e4ABQBsA3VGy4/t8ducHw=="
+May 23 13:55:24 localhost mobilityd[498373]:       }
+May 23 13:55:24 localhost mobilityd[498373]:     ],
+May 23 13:55:24 localhost mobilityd[498373]:     "vlan": "0"
+May 23 13:55:24 localhost mobilityd[498373]:   }
+May 23 13:55:24 localhost sessiond[498383]: I0523 13:55:24.505920 498408 GrpcMagmaUtils.cpp:58]
+May 23 13:55:24 localhost sessiond[498383]:   magma.lte.SetSMSessionContext {
+May 23 13:55:24 localhost sessiond[498383]:       common_context {
+May 23 13:55:24 localhost sessiond[498383]:         sid {
+May 23 13:55:24 localhost sessiond[498383]:           id: "IMSI222700000000001"
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:         ue_ipv4: "253.238.0.5"
+May 23 13:55:24 localhost sessiond[498383]:         apn: "default"
+May 23 13:55:24 localhost sessiond[498383]:         rat_type: TGPP_NR
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:       rat_specific_context {
+May 23 13:55:24 localhost sessiond[498383]:         m5gsm_session_context {
+May 23 13:55:24 localhost sessiond[498383]:           pdu_session_id: 1
+May 23 13:55:24 localhost sessiond[498383]:           gnode_endpoint {
+May 23 13:55:24 localhost sessiond[498383]:             end_ipv4_addr: "138.127.0.0"
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           procedure_trans_identity: "\001"
+May 23 13:55:24 localhost sessiond[498383]:           subscribed_qos {
+May 23 13:55:24 localhost sessiond[498383]:             apn_ambr_dl: 100000000
+May 23 13:55:24 localhost sessiond[498383]:             apn_ambr_ul: 100000000
+May 23 13:55:24 localhost sessiond[498383]:             priority_level: 15
+May 23 13:55:24 localhost sessiond[498383]:             qos_class_id: QCI_9
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:   }
+May 23 13:55:24 localhost sessiond[498383]: I0523 13:55:24.508350 498383 GrpcMagmaUtils.cpp:58]
+May 23 13:55:24 localhost sessiond[498383]:   magma.lte.CreateSessionRequest {
+May 23 13:55:24 localhost sessiond[498383]:       session_id: "IMSI222700000000001-4254"
+May 23 13:55:24 localhost sessiond[498383]:       common_context {
+May 23 13:55:24 localhost sessiond[498383]:         sid {
+May 23 13:55:24 localhost sessiond[498383]:           id: "IMSI222700000000001"
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:         ue_ipv4: "253.238.0.5"
+May 23 13:55:24 localhost sessiond[498383]:         apn: "default"
+May 23 13:55:24 localhost sessiond[498383]:         rat_type: TGPP_NR
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:       rat_specific_context {
+May 23 13:55:24 localhost sessiond[498383]:         m5gsm_session_context {
+May 23 13:55:24 localhost sessiond[498383]:           pdu_session_id: 1
+May 23 13:55:24 localhost sessiond[498383]:           gnode_endpoint {
+May 23 13:55:24 localhost sessiond[498383]:             end_ipv4_addr: "138.127.0.0"
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           procedure_trans_identity: "\001"
+May 23 13:55:24 localhost sessiond[498383]:           subscribed_qos {
+May 23 13:55:24 localhost sessiond[498383]:             apn_ambr_dl: 100000000
+May 23 13:55:24 localhost sessiond[498383]:             apn_ambr_ul: 100000000
+May 23 13:55:24 localhost sessiond[498383]:             priority_level: 15
+May 23 13:55:24 localhost sessiond[498383]:             qos_class_id: QCI_9
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:   }
+May 23 13:55:24 localhost sessiond[498383]: I0523 13:55:24.512284 498383 SetMessageManagerHandler.cpp:358] Processing a CreateSessionResponse for IMSI222700000000001-4254
+May 23 13:55:24 localhost sessiond[498383]: I0523 13:55:24.512307 498383 GrpcMagmaUtils.cpp:58]
+May 23 13:55:24 localhost sessiond[498383]:   magma.lte.CreateSessionResponse {
+May 23 13:55:24 localhost sessiond[498383]:       dynamic_rules {
+May 23 13:55:24 localhost sessiond[498383]:         policy_rule {
+May 23 13:55:24 localhost sessiond[498383]:           id: "allowlist_sid-IMSI222700000000001-default"
+May 23 13:55:24 localhost sessiond[498383]:           priority: 2
+May 23 13:55:24 localhost sessiond[498383]:           flow_list {
+May 23 13:55:24 localhost sessiond[498383]:             match {
+May 23 13:55:24 localhost sessiond[498383]:             }
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           flow_list {
+May 23 13:55:24 localhost sessiond[498383]:             match {
+May 23 13:55:24 localhost sessiond[498383]:               direction: DOWNLINK
+May 23 13:55:24 localhost sessiond[498383]:             }
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           tracking_type: NO_TRACKING
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:       session_id: "IMSI222700000000001-4254"
+May 23 13:55:24 localhost sessiond[498383]:   }
+May 23 13:55:24 localhost sessiond[498383]: I0523 13:55:24.512560 498383 SessionState.cpp:2788] RuleID allowlist_sid-IMSI222700000000001-default doesn't have a version registered for IMSI222700000000001-4254, this is unexpected
+May 23 13:55:24 localhost sessiond[498383]: I0523 13:55:24.512598 498383 GrpcMagmaUtils.cpp:58]
+May 23 13:55:24 localhost sessiond[498383]:   magma.lte.SetSMSessionContextAccess {
+May 23 13:55:24 localhost sessiond[498383]:       common_context {
+May 23 13:55:24 localhost sessiond[498383]:         sid {
+May 23 13:55:24 localhost sessiond[498383]:           id: "IMSI222700000000001"
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:         ue_ipv4: "253.238.0.5"
+May 23 13:55:24 localhost sessiond[498383]:         apn: "default"
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:       rat_specific_context {
+May 23 13:55:24 localhost sessiond[498383]:         m5g_session_context_rsp {
+May 23 13:55:24 localhost sessiond[498383]:           pdu_session_id: 1
+May 23 13:55:24 localhost sessiond[498383]:           subscribed_qos {
+May 23 13:55:24 localhost sessiond[498383]:             apn_ambr_dl: 100000000
+May 23 13:55:24 localhost sessiond[498383]:             apn_ambr_ul: 100000000
+May 23 13:55:24 localhost sessiond[498383]:             priority_level: 15
+May 23 13:55:24 localhost sessiond[498383]:             qos_class_id: QCI_9
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           M5gsm_cause: OPERATION_SUCCESS
+May 23 13:55:24 localhost policydb[498450]: INFO:root:Creating a session for subscriber ID: IMSI222700000000001
+May 23 13:55:24 localhost mme[499075]: PDUSessionResourceSetupRequestTransfer ::= {
+May 23 13:55:24 localhost mme[499075]:     protocolIEs: ProtocolIE-Container ::= {
+May 23 13:55:24 localhost mme[499075]:         PDUSessionResourceSetupRequestTransferIEs ::= {
+May 23 13:55:24 localhost mme[499075]:             id: 130
+May 23 13:55:24 localhost mme[499075]:             criticality: 0 (reject)
+May 23 13:55:24 localhost mme[499075]:             value: PDUSessionAggregateMaximumBitRate ::= {
+May 23 13:55:24 localhost mme[499075]:                 pDUSessionAggregateMaximumBitRateDL: 100000000
+May 23 13:55:24 localhost mme[499075]:                 pDUSessionAggregateMaximumBitRateUL: 100000000
+May 23 13:55:24 localhost mme[499075]:             }
+May 23 13:55:24 localhost mme[499075]:         }
+May 23 13:55:24 localhost mme[499075]:         PDUSessionResourceSetupRequestTransferIEs ::= {
+May 23 13:55:24 localhost mme[499075]:             id: 139
+May 23 13:55:24 localhost mme[499075]:             criticality: 0 (reject)
+May 23 13:55:24 localhost mme[499075]:             value: GTPTunnel ::= {
+May 23 13:55:24 localhost mme[499075]:                 transportLayerAddress: AC 10 05 79
+May 23 13:55:24 localhost mme[499075]:                 gTP-TEID: 80 00 00 02
+May 23 13:55:24 localhost mme[499075]:             }
+May 23 13:55:24 localhost mme[499075]:         }
+May 23 13:55:24 localhost mme[499075]:         PDUSessionResourceSetupRequestTransferIEs ::= {
+May 23 13:55:24 localhost mme[499075]:             id: 134
+May 23 13:55:24 localhost mme[499075]:             criticality: 0 (reject)
+May 23 13:55:24 localhost mme[499075]:             value: 0 (ipv4)
+May 23 13:55:24 localhost mme[499075]:         }
+May 23 13:55:24 localhost mme[499075]:         PDUSessionResourceSetupRequestTransferIEs ::= {
+May 23 13:55:24 localhost mme[499075]:             id: 136
+May 23 13:55:24 localhost mme[499075]:             criticality: 0 (reject)
+May 23 13:55:24 localhost mme[499075]:             value: QosFlowSetupRequestList ::= {
+May 23 13:55:24 localhost mme[499075]:                 QosFlowSetupRequestItem ::= {
+May 23 13:55:24 localhost mme[499075]:                     qosFlowIdentifier: 9
+May 23 13:55:24 localhost mme[499075]:                     qosFlowLevelQosParameters: QosFlowLevelQosParameters ::= {
+May 23 13:55:24 localhost mme[499075]:                         qosCharacteristics: NonDynamic5QIDescriptor ::= {
+May 23 13:55:24 localhost mme[499075]:                             fiveQI: 9
+May 23 13:55:24 localhost mme[499075]:                         }
+May 23 13:55:24 localhost mme[499075]:                         allocationAndRetentionPriority: AllocationAndRetentionPriority ::= {
+May 23 13:55:24 localhost mme[499075]:                             priorityLevelARP: 15
+May 23 13:55:24 localhost mme[499075]:                             pre-emptionCapability: 0 (shall-not-trigger-pre-emption)
+May 23 13:55:24 localhost mme[499075]:                             pre-emptionVulnerability: 0 (not-pre-emptable)
+May 23 13:55:24 localhost mme[499075]:                         }
+May 23 13:55:24 localhost mme[499075]:                     }
+May 23 13:55:24 localhost mme[499075]:                 }
+May 23 13:55:24 localhost mme[499075]:             }
+May 23 13:55:24 localhost mme[499075]:         }
+May 23 13:55:24 localhost mme[499075]:     }
+May 23 13:55:24 localhost mme[499075]: }
+May 23 13:55:24 localhost sessiond[498383]:           M5G_sm_congestion_reattempt_indicator: true
+May 23 13:55:24 localhost sessiond[498383]:           upf_endpoint {
+May 23 13:55:24 localhost sessiond[498383]:             teid: 2147483650
+May 23 13:55:24 localhost sessiond[498383]:             end_ipv4_addr: "172.16.5.121"
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           procedure_trans_identity: "\001"
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:   }
+May 23 13:55:24 localhost sctpd[498644]: I0523 13:55:24.604741 499133 sctp_connection.cpp:195] Unhandled notification type 32777
+May 23 13:55:24 localhost sessiond[498383]: I0523 13:55:24.607401 498408 GrpcMagmaUtils.cpp:58]
+May 23 13:55:24 localhost sessiond[498383]:   magma.lte.SetSMSessionContext {
+May 23 13:55:24 localhost sessiond[498383]:       common_context {
+May 23 13:55:24 localhost sessiond[498383]:         sid {
+May 23 13:55:24 localhost sessiond[498383]:           id: "IMSI222700000000001"
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:         rat_type: TGPP_NR
+May 23 13:55:24 localhost sessiond[498383]:         sm_session_version: 1
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:       rat_specific_context {
+May 23 13:55:24 localhost sessiond[498383]:         m5gsm_session_context {
+May 23 13:55:24 localhost sessiond[498383]:           pdu_session_id: 1
+May 23 13:55:24 localhost sessiond[498383]:           gnode_endpoint {
+May 23 13:55:24 localhost sessiond[498383]:             teid: 40000000
+May 23 13:55:24 localhost sessiond[498383]:             end_ipv4_addr: "10.10.10.11"
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:   }
+May 23 13:55:24 localhost sessiond[498383]: I0523 13:55:24.608017 498383 SessionStateEnforcer.cpp:879]  AMF teid: 40000000 ip address 10.10.10.11 of imsi: IMSI222700000000001 fteid: 2147483650 pdu id: 1 UE ip address 253.238.0.5
+May 23 13:55:24 localhost sessiond[498383]: I0523 13:55:24.608367 498383 GrpcMagmaUtils.cpp:58]
+May 23 13:55:24 localhost sessiond[498383]:   magma.lte.SessionSet {
+May 23 13:55:24 localhost sessiond[498383]:       subscriber_id: "IMSI222700000000001"
+May 23 13:55:24 localhost sessiond[498383]:       local_f_teid: 2147483650
+May 23 13:55:24 localhost sessiond[498383]:       session_version: 2
+May 23 13:55:24 localhost sessiond[498383]:       node_id {
+May 23 13:55:24 localhost sessiond[498383]:         node_id: "192.168.200.1"
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:       state {
+May 23 13:55:24 localhost sessiond[498383]:         state: CREATED
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:       set_gr_pdr {
+May 23 13:55:24 localhost sessiond[498383]:         pdr_id: 1
+May 23 13:55:24 localhost sessiond[498383]:         pdr_version: 1
+May 23 13:55:24 localhost sessiond[498383]:         precedence: 32
+May 23 13:55:24 localhost sessiond[498383]:         pdi {
+May 23 13:55:24 localhost sessiond[498383]:           local_f_teid: 2147483650
+May 23 13:55:24 localhost sessiond[498383]:           net_instance: "uplink"
+May 23 13:55:24 localhost sessiond[498383]:           ue_ipv4: "253.238.0.5"
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:         set_gr_far {
+May 23 13:55:24 localhost sessiond[498383]:           far_action_to_apply: FORW
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:         deactivate_flow_req {
+May 23 13:55:24 localhost sessiond[498383]:           sid {
+May 23 13:55:24 localhost sessiond[498383]:             id: "IMSI222700000000001"
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           ip_addr: "253.238.0.5"
+May 23 13:55:24 localhost sessiond[498383]:           uplink_tunnel: 2147483650
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:         activate_flow_req {
+May 23 13:55:24 localhost sessiond[498383]:           sid {
+May 23 13:55:24 localhost sessiond[498383]:             id: "IMSI222700000000001"
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           ip_addr: "253.238.0.5"
+May 23 13:55:24 localhost sessiond[498383]:           request_origin {
+May 23 13:55:24 localhost sessiond[498383]:             type: N4
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           apn_ambr {
+May 23 13:55:24 localhost sessiond[498383]:             max_bandwidth_ul: 100000000
+May 23 13:55:24 localhost sessiond[498383]:             max_bandwidth_dl: 100000000
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           uplink_tunnel: 2147483650
+May 23 13:55:24 localhost sessiond[498383]:           policies {
+May 23 13:55:24 localhost sessiond[498383]:             rule {
+May 23 13:55:24 localhost sessiond[498383]:               id: "allowlist_sid-IMSI222700000000001-default"
+May 23 13:55:24 localhost sessiond[498383]:               priority: 2
+May 23 13:55:24 localhost sessiond[498383]:               flow_list {
+May 23 13:55:24 localhost sessiond[498383]:                 match {
+May 23 13:55:24 localhost sessiond[498383]:                 }
+May 23 13:55:24 localhost sessiond[498383]:               }
+May 23 13:55:24 localhost sessiond[498383]:               qos {
+May 23 13:55:24 localhost sessiond[498383]:               }
+May 23 13:55:24 localhost sessiond[498383]:               tracking_type: NO_TRACKING
+May 23 13:55:24 localhost sessiond[498383]:             }
+May 23 13:55:24 localhost sessiond[498383]:             version: 1
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:       set_gr_pdr {
+May 23 13:55:24 localhost sessiond[498383]:         pdr_id: 2
+May 23 13:55:24 localhost sessiond[498383]:         pdr_version: 1
+May 23 13:55:24 localhost sessiond[498383]:         precedence: 32
+May 23 13:55:24 localhost sessiond[498383]:         pdi {
+May 23 13:55:24 localhost sessiond[498383]:           src_interface: 1
+May 23 13:55:24 localhost sessiond[498383]:           net_instance: "downlink"
+May 23 13:55:24 localhost sessiond[498383]:           ue_ipv4: "253.238.0.5"
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:         set_gr_far {
+May 23 13:55:24 localhost sessiond[498383]:           far_action_to_apply: FORW
+May 23 13:55:24 localhost sessiond[498383]:           fwd_parm {
+May 23 13:55:24 localhost sessiond[498383]:             outr_head_cr {
+May 23 13:55:24 localhost sessiond[498383]:               o_teid: 40000000
+May 23 13:55:24 localhost sessiond[498383]:               gnb_ipv4_adr: "10.10.10.11"
+May 23 13:55:24 localhost sessiond[498383]:             }
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:         deactivate_flow_req {
+May 23 13:55:24 localhost eventd[498460]: DEBUG:root:Logging event: stream_name: "sessiond"
+May 23 13:55:24 localhost eventd[498460]: event_type: "session_created"
+May 23 13:55:24 localhost eventd[498460]: tag: "IMSI222700000000001"
+May 23 13:55:24 localhost eventd[498460]: value: "{\"mac_addr\":\"\",\"user_location\":\"\",\"spgw_ip\":\"\",\"imei\":\"\",\"pdp_start_time\":1,\"session_id\":\"IMSI222700000000001-4254\",\"apn\":\"default\",\"msisdn\":\"\",\"charging_characteristics\":\"\",\"ipv6_addr\":\"\",\"ip_addr\":\"253.238.0.5\",\"imsi\":\"IMSI222700000000001\"}"
+May 23 13:55:24 localhost eventd[498460]: ERROR:root:Connection to FluentBit failed: [Errno 111] Connection refused
+May 23 13:55:24 localhost eventd[498460]: INFO:root:FluentBit (td-agent-bit) may not be enabled or configured correctly
+May 23 13:55:24 localhost pipelined[498486]: INFO:root:Got RPC payload:
+May 23 13:55:24 localhost pipelined[498486]:   SessionSet {
+May 23 13:55:24 localhost pipelined[498486]:     subscriber_id: "IMSI222700000000001"
+May 23 13:55:24 localhost pipelined[498486]:     local_f_teid: 2147483650
+May 23 13:55:24 localhost pipelined[498486]:     session_version: 2
+May 23 13:55:24 localhost pipelined[498486]:     node_id {
+May 23 13:55:24 localhost pipelined[498486]:       node_id: "192.168.200.1"
+May 23 13:55:24 localhost pipelined[498486]:     }
+May 23 13:55:24 localhost pipelined[498486]:     state {
+May 23 13:55:24 localhost pipelined[498486]:       state: CREATED
+May 23 13:55:24 localhost pipelined[498486]:     }
+May 23 13:55:24 localhost pipelined[498486]:     set_gr_pdr {
+May 23 13:55:24 localhost pipelined[498486]:       pdr_id: 1
+May 23 13:55:24 localhost pipelined[498486]:       pdr_version: 1
+May 23 13:55:24 localhost pipelined[498486]:       precedence: 32
+May 23 13:55:24 localhost pipelined[498486]:       pdi {
+May 23 13:55:24 localhost pipelined[498486]:         local_f_teid: 2147483650
+May 23 13:55:24 localhost pipelined[498486]:         net_instance: "uplink"
+May 23 13:55:24 localhost pipelined[498486]:         ue_ipv4: "253.238.0.5"
+May 23 13:55:24 localhost pipelined[498486]:       }
+May 23 13:55:24 localhost pipelined[498486]:       set_gr_far {
+May 23 13:55:24 localhost pipelined[498486]:         far_action_to_apply: FORW
+May 23 13:55:24 localhost pipelined[498486]:       }
+May 23 13:55:24 localhost pipelined[498486]:       deactivate_flow_req {
+May 23 13:55:24 localhost pipelined[498486]:         sid {
+May 23 13:55:24 localhost pipelined[498486]:           id: "IMSI222700000000001"
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:         ip_addr: "253.238.0.5"
+May 23 13:55:24 localhost pipelined[498486]:         uplink_tunnel: 2147483650
+May 23 13:55:24 localhost pipelined[498486]:       }
+May 23 13:55:24 localhost pipelined[498486]:       activate_flow_req {
+May 23 13:55:24 localhost pipelined[498486]:         sid {
+May 23 13:55:24 localhost pipelined[498486]:           id: "IMSI222700000000001"
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:         ip_addr: "253.238.0.5"
+May 23 13:55:24 localhost pipelined[498486]:         request_origin {
+May 23 13:55:24 localhost pipelined[498486]:           type: N4
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:         apn_ambr {
+May 23 13:55:24 localhost pipelined[498486]:           max_bandwidth_ul: 100000000
+May 23 13:55:24 localhost pipelined[498486]:           max_bandwidth_dl: 100000000
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:         uplink_tunnel: 2147483650
+May 23 13:55:24 localhost pipelined[498486]:         policies {
+May 23 13:55:24 localhost pipelined[498486]:           rule {
+May 23 13:55:24 localhost pipelined[498486]:             id: "allowlist_sid-IMSI222700000000001-default"
+May 23 13:55:24 localhost pipelined[498486]:             priority: 2
+May 23 13:55:24 localhost pipelined[498486]:             flow_list {
+May 23 13:55:24 localhost pipelined[498486]:               match {
+May 23 13:55:24 localhost pipelined[498486]:               }
+May 23 13:55:24 localhost pipelined[498486]:             }
+May 23 13:55:24 localhost pipelined[498486]:             qos {
+May 23 13:55:24 localhost pipelined[498486]:             }
+May 23 13:55:24 localhost pipelined[498486]:             tracking_type: NO_TRACKING
+May 23 13:55:24 localhost pipelined[498486]:           }
+May 23 13:55:24 localhost pipelined[498486]:           version: 1
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:       }
+May 23 13:55:24 localhost pipelined[498486]:     }
+May 23 13:55:24 localhost pipelined[498486]:     set_gr_pdr {
+May 23 13:55:24 localhost pipelined[498486]:       pdr_id: 2
+May 23 13:55:24 localhost pipelined[498486]:       pdr_version: 1
+May 23 13:55:24 localhost pipelined[498486]:       precedence: 32
+May 23 13:55:24 localhost pipelined[498486]:       pdi {
+May 23 13:55:24 localhost pipelined[498486]:         src_interface: 1
+May 23 13:55:24 localhost pipelined[498486]:         net_instance: "downlink"
+May 23 13:55:24 localhost pipelined[498486]:         ue_ipv4: "253.238.0.5"
+May 23 13:55:24 localhost pipelined[498486]:       }
+May 23 13:55:24 localhost pipelined[498486]:       set_gr_far {
+May 23 13:55:24 localhost pipelined[498486]:         far_action_to_apply: FORW
+May 23 13:55:24 localhost pipelined[498486]:         fwd_parm {
+May 23 13:55:24 localhost pipelined[498486]:           outr_head_cr {
+May 23 13:55:24 localhost pipelined[498486]:             o_teid: 40000000
+May 23 13:55:24 localhost pipelined[498486]:             gnb_ipv4_adr: "10.10.10.11"
+May 23 13:55:24 localhost pipelined[498486]:           }
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:       }
+May 23 13:55:24 localhost pipelined[498486]:       deactivate_flow_req {
+May 23 13:55:24 localhost pipelined[498486]:         sid {
+May 23 13:55:24 localhost pipelined[498486]:           id: "IMSI222700000000001"
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:         ip_addr: "253.238.0.5"
+May 23 13:55:24 localhost pipelined[498486]:         downlink_tunnel: 40000000
+May 23 13:55:24 localhost pipelined[498486]:       }
+May 23 13:55:24 localhost pipelined[498486]:       activate_flow_req {
+May 23 13:55:24 localhost pipelined[498486]:         sid {
+May 23 13:55:24 localhost pipelined[498486]:           id: "IMSI222700000000001"
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:         ip_addr: "253.238.0.5"
+May 23 13:55:24 localhost pipelined[498486]:         request_origin {
+May 23 13:55:24 localhost pipelined[498486]:           type: N4
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:         apn_ambr {
+May 23 13:55:24 localhost pipelined[498486]:           max_bandwidth_ul: 100000000
+May 23 13:55:24 localhost sessiond[498383]:           sid {
+May 23 13:55:24 localhost sessiond[498383]:             id: "IMSI222700000000001"
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           ip_addr: "253.238.0.5"
+May 23 13:55:24 localhost sessiond[498383]:           downlink_tunnel: 40000000
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:         activate_flow_req {
+May 23 13:55:24 localhost sessiond[498383]:           sid {
+May 23 13:55:24 localhost sessiond[498383]:             id: "IMSI222700000000001"
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           ip_addr: "253.238.0.5"
+May 23 13:55:24 localhost sessiond[498383]:           request_origin {
+May 23 13:55:24 localhost sessiond[498383]:             type: N4
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           apn_ambr {
+May 23 13:55:24 localhost sessiond[498383]:             max_bandwidth_ul: 100000000
+May 23 13:55:24 localhost sessiond[498383]:             max_bandwidth_dl: 100000000
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           downlink_tunnel: 40000000
+May 23 13:55:24 localhost sessiond[498383]:           policies {
+May 23 13:55:24 localhost sessiond[498383]:             rule {
+May 23 13:55:24 localhost sessiond[498383]:               id: "allowlist_sid-IMSI222700000000001-default"
+May 23 13:55:24 localhost sessiond[498383]:               priority: 2
+May 23 13:55:24 localhost sessiond[498383]:               flow_list {
+May 23 13:55:24 localhost sessiond[498383]:                 match {
+May 23 13:55:24 localhost sessiond[498383]:                   direction: DOWNLINK
+May 23 13:55:24 localhost sessiond[498383]:                 }
+May 23 13:55:24 localhost sessiond[498383]:               }
+May 23 13:55:24 localhost sessiond[498383]:               qos {
+May 23 13:55:24 localhost sessiond[498383]:               }
+May 23 13:55:24 localhost sessiond[498383]:               tracking_type: NO_TRACKING
+May 23 13:55:24 localhost sessiond[498383]:             }
+May 23 13:55:24 localhost sessiond[498383]:             version: 1
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:   }
+May 23 13:55:24 localhost sessiond[498383]: I0523 13:55:24.618012 498399 SessionEvents.cpp:132] Could not log session_created event {"mac_addr":"","user_location":"","spgw_ip":"","imei":"","pdp_start_time":1,"session_id":"IMSI222700000000001-4254","apn":"default","msisdn":"","charging_characteristics":"","ipv6_addr":"","ip_addr":"253.238.0.5","imsi":"IMSI222700000000001"}, Error Message: Could not connect to FluentBit locally, Details: [Errno 111] Connection refused
+May 23 13:55:24 localhost pipelined[498486]:           max_bandwidth_dl: 100000000
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:         downlink_tunnel: 40000000
+May 23 13:55:24 localhost pipelined[498486]:         policies {
+May 23 13:55:24 localhost pipelined[498486]:           rule {
+May 23 13:55:24 localhost pipelined[498486]:             id: "allowlist_sid-IMSI222700000000001-default"
+May 23 13:55:24 localhost pipelined[498486]:             priority: 2
+May 23 13:55:24 localhost pipelined[498486]:             flow_list {
+May 23 13:55:24 localhost pipelined[498486]:               match {
+May 23 13:55:24 localhost pipelined[498486]:                 direction: DOWNLINK
+May 23 13:55:24 localhost pipelined[498486]:               }
+May 23 13:55:24 localhost pipelined[498486]:             }
+May 23 13:55:24 localhost pipelined[498486]:             qos {
+May 23 13:55:24 localhost pipelined[498486]:             }
+May 23 13:55:24 localhost pipelined[498486]:             tracking_type: NO_TRACKING
+May 23 13:55:24 localhost pipelined[498486]:           }
+May 23 13:55:24 localhost pipelined[498486]:           version: 1
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:       }
+May 23 13:55:24 localhost pipelined[498486]:     }
+May 23 13:55:24 localhost pipelined[498486]:   }
+May 23 13:55:24 localhost sessiond[498383]: I0523 13:55:24.812933 498408 GrpcMagmaUtils.cpp:58]
+May 23 13:55:24 localhost sessiond[498383]:   magma.lte.SetSMSessionContext {
+May 23 13:55:24 localhost sessiond[498383]:       common_context {
+May 23 13:55:24 localhost sessiond[498383]:         sid {
+May 23 13:55:24 localhost sessiond[498383]:           id: "IMSI222700000000001"
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:         rat_type: TGPP_NR
+May 23 13:55:24 localhost sessiond[498383]:         sm_session_state: RELEASED_4
+May 23 13:55:24 localhost sessiond[498383]:         sm_session_version: 1
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:       rat_specific_context {
+May 23 13:55:24 localhost sessiond[498383]:         m5gsm_session_context {
+May 23 13:55:24 localhost sessiond[498383]:           pdu_session_id: 1
+May 23 13:55:24 localhost sessiond[498383]:           procedure_trans_identity: "\001"
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:   }
+May 23 13:55:24 localhost sessiond[498383]: I0523 13:55:24.813292 498383 SetMessageManagerHandler.cpp:144] Release request for session from IMSI: IMSI222700000000001 pdu_id 1
+May 23 13:55:24 localhost sessiond[498383]: I0523 13:55:24.814896 498383 GrpcMagmaUtils.cpp:58]
+May 23 13:55:24 localhost sessiond[498383]:   magma.lte.SessionSet {
+May 23 13:55:24 localhost sessiond[498383]:       subscriber_id: "IMSI222700000000001"
+May 23 13:55:24 localhost sessiond[498383]:       local_f_teid: 2147483650
+May 23 13:55:24 localhost sessiond[498383]:       session_version: 3
+May 23 13:55:24 localhost sessiond[498383]:       node_id {
+May 23 13:55:24 localhost sessiond[498383]:         node_id: "192.168.200.1"
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:       state {
+May 23 13:55:24 localhost sessiond[498383]:         state: RELEASE
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:       set_gr_pdr {
+May 23 13:55:24 localhost sessiond[498383]:         pdr_id: 1
+May 23 13:55:24 localhost sessiond[498383]:         pdr_version: 1
+May 23 13:55:24 localhost sessiond[498383]:         precedence: 32
+May 23 13:55:24 localhost sessiond[498383]:         pdr_state: REMOVE
+May 23 13:55:24 localhost sessiond[498383]:         pdi {
+May 23 13:55:24 localhost sessiond[498383]:           local_f_teid: 2147483650
+May 23 13:55:24 localhost sessiond[498383]:           net_instance: "uplink"
+May 23 13:55:24 localhost sessiond[498383]:           ue_ipv4: "253.238.0.5"
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:         set_gr_far {
+May 23 13:55:24 localhost sessiond[498383]:           far_action_to_apply: FORW
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:         deactivate_flow_req {
+May 23 13:55:24 localhost sessiond[498383]:           sid {
+May 23 13:55:24 localhost sessiond[498383]:             id: "IMSI222700000000001"
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           ip_addr: "253.238.0.5"
+May 23 13:55:24 localhost sessiond[498383]:           uplink_tunnel: 2147483650
+May 23 13:55:24 localhost sessiond[498383]:           policies {
+May 23 13:55:24 localhost sessiond[498383]:             rule_id: "allowlist_sid-IMSI222700000000001-default"
+May 23 13:55:24 localhost sessiond[498383]:             version: 1
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:         activate_flow_req {
+May 23 13:55:24 localhost sessiond[498383]:           sid {
+May 23 13:55:24 localhost sessiond[498383]:             id: "IMSI222700000000001"
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           ip_addr: "253.238.0.5"
+May 23 13:55:24 localhost sessiond[498383]:           request_origin {
+May 23 13:55:24 localhost sessiond[498383]:             type: N4
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           apn_ambr {
+May 23 13:55:24 localhost sessiond[498383]:             max_bandwidth_ul: 100000000
+May 23 13:55:24 localhost sessiond[498383]:             max_bandwidth_dl: 100000000
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           uplink_tunnel: 2147483650
+May 23 13:55:24 localhost sessiond[498383]:           policies {
+May 23 13:55:24 localhost sessiond[498383]:             rule {
+May 23 13:55:24 localhost sessiond[498383]:               id: "allowlist_sid-IMSI222700000000001-default"
+May 23 13:55:24 localhost sessiond[498383]:               priority: 2
+May 23 13:55:24 localhost sessiond[498383]:               flow_list {
+May 23 13:55:24 localhost sessiond[498383]:                 match {
+May 23 13:55:24 localhost sessiond[498383]:                 }
+May 23 13:55:24 localhost sessiond[498383]:               }
+May 23 13:55:24 localhost sessiond[498383]:               qos {
+May 23 13:55:24 localhost sessiond[498383]:               }
+May 23 13:55:24 localhost sessiond[498383]:               tracking_type: NO_TRACKING
+May 23 13:55:24 localhost sessiond[498383]:             }
+May 23 13:55:24 localhost sessiond[498383]:             version: 1
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:       set_gr_pdr {
+May 23 13:55:24 localhost sessiond[498383]:         pdr_id: 2
+May 23 13:55:24 localhost sessiond[498383]:         pdr_version: 1
+May 23 13:55:24 localhost sessiond[498383]:         precedence: 32
+May 23 13:55:24 localhost sessiond[498383]:         pdr_state: REMOVE
+May 23 13:55:24 localhost sessiond[498383]:         pdi {
+May 23 13:55:24 localhost sessiond[498383]:           src_interface: 1
+May 23 13:55:24 localhost sessiond[498383]:           net_instance: "downlink"
+May 23 13:55:24 localhost sessiond[498383]:           ue_ipv4: "253.238.0.5"
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:         set_gr_far {
+May 23 13:55:24 localhost sessiond[498383]:           far_action_to_apply: FORW
+May 23 13:55:24 localhost sessiond[498383]:           fwd_parm {
+May 23 13:55:24 localhost sessiond[498383]:             outr_head_cr {
+May 23 13:55:24 localhost mobilityd[498373]: INFO:root:GRPC message:
+May 23 13:55:24 localhost mobilityd[498373]:   magma.lte.ReleaseIPRequest {
+May 23 13:55:24 localhost mobilityd[498373]:     "sid": {
+May 23 13:55:24 localhost mobilityd[498373]:       "id": "222700000000001"
+May 23 13:55:24 localhost mobilityd[498373]:     },
+May 23 13:55:24 localhost mobilityd[498373]:     "ip": {
+May 23 13:55:24 localhost mobilityd[498373]:       "address": "/e4ABQ=="
+May 23 13:55:24 localhost mobilityd[498373]:     },
+May 23 13:55:24 localhost mobilityd[498373]:     "apn": "default"
+May 23 13:55:24 localhost mobilityd[498373]:   }
+May 23 13:55:24 localhost mobilityd[498373]: WARNING:root:Releasing unknown <SID, IP> pair: <IMSI222700000000001.default,ipv4, 253.238.0.5> sid_ips_map[IMSI222700000000001.default,ipv4]: <mobilityd.IPDesc {ip: fdee:5:6c:375:46cb:8fed:f1db:9c1f, ip_block: fdee:5:6c::/48, state: IPState.ALLOCATED, sid: IMSI222700000000001.default,ipv4, type: IPType.IP_POOL }}>
+May 23 13:55:24 localhost mme[499075]: ReleaseIPv4Address fails with code 5, msg: (SID, IP) map not found: (IMSI222700000000001, 253.238.0.5)
+May 23 13:55:24 localhost sessiond[498383]:               o_teid: 40000000
+May 23 13:55:24 localhost sessiond[498383]:               gnb_ipv4_adr: "10.10.10.11"
+May 23 13:55:24 localhost sessiond[498383]:             }
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:         deactivate_flow_req {
+May 23 13:55:24 localhost sessiond[498383]:           sid {
+May 23 13:55:24 localhost sessiond[498383]:             id: "IMSI222700000000001"
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           ip_addr: "253.238.0.5"
+May 23 13:55:24 localhost sessiond[498383]:           downlink_tunnel: 40000000
+May 23 13:55:24 localhost sessiond[498383]:           policies {
+May 23 13:55:24 localhost sessiond[498383]:             rule_id: "allowlist_sid-IMSI222700000000001-default"
+May 23 13:55:24 localhost sessiond[498383]:             version: 1
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:         activate_flow_req {
+May 23 13:55:24 localhost sessiond[498383]:           sid {
+May 23 13:55:24 localhost sessiond[498383]:             id: "IMSI222700000000001"
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           ip_addr: "253.238.0.5"
+May 23 13:55:24 localhost sessiond[498383]:           request_origin {
+May 23 13:55:24 localhost sessiond[498383]:             type: N4
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           apn_ambr {
+May 23 13:55:24 localhost sessiond[498383]:             max_bandwidth_ul: 100000000
+May 23 13:55:24 localhost sessiond[498383]:             max_bandwidth_dl: 100000000
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:           downlink_tunnel: 40000000
+May 23 13:55:24 localhost sessiond[498383]:           policies {
+May 23 13:55:24 localhost sessiond[498383]:             rule {
+May 23 13:55:24 localhost sessiond[498383]:               id: "allowlist_sid-IMSI222700000000001-default"
+May 23 13:55:24 localhost sessiond[498383]:               priority: 2
+May 23 13:55:24 localhost sessiond[498383]:               flow_list {
+May 23 13:55:24 localhost sessiond[498383]:                 match {
+May 23 13:55:24 localhost sessiond[498383]:                   direction: DOWNLINK
+May 23 13:55:24 localhost sessiond[498383]:                 }
+May 23 13:55:24 localhost sessiond[498383]:               }
+May 23 13:55:24 localhost sessiond[498383]:               qos {
+May 23 13:55:24 localhost sessiond[498383]:               }
+May 23 13:55:24 localhost sessiond[498383]:               tracking_type: NO_TRACKING
+May 23 13:55:24 localhost sessiond[498383]:             }
+May 23 13:55:24 localhost sessiond[498383]:             version: 1
+May 23 13:55:24 localhost sessiond[498383]:           }
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:   }
+May 23 13:55:24 localhost pipelined[498486]: INFO:root:Got RPC payload:
+May 23 13:55:24 localhost pipelined[498486]:   SessionSet {
+May 23 13:55:24 localhost pipelined[498486]:     subscriber_id: "IMSI222700000000001"
+May 23 13:55:24 localhost pipelined[498486]:     local_f_teid: 2147483650
+May 23 13:55:24 localhost pipelined[498486]:     session_version: 3
+May 23 13:55:24 localhost pipelined[498486]:     node_id {
+May 23 13:55:24 localhost pipelined[498486]:       node_id: "192.168.200.1"
+May 23 13:55:24 localhost pipelined[498486]:     }
+May 23 13:55:24 localhost pipelined[498486]:     state {
+May 23 13:55:24 localhost pipelined[498486]:       state: RELEASE
+May 23 13:55:24 localhost pipelined[498486]:     }
+May 23 13:55:24 localhost pipelined[498486]:     set_gr_pdr {
+May 23 13:55:24 localhost pipelined[498486]:       pdr_id: 1
+May 23 13:55:24 localhost pipelined[498486]:       pdr_version: 1
+May 23 13:55:24 localhost pipelined[498486]:       precedence: 32
+May 23 13:55:24 localhost pipelined[498486]:       pdr_state: REMOVE
+May 23 13:55:24 localhost pipelined[498486]:       pdi {
+May 23 13:55:24 localhost pipelined[498486]:         local_f_teid: 2147483650
+May 23 13:55:24 localhost pipelined[498486]:         net_instance: "uplink"
+May 23 13:55:24 localhost pipelined[498486]:         ue_ipv4: "253.238.0.5"
+May 23 13:55:24 localhost pipelined[498486]:       }
+May 23 13:55:24 localhost pipelined[498486]:       set_gr_far {
+May 23 13:55:24 localhost pipelined[498486]:         far_action_to_apply: FORW
+May 23 13:55:24 localhost pipelined[498486]:       }
+May 23 13:55:24 localhost pipelined[498486]:       deactivate_flow_req {
+May 23 13:55:24 localhost pipelined[498486]:         sid {
+May 23 13:55:24 localhost pipelined[498486]:           id: "IMSI222700000000001"
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:         ip_addr: "253.238.0.5"
+May 23 13:55:24 localhost pipelined[498486]:         uplink_tunnel: 2147483650
+May 23 13:55:24 localhost pipelined[498486]:         policies {
+May 23 13:55:24 localhost pipelined[498486]:           rule_id: "allowlist_sid-IMSI222700000000001-default"
+May 23 13:55:24 localhost pipelined[498486]:           version: 1
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:       }
+May 23 13:55:24 localhost pipelined[498486]:       activate_flow_req {
+May 23 13:55:24 localhost pipelined[498486]:         sid {
+May 23 13:55:24 localhost pipelined[498486]:           id: "IMSI222700000000001"
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:         ip_addr: "253.238.0.5"
+May 23 13:55:24 localhost pipelined[498486]:         request_origin {
+May 23 13:55:24 localhost pipelined[498486]:           type: N4
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:         apn_ambr {
+May 23 13:55:24 localhost pipelined[498486]:           max_bandwidth_ul: 100000000
+May 23 13:55:24 localhost pipelined[498486]:           max_bandwidth_dl: 100000000
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:         uplink_tunnel: 2147483650
+May 23 13:55:24 localhost pipelined[498486]:         policies {
+May 23 13:55:24 localhost pipelined[498486]:           rule {
+May 23 13:55:24 localhost pipelined[498486]:             id: "allowlist_sid-IMSI222700000000001-default"
+May 23 13:55:24 localhost pipelined[498486]:             priority: 2
+May 23 13:55:24 localhost pipelined[498486]:             flow_list {
+May 23 13:55:24 localhost pipelined[498486]:               match {
+May 23 13:55:24 localhost pipelined[498486]:               }
+May 23 13:55:24 localhost pipelined[498486]:             }
+May 23 13:55:24 localhost pipelined[498486]:             qos {
+May 23 13:55:24 localhost pipelined[498486]:             }
+May 23 13:55:24 localhost pipelined[498486]:             tracking_type: NO_TRACKING
+May 23 13:55:24 localhost pipelined[498486]:           }
+May 23 13:55:24 localhost pipelined[498486]:           version: 1
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:       }
+May 23 13:55:24 localhost pipelined[498486]:     }
+May 23 13:55:24 localhost pipelined[498486]:     set_gr_pdr {
+May 23 13:55:24 localhost pipelined[498486]:       pdr_id: 2
+May 23 13:55:24 localhost pipelined[498486]:       pdr_version: 1
+May 23 13:55:24 localhost pipelined[498486]:       precedence: 32
+May 23 13:55:24 localhost pipelined[498486]:       pdr_state: REMOVE
+May 23 13:55:24 localhost pipelined[498486]:       pdi {
+May 23 13:55:24 localhost pipelined[498486]:         src_interface: 1
+May 23 13:55:24 localhost pipelined[498486]:         net_instance: "downlink"
+May 23 13:55:24 localhost pipelined[498486]:         ue_ipv4: "253.238.0.5"
+May 23 13:55:24 localhost pipelined[498486]:       }
+May 23 13:55:24 localhost pipelined[498486]:       set_gr_far {
+May 23 13:55:24 localhost pipelined[498486]:         far_action_to_apply: FORW
+May 23 13:55:24 localhost pipelined[498486]:         fwd_parm {
+May 23 13:55:24 localhost pipelined[498486]:           outr_head_cr {
+May 23 13:55:24 localhost pipelined[498486]:             o_teid: 40000000
+May 23 13:55:24 localhost pipelined[498486]:             gnb_ipv4_adr: "10.10.10.11"
+May 23 13:55:24 localhost pipelined[498486]:           }
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:       }
+May 23 13:55:24 localhost pipelined[498486]:       deactivate_flow_req {
+May 23 13:55:24 localhost pipelined[498486]:         sid {
+May 23 13:55:24 localhost pipelined[498486]:           id: "IMSI222700000000001"
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:         ip_addr: "253.238.0.5"
+May 23 13:55:24 localhost pipelined[498486]:         downlink_tunnel: 40000000
+May 23 13:55:24 localhost pipelined[498486]:         policies {
+May 23 13:55:24 localhost pipelined[498486]:           rule_id: "allowlist_sid-IMSI222700000000001-default"
+May 23 13:55:24 localhost pipelined[498486]:           version: 1
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:       }
+May 23 13:55:24 localhost pipelined[498486]:       activate_flow_req {
+May 23 13:55:24 localhost pipelined[498486]:         sid {
+May 23 13:55:24 localhost pipelined[498486]:           id: "IMSI222700000000001"
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:         ip_addr: "253.238.0.5"
+May 23 13:55:24 localhost pipelined[498486]:         request_origin {
+May 23 13:55:24 localhost pipelined[498486]:           type: N4
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:         apn_ambr {
+May 23 13:55:24 localhost pipelined[498486]:           max_bandwidth_ul: 100000000
+May 23 13:55:24 localhost pipelined[498486]:           max_bandwidth_dl: 100000000
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:         downlink_tunnel: 40000000
+May 23 13:55:24 localhost pipelined[498486]:         policies {
+May 23 13:55:24 localhost pipelined[498486]:           rule {
+May 23 13:55:24 localhost pipelined[498486]:             id: "allowlist_sid-IMSI222700000000001-default"
+May 23 13:55:24 localhost pipelined[498486]:             priority: 2
+May 23 13:55:24 localhost pipelined[498486]:             flow_list {
+May 23 13:55:24 localhost pipelined[498486]:               match {
+May 23 13:55:24 localhost pipelined[498486]:                 direction: DOWNLINK
+May 23 13:55:24 localhost pipelined[498486]:               }
+May 23 13:55:24 localhost pipelined[498486]:             }
+May 23 13:55:24 localhost pipelined[498486]:             qos {
+May 23 13:55:24 localhost pipelined[498486]:             }
+May 23 13:55:24 localhost pipelined[498486]:             tracking_type: NO_TRACKING
+May 23 13:55:24 localhost pipelined[498486]:           }
+May 23 13:55:24 localhost pipelined[498486]:           version: 1
+May 23 13:55:24 localhost pipelined[498486]:         }
+May 23 13:55:24 localhost pipelined[498486]:       }
+May 23 13:55:24 localhost pipelined[498486]:     }
+May 23 13:55:24 localhost pipelined[498486]:   }
+May 23 13:55:24 localhost sessiond[498383]: I0523 13:55:24.835937 498383 GrpcMagmaUtils.cpp:58]
+May 23 13:55:24 localhost sessiond[498383]:   magma.lte.SessionTerminateRequest {
+May 23 13:55:24 localhost sessiond[498383]:       session_id: "IMSI222700000000001-4254"
+May 23 13:55:24 localhost sessiond[498383]:       request_number: 1
+May 23 13:55:24 localhost sessiond[498383]:       tgpp_ctx {
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:       common_context {
+May 23 13:55:24 localhost sessiond[498383]:         sid {
+May 23 13:55:24 localhost sessiond[498383]:           id: "IMSI222700000000001"
+May 23 13:55:24 localhost sessiond[498383]:         }
+May 23 13:55:24 localhost sessiond[498383]:         ue_ipv4: "253.238.0.5"
+May 23 13:55:24 localhost sessiond[498383]:         apn: "default"
+May 23 13:55:24 localhost sessiond[498383]:         rat_type: TGPP_NR
+May 23 13:55:24 localhost sessiond[498383]:       }
+May 23 13:55:24 localhost sessiond[498383]:   }
+May 23 13:55:24 localhost policydb[498450]: INFO:root:Terminating session: IMSI222700000000001-4254
+May 23 13:55:24 localhost eventd[498460]: DEBUG:root:Logging event: stream_name: "sessiond"
+May 23 13:55:24 localhost eventd[498460]: event_type: "session_terminated"
+May 23 13:55:24 localhost eventd[498460]: tag: "IMSI222700000000001"
+May 23 13:55:24 localhost eventd[498460]: value: "{\"mac_addr\":\"\",\"user_location\":\"\",\"spgw_ip\":\"\",\"imei\":\"\",\"record_sequence_number\":1,\"pdp_end_time\":0,\"charging_rx\":0,\"duration\":-1,\"ip_addr\":\"253.238.0.5\",\"monitoring_tx\":0,\"ipv6_addr\":\"\",\"msisdn\":\"\",\"apn\":\"default\",\"session_id\":\"IMSI222700000000001-4254\",\"list_of_service_data\":[],\"charging_characteristics\":\"\",\"total_tx\":0,\"cause_for_rec_closing\":0,\"imsi\":\"IMSI222700000000001\",\"total_rx\":0,\"monitoring_rx\":0,\"charging_tx\":0,\"pdp_start_time\":1}"
+May 23 13:55:24 localhost eventd[498460]: ERROR:root:Connection to FluentBit failed: [Errno 111] Connection refused
+May 23 13:55:24 localhost eventd[498460]: INFO:root:FluentBit (td-agent-bit) may not be enabled or configured correctly
+May 23 13:55:24 localhost sessiond[498383]: I0523 13:55:24.838186 498399 SessionEvents.cpp:292] Could not log session_terminated event {"mac_addr":"","user_location":"","spgw_ip":"","imei":"","record_sequence_number":1,"pdp_end_time":0,"charging_rx":0,"duration":-1,"ip_addr":"253.238.0.5","monitoring_tx":0,"ipv6_addr":"","msisdn":"","apn":"default","session_id":"IMSI222700000000001-4254","list_of_service_data":[],"charging_characteristics":"","total_tx":0,"cause_for_rec_closing":0,"imsi":"IMSI222700000000001","total_rx":0,"monitoring_rx":0,"charging_tx":0,"pdp_start_time":1}, Error Message: Could not connect to FluentBit locally, Details: [Errno 111] Connection refused
+May 23 13:55:24 localhost sctpd[498644]: I0523 13:55:24.982667 499133 sctp_connection.cpp:195] Unhandled notification type 32777
+May 23 13:55:25 localhost smsd[498464]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+May 23 13:55:29 localhost sessiond[498383]: I0523 13:55:29.820145 498383 SessionStateEnforcer.cpp:381] Nothing to remove as no respective entry found for session id IMSI222700000000001-4254 of IMSI IMSI222700000000001
+May 23 13:55:30 localhost smsd[498464]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+May 23 13:55:35 localhost smsd[498464]: INFO:root:mme non_eps_service_config is not SMS_ORC8R, sleeping.
+May 23 13:55:35 localhost systemd[1]: Created slice User Slice of UID 1000.
+May 23 13:55:35 localhost systemd[1]: Starting User Runtime Directory /run/user/1000...
+May 23 13:55:35 localhost systemd[1]: Finished User Runtime Directory /run/user/1000.
+May 23 13:55:35 localhost systemd[1]: Starting User Manager for UID 1000...
+May 23 13:55:35 localhost systemd[503282]: Reached target Paths.
+May 23 13:55:35 localhost systemd[503282]: Reached target Timers.
+May 23 13:55:35 localhost systemd[503282]: Starting D-Bus User Message Bus Socket.
+May 23 13:55:35 localhost systemd[503282]: Listening on GnuPG network certificate management daemon.
+May 23 13:55:35 localhost systemd[503282]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+May 23 13:55:35 localhost systemd[503282]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+May 23 13:55:35 localhost systemd[503282]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+May 23 13:55:35 localhost systemd[503282]: Listening on GnuPG cryptographic agent and passphrase cache.
+May 23 13:55:35 localhost systemd[503282]: Listening on debconf communication socket.
+May 23 13:55:35 localhost systemd[503282]: Listening on REST API socket for snapd user session agent.
+May 23 13:55:35 localhost systemd[503282]: Listening on D-Bus User Message Bus Socket.
+May 23 13:55:35 localhost systemd[503282]: Reached target Sockets.
+May 23 13:55:35 localhost systemd[503282]: Reached target Basic System.
+May 23 13:55:35 localhost systemd[1]: Started User Manager for UID 1000.
+May 23 13:55:35 localhost systemd[1]: Started Session 108 of user ubuntu.
+May 23 13:55:35 localhost systemd[503282]: Reached target Main User Target.
+May 23 13:55:35 localhost systemd[503282]: Startup finished in 78ms.
+May 23 13:55:37 localhost mobilityd[498373]: INFO:root:GRPC message:
+May 23 13:55:37 localhost mobilityd[498373]:   magma.orc8r.Void {}
+May 23 13:55:37 localhost mobilityd[498373]: INFO:root:GRPC message:
+May 23 13:55:37 localhost mobilityd[498373]:   magma.lte.SubscriberIPTable {
+May 23 13:55:37 localhost mobilityd[498373]:     "entries": [
+May 23 13:55:37 localhost mobilityd[498373]:       {
+May 23 13:55:37 localhost mobilityd[498373]:         "sid": {
+May 23 13:55:37 localhost mobilityd[498373]:           "id": "222700000000001"
+May 23 13:55:37 localhost mobilityd[498373]:         },
+May 23 13:55:37 localhost mobilityd[498373]:         "ip": {
+May 23 13:55:37 localhost mobilityd[498373]:           "version": "IPV6",
+May 23 13:55:37 localhost mobilityd[498373]:           "address": "/e4ABQBsM/qt9s9yxcVt+A=="
+May 23 13:55:37 localhost mobilityd[498373]:         },
+May 23 13:55:37 localhost mobilityd[498373]:         "apn": "internet"
+May 23 13:55:37 localhost mobilityd[498373]:       },
+May 23 13:55:37 localhost mobilityd[498373]:       {
+May 23 13:55:37 localhost mobilityd[498373]:         "sid": {
+May 23 13:55:37 localhost mobilityd[498373]:           "id": "222700000000001"
+May 23 13:55:37 localhost mobilityd[498373]:         },
+May 23 13:55:37 localhost mobilityd[498373]:         "ip": {
+May 23 13:55:37 localhost mobilityd[498373]:           "version": "IPV6",
+May 23 13:55:37 localhost mobilityd[498373]:           "address": "/e4ABQBsbE808ynOAgd/Wg=="
+May 23 13:55:37 localhost mobilityd[498373]:         },
+May 23 13:55:37 localhost mobilityd[498373]:         "apn": "internetv4v6"
+May 23 13:55:37 localhost mobilityd[498373]:       },
+May 23 13:55:37 localhost mobilityd[498373]:       {
+May 23 13:55:37 localhost mobilityd[498373]:         "sid": {
+May 23 13:55:37 localhost mobilityd[498373]:           "id": "222700000000001"
+May 23 13:55:37 localhost mobilityd[498373]:         },
+May 23 13:55:37 localhost mobilityd[498373]:         "ip": {
+May 23 13:55:37 localhost mobilityd[498373]:           "version": "IPV6",
+May 23 13:55:37 localhost mobilityd[498373]:           "address": "/e4ABQBsA3VGy4/t8ducHw=="
+May 23 13:55:37 localhost mobilityd[498373]:         },
+May 23 13:55:37 localhost mobilityd[498373]:         "apn": "default"
+May 23 13:55:37 localhost mobilityd[498373]:       },
+May 23 13:55:37 localhost mobilityd[498373]:       {
+May 23 13:55:37 localhost mobilityd[498373]:         "sid": {
+May 23 13:55:37 localhost mobilityd[498373]:           "id": "222700000000001"
+May 23 13:55:37 localhost mobilityd[498373]:         },
+May 23 13:55:37 localhost mobilityd[498373]:         "ip": {
+May 23 13:55:37 localhost mobilityd[498373]:           "version": "IPV6",
+May 23 13:55:37 localhost mobilityd[498373]:           "address": "/e4ABQBsCesIbUwhBH9OIQ=="
+May 23 13:55:37 localhost mobilityd[498373]:         },
+May 23 13:55:37 localhost mobilityd[498373]:         "apn": "oai.ipv4.ipv6"
+May 23 13:55:37 localhost mobilityd[498373]:       },
+May 23 13:55:37 localhost mobilityd[498373]:       {
+May 23 13:55:37 localhost mobilityd[498373]:         "sid": {
+May 23 13:55:37 localhost mobilityd[498373]:           "id": "222700000000001"
+May 23 13:55:37 localhost mobilityd[498373]:         },
+May 23 13:55:37 localhost mobilityd[498373]:         "ip": {
+May 23 13:55:37 localhost mobilityd[498373]:           "version": "IPV6",
+May 23 13:55:37 localhost mobilityd[498373]:           "address": "/e4ABQBssINIVdRGdplgFg=="
+May 23 13:55:37 localhost mobilityd[498373]:         },
+May 23 13:55:37 localhost mobilityd[498373]:         "apn": "wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wavelabsapn.wav"
+May 23 13:55:37 localhost mobilityd[498373]:       },
+May 23 13:55:37 localhost mobilityd[498373]:       {
+May 23 13:55:37 localhost mobilityd[498373]:         "sid": {
+May 23 13:55:37 localhost mobilityd[498373]:           "id": "222700000000001"
+May 23 13:55:37 localhost mobilityd[498373]:         },
+May 23 13:55:37 localhost mobilityd[498373]:         "ip": {
+May 23 13:55:37 localhost mobilityd[498373]:           "version": "IPV6",
+May 23 13:55:37 localhost mobilityd[498373]:           "address": "/e4ABQBscaHwliyaIH6m0w=="
+May 23 13:55:37 localhost mobilityd[498373]:         },
+May 23 13:55:37 localhost mobilityd[498373]:         "apn": "oai"
+May 23 13:55:37 localhost mobilityd[498373]:       }
+May 23 13:55:37 localhost mobilityd[498373]:     ]
+May 23 13:55:37 localhost mobilityd[498373]:   }
