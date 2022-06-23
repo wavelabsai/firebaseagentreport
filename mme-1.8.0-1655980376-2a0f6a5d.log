@@ -1,0 +1,899 @@
+000353 Thu Jun 23 11:09:04 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000354 Thu Jun 23 11:09:05 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000355 Thu Jun 23 11:09:05 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000356 Thu Jun 23 11:09:05 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000357 Thu Jun 23 11:09:05 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000358 Thu Jun 23 11:09:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000359 Thu Jun 23 11:09:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 106, Reset Flag = 0. Connected UEs = 0 
+000360 Thu Jun 23 11:09:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 106. No Connected UEs. Reset Flag = 0
+000361 Thu Jun 23 11:09:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 106 
+000362 Thu Jun 23 11:09:25 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000363 Thu Jun 23 11:09:26 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000364 Thu Jun 23 11:09:26 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000365 Thu Jun 23 11:09:26 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :90 f8 56 
+000366 Thu Jun 23 11:09:26 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -3
+000367 Thu Jun 23 11:09:36 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000368 Thu Jun 23 11:09:36 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 107, Reset Flag = 0. Connected UEs = 0 
+000369 Thu Jun 23 11:09:36 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 107. No Connected UEs. Reset Flag = 0
+000370 Thu Jun 23 11:09:36 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 107 
+000371 Thu Jun 23 11:09:48 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000372 Thu Jun 23 11:10:00 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000373 Thu Jun 23 11:10:00 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000374 Thu Jun 23 11:10:00 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000375 Thu Jun 23 11:10:00 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000376 Thu Jun 23 11:10:08 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000377 Thu Jun 23 11:10:08 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 108, Reset Flag = 0. Connected UEs = 0 
+000378 Thu Jun 23 11:10:08 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 108. No Connected UEs. Reset Flag = 0
+000379 Thu Jun 23 11:10:08 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 108 
+000380 Thu Jun 23 11:10:20 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000381 Thu Jun 23 11:10:21 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000382 Thu Jun 23 11:10:21 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000383 Thu Jun 23 11:10:21 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000384 Thu Jun 23 11:10:21 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000385 Thu Jun 23 11:10:28 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000386 Thu Jun 23 11:10:28 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 109, Reset Flag = 0. Connected UEs = 0 
+000387 Thu Jun 23 11:10:28 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 109. No Connected UEs. Reset Flag = 0
+000388 Thu Jun 23 11:10:28 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 109 
+000389 Thu Jun 23 11:10:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000390 Thu Jun 23 11:10:52 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000391 Thu Jun 23 11:10:52 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000392 Thu Jun 23 11:10:52 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000393 Thu Jun 23 11:10:52 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000394 Thu Jun 23 11:11:00 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000395 Thu Jun 23 11:11:00 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 110, Reset Flag = 0. Connected UEs = 0 
+000396 Thu Jun 23 11:11:00 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 110. No Connected UEs. Reset Flag = 0
+000397 Thu Jun 23 11:11:00 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 110 
+000398 Thu Jun 23 11:11:12 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000399 Thu Jun 23 11:11:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000400 Thu Jun 23 11:11:13 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000401 Thu Jun 23 11:11:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000402 Thu Jun 23 11:11:13 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000403 Thu Jun 23 11:11:20 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000404 Thu Jun 23 11:11:20 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 111, Reset Flag = 0. Connected UEs = 0 
+000405 Thu Jun 23 11:11:20 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 111. No Connected UEs. Reset Flag = 0
+000406 Thu Jun 23 11:11:20 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 111 
+000407 Thu Jun 23 11:11:32 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000408 Thu Jun 23 11:11:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000409 Thu Jun 23 11:11:33 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000410 Thu Jun 23 11:11:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000411 Thu Jun 23 11:11:33 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000412 Thu Jun 23 11:11:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000413 Thu Jun 23 11:11:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 112, Reset Flag = 0. Connected UEs = 0 
+000414 Thu Jun 23 11:11:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 112. No Connected UEs. Reset Flag = 0
+000415 Thu Jun 23 11:11:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 112 
+000416 Thu Jun 23 11:11:52 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000417 Thu Jun 23 11:11:52 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000418 Thu Jun 23 11:11:53 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000419 Thu Jun 23 11:11:53 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000420 Thu Jun 23 11:11:53 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000421 Thu Jun 23 11:11:53 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000422 Thu Jun 23 11:12:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000423 Thu Jun 23 11:12:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 113, Reset Flag = 0. Connected UEs = 0 
+000424 Thu Jun 23 11:12:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 113. No Connected UEs. Reset Flag = 0
+000425 Thu Jun 23 11:12:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 113 
+000426 Thu Jun 23 11:12:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000427 Thu Jun 23 11:12:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 114, Reset Flag = 0. Connected UEs = 0 
+000428 Thu Jun 23 11:12:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 114. No Connected UEs. Reset Flag = 0
+000429 Thu Jun 23 11:12:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 114 
+000430 Thu Jun 23 11:12:12 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000431 Thu Jun 23 11:12:14 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000432 Thu Jun 23 11:12:14 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000433 Thu Jun 23 11:12:14 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000434 Thu Jun 23 11:12:14 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000435 Thu Jun 23 11:12:21 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000436 Thu Jun 23 11:12:21 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 115, Reset Flag = 0. Connected UEs = 0 
+000437 Thu Jun 23 11:12:21 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 115. No Connected UEs. Reset Flag = 0
+000438 Thu Jun 23 11:12:21 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 115 
+000439 Thu Jun 23 11:12:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000440 Thu Jun 23 11:12:34 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000441 Thu Jun 23 11:12:34 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000442 Thu Jun 23 11:12:34 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000443 Thu Jun 23 11:12:34 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000444 Thu Jun 23 11:12:41 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000445 Thu Jun 23 11:12:41 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 116, Reset Flag = 0. Connected UEs = 0 
+000446 Thu Jun 23 11:12:41 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 116. No Connected UEs. Reset Flag = 0
+000447 Thu Jun 23 11:12:41 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 116 
+000448 Thu Jun 23 11:12:53 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000449 Thu Jun 23 11:12:54 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000450 Thu Jun 23 11:12:54 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000451 Thu Jun 23 11:12:54 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000452 Thu Jun 23 11:12:54 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000453 Thu Jun 23 11:13:02 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000454 Thu Jun 23 11:13:02 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 117, Reset Flag = 0. Connected UEs = 0 
+000455 Thu Jun 23 11:13:02 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 117. No Connected UEs. Reset Flag = 0
+000456 Thu Jun 23 11:13:02 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 117 
+000457 Thu Jun 23 11:13:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000458 Thu Jun 23 11:13:14 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000459 Thu Jun 23 11:13:14 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000460 Thu Jun 23 11:13:14 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000461 Thu Jun 23 11:13:14 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000462 Thu Jun 23 11:13:22 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000463 Thu Jun 23 11:13:22 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 118, Reset Flag = 0. Connected UEs = 0 
+000464 Thu Jun 23 11:13:22 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 118. No Connected UEs. Reset Flag = 0
+000465 Thu Jun 23 11:13:22 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 118 
+000466 Thu Jun 23 11:13:34 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000467 Thu Jun 23 11:13:35 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000468 Thu Jun 23 11:13:35 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000469 Thu Jun 23 11:13:35 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000470 Thu Jun 23 11:13:35 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000471 Thu Jun 23 11:13:42 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000472 Thu Jun 23 11:13:42 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 119, Reset Flag = 0. Connected UEs = 0 
+000473 Thu Jun 23 11:13:42 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 119. No Connected UEs. Reset Flag = 0
+000474 Thu Jun 23 11:13:42 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 119 
+000475 Thu Jun 23 11:13:54 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000476 Thu Jun 23 11:13:55 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000477 Thu Jun 23 11:13:55 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000478 Thu Jun 23 11:13:55 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000479 Thu Jun 23 11:13:55 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000480 Thu Jun 23 11:14:02 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000481 Thu Jun 23 11:14:02 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 120, Reset Flag = 0. Connected UEs = 0 
+000482 Thu Jun 23 11:14:02 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 120. No Connected UEs. Reset Flag = 0
+000483 Thu Jun 23 11:14:02 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 120 
+000484 Thu Jun 23 11:14:14 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000485 Thu Jun 23 11:14:15 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000486 Thu Jun 23 11:14:15 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000487 Thu Jun 23 11:14:15 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000488 Thu Jun 23 11:14:15 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000489 Thu Jun 23 11:14:22 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000490 Thu Jun 23 11:14:22 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 121, Reset Flag = 0. Connected UEs = 0 
+000491 Thu Jun 23 11:14:22 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 121. No Connected UEs. Reset Flag = 0
+000492 Thu Jun 23 11:14:22 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 121 
+000493 Thu Jun 23 11:14:34 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000494 Thu Jun 23 11:14:35 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000495 Thu Jun 23 11:14:35 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000496 Thu Jun 23 11:14:35 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000497 Thu Jun 23 11:14:35 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000498 Thu Jun 23 11:14:43 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000499 Thu Jun 23 11:14:43 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 122, Reset Flag = 0. Connected UEs = 0 
+000500 Thu Jun 23 11:14:43 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 122. No Connected UEs. Reset Flag = 0
+000501 Thu Jun 23 11:14:43 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 122 
+000502 Thu Jun 23 11:14:54 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000503 Thu Jun 23 11:14:55 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000504 Thu Jun 23 11:14:55 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000505 Thu Jun 23 11:14:55 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000506 Thu Jun 23 11:14:55 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000507 Thu Jun 23 11:15:03 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000508 Thu Jun 23 11:15:03 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 123, Reset Flag = 0. Connected UEs = 0 
+000509 Thu Jun 23 11:15:03 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 123. No Connected UEs. Reset Flag = 0
+000510 Thu Jun 23 11:15:03 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 123 
+000511 Thu Jun 23 11:15:15 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000512 Thu Jun 23 11:15:16 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000513 Thu Jun 23 11:15:16 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000514 Thu Jun 23 11:15:16 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000515 Thu Jun 23 11:15:16 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000516 Thu Jun 23 11:15:23 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000517 Thu Jun 23 11:15:23 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 124, Reset Flag = 0. Connected UEs = 0 
+000518 Thu Jun 23 11:15:23 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 124. No Connected UEs. Reset Flag = 0
+000519 Thu Jun 23 11:15:23 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 124 
+000520 Thu Jun 23 11:15:35 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000521 Thu Jun 23 11:15:37 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000522 Thu Jun 23 11:15:37 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000523 Thu Jun 23 11:15:37 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000524 Thu Jun 23 11:15:37 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000525 Thu Jun 23 11:15:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000526 Thu Jun 23 11:15:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 125, Reset Flag = 0. Connected UEs = 0 
+000527 Thu Jun 23 11:15:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 125. No Connected UEs. Reset Flag = 0
+000528 Thu Jun 23 11:15:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 125 
+000529 Thu Jun 23 11:15:56 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000530 Thu Jun 23 11:15:57 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000531 Thu Jun 23 11:15:57 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000532 Thu Jun 23 11:15:57 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000533 Thu Jun 23 11:15:57 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000534 Thu Jun 23 11:16:05 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000535 Thu Jun 23 11:16:05 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 126, Reset Flag = 0. Connected UEs = 0 
+000536 Thu Jun 23 11:16:05 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 126. No Connected UEs. Reset Flag = 0
+000537 Thu Jun 23 11:16:05 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 126 
+000538 Thu Jun 23 11:16:17 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000539 Thu Jun 23 11:16:18 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000540 Thu Jun 23 11:16:18 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000541 Thu Jun 23 11:16:18 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000542 Thu Jun 23 11:16:18 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000543 Thu Jun 23 11:16:25 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000544 Thu Jun 23 11:16:25 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 127, Reset Flag = 0. Connected UEs = 0 
+000545 Thu Jun 23 11:16:25 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 127. No Connected UEs. Reset Flag = 0
+000546 Thu Jun 23 11:16:25 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 127 
+000547 Thu Jun 23 11:16:37 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000548 Thu Jun 23 11:16:49 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000549 Thu Jun 23 11:16:49 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000550 Thu Jun 23 11:16:49 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000551 Thu Jun 23 11:16:49 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000552 Thu Jun 23 11:16:56 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000553 Thu Jun 23 11:16:56 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 128, Reset Flag = 0. Connected UEs = 0 
+000554 Thu Jun 23 11:16:56 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 128. No Connected UEs. Reset Flag = 0
+000555 Thu Jun 23 11:16:56 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 128 
+000556 Thu Jun 23 11:17:08 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000557 Thu Jun 23 11:17:09 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000558 Thu Jun 23 11:17:09 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000559 Thu Jun 23 11:17:09 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000560 Thu Jun 23 11:17:09 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000561 Thu Jun 23 11:17:17 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000562 Thu Jun 23 11:17:17 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 129, Reset Flag = 0. Connected UEs = 0 
+000563 Thu Jun 23 11:17:17 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 129. No Connected UEs. Reset Flag = 0
+000564 Thu Jun 23 11:17:17 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 129 
+000565 Thu Jun 23 11:17:29 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000566 Thu Jun 23 11:17:30 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000567 Thu Jun 23 11:17:30 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000568 Thu Jun 23 11:17:30 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000569 Thu Jun 23 11:17:30 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000570 Thu Jun 23 11:17:37 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000571 Thu Jun 23 11:17:37 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 130, Reset Flag = 0. Connected UEs = 0 
+000572 Thu Jun 23 11:17:37 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 130. No Connected UEs. Reset Flag = 0
+000573 Thu Jun 23 11:17:37 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 130 
+000574 Thu Jun 23 11:17:49 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000575 Thu Jun 23 11:17:51 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000576 Thu Jun 23 11:17:51 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000577 Thu Jun 23 11:17:51 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000578 Thu Jun 23 11:17:51 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000579 Thu Jun 23 11:17:58 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000580 Thu Jun 23 11:17:58 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 131, Reset Flag = 0. Connected UEs = 0 
+000581 Thu Jun 23 11:17:58 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 131. No Connected UEs. Reset Flag = 0
+000582 Thu Jun 23 11:17:58 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 131 
+000583 Thu Jun 23 11:18:10 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000584 Thu Jun 23 11:18:11 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000585 Thu Jun 23 11:18:11 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000586 Thu Jun 23 11:18:11 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000587 Thu Jun 23 11:18:11 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000588 Thu Jun 23 11:18:18 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000589 Thu Jun 23 11:18:18 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 132, Reset Flag = 0. Connected UEs = 0 
+000590 Thu Jun 23 11:18:18 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 132. No Connected UEs. Reset Flag = 0
+000591 Thu Jun 23 11:18:18 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 132 
+000592 Thu Jun 23 11:18:30 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000593 Thu Jun 23 11:18:31 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000594 Thu Jun 23 11:18:31 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000595 Thu Jun 23 11:18:31 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000596 Thu Jun 23 11:18:31 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000597 Thu Jun 23 11:18:39 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000598 Thu Jun 23 11:18:39 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 133, Reset Flag = 0. Connected UEs = 0 
+000599 Thu Jun 23 11:18:39 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 133. No Connected UEs. Reset Flag = 0
+000600 Thu Jun 23 11:18:39 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 133 
+000601 Thu Jun 23 11:18:51 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000602 Thu Jun 23 11:18:52 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000603 Thu Jun 23 11:18:52 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000604 Thu Jun 23 11:18:52 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000605 Thu Jun 23 11:18:52 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000606 Thu Jun 23 11:18:59 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000607 Thu Jun 23 11:18:59 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 134, Reset Flag = 0. Connected UEs = 0 
+000608 Thu Jun 23 11:18:59 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 134. No Connected UEs. Reset Flag = 0
+000609 Thu Jun 23 11:18:59 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 134 
+000610 Thu Jun 23 11:19:11 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000611 Thu Jun 23 11:19:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000612 Thu Jun 23 11:19:13 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000613 Thu Jun 23 11:19:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000614 Thu Jun 23 11:19:13 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000615 Thu Jun 23 11:19:20 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000616 Thu Jun 23 11:19:20 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 135, Reset Flag = 0. Connected UEs = 0 
+000617 Thu Jun 23 11:19:20 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 135. No Connected UEs. Reset Flag = 0
+000618 Thu Jun 23 11:19:20 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 135 
+000619 Thu Jun 23 11:19:32 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000620 Thu Jun 23 11:19:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000621 Thu Jun 23 11:19:44 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000622 Thu Jun 23 11:19:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000623 Thu Jun 23 11:19:44 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000624 Thu Jun 23 11:19:51 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000625 Thu Jun 23 11:19:51 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 136, Reset Flag = 0. Connected UEs = 0 
+000626 Thu Jun 23 11:19:51 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 136. No Connected UEs. Reset Flag = 0
+000627 Thu Jun 23 11:19:51 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 136 
+000628 Thu Jun 23 11:20:03 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000629 Thu Jun 23 11:20:05 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000630 Thu Jun 23 11:20:05 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000631 Thu Jun 23 11:20:05 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000632 Thu Jun 23 11:20:05 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000633 Thu Jun 23 11:20:12 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000634 Thu Jun 23 11:20:12 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 137, Reset Flag = 0. Connected UEs = 0 
+000635 Thu Jun 23 11:20:12 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 137. No Connected UEs. Reset Flag = 0
+000636 Thu Jun 23 11:20:12 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 137 
+000637 Thu Jun 23 11:20:24 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000638 Thu Jun 23 11:20:24 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000639 Thu Jun 23 11:20:25 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000640 Thu Jun 23 11:20:25 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000641 Thu Jun 23 11:20:25 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000642 Thu Jun 23 11:20:25 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000643 Thu Jun 23 11:20:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000644 Thu Jun 23 11:20:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 138, Reset Flag = 0. Connected UEs = 0 
+000645 Thu Jun 23 11:20:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 138. No Connected UEs. Reset Flag = 0
+000646 Thu Jun 23 11:20:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 138 
+000647 Thu Jun 23 11:20:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000648 Thu Jun 23 11:20:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 139, Reset Flag = 0. Connected UEs = 0 
+000649 Thu Jun 23 11:20:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 139. No Connected UEs. Reset Flag = 0
+000650 Thu Jun 23 11:20:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 139 
+000651 Thu Jun 23 11:20:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000652 Thu Jun 23 11:20:45 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000653 Thu Jun 23 11:20:45 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000654 Thu Jun 23 11:20:45 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000655 Thu Jun 23 11:20:45 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000656 Thu Jun 23 11:20:53 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000657 Thu Jun 23 11:20:53 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 140, Reset Flag = 0. Connected UEs = 0 
+000658 Thu Jun 23 11:20:53 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 140. No Connected UEs. Reset Flag = 0
+000659 Thu Jun 23 11:20:53 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 140 
+000660 Thu Jun 23 11:21:05 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000661 Thu Jun 23 11:21:06 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000662 Thu Jun 23 11:21:06 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000663 Thu Jun 23 11:21:06 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000664 Thu Jun 23 11:21:06 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000665 Thu Jun 23 11:21:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000666 Thu Jun 23 11:21:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 141, Reset Flag = 0. Connected UEs = 0 
+000667 Thu Jun 23 11:21:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 141. No Connected UEs. Reset Flag = 0
+000668 Thu Jun 23 11:21:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 141 
+000669 Thu Jun 23 11:21:25 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000670 Thu Jun 23 11:21:26 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000671 Thu Jun 23 11:21:26 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000672 Thu Jun 23 11:21:26 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000673 Thu Jun 23 11:21:26 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000674 Thu Jun 23 11:21:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000675 Thu Jun 23 11:21:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 142, Reset Flag = 0. Connected UEs = 0 
+000676 Thu Jun 23 11:21:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 142. No Connected UEs. Reset Flag = 0
+000677 Thu Jun 23 11:21:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 142 
+000678 Thu Jun 23 11:21:45 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000679 Thu Jun 23 11:21:46 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000680 Thu Jun 23 11:21:46 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000681 Thu Jun 23 11:21:46 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000682 Thu Jun 23 11:21:46 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000683 Thu Jun 23 11:21:54 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000684 Thu Jun 23 11:21:54 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 143, Reset Flag = 0. Connected UEs = 0 
+000685 Thu Jun 23 11:21:54 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 143. No Connected UEs. Reset Flag = 0
+000686 Thu Jun 23 11:21:54 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 143 
+000687 Thu Jun 23 11:22:05 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000688 Thu Jun 23 11:22:06 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000689 Thu Jun 23 11:22:06 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000690 Thu Jun 23 11:22:06 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000691 Thu Jun 23 11:22:06 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000692 Thu Jun 23 11:22:14 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000693 Thu Jun 23 11:22:14 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 144, Reset Flag = 0. Connected UEs = 0 
+000694 Thu Jun 23 11:22:14 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 144. No Connected UEs. Reset Flag = 0
+000695 Thu Jun 23 11:22:14 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 144 
+000696 Thu Jun 23 11:22:26 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000697 Thu Jun 23 11:22:27 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000698 Thu Jun 23 11:22:27 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000699 Thu Jun 23 11:22:27 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000700 Thu Jun 23 11:22:27 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000701 Thu Jun 23 11:22:34 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000702 Thu Jun 23 11:22:34 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 145, Reset Flag = 0. Connected UEs = 0 
+000703 Thu Jun 23 11:22:34 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 145. No Connected UEs. Reset Flag = 0
+000704 Thu Jun 23 11:22:34 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 145 
+000705 Thu Jun 23 11:22:46 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000706 Thu Jun 23 11:22:47 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000707 Thu Jun 23 11:22:47 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000708 Thu Jun 23 11:22:47 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000709 Thu Jun 23 11:22:47 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000710 Thu Jun 23 11:22:55 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000711 Thu Jun 23 11:22:55 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 146, Reset Flag = 0. Connected UEs = 0 
+000712 Thu Jun 23 11:22:55 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 146. No Connected UEs. Reset Flag = 0
+000713 Thu Jun 23 11:22:55 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 146 
+000714 Thu Jun 23 11:23:07 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000715 Thu Jun 23 11:23:08 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000716 Thu Jun 23 11:23:08 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000717 Thu Jun 23 11:23:08 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000718 Thu Jun 23 11:23:08 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000719 Thu Jun 23 11:23:15 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000720 Thu Jun 23 11:23:15 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 147, Reset Flag = 0. Connected UEs = 0 
+000721 Thu Jun 23 11:23:15 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 147. No Connected UEs. Reset Flag = 0
+000722 Thu Jun 23 11:23:15 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 147 
+000723 Thu Jun 23 11:23:27 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000724 Thu Jun 23 11:23:28 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000725 Thu Jun 23 11:23:28 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000726 Thu Jun 23 11:23:28 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000727 Thu Jun 23 11:23:28 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000728 Thu Jun 23 11:23:35 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000729 Thu Jun 23 11:23:35 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 148, Reset Flag = 0. Connected UEs = 0 
+000730 Thu Jun 23 11:23:35 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 148. No Connected UEs. Reset Flag = 0
+000731 Thu Jun 23 11:23:35 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 148 
+000732 Thu Jun 23 11:23:47 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000733 Thu Jun 23 11:23:48 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000734 Thu Jun 23 11:23:48 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000735 Thu Jun 23 11:23:48 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000736 Thu Jun 23 11:23:48 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000737 Thu Jun 23 11:23:56 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000738 Thu Jun 23 11:23:56 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 149, Reset Flag = 0. Connected UEs = 0 
+000739 Thu Jun 23 11:23:56 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 149. No Connected UEs. Reset Flag = 0
+000740 Thu Jun 23 11:23:56 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 149 
+000741 Thu Jun 23 11:24:08 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000742 Thu Jun 23 11:24:09 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000743 Thu Jun 23 11:24:09 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000744 Thu Jun 23 11:24:09 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000745 Thu Jun 23 11:24:09 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000746 Thu Jun 23 11:24:16 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000747 Thu Jun 23 11:24:16 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 150, Reset Flag = 0. Connected UEs = 0 
+000748 Thu Jun 23 11:24:16 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 150. No Connected UEs. Reset Flag = 0
+000749 Thu Jun 23 11:24:16 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 150 
+000750 Thu Jun 23 11:24:28 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000751 Thu Jun 23 11:24:29 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000752 Thu Jun 23 11:24:30 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000753 Thu Jun 23 11:24:30 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000754 Thu Jun 23 11:24:30 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000755 Thu Jun 23 11:24:30 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000756 Thu Jun 23 11:24:37 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000757 Thu Jun 23 11:24:37 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 151, Reset Flag = 0. Connected UEs = 0 
+000758 Thu Jun 23 11:24:37 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 151. No Connected UEs. Reset Flag = 0
+000759 Thu Jun 23 11:24:37 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 151 
+000760 Thu Jun 23 11:24:37 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000761 Thu Jun 23 11:24:37 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 152, Reset Flag = 0. Connected UEs = 0 
+000762 Thu Jun 23 11:24:37 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 152. No Connected UEs. Reset Flag = 0
+000763 Thu Jun 23 11:24:37 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 152 
+000764 Thu Jun 23 11:24:49 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000765 Thu Jun 23 11:24:50 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000766 Thu Jun 23 11:24:50 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000767 Thu Jun 23 11:24:50 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000768 Thu Jun 23 11:24:50 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000769 Thu Jun 23 11:24:58 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000770 Thu Jun 23 11:24:58 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 153, Reset Flag = 0. Connected UEs = 0 
+000771 Thu Jun 23 11:24:58 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 153. No Connected UEs. Reset Flag = 0
+000772 Thu Jun 23 11:24:58 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 153 
+000773 Thu Jun 23 11:25:09 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000774 Thu Jun 23 11:25:11 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000775 Thu Jun 23 11:25:11 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000776 Thu Jun 23 11:25:11 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000777 Thu Jun 23 11:25:11 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000778 Thu Jun 23 11:25:18 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000779 Thu Jun 23 11:25:18 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 154, Reset Flag = 0. Connected UEs = 0 
+000780 Thu Jun 23 11:25:18 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 154. No Connected UEs. Reset Flag = 0
+000781 Thu Jun 23 11:25:18 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 154 
+000782 Thu Jun 23 11:25:30 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000783 Thu Jun 23 11:25:31 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000784 Thu Jun 23 11:25:31 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000785 Thu Jun 23 11:25:31 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000786 Thu Jun 23 11:25:31 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000787 Thu Jun 23 11:25:38 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000788 Thu Jun 23 11:25:38 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 155, Reset Flag = 0. Connected UEs = 0 
+000789 Thu Jun 23 11:25:38 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 155. No Connected UEs. Reset Flag = 0
+000790 Thu Jun 23 11:25:38 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 155 
+000791 Thu Jun 23 11:25:50 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000792 Thu Jun 23 11:25:51 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000793 Thu Jun 23 11:25:51 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000794 Thu Jun 23 11:25:51 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000795 Thu Jun 23 11:25:51 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000796 Thu Jun 23 11:25:59 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000797 Thu Jun 23 11:25:59 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 156, Reset Flag = 0. Connected UEs = 0 
+000798 Thu Jun 23 11:25:59 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 156. No Connected UEs. Reset Flag = 0
+000799 Thu Jun 23 11:25:59 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 156 
+000800 Thu Jun 23 11:26:10 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000801 Thu Jun 23 11:26:11 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000802 Thu Jun 23 11:26:11 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000803 Thu Jun 23 11:26:11 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000804 Thu Jun 23 11:26:11 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000805 Thu Jun 23 11:26:19 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000806 Thu Jun 23 11:26:19 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 157, Reset Flag = 0. Connected UEs = 0 
+000807 Thu Jun 23 11:26:19 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 157. No Connected UEs. Reset Flag = 0
+000808 Thu Jun 23 11:26:19 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 157 
+000809 Thu Jun 23 11:26:31 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000810 Thu Jun 23 11:26:32 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000811 Thu Jun 23 11:26:32 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000812 Thu Jun 23 11:26:32 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000813 Thu Jun 23 11:26:32 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000814 Thu Jun 23 11:26:39 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000815 Thu Jun 23 11:26:39 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 158, Reset Flag = 0. Connected UEs = 0 
+000816 Thu Jun 23 11:26:39 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 158. No Connected UEs. Reset Flag = 0
+000817 Thu Jun 23 11:26:39 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 158 
+000818 Thu Jun 23 11:26:52 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000819 Thu Jun 23 11:26:53 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000820 Thu Jun 23 11:26:53 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000821 Thu Jun 23 11:26:53 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000822 Thu Jun 23 11:26:53 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000823 Thu Jun 23 11:27:00 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000824 Thu Jun 23 11:27:00 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 159, Reset Flag = 0. Connected UEs = 0 
+000825 Thu Jun 23 11:27:00 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 159. No Connected UEs. Reset Flag = 0
+000826 Thu Jun 23 11:27:00 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 159 
+000827 Thu Jun 23 11:27:12 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000828 Thu Jun 23 11:27:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000829 Thu Jun 23 11:27:13 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000830 Thu Jun 23 11:27:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000831 Thu Jun 23 11:27:13 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000832 Thu Jun 23 11:27:21 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000833 Thu Jun 23 11:27:21 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 160, Reset Flag = 0. Connected UEs = 0 
+000834 Thu Jun 23 11:27:21 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 160. No Connected UEs. Reset Flag = 0
+000835 Thu Jun 23 11:27:21 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 160 
+000836 Thu Jun 23 11:27:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000837 Thu Jun 23 11:27:34 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000838 Thu Jun 23 11:27:34 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000839 Thu Jun 23 11:27:34 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000840 Thu Jun 23 11:27:34 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000841 Thu Jun 23 11:27:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000842 Thu Jun 23 11:27:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 161, Reset Flag = 0. Connected UEs = 0 
+000843 Thu Jun 23 11:27:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 161. No Connected UEs. Reset Flag = 0
+000844 Thu Jun 23 11:27:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 161 
+000845 Thu Jun 23 11:27:57 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000846 Thu Jun 23 11:28:10 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000847 Thu Jun 23 11:28:10 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000848 Thu Jun 23 11:28:10 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000849 Thu Jun 23 11:28:10 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000850 Thu Jun 23 11:28:17 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000851 Thu Jun 23 11:28:17 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 162, Reset Flag = 0. Connected UEs = 0 
+000852 Thu Jun 23 11:28:17 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 162. No Connected UEs. Reset Flag = 0
+000853 Thu Jun 23 11:28:17 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 162 
+000854 Thu Jun 23 11:28:30 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000855 Thu Jun 23 11:28:31 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000856 Thu Jun 23 11:28:31 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000857 Thu Jun 23 11:28:31 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000858 Thu Jun 23 11:28:31 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000859 Thu Jun 23 11:28:38 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000860 Thu Jun 23 11:28:38 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 163, Reset Flag = 0. Connected UEs = 0 
+000861 Thu Jun 23 11:28:38 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 163. No Connected UEs. Reset Flag = 0
+000862 Thu Jun 23 11:28:38 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 163 
+000863 Thu Jun 23 11:28:50 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000864 Thu Jun 23 11:28:51 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000865 Thu Jun 23 11:28:51 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000866 Thu Jun 23 11:28:51 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000867 Thu Jun 23 11:28:51 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000868 Thu Jun 23 11:28:59 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000869 Thu Jun 23 11:28:59 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 164, Reset Flag = 0. Connected UEs = 0 
+000870 Thu Jun 23 11:28:59 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 164. No Connected UEs. Reset Flag = 0
+000871 Thu Jun 23 11:28:59 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 164 
+000872 Thu Jun 23 11:29:12 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000873 Thu Jun 23 11:29:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000874 Thu Jun 23 11:29:13 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000875 Thu Jun 23 11:29:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000876 Thu Jun 23 11:29:13 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000877 Thu Jun 23 11:29:20 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000878 Thu Jun 23 11:29:20 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 165, Reset Flag = 0. Connected UEs = 0 
+000879 Thu Jun 23 11:29:20 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 165. No Connected UEs. Reset Flag = 0
+000880 Thu Jun 23 11:29:20 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 165 
+000881 Thu Jun 23 11:29:32 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000882 Thu Jun 23 11:29:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000883 Thu Jun 23 11:29:33 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000884 Thu Jun 23 11:29:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000885 Thu Jun 23 11:29:33 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000886 Thu Jun 23 11:29:41 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000887 Thu Jun 23 11:29:41 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 166, Reset Flag = 0. Connected UEs = 0 
+000888 Thu Jun 23 11:29:41 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 166. No Connected UEs. Reset Flag = 0
+000889 Thu Jun 23 11:29:41 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 166 
+000890 Thu Jun 23 11:29:53 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000891 Thu Jun 23 11:29:54 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000892 Thu Jun 23 11:29:54 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000893 Thu Jun 23 11:29:54 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000894 Thu Jun 23 11:29:54 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000895 Thu Jun 23 11:30:02 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000896 Thu Jun 23 11:30:02 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 167, Reset Flag = 0. Connected UEs = 0 
+000897 Thu Jun 23 11:30:02 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 167. No Connected UEs. Reset Flag = 0
+000898 Thu Jun 23 11:30:02 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 167 
+000899 Thu Jun 23 11:30:14 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000900 Thu Jun 23 11:30:15 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000901 Thu Jun 23 11:30:15 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000902 Thu Jun 23 11:30:15 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000903 Thu Jun 23 11:30:15 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000904 Thu Jun 23 11:30:23 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000905 Thu Jun 23 11:30:23 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 168, Reset Flag = 0. Connected UEs = 0 
+000906 Thu Jun 23 11:30:23 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 168. No Connected UEs. Reset Flag = 0
+000907 Thu Jun 23 11:30:23 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 168 
+000908 Thu Jun 23 11:30:35 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000909 Thu Jun 23 11:30:36 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000910 Thu Jun 23 11:30:36 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000911 Thu Jun 23 11:30:36 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000912 Thu Jun 23 11:30:36 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000913 Thu Jun 23 11:30:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000914 Thu Jun 23 11:30:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 169, Reset Flag = 0. Connected UEs = 0 
+000915 Thu Jun 23 11:30:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 169. No Connected UEs. Reset Flag = 0
+000916 Thu Jun 23 11:30:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 169 
+000917 Thu Jun 23 11:30:56 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000918 Thu Jun 23 11:30:57 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000919 Thu Jun 23 11:30:57 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000920 Thu Jun 23 11:30:57 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000921 Thu Jun 23 11:30:57 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000922 Thu Jun 23 11:31:04 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000923 Thu Jun 23 11:31:04 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 170, Reset Flag = 0. Connected UEs = 0 
+000924 Thu Jun 23 11:31:04 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 170. No Connected UEs. Reset Flag = 0
+000925 Thu Jun 23 11:31:04 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 170 
+000926 Thu Jun 23 11:31:16 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000927 Thu Jun 23 11:31:18 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000928 Thu Jun 23 11:31:18 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000929 Thu Jun 23 11:31:18 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000930 Thu Jun 23 11:31:18 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000931 Thu Jun 23 11:31:25 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000932 Thu Jun 23 11:31:25 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 171, Reset Flag = 0. Connected UEs = 0 
+000933 Thu Jun 23 11:31:25 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 171. No Connected UEs. Reset Flag = 0
+000934 Thu Jun 23 11:31:25 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 171 
+000935 Thu Jun 23 11:31:37 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000936 Thu Jun 23 11:31:38 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000937 Thu Jun 23 11:31:38 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000938 Thu Jun 23 11:31:38 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000939 Thu Jun 23 11:31:38 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000940 Thu Jun 23 11:31:46 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000941 Thu Jun 23 11:31:46 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 172, Reset Flag = 0. Connected UEs = 0 
+000942 Thu Jun 23 11:31:46 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 172. No Connected UEs. Reset Flag = 0
+000943 Thu Jun 23 11:31:46 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 172 
+000944 Thu Jun 23 11:31:59 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000945 Thu Jun 23 11:31:59 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000946 Thu Jun 23 11:32:00 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000947 Thu Jun 23 11:32:00 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000948 Thu Jun 23 11:32:00 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000949 Thu Jun 23 11:32:00 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000950 Thu Jun 23 11:32:00 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000951 Thu Jun 23 11:32:00 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000952 Thu Jun 23 11:32:00 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000953 Thu Jun 23 11:32:00 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000954 Thu Jun 23 11:32:07 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000955 Thu Jun 23 11:32:07 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 173, Reset Flag = 0. Connected UEs = 0 
+000956 Thu Jun 23 11:32:07 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 173. No Connected UEs. Reset Flag = 0
+000957 Thu Jun 23 11:32:07 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 173 
+000958 Thu Jun 23 11:32:07 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000959 Thu Jun 23 11:32:07 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 174, Reset Flag = 0. Connected UEs = 0 
+000960 Thu Jun 23 11:32:07 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 174. No Connected UEs. Reset Flag = 0
+000961 Thu Jun 23 11:32:07 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 174 
+000962 Thu Jun 23 11:32:20 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000963 Thu Jun 23 11:32:21 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000964 Thu Jun 23 11:32:21 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000965 Thu Jun 23 11:32:21 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000966 Thu Jun 23 11:32:21 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000967 Thu Jun 23 11:32:28 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000968 Thu Jun 23 11:32:28 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 175, Reset Flag = 0. Connected UEs = 0 
+000969 Thu Jun 23 11:32:28 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 175. No Connected UEs. Reset Flag = 0
+000970 Thu Jun 23 11:32:28 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 175 
+000971 Thu Jun 23 11:32:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000972 Thu Jun 23 11:32:42 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000973 Thu Jun 23 11:32:42 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000974 Thu Jun 23 11:32:42 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000975 Thu Jun 23 11:32:42 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000976 Thu Jun 23 11:32:49 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000977 Thu Jun 23 11:32:49 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 176, Reset Flag = 0. Connected UEs = 0 
+000978 Thu Jun 23 11:32:49 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 176. No Connected UEs. Reset Flag = 0
+000979 Thu Jun 23 11:32:49 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 176 
+000980 Thu Jun 23 11:33:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000981 Thu Jun 23 11:33:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000982 Thu Jun 23 11:33:13 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000983 Thu Jun 23 11:33:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000984 Thu Jun 23 11:33:13 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000985 Thu Jun 23 11:33:21 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000986 Thu Jun 23 11:33:21 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 177, Reset Flag = 0. Connected UEs = 0 
+000987 Thu Jun 23 11:33:21 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 177. No Connected UEs. Reset Flag = 0
+000988 Thu Jun 23 11:33:21 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 177 
+000989 Thu Jun 23 11:33:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000990 Thu Jun 23 11:33:34 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+000991 Thu Jun 23 11:33:34 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000992 Thu Jun 23 11:33:34 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000993 Thu Jun 23 11:33:34 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+000994 Thu Jun 23 11:33:42 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+000995 Thu Jun 23 11:33:42 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 178, Reset Flag = 0. Connected UEs = 0 
+000996 Thu Jun 23 11:33:42 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 178. No Connected UEs. Reset Flag = 0
+000997 Thu Jun 23 11:33:42 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 178 
+000998 Thu Jun 23 11:33:54 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+000999 Thu Jun 23 11:33:55 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001000 Thu Jun 23 11:33:55 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001001 Thu Jun 23 11:33:55 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001002 Thu Jun 23 11:33:55 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001003 Thu Jun 23 11:34:03 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001004 Thu Jun 23 11:34:03 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 179, Reset Flag = 0. Connected UEs = 0 
+001005 Thu Jun 23 11:34:03 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 179. No Connected UEs. Reset Flag = 0
+001006 Thu Jun 23 11:34:03 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 179 
+001007 Thu Jun 23 11:34:15 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001008 Thu Jun 23 11:34:16 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001009 Thu Jun 23 11:34:16 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001010 Thu Jun 23 11:34:16 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001011 Thu Jun 23 11:34:16 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001012 Thu Jun 23 11:34:24 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001013 Thu Jun 23 11:34:24 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 180, Reset Flag = 0. Connected UEs = 0 
+001014 Thu Jun 23 11:34:24 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 180. No Connected UEs. Reset Flag = 0
+001015 Thu Jun 23 11:34:24 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 180 
+001016 Thu Jun 23 11:34:36 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001017 Thu Jun 23 11:34:37 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001018 Thu Jun 23 11:34:37 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001019 Thu Jun 23 11:34:37 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001020 Thu Jun 23 11:34:37 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001021 Thu Jun 23 11:34:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001022 Thu Jun 23 11:34:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 181, Reset Flag = 0. Connected UEs = 0 
+001023 Thu Jun 23 11:34:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 181. No Connected UEs. Reset Flag = 0
+001024 Thu Jun 23 11:34:44 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 181 
+001025 Thu Jun 23 11:34:57 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001026 Thu Jun 23 11:34:58 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001027 Thu Jun 23 11:34:58 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001028 Thu Jun 23 11:34:58 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001029 Thu Jun 23 11:34:58 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001030 Thu Jun 23 11:35:05 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001031 Thu Jun 23 11:35:05 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 182, Reset Flag = 0. Connected UEs = 0 
+001032 Thu Jun 23 11:35:05 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 182. No Connected UEs. Reset Flag = 0
+001033 Thu Jun 23 11:35:05 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 182 
+001034 Thu Jun 23 11:35:17 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001035 Thu Jun 23 11:35:18 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001036 Thu Jun 23 11:35:18 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001037 Thu Jun 23 11:35:18 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001038 Thu Jun 23 11:35:18 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001039 Thu Jun 23 11:35:26 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001040 Thu Jun 23 11:35:26 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 183, Reset Flag = 0. Connected UEs = 0 
+001041 Thu Jun 23 11:35:26 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 183. No Connected UEs. Reset Flag = 0
+001042 Thu Jun 23 11:35:26 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 183 
+001043 Thu Jun 23 11:35:38 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001044 Thu Jun 23 11:35:50 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001045 Thu Jun 23 11:35:50 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001046 Thu Jun 23 11:35:50 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001047 Thu Jun 23 11:35:50 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001048 Thu Jun 23 11:35:58 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001049 Thu Jun 23 11:35:58 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 184, Reset Flag = 0. Connected UEs = 0 
+001050 Thu Jun 23 11:35:58 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 184. No Connected UEs. Reset Flag = 0
+001051 Thu Jun 23 11:35:58 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 184 
+001052 Thu Jun 23 11:36:10 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001053 Thu Jun 23 11:36:11 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001054 Thu Jun 23 11:36:11 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001055 Thu Jun 23 11:36:11 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001056 Thu Jun 23 11:36:11 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001057 Thu Jun 23 11:36:19 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001058 Thu Jun 23 11:36:19 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 185, Reset Flag = 0. Connected UEs = 0 
+001059 Thu Jun 23 11:36:19 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 185. No Connected UEs. Reset Flag = 0
+001060 Thu Jun 23 11:36:19 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 185 
+001061 Thu Jun 23 11:36:31 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001062 Thu Jun 23 11:36:31 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001063 Thu Jun 23 11:36:32 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001064 Thu Jun 23 11:36:32 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001065 Thu Jun 23 11:36:32 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001066 Thu Jun 23 11:36:32 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001067 Thu Jun 23 11:36:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001068 Thu Jun 23 11:36:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 186, Reset Flag = 0. Connected UEs = 0 
+001069 Thu Jun 23 11:36:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 186. No Connected UEs. Reset Flag = 0
+001070 Thu Jun 23 11:36:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 186 
+001071 Thu Jun 23 11:36:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001072 Thu Jun 23 11:36:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 187, Reset Flag = 0. Connected UEs = 0 
+001073 Thu Jun 23 11:36:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 187. No Connected UEs. Reset Flag = 0
+001074 Thu Jun 23 11:36:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 187 
+001075 Thu Jun 23 11:36:52 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001076 Thu Jun 23 11:36:53 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001077 Thu Jun 23 11:36:53 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001078 Thu Jun 23 11:36:53 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001079 Thu Jun 23 11:36:53 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001080 Thu Jun 23 11:37:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001081 Thu Jun 23 11:37:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 188, Reset Flag = 0. Connected UEs = 0 
+001082 Thu Jun 23 11:37:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 188. No Connected UEs. Reset Flag = 0
+001083 Thu Jun 23 11:37:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 188 
+001084 Thu Jun 23 11:37:13 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001085 Thu Jun 23 11:37:25 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001086 Thu Jun 23 11:37:25 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001087 Thu Jun 23 11:37:25 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001088 Thu Jun 23 11:37:25 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001089 Thu Jun 23 11:37:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001090 Thu Jun 23 11:37:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 189, Reset Flag = 0. Connected UEs = 0 
+001091 Thu Jun 23 11:37:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 189. No Connected UEs. Reset Flag = 0
+001092 Thu Jun 23 11:37:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 189 
+001093 Thu Jun 23 11:37:45 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001094 Thu Jun 23 11:37:46 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001095 Thu Jun 23 11:37:46 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001096 Thu Jun 23 11:37:46 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001097 Thu Jun 23 11:37:46 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001098 Thu Jun 23 11:37:53 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001099 Thu Jun 23 11:37:53 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 190, Reset Flag = 0. Connected UEs = 0 
+001100 Thu Jun 23 11:37:53 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 190. No Connected UEs. Reset Flag = 0
+001101 Thu Jun 23 11:37:53 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 190 
+001102 Thu Jun 23 11:38:06 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001103 Thu Jun 23 11:38:07 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001104 Thu Jun 23 11:38:07 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001105 Thu Jun 23 11:38:07 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001106 Thu Jun 23 11:38:07 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001107 Thu Jun 23 11:38:14 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001108 Thu Jun 23 11:38:14 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 191, Reset Flag = 0. Connected UEs = 0 
+001109 Thu Jun 23 11:38:14 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 191. No Connected UEs. Reset Flag = 0
+001110 Thu Jun 23 11:38:14 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 191 
+001111 Thu Jun 23 11:38:27 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001112 Thu Jun 23 11:38:39 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001113 Thu Jun 23 11:38:39 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001114 Thu Jun 23 11:38:39 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001115 Thu Jun 23 11:38:39 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001116 Thu Jun 23 11:38:47 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001117 Thu Jun 23 11:38:47 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 192, Reset Flag = 0. Connected UEs = 0 
+001118 Thu Jun 23 11:38:47 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 192. No Connected UEs. Reset Flag = 0
+001119 Thu Jun 23 11:38:47 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 192 
+001120 Thu Jun 23 11:39:00 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001121 Thu Jun 23 11:39:00 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001122 Thu Jun 23 11:39:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001123 Thu Jun 23 11:39:01 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001124 Thu Jun 23 11:39:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001125 Thu Jun 23 11:39:01 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001126 Thu Jun 23 11:39:08 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001127 Thu Jun 23 11:39:08 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 193, Reset Flag = 0. Connected UEs = 0 
+001128 Thu Jun 23 11:39:08 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 193. No Connected UEs. Reset Flag = 0
+001129 Thu Jun 23 11:39:08 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 193 
+001130 Thu Jun 23 11:39:08 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001131 Thu Jun 23 11:39:08 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 194, Reset Flag = 0. Connected UEs = 0 
+001132 Thu Jun 23 11:39:08 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 194. No Connected UEs. Reset Flag = 0
+001133 Thu Jun 23 11:39:08 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 194 
+001134 Thu Jun 23 11:39:21 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001135 Thu Jun 23 11:39:22 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001136 Thu Jun 23 11:39:22 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001137 Thu Jun 23 11:39:22 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001138 Thu Jun 23 11:39:22 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001139 Thu Jun 23 11:39:29 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001140 Thu Jun 23 11:39:29 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 195, Reset Flag = 0. Connected UEs = 0 
+001141 Thu Jun 23 11:39:29 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 195. No Connected UEs. Reset Flag = 0
+001142 Thu Jun 23 11:39:29 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 195 
+001143 Thu Jun 23 11:39:42 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001144 Thu Jun 23 11:39:43 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001145 Thu Jun 23 11:39:43 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001146 Thu Jun 23 11:39:43 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001147 Thu Jun 23 11:39:43 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001148 Thu Jun 23 11:39:50 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001149 Thu Jun 23 11:39:50 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 196, Reset Flag = 0. Connected UEs = 0 
+001150 Thu Jun 23 11:39:50 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 196. No Connected UEs. Reset Flag = 0
+001151 Thu Jun 23 11:39:50 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 196 
+001152 Thu Jun 23 11:40:03 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001153 Thu Jun 23 11:40:04 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001154 Thu Jun 23 11:40:04 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001155 Thu Jun 23 11:40:04 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001156 Thu Jun 23 11:40:04 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001157 Thu Jun 23 11:40:12 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001158 Thu Jun 23 11:40:12 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 197, Reset Flag = 0. Connected UEs = 0 
+001159 Thu Jun 23 11:40:12 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 197. No Connected UEs. Reset Flag = 0
+001160 Thu Jun 23 11:40:12 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 197 
+001161 Thu Jun 23 11:40:24 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001162 Thu Jun 23 11:40:25 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001163 Thu Jun 23 11:40:25 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001164 Thu Jun 23 11:40:25 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001165 Thu Jun 23 11:40:25 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001166 Thu Jun 23 11:40:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001167 Thu Jun 23 11:40:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 198, Reset Flag = 0. Connected UEs = 0 
+001168 Thu Jun 23 11:40:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 198. No Connected UEs. Reset Flag = 0
+001169 Thu Jun 23 11:40:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 198 
+001170 Thu Jun 23 11:40:45 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001171 Thu Jun 23 11:40:46 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001172 Thu Jun 23 11:40:46 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001173 Thu Jun 23 11:40:46 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001174 Thu Jun 23 11:40:46 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001175 Thu Jun 23 11:40:54 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001176 Thu Jun 23 11:40:54 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 199, Reset Flag = 0. Connected UEs = 0 
+001177 Thu Jun 23 11:40:54 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 199. No Connected UEs. Reset Flag = 0
+001178 Thu Jun 23 11:40:54 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 199 
+001179 Thu Jun 23 11:41:06 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001180 Thu Jun 23 11:41:07 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001181 Thu Jun 23 11:41:07 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001182 Thu Jun 23 11:41:07 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001183 Thu Jun 23 11:41:07 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001184 Thu Jun 23 11:41:15 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001185 Thu Jun 23 11:41:15 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 200, Reset Flag = 0. Connected UEs = 0 
+001186 Thu Jun 23 11:41:15 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 200. No Connected UEs. Reset Flag = 0
+001187 Thu Jun 23 11:41:15 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 200 
+001188 Thu Jun 23 11:41:28 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001189 Thu Jun 23 11:41:28 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001190 Thu Jun 23 11:41:29 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001191 Thu Jun 23 11:41:29 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001192 Thu Jun 23 11:41:29 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001193 Thu Jun 23 11:41:29 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001194 Thu Jun 23 11:41:36 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001195 Thu Jun 23 11:41:36 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 201, Reset Flag = 0. Connected UEs = 0 
+001196 Thu Jun 23 11:41:36 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 201. No Connected UEs. Reset Flag = 0
+001197 Thu Jun 23 11:41:36 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 201 
+001198 Thu Jun 23 11:41:36 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001199 Thu Jun 23 11:41:36 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 202, Reset Flag = 0. Connected UEs = 0 
+001200 Thu Jun 23 11:41:36 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 202. No Connected UEs. Reset Flag = 0
+001201 Thu Jun 23 11:41:36 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 202 
+001202 Thu Jun 23 11:41:49 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001203 Thu Jun 23 11:41:50 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001204 Thu Jun 23 11:41:50 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001205 Thu Jun 23 11:41:50 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001206 Thu Jun 23 11:41:50 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001207 Thu Jun 23 11:41:57 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001208 Thu Jun 23 11:41:57 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 203, Reset Flag = 0. Connected UEs = 0 
+001209 Thu Jun 23 11:41:57 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 203. No Connected UEs. Reset Flag = 0
+001210 Thu Jun 23 11:41:57 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 203 
+001211 Thu Jun 23 11:42:10 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001212 Thu Jun 23 11:42:11 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001213 Thu Jun 23 11:42:11 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001214 Thu Jun 23 11:42:11 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001215 Thu Jun 23 11:42:11 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001216 Thu Jun 23 11:42:19 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001217 Thu Jun 23 11:42:19 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 204, Reset Flag = 0. Connected UEs = 0 
+001218 Thu Jun 23 11:42:19 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 204. No Connected UEs. Reset Flag = 0
+001219 Thu Jun 23 11:42:19 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 204 
+001220 Thu Jun 23 11:42:32 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001221 Thu Jun 23 11:42:32 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001222 Thu Jun 23 11:42:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001223 Thu Jun 23 11:42:33 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001224 Thu Jun 23 11:42:33 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001225 Thu Jun 23 11:42:33 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001226 Thu Jun 23 11:42:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001227 Thu Jun 23 11:42:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 205, Reset Flag = 0. Connected UEs = 0 
+001228 Thu Jun 23 11:42:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 205. No Connected UEs. Reset Flag = 0
+001229 Thu Jun 23 11:42:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 205 
+001230 Thu Jun 23 11:42:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001231 Thu Jun 23 11:42:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 206, Reset Flag = 0. Connected UEs = 0 
+001232 Thu Jun 23 11:42:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 206. No Connected UEs. Reset Flag = 0
+001233 Thu Jun 23 11:42:40 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 206 
+001234 Thu Jun 23 11:42:53 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001235 Thu Jun 23 11:42:54 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001236 Thu Jun 23 11:42:54 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001237 Thu Jun 23 11:42:54 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001238 Thu Jun 23 11:42:54 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001239 Thu Jun 23 11:43:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001240 Thu Jun 23 11:43:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 207, Reset Flag = 0. Connected UEs = 0 
+001241 Thu Jun 23 11:43:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 207. No Connected UEs. Reset Flag = 0
+001242 Thu Jun 23 11:43:01 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 207 
+001243 Thu Jun 23 11:43:14 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[112] name:[SCTP_NEW_ASSOCIATION]
+001244 Thu Jun 23 11:43:15 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[110] name:[SCTP_DATA_IND]
+001245 Thu Jun 23 11:43:15 2022 7F2692AE7700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001246 Thu Jun 23 11:43:15 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001247 Thu Jun 23 11:43:15 2022 7F2692AE7700 ERROR NGAP   tasks/ngap/ngap_amf_handlers.c  :0422    No Common PLMN with gNB, generate_ng_setup_failure : -1
+001248 Thu Jun 23 11:43:22 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_CLOSE_ASSOCIATION]
+001249 Thu Jun 23 11:43:22 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1512    SCTP disconnection request for association id 208, Reset Flag = 0. Connected UEs = 0 
+001250 Thu Jun 23 11:43:22 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1530    SCTP Shutdown request for association id 208. No Connected UEs. Reset Flag = 0
+001251 Thu Jun 23 11:43:22 2022 7F2692AE7700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1536    Removing gNB with association id 208 
