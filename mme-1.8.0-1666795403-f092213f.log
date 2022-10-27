@@ -1,0 +1,1175 @@
+000207 Thu Oct 27 03:19:04 2022 7F57F77F1980 ERROR MME-AP tasks/mme_app/mme_app_state_mana:0252    persist_state_enabled is not enabled 
+000208 Thu Oct 27 03:19:04 2022 7F57F77F1980 INFO  NAS    tasks/nas/api/mme/mme_api.cpp   :0116    Number of GUMMEIs supported = 1
+000209 Thu Oct 27 03:19:04 2022 7F57F77F1980 INFO  GTPv1- tasks/gtpv1-u/gtp_tunnel_openflo:0268    Using GTP type: gtpu
+000210 Thu Oct 27 03:19:04 2022 7F57F77F1980 INFO  GTPv1- lib/openflow/controller/Controll:0073    Started openflow controller
+000211 Thu Oct 27 03:19:04 2022 7F57F77F1980 INFO  GTPv1- lib/openflow/controller/Openflow:0131    Openflow controller is waiting for 300 seconds to establish connection with Switch 
+000212 Thu Oct 27 03:19:11 2022 7F57ECEEC700 INFO  GTPv1- lib/openflow/controller/Openflow:0074    Openflow controller connected to switch 
+000213 Thu Oct 27 03:19:11 2022 7F57ECEEC700 INFO  GTPv1- lib/openflow/controller/Openflow:0079    Send signal that Controller is connected to switch to all waiting threads 
+000214 Thu Oct 27 03:19:11 2022 7F57F77F1980 DEBUG SGW_S8 tasks/sgw_s8/sgw_s8_task.cpp    :0053    Initializing SGW-S8 interface
+000215 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SGW_S8 tasks/sgw_s8/sgw_s8_state_manage:0056    Creating SGW_S8 state 
+000216 Thu Oct 27 03:19:11 2022 7F57F77F1980 DEBUG SGW_S8 tasks/sgw_s8/sgw_s8_task.cpp    :0063    Done initialization of SGW_S8 interface
+000217 Thu Oct 27 03:19:11 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [111]-[SCTP_INIT_MSG]
+000218 Thu Oct 27 03:19:11 2022 7F57E86E3700 INFO  SPGW-A tasks/grpc_service/grpc_service.:0065    Starting service at : 127.0.0.1:50073
+000219 Thu Oct 27 03:19:11 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[118] name:[SCTP_AMF_SERVER_INITIALIZED]
+000220 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1773    ==== EURECOM MME v0.1 ====
+000221 Thu Oct 27 03:19:11 2022 7F57F77F1980 DEBUG CONFIG tasks/mme_app/mme_config.c      :1775    Built with EMBEDDED_SGW .................: 1
+000222 Thu Oct 27 03:19:11 2022 7F57F77F1980 DEBUG CONFIG tasks/mme_app/mme_config.c      :1777    Built with S6A_OVER_GRPC .....................: 1
+000223 Thu Oct 27 03:19:11 2022 7F57F77F1980 DEBUG CONFIG tasks/mme_app/mme_config.c      :1781    Built with CMAKE_BUILD_TYPE ................: RelWithDebInfo
+000224 Thu Oct 27 03:19:11 2022 7F57F77F1980 DEBUG CONFIG tasks/mme_app/mme_config.c      :1783    Built with PACKAGE_NAME ....................: MME
+000225 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1786    Configuration:
+000226 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1787    - File .................................: /var/opt/magma/tmp/mme.conf
+000227 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1789    - Realm ................................: magma.com
+000228 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1791      full network name ....................: (null)
+000229 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1793      short network name ...................: (null)
+000230 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1795      Daylight Saving Time..................: 0
+000231 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1797    - Run mode .............................: TEST
+000232 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1799    - Max eNBs .............................: 8
+000233 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1801    - Max UEs ..............................: 16
+000234 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1803    - IMS voice over PS session in S1 ......: false
+000235 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1809    - Emergency bearer services in S1 mode .: false
+000236 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1814    - Location services via epc ............: false
+000237 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1819    - Extended service request .............: false
+000239 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1824    - Unauth IMSI support ..................: false
+000238 Thu Oct 27 03:19:11 2022 7F57E7EE2700 INFO  S6A    tasks/async_grpc_service/grpc_as:0215    Started async grpc server for s6a interface 
+000240 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1827    - Relative capa ........................: 10
+000241 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1829    - Statistics timer .....................: 60 (seconds)
+000242 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1832    - Congestion control enabled ........................: false
+000243 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1835    - S1AP ZMQ Threshold ...........................:    2000000 (microseconds)
+000244 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1839    - MME APP ZMQ Congestion Threshold .............:     200000 (microseconds)
+000245 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1843    - MME APP ZMQ Auth Complete Threshold...........:     200000 (microseconds)
+000246 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1847    - MME APP ZMQ Identity Complete Threshold.......:     400000 (microseconds)
+000247 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1851    - MME APP ZMQ SMC Complete Threshold ...........:    1000000 (microseconds)
+000248 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1855    - Use Stateless ........................: false
+000249 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1857    - enable5g_features .......: true
+000250 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1859    - CSFB:
+000251 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1860        Non EPS Service Control ........................: OFF
+000252 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1863    - S1-MME:
+000253 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1864        port number ......: 36412
+000254 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1866    - IP:
+000255 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1867        s1-MME iface .....: eth1
+000256 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1869        s1-MME ip ........: 172.16.5.121
+000257 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1878        s11 MME iface ....: eth1
+000258 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1880        s11 MME port .....: 2123
+000259 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1882        s11 MME ip .......: 172.16.5.121
+000260 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1898      Address : Unknown address family 0
+000261 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1902    - Sentry:
+000262 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1903        sample rate ......: 0.000000
+000263 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1905        upload MME log ...: 0
+000264 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1907        URL native .......: 
+000265 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1910    - ITTI:
+000266 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1911        queue size .......: 2000000 (bytes)
+000267 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1913        log file .........: (null)
+000268 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1915    - SCTP:
+000269 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1916      upstream_sctp_sock..: unix:///tmp/sctpd_upstream.sock
+000270 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1918     downstream_sctp_sock.: unix:///tmp/sctpd_downstream.sock
+000271 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1920    - GUMMEIs (PLMN|MMEGI|MMEC):
+000272 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1922                222.70 |1|1 
+000273 Thu Oct 27 03:19:11 2022 7F57F77F1980 DEBUG CONFIG tasks/mme_app/mme_config.c      :1927    - PARTIAL TAIs
+000274 Thu Oct 27 03:19:11 2022 7F57F77F1980 DEBUG CONFIG tasks/mme_app/mme_config.c      :1928    - Num of partial lists=1
+000275 Thu Oct 27 03:19:11 2022 7F57F77F1980 DEBUG CONFIG tasks/mme_app/mme_config.c      :1934    - List [0] - TAI list type one PLMN consecutive TACs
+000276 Thu Oct 27 03:19:11 2022 7F57F77F1980 DEBUG CONFIG tasks/mme_app/mme_config.c      :1958    - Num of elements in list[0]=1
+000277 Thu Oct 27 03:19:11 2022 7F57F77F1980 DEBUG CONFIG tasks/mme_app/mme_config.c      :1964                MCC1=2	MCC2=2	MCC3=2	MNC1=7	MNC2=0	MNC3=15	TAC=1
+000278 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1997    - NAS:
+000279 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :1998        Preferred Integrity Algorithms .: EIA2 EIA1 EIA0 EIA0 (decreasing priority)
+000280 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2006        Preferred Integrity Algorithms .: EEA0 EEA1 EEA2 EEA0 (decreasing priority)
+000281 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2014        T3402 ....: 1 min
+000282 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2016        T3412 ....: 54 min
+000283 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2018        T3422 ....: 6 sec
+000284 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2020        T3450 ....: 6 sec
+000285 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2022        T3460 ....: 6 sec
+000286 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2024        T3470 ....: 6 sec
+000287 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2026        T3485 ....: 8 sec
+000288 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2028        T3486 ....: 8 sec
+000289 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2030        T3489 ....: 4 sec
+000290 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2032        T3495 ....: 8 sec
+000291 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2034        NAS non standard features .:
+000292 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2035          Force reject TAU ............: true
+000293 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2037          Force reject SR .............: true
+000294 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2039          Disable Esm information .....: false
+000295 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2042          Enable APN Correction .......: false
+000296 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2045          APN CORRECTION MAP LIST (IMSI_PREFIX | APN_OVERRIDE):
+000297 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2054    - S6A:
+000298 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2056        protocol .........: gRPC
+000299 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2062    - Service303:
+000300 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2063        service name ........: mme
+000301 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2065        version ........: 1.0
+000302 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2067    - Logging:
+000303 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2068        Output ..............: /var/log/mme.log
+000304 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2070        Output thread safe ..: false
+000305 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2072        Output with color ...: false
+000306 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2074        UDP log level........: INFO
+000307 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2076        GTPV1-U log level....: INFO
+000308 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2078        GTPV2-C log level....: INVALID_LOG_LEVEL
+000309 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2080        SCTP log level.......: INFO
+000310 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2082        S1AP log level.......: INFO
+000311 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2084        ASN1 Verbosity level : 0
+000312 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2086        NAS log level........: INFO
+000313 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2088        MME_APP log level....: INFO
+000314 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2090        SPGW_APP log level....: INFO
+000315 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2092        S11 log level........: INVALID_LOG_LEVEL
+000316 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2094        S6a log level........: INFO
+000317 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2096        UTIL log level.......: INFO
+000318 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  CONFIG tasks/mme_app/mme_config.c      :2098        ITTI log level.......: ERROR (InTer-Task Interface)
+000319 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0384    ==== EURECOM S/P-GW v0.1 ====
+000320 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0386    Configuration:
+000321 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0387    - File .................................: /var/opt/magma/tmp/spgw.conf
+000322 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0390    - S1-U:
+000323 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0391        port number ......: 2152
+000324 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0393        S1u_S12_S4 iface .....: eth1
+000325 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0395        S1u_S12_S4 ip ........: 172.16.5.121/22
+000326 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0404    - S5-S8:
+000327 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0405        S5_S8 iface ..........: eth0
+000328 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0407        S5_S8 ip .............: 172.16.5.100/22
+000329 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0410    - S11:
+000330 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0411        S11 iface ............: lo
+000331 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0413        S11 ip ...............: 127.0.0.1/8
+000332 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0415    - ITTI:
+000333 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0416        queue size .......: 0 (bytes)
+000334 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0418        log file .........: (null)
+000335 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0516    ==== EURECOM S/P-GW v0.1 ====
+000336 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0518    Configuration:
+000337 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0519    - File .................................: /var/opt/magma/tmp/spgw.conf
+000338 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0522    - S5-S8:
+000339 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0523        S5_S8 iface ..........: none
+000340 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0525        S5_S8 ip  (read)......: 0.0.0.0
+000341 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0527        S5_S8 MTU (read)......: 0
+000342 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0529    - SGi:
+000343 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0530        SGi iface ............: gtp_br0
+000344 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0532        SGi MTU (read)........: 1500
+000345 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0534        NAT ..................: true
+000346 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0536        User TCP MSS clamping : true
+000347 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0538        User IP masquerading  : false
+000348 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0540    - PCEF support ...........: false (in development)
+000349 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0582    - DNS Configuration:
+000350 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0583        IPv4 Primary Address ..........: 8.8.8.8
+000351 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0585        IPv4 Secondary Address ..........: 8.8.4.4
+000352 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0587    - Helpers:
+000353 Thu Oct 27 03:19:11 2022 7F57F77F1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0588        Push PCO (DNS+MTU) ........: false
+000354 Thu Oct 27 03:19:14 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[115] name:[SCTP_NEW_ASSOCIATION]
+000355 Thu Oct 27 03:19:15 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000356 Thu Oct 27 03:19:15 2022 7F57E9EE6700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000357 Thu Oct 27 03:19:15 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000358 Thu Oct 27 03:19:15 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000359 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000360 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [88]-[NGAP_INITIAL_UE_MESSAGE]
+000361 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+000362 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000363 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+000364 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+000365 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000366 Thu Oct 27 03:19:16 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 1X 
+000367 Thu Oct 27 03:19:16 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0292   [222700000000001]  No IMSI hashtable for this IMSI
+000368 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+000369 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [222700000000001] auth-info
+000370 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+000371 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+000372 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000373 Thu Oct 27 03:19:16 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 1
+000374 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000375 Thu Oct 27 03:19:16 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 1 AMF_UE_NGAP_ID = 1 gNB_UE_NGAP_ID = 33
+000376 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000377 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000378 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000379 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000380 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+000381 Thu Oct 27 03:19:16 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_authentication.cpp:0569    Failed to start identity procedure for ue_id 1
+000382 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 0 count 0
+000383 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 4c.a7.c5.36(918923084) for length 10, direction 1, count 0
+000384 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+000385 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000386 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000387 Thu Oct 27 03:19:16 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 1 AMF_UE_NGAP_ID = 1 gNB_UE_NGAP_ID = 33
+000388 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000389 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000390 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000391 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000392 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 0 count 0
+000393 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 85.5f.ad.95(2511167365) for length 4, direction 0, count 0
+000394 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+000395 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1014    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 1
+000396 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1022    IMSI HANDLED =222700000000001
+000397 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [222700000000001] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+000398 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+000399 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+000400 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+000401 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 1 count 1
+000402 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC ae.43.34.42(1110721454) for length 40, direction 1, count 1
+000403 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+000404 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000405 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000406 Thu Oct 27 03:19:16 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0878   [222700000000001] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 1 gNB_UE_NGAP_ID = 33
+000407 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000408 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000409 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [133]-[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+000410 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+000411 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [222700000000001] UE STATE - CONNECTED.
+000412 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000413 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000414 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000415 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 1 count 1
+000416 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 53.28.a9.4b(1269377107) for length 4, direction 0, count 1
+000417 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [43]-name [REG_COMPLETE]
+000418 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+000419 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000420 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :0952    UE CONTEXT RELEASE REQUEST with Cause_Type = Radio Network and Cause_Value = 6
+000421 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [84]-[NGAP_UE_CONTEXT_RELEASE_REQ]
+000422 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[84] name:[NGAP_UE_CONTEXT_RELEASE_REQ]
+000423 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_CONTEXT_RELEASE] Event triggered, UE switches from [REGISTERED_CONNECTED] to [REGISTERED_IDLE] and PDU session :[SESSION_NULL]
+000424 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_msg.cpp       :0049   [222700000000001] Sending UE Context Release Cmd to NGAP for (ue_id = 1)
+000425 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [85]-[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+000426 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[85] name:[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+000427 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000428 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [86]-[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+000429 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[86] name:[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+000430 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_handler.cpp   :1403    Received UE context release complete message for ue_id: 1
+000431 Thu Oct 27 03:19:16 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :1432    Fail to delete UE context associated in AMF for amf_ue_ngap_id 1mm_state=1
+000432 Thu Oct 27 03:19:16 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0816   [222700000000001] UE STATE - IDLE.
+000433 Thu Oct 27 03:19:16 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000434 Thu Oct 27 03:19:18 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000435 Thu Oct 27 03:19:18 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [88]-[NGAP_INITIAL_UE_MESSAGE]
+000436 Thu Oct 27 03:19:18 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+000437 Thu Oct 27 03:19:18 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000438 Thu Oct 27 03:19:18 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+000439 Thu Oct 27 03:19:18 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type PERIODIC UPDATING REGISTRATION TYPE
+000440 Thu Oct 27 03:19:18 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 2X 
+000441 Thu Oct 27 03:19:18 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+000442 Thu Oct 27 03:19:18 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [5b]-name [M5G_IDENTITY_REQUEST]
+000443 Thu Oct 27 03:19:18 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000444 Thu Oct 27 03:19:18 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000445 Thu Oct 27 03:19:18 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000446 Thu Oct 27 03:19:18 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [0] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 2 AMF_UE_NGAP_ID = 2 gNB_UE_NGAP_ID = 34
+000447 Thu Oct 27 03:19:18 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000448 Thu Oct 27 03:19:18 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000449 Thu Oct 27 03:19:18 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000450 Thu Oct 27 03:19:18 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000451 Thu Oct 27 03:19:18 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5c]-name [M5G_IDENTITY_RESPONSE]
+000452 Thu Oct 27 03:19:18 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 2X 
+000453 Thu Oct 27 03:19:18 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [222700000000001] auth-info
+000454 Thu Oct 27 03:19:18 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+000455 Thu Oct 27 03:19:18 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+000456 Thu Oct 27 03:19:18 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000457 Thu Oct 27 03:19:18 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 2
+000458 Thu Oct 27 03:19:18 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000459 Thu Oct 27 03:19:18 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 2 AMF_UE_NGAP_ID = 2 gNB_UE_NGAP_ID = 34
+000460 Thu Oct 27 03:19:18 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000461 Thu Oct 27 03:19:19 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000462 Thu Oct 27 03:19:19 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000463 Thu Oct 27 03:19:19 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000464 Thu Oct 27 03:19:19 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+000465 Thu Oct 27 03:19:19 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0582    AMF-PROC - no identity procedure ongoing 
+000466 Thu Oct 27 03:19:19 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+000467 Thu Oct 27 03:19:19 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000468 Thu Oct 27 03:19:19 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000469 Thu Oct 27 03:19:19 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 2 AMF_UE_NGAP_ID = 2 gNB_UE_NGAP_ID = 34
+000470 Thu Oct 27 03:19:19 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000471 Thu Oct 27 03:19:25 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_security_mode_cont:0222    T3560: Timer expired  for timer id 7 for UE ID 2
+000472 Thu Oct 27 03:19:25 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_security_mode_cont:0231    T3560: Incrementing retransmission_count to 1
+000473 Thu Oct 27 03:19:25 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_security_mode_cont:0239    T3560: timer T3560 has expired for ud id: 2, so retransmitting Security Command Mode request
+000474 Thu Oct 27 03:19:25 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+000475 Thu Oct 27 03:19:25 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000476 Thu Oct 27 03:19:25 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000477 Thu Oct 27 03:19:25 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 2 AMF_UE_NGAP_ID = 2 gNB_UE_NGAP_ID = 34
+000478 Thu Oct 27 03:19:25 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000479 Thu Oct 27 03:19:26 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[116] name:[SCTP_CLOSE_ASSOCIATION]
+000480 Thu Oct 27 03:19:26 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1513    SCTP disconnection request for association id 14861, Reset Flag = 0. Connected UEs = 1 
+000481 Thu Oct 27 03:19:26 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1559    Marked gnb ng status to Shutdown, attached to assoc_id: 14861
+000482 Thu Oct 27 03:19:31 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_security_mode_cont:0222    T3560: Timer expired  for timer id 8 for UE ID 2
+000483 Thu Oct 27 03:19:31 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_security_mode_cont:0231    T3560: Incrementing retransmission_count to 2
+000484 Thu Oct 27 03:19:31 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_security_mode_cont:0239    T3560: timer T3560 has expired for ud id: 2, so retransmitting Security Command Mode request
+000485 Thu Oct 27 03:19:31 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+000486 Thu Oct 27 03:19:31 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000487 Thu Oct 27 03:19:31 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000488 Thu Oct 27 03:19:31 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 2 AMF_UE_NGAP_ID = 2 gNB_UE_NGAP_ID = 34
+000489 Thu Oct 27 03:19:31 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000490 Thu Oct 27 03:19:31 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[114] name:[SCTP_DATA_CNF]
+000491 Thu Oct 27 03:19:31 2022 7F57E9EE6700 ERROR NGAP   tasks/ngap/ngap_amf.c           :0212    Unknown message ID 114:SCTP_DATA_CNF
+000492 Thu Oct 27 03:19:37 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_security_mode_cont:0222    T3560: Timer expired  for timer id 9 for UE ID 2
+000493 Thu Oct 27 03:19:37 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_security_mode_cont:0231    T3560: Incrementing retransmission_count to 3
+000494 Thu Oct 27 03:19:37 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_security_mode_cont:0239    T3560: timer T3560 has expired for ud id: 2, so retransmitting Security Command Mode request
+000495 Thu Oct 27 03:19:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+000496 Thu Oct 27 03:19:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000497 Thu Oct 27 03:19:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000498 Thu Oct 27 03:19:37 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 2 AMF_UE_NGAP_ID = 2 gNB_UE_NGAP_ID = 34
+000499 Thu Oct 27 03:19:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000500 Thu Oct 27 03:19:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[114] name:[SCTP_DATA_CNF]
+000501 Thu Oct 27 03:19:37 2022 7F57E9EE6700 ERROR NGAP   tasks/ngap/ngap_amf.c           :0212    Unknown message ID 114:SCTP_DATA_CNF
+000502 Thu Oct 27 03:19:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[115] name:[SCTP_NEW_ASSOCIATION]
+000503 Thu Oct 27 03:19:40 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000504 Thu Oct 27 03:19:40 2022 7F57E9EE6700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000505 Thu Oct 27 03:19:40 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000506 Thu Oct 27 03:19:40 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000507 Thu Oct 27 03:19:40 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000508 Thu Oct 27 03:19:40 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [88]-[NGAP_INITIAL_UE_MESSAGE]
+000509 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+000510 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000511 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+000512 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+000513 Thu Oct 27 03:19:40 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 3X 
+000514 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+000515 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [222700000000001] auth-info
+000516 Thu Oct 27 03:19:40 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000517 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+000518 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+000519 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000520 Thu Oct 27 03:19:40 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 3
+000521 Thu Oct 27 03:19:40 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000522 Thu Oct 27 03:19:40 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 3 AMF_UE_NGAP_ID = 3 gNB_UE_NGAP_ID = 500
+000523 Thu Oct 27 03:19:40 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000524 Thu Oct 27 03:19:40 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000525 Thu Oct 27 03:19:40 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000526 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000527 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+000528 Thu Oct 27 03:19:40 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_authentication.cpp:0569    Failed to start identity procedure for ue_id 3
+000529 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 0 count 0
+000530 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 31.15.46.13(323360049) for length 10, direction 1, count 0
+000531 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+000532 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000533 Thu Oct 27 03:19:40 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000534 Thu Oct 27 03:19:40 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 3 AMF_UE_NGAP_ID = 3 gNB_UE_NGAP_ID = 500
+000535 Thu Oct 27 03:19:40 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000536 Thu Oct 27 03:19:40 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000537 Thu Oct 27 03:19:40 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000538 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000539 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 0 count 0
+000540 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 85.b4.c5.10(281392261) for length 4, direction 0, count 0
+000541 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+000542 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1014    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 3
+000543 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1022    IMSI HANDLED =222700000000001
+000544 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [222700000000001] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+000545 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+000546 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+000547 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+000548 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 1 count 1
+000549 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 7a.bc.6e.6c(1819196538) for length 40, direction 1, count 1
+000550 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+000551 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000552 Thu Oct 27 03:19:40 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000553 Thu Oct 27 03:19:40 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0878   [222700000000001] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 3 gNB_UE_NGAP_ID = 500
+000554 Thu Oct 27 03:19:40 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000555 Thu Oct 27 03:19:40 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000556 Thu Oct 27 03:19:40 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [133]-[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+000557 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+000558 Thu Oct 27 03:19:40 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [222700000000001] UE STATE - CONNECTED.
+000559 Thu Oct 27 03:19:43 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_security_mode_cont:0222    T3560: Timer expired  for timer id 10 for UE ID 2
+000560 Thu Oct 27 03:19:43 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_security_mode_cont:0231    T3560: Incrementing retransmission_count to 4
+000561 Thu Oct 27 03:19:43 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_security_mode_cont:0239    T3560: timer T3560 has expired for ud id: 2, so retransmitting Security Command Mode request
+000562 Thu Oct 27 03:19:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+000563 Thu Oct 27 03:19:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000564 Thu Oct 27 03:19:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000565 Thu Oct 27 03:19:43 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 2 AMF_UE_NGAP_ID = 2 gNB_UE_NGAP_ID = 34
+000566 Thu Oct 27 03:19:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000567 Thu Oct 27 03:19:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[114] name:[SCTP_DATA_CNF]
+000568 Thu Oct 27 03:19:43 2022 7F57E9EE6700 ERROR NGAP   tasks/ngap/ngap_amf.c           :0212    Unknown message ID 114:SCTP_DATA_CNF
+000569 Thu Oct 27 03:19:46 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/Registration.cpp      :0763    T3550: timer id: 13 expired forue_id=3
+000570 Thu Oct 27 03:19:46 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/Registration.cpp      :0772    T3550: timer has expired retransmitting registration accept
+000571 Thu Oct 27 03:19:46 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 2 count 2
+000572 Thu Oct 27 03:19:46 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC c3.5a.19.18(404314819) for length 40, direction 1, count 2
+000573 Thu Oct 27 03:19:46 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+000574 Thu Oct 27 03:19:46 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000575 Thu Oct 27 03:19:46 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000576 Thu Oct 27 03:19:46 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 3 AMF_UE_NGAP_ID = 3 gNB_UE_NGAP_ID = 500
+000577 Thu Oct 27 03:19:46 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000578 Thu Oct 27 03:19:49 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_security_mode_cont:0222    T3560: Timer expired  for timer id 14 for UE ID 2
+000579 Thu Oct 27 03:19:49 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_security_mode_cont:0231    T3560: Incrementing retransmission_count to 5
+000580 Thu Oct 27 03:19:49 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_security_mode_cont:0250    T3560: Maximum retires: 5 for T3560 done hence Abort the security mode command procedure
+000581 Thu Oct 27 03:19:49 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_msg.cpp       :0049   [222700000000001] Sending UE Context Release Cmd to NGAP for (ue_id = 2)
+000582 Thu Oct 27 03:19:49 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [85]-[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+000583 Thu Oct 27 03:19:49 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[85] name:[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+000584 Thu Oct 27 03:19:49 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000585 Thu Oct 27 03:19:49 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [86]-[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+000586 Thu Oct 27 03:19:49 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0379    Deleting gNB 
+000587 Thu Oct 27 03:19:49 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[86] name:[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+000588 Thu Oct 27 03:19:49 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0363     amf_ue_ngap_id 2does not exist
+000589 Thu Oct 27 03:19:49 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_handler.cpp   :1403    Received UE context release complete message for ue_id: 2
+000590 Thu Oct 27 03:19:49 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :1409    UE context doesn't exist for ue_id 2
+000591 Thu Oct 27 03:19:49 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[114] name:[SCTP_DATA_CNF]
+000592 Thu Oct 27 03:19:49 2022 7F57E9EE6700 ERROR NGAP   tasks/ngap/ngap_amf.c           :0212    Unknown message ID 114:SCTP_DATA_CNF
+000593 Thu Oct 27 03:19:52 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/Registration.cpp      :0763    T3550: timer id: 15 expired forue_id=3
+000594 Thu Oct 27 03:19:52 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/Registration.cpp      :0772    T3550: timer has expired retransmitting registration accept
+000595 Thu Oct 27 03:19:52 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 3 count 3
+000596 Thu Oct 27 03:19:52 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 5d.c3.3d.a2(2721956701) for length 40, direction 1, count 3
+000597 Thu Oct 27 03:19:52 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+000598 Thu Oct 27 03:19:52 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000599 Thu Oct 27 03:19:52 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000600 Thu Oct 27 03:19:52 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 3 AMF_UE_NGAP_ID = 3 gNB_UE_NGAP_ID = 500
+000601 Thu Oct 27 03:19:52 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000602 Thu Oct 27 03:19:58 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/Registration.cpp      :0763    T3550: timer id: 16 expired forue_id=3
+000603 Thu Oct 27 03:19:58 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/Registration.cpp      :0772    T3550: timer has expired retransmitting registration accept
+000604 Thu Oct 27 03:19:58 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 4 count 4
+000605 Thu Oct 27 03:19:58 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC ba.39.57.b7(3075946938) for length 40, direction 1, count 4
+000606 Thu Oct 27 03:19:58 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+000607 Thu Oct 27 03:19:58 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000608 Thu Oct 27 03:19:58 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000609 Thu Oct 27 03:19:58 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 3 AMF_UE_NGAP_ID = 3 gNB_UE_NGAP_ID = 500
+000610 Thu Oct 27 03:19:58 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000611 Thu Oct 27 03:20:04 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/Registration.cpp      :0763    T3550: timer id: 17 expired forue_id=3
+000612 Thu Oct 27 03:20:04 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/Registration.cpp      :0772    T3550: timer has expired retransmitting registration accept
+000613 Thu Oct 27 03:20:04 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 5 count 5
+000614 Thu Oct 27 03:20:04 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 5b.b5.b5.53(1404417371) for length 40, direction 1, count 5
+000615 Thu Oct 27 03:20:04 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+000616 Thu Oct 27 03:20:04 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000617 Thu Oct 27 03:20:04 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000618 Thu Oct 27 03:20:04 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 3 AMF_UE_NGAP_ID = 3 gNB_UE_NGAP_ID = 500
+000619 Thu Oct 27 03:20:04 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000620 Thu Oct 27 03:20:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000621 Thu Oct 27 03:20:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [88]-[NGAP_INITIAL_UE_MESSAGE]
+000622 Thu Oct 27 03:20:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+000623 Thu Oct 27 03:20:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000624 Thu Oct 27 03:20:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [4c]-name [M5G_SERVICE_REQUEST]
+000625 Thu Oct 27 03:20:06 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/amf_recv.cpp          :0194    TMSI not matched for ue_id=4)
+000626 Thu Oct 27 03:20:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [4d]-name [M5G_SERVICE_REJECT]
+000627 Thu Oct 27 03:20:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000628 Thu Oct 27 03:20:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_msg.cpp       :0049   [0] Sending UE Context Release Cmd to NGAP for (ue_id = 4)
+000629 Thu Oct 27 03:20:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [85]-[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+000630 Thu Oct 27 03:20:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000631 Thu Oct 27 03:20:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000632 Thu Oct 27 03:20:06 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [0] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 4 AMF_UE_NGAP_ID = 4 gNB_UE_NGAP_ID = 501
+000633 Thu Oct 27 03:20:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000634 Thu Oct 27 03:20:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[85] name:[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+000635 Thu Oct 27 03:20:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000636 Thu Oct 27 03:20:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [86]-[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+000637 Thu Oct 27 03:20:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[86] name:[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+000638 Thu Oct 27 03:20:06 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0363     amf_ue_ngap_id 4does not exist
+000639 Thu Oct 27 03:20:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_handler.cpp   :1403    Received UE context release complete message for ue_id: 4
+000640 Thu Oct 27 03:20:06 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :1409    UE context doesn't exist for ue_id 4
+000641 Thu Oct 27 03:20:07 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0363     amf_ue_ngap_id 4does not exist
+000642 Thu Oct 27 03:20:07 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_ue_context.cpp:0880    Ue Context Release Timer: ue_amf_context is NULL for ue id: 4
+000643 Thu Oct 27 03:20:10 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/Registration.cpp      :0763    T3550: timer id: 18 expired forue_id=3
+000644 Thu Oct 27 03:20:10 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/Registration.cpp      :0779    on 5th expiry of timer AMF enters into REGISTERED state
+000645 Thu Oct 27 03:20:10 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+000646 Thu Oct 27 03:20:18 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[116] name:[SCTP_CLOSE_ASSOCIATION]
+000647 Thu Oct 27 03:20:18 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1513    SCTP disconnection request for association id 14862, Reset Flag = 0. Connected UEs = 1 
+000648 Thu Oct 27 03:20:18 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1559    Marked gnb ng status to Shutdown, attached to assoc_id: 14862
+000649 Thu Oct 27 03:20:31 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[115] name:[SCTP_NEW_ASSOCIATION]
+000650 Thu Oct 27 03:20:31 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[115] name:[SCTP_NEW_ASSOCIATION]
+000651 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000652 Thu Oct 27 03:20:33 2022 7F57E9EE6700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000653 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000654 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000655 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000656 Thu Oct 27 03:20:33 2022 7F57E9EE6700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000657 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000658 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000659 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000660 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [88]-[NGAP_INITIAL_UE_MESSAGE]
+000661 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+000662 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000663 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+000664 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+000665 Thu Oct 27 03:20:33 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 5X 
+000666 Thu Oct 27 03:20:33 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0292   [222700000000001]  No IMSI hashtable for this IMSI
+000667 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+000668 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [222700000000001] auth-info
+000669 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000670 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+000671 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+000672 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000673 Thu Oct 27 03:20:33 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 5
+000674 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000675 Thu Oct 27 03:20:33 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 5 AMF_UE_NGAP_ID = 5 gNB_UE_NGAP_ID = 4294967295
+000676 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000677 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000678 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000679 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000680 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+000681 Thu Oct 27 03:20:33 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_authentication.cpp:0569    Failed to start identity procedure for ue_id 5
+000682 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 0 count 0
+000683 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 4d.69.eb.43(1139501389) for length 10, direction 1, count 0
+000684 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+000685 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000686 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000687 Thu Oct 27 03:20:33 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 5 AMF_UE_NGAP_ID = 5 gNB_UE_NGAP_ID = 4294967295
+000688 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000689 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000690 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000691 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000692 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 0 count 0
+000693 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 5d.db.33.87(2268322653) for length 4, direction 0, count 0
+000694 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+000695 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1014    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 5
+000696 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1022    IMSI HANDLED =222700000000001
+000697 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [222700000000001] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+000698 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+000699 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+000700 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+000701 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 1 count 1
+000702 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 86.b9.7e.bc(3162421638) for length 40, direction 1, count 1
+000703 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+000704 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000705 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000706 Thu Oct 27 03:20:33 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0878   [222700000000001] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 5 gNB_UE_NGAP_ID = 4294967295
+000707 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000708 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000709 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [133]-[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+000710 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+000711 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [222700000000001] UE STATE - CONNECTED.
+000712 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000713 Thu Oct 27 03:20:33 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000714 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000715 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 1 count 1
+000716 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC fc.67.cf.9(164587516) for length 4, direction 0, count 1
+000717 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [43]-name [REG_COMPLETE]
+000718 Thu Oct 27 03:20:33 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+000719 Thu Oct 27 03:20:34 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000720 Thu Oct 27 03:20:34 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000721 Thu Oct 27 03:20:34 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000722 Thu Oct 27 03:20:34 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 2 count 2
+000723 Thu Oct 27 03:20:34 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 24.d7.bf.5c(1556076324) for length 20, direction 0, count 2
+000724 Thu Oct 27 03:20:34 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [45]-name [DE_REG_REQUEST_UE_ORIGIN]
+000725 Thu Oct 27 03:20:34 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 2 count 2
+000726 Thu Oct 27 03:20:34 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 44.62.69.39(963207748) for length 4, direction 1, count 2
+000727 Thu Oct 27 03:20:34 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [46]-name [DE_REG_ACCEPT_UE_ORIGIN]
+000728 Thu Oct 27 03:20:34 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000729 Thu Oct 27 03:20:34 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_msg.cpp       :0049   [222700000000001] Sending UE Context Release Cmd to NGAP for (ue_id = 5)
+000730 Thu Oct 27 03:20:34 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [85]-[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+000731 Thu Oct 27 03:20:34 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000732 Thu Oct 27 03:20:34 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 5 AMF_UE_NGAP_ID = 5 gNB_UE_NGAP_ID = 4294967295
+000733 Thu Oct 27 03:20:34 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000734 Thu Oct 27 03:20:34 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[85] name:[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+000735 Thu Oct 27 03:20:34 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000736 Thu Oct 27 03:20:34 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [86]-[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+000737 Thu Oct 27 03:20:34 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[86] name:[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+000738 Thu Oct 27 03:20:34 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_handler.cpp   :1403    Received UE context release complete message for ue_id: 5
+000739 Thu Oct 27 03:20:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000740 Thu Oct 27 03:20:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :0952    UE CONTEXT RELEASE REQUEST with Cause_Type = Radio Network and Cause_Value = 6
+000741 Thu Oct 27 03:20:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000742 Thu Oct 27 03:20:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000743 Thu Oct 27 03:20:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [88]-[NGAP_INITIAL_UE_MESSAGE]
+000744 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+000745 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000746 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+000747 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+000748 Thu Oct 27 03:20:39 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 6X 
+000749 Thu Oct 27 03:20:39 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0292   [222700000000001]  No IMSI hashtable for this IMSI
+000750 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+000751 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [222700000000001] auth-info
+000752 Thu Oct 27 03:20:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000753 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+000754 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+000755 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000756 Thu Oct 27 03:20:39 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 6
+000757 Thu Oct 27 03:20:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000758 Thu Oct 27 03:20:39 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 6 AMF_UE_NGAP_ID = 6 gNB_UE_NGAP_ID = 4294967295
+000759 Thu Oct 27 03:20:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000760 Thu Oct 27 03:20:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000761 Thu Oct 27 03:20:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000762 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000763 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+000764 Thu Oct 27 03:20:39 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_authentication.cpp:0569    Failed to start identity procedure for ue_id 6
+000765 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 0 count 0
+000766 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 75.71.12.af(2937221493) for length 10, direction 1, count 0
+000767 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+000768 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000769 Thu Oct 27 03:20:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000770 Thu Oct 27 03:20:39 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 6 AMF_UE_NGAP_ID = 6 gNB_UE_NGAP_ID = 4294967295
+000771 Thu Oct 27 03:20:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000772 Thu Oct 27 03:20:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000773 Thu Oct 27 03:20:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000774 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000775 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 0 count 0
+000776 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC e3.62.72.a2(2725405411) for length 4, direction 0, count 0
+000777 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+000778 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1014    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 6
+000779 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1022    IMSI HANDLED =222700000000001
+000780 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [222700000000001] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+000781 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+000782 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+000783 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+000784 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 1 count 1
+000785 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 19.92.5d.6c(1818071577) for length 40, direction 1, count 1
+000786 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+000787 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000788 Thu Oct 27 03:20:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000789 Thu Oct 27 03:20:39 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0878   [222700000000001] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 6 gNB_UE_NGAP_ID = 4294967295
+000790 Thu Oct 27 03:20:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000791 Thu Oct 27 03:20:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000792 Thu Oct 27 03:20:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [133]-[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+000793 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+000794 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [222700000000001] UE STATE - CONNECTED.
+000795 Thu Oct 27 03:20:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000796 Thu Oct 27 03:20:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000797 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000798 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 1 count 1
+000799 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC b8.9e.cb.84(2227936952) for length 4, direction 0, count 1
+000800 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [43]-name [REG_COMPLETE]
+000801 Thu Oct 27 03:20:39 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+000802 Thu Oct 27 03:20:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000803 Thu Oct 27 03:20:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000804 Thu Oct 27 03:20:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000805 Thu Oct 27 03:20:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 2 count 2
+000806 Thu Oct 27 03:20:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 22.8a.59.f4(4099508770) for length 20, direction 0, count 2
+000807 Thu Oct 27 03:20:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [45]-name [DE_REG_REQUEST_UE_ORIGIN]
+000808 Thu Oct 27 03:20:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 2 count 2
+000809 Thu Oct 27 03:20:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 92.64.cc.96(2529977490) for length 4, direction 1, count 2
+000810 Thu Oct 27 03:20:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [46]-name [DE_REG_ACCEPT_UE_ORIGIN]
+000811 Thu Oct 27 03:20:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000812 Thu Oct 27 03:20:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_msg.cpp       :0049   [222700000000001] Sending UE Context Release Cmd to NGAP for (ue_id = 6)
+000813 Thu Oct 27 03:20:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [85]-[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+000814 Thu Oct 27 03:20:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000815 Thu Oct 27 03:20:41 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 6 AMF_UE_NGAP_ID = 6 gNB_UE_NGAP_ID = 4294967295
+000816 Thu Oct 27 03:20:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000817 Thu Oct 27 03:20:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[85] name:[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+000818 Thu Oct 27 03:20:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000819 Thu Oct 27 03:20:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [86]-[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+000820 Thu Oct 27 03:20:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[86] name:[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+000821 Thu Oct 27 03:20:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_handler.cpp   :1403    Received UE context release complete message for ue_id: 6
+000822 Thu Oct 27 03:20:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000823 Thu Oct 27 03:20:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :0952    UE CONTEXT RELEASE REQUEST with Cause_Type = Radio Network and Cause_Value = 6
+000824 Thu Oct 27 03:20:42 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000825 Thu Oct 27 03:20:52 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[116] name:[SCTP_CLOSE_ASSOCIATION]
+000826 Thu Oct 27 03:20:52 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1513    SCTP disconnection request for association id 14863, Reset Flag = 0. Connected UEs = 0 
+000827 Thu Oct 27 03:20:52 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1531    SCTP Shutdown request for association id 14863. No Connected UEs. Reset Flag = 0
+000828 Thu Oct 27 03:20:52 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1537    Removing gNB with association id 14863 
+000829 Thu Oct 27 03:20:52 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[116] name:[SCTP_CLOSE_ASSOCIATION]
+000830 Thu Oct 27 03:20:52 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1513    SCTP disconnection request for association id 14864, Reset Flag = 0. Connected UEs = 0 
+000831 Thu Oct 27 03:20:52 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1531    SCTP Shutdown request for association id 14864. No Connected UEs. Reset Flag = 0
+000832 Thu Oct 27 03:20:52 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1537    Removing gNB with association id 14864 
+000833 Thu Oct 27 03:21:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[115] name:[SCTP_NEW_ASSOCIATION]
+000834 Thu Oct 27 03:21:07 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000835 Thu Oct 27 03:21:07 2022 7F57E9EE6700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000836 Thu Oct 27 03:21:07 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000837 Thu Oct 27 03:21:07 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000838 Thu Oct 27 03:21:07 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000839 Thu Oct 27 03:21:07 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [88]-[NGAP_INITIAL_UE_MESSAGE]
+000840 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+000841 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000842 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+000843 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+000844 Thu Oct 27 03:21:07 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 7X 
+000845 Thu Oct 27 03:21:07 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0292   [222700000000001]  No IMSI hashtable for this IMSI
+000846 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+000847 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [222700000000001] auth-info
+000848 Thu Oct 27 03:21:07 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000849 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+000850 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+000851 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000852 Thu Oct 27 03:21:07 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 7
+000853 Thu Oct 27 03:21:07 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000854 Thu Oct 27 03:21:07 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 7 AMF_UE_NGAP_ID = 7 gNB_UE_NGAP_ID = 4294967295
+000855 Thu Oct 27 03:21:07 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000856 Thu Oct 27 03:21:07 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000857 Thu Oct 27 03:21:07 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000858 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000859 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+000860 Thu Oct 27 03:21:07 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_authentication.cpp:0569    Failed to start identity procedure for ue_id 7
+000861 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 0 count 0
+000862 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC a8.1e.6d.2c(745348776) for length 10, direction 1, count 0
+000863 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+000864 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000865 Thu Oct 27 03:21:07 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000866 Thu Oct 27 03:21:07 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 7 AMF_UE_NGAP_ID = 7 gNB_UE_NGAP_ID = 4294967295
+000867 Thu Oct 27 03:21:07 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000868 Thu Oct 27 03:21:07 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000869 Thu Oct 27 03:21:07 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000870 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000871 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5f]-name [UNKNOWN]
+000872 Thu Oct 27 03:21:07 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/amf_recv.cpp          :0845    AMFAS-SAP - Received Security Mode Reject message (cause=23)
+000873 Thu Oct 27 03:21:07 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/amf_security_mode_cont:0457    AMF-PROC  - Security mode command not accepted by the UE(ue_id=7)
+000874 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_msg.cpp       :0049   [222700000000001] Sending UE Context Release Cmd to NGAP for (ue_id = 7)
+000875 Thu Oct 27 03:21:07 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [85]-[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+000876 Thu Oct 27 03:21:07 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[85] name:[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+000877 Thu Oct 27 03:21:25 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[116] name:[SCTP_CLOSE_ASSOCIATION]
+000878 Thu Oct 27 03:21:25 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1513    SCTP disconnection request for association id 14865, Reset Flag = 0. Connected UEs = 0 
+000879 Thu Oct 27 03:21:25 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1531    SCTP Shutdown request for association id 14865. No Connected UEs. Reset Flag = 0
+000880 Thu Oct 27 03:21:25 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1537    Removing gNB with association id 14865 
+000881 Thu Oct 27 03:21:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[115] name:[SCTP_NEW_ASSOCIATION]
+000882 Thu Oct 27 03:21:38 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000883 Thu Oct 27 03:21:38 2022 7F57E9EE6700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000884 Thu Oct 27 03:21:38 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000885 Thu Oct 27 03:21:38 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000886 Thu Oct 27 03:21:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000887 Thu Oct 27 03:21:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [88]-[NGAP_INITIAL_UE_MESSAGE]
+000888 Thu Oct 27 03:21:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+000889 Thu Oct 27 03:21:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000890 Thu Oct 27 03:21:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+000891 Thu Oct 27 03:21:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+000892 Thu Oct 27 03:21:41 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 8X 
+000893 Thu Oct 27 03:21:41 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0292   [222700000000001]  No IMSI hashtable for this IMSI
+000894 Thu Oct 27 03:21:41 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+000895 Thu Oct 27 03:21:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [222700000000001] auth-info
+000896 Thu Oct 27 03:21:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000897 Thu Oct 27 03:21:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+000898 Thu Oct 27 03:21:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+000899 Thu Oct 27 03:21:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000900 Thu Oct 27 03:21:41 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 8
+000901 Thu Oct 27 03:21:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000902 Thu Oct 27 03:21:41 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 8 AMF_UE_NGAP_ID = 8 gNB_UE_NGAP_ID = 4294967295
+000903 Thu Oct 27 03:21:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000904 Thu Oct 27 03:21:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000905 Thu Oct 27 03:21:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000906 Thu Oct 27 03:21:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000907 Thu Oct 27 03:21:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [59]-name [AUTH_FAILURE]
+000908 Thu Oct 27 03:21:41 2022 7F57EE6EF700 ERROR NAS-AM tasks/amf/amf_authentication.cpp:0873    Sending authentication reject with cause AMF_UE_SECURITY_CAPABILITIES_MISMATCH
+000909 Thu Oct 27 03:21:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [58]-name [UNKNOWN]
+000910 Thu Oct 27 03:21:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000911 Thu Oct 27 03:21:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_msg.cpp       :0049   [222700000000001] Sending UE Context Release Cmd to NGAP for (ue_id = 8)
+000912 Thu Oct 27 03:21:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [85]-[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+000913 Thu Oct 27 03:21:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000914 Thu Oct 27 03:21:41 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 8 AMF_UE_NGAP_ID = 8 gNB_UE_NGAP_ID = 4294967295
+000915 Thu Oct 27 03:21:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000916 Thu Oct 27 03:21:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[85] name:[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+000917 Thu Oct 27 03:21:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000918 Thu Oct 27 03:21:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [86]-[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+000919 Thu Oct 27 03:21:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[86] name:[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+000920 Thu Oct 27 03:21:41 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0363     amf_ue_ngap_id 8does not exist
+000921 Thu Oct 27 03:21:41 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_handler.cpp   :1403    Received UE context release complete message for ue_id: 8
+000922 Thu Oct 27 03:21:41 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :1409    UE context doesn't exist for ue_id 8
+000923 Thu Oct 27 03:21:41 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0363     amf_ue_ngap_id 8does not exist
+000924 Thu Oct 27 03:21:41 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_ue_context.cpp:0880    Ue Context Release Timer: ue_amf_context is NULL for ue id: 8
+000925 Thu Oct 27 03:21:52 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[116] name:[SCTP_CLOSE_ASSOCIATION]
+000926 Thu Oct 27 03:21:52 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1513    SCTP disconnection request for association id 14866, Reset Flag = 0. Connected UEs = 0 
+000927 Thu Oct 27 03:21:52 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1531    SCTP Shutdown request for association id 14866. No Connected UEs. Reset Flag = 0
+000928 Thu Oct 27 03:21:52 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1537    Removing gNB with association id 14866 
+000929 Thu Oct 27 03:22:04 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[115] name:[SCTP_NEW_ASSOCIATION]
+000930 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000931 Thu Oct 27 03:22:06 2022 7F57E9EE6700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+000932 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+000933 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000934 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000935 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [88]-[NGAP_INITIAL_UE_MESSAGE]
+000936 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+000937 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000938 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+000939 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+000940 Thu Oct 27 03:22:06 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 9X 
+000941 Thu Oct 27 03:22:06 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0292   [222700000000001]  No IMSI hashtable for this IMSI
+000942 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+000943 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [222700000000001] auth-info
+000944 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000945 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+000946 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+000947 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000948 Thu Oct 27 03:22:06 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 9
+000949 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000950 Thu Oct 27 03:22:06 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 9 AMF_UE_NGAP_ID = 9 gNB_UE_NGAP_ID = 317
+000951 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000952 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000953 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000954 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000955 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+000956 Thu Oct 27 03:22:06 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_authentication.cpp:0569    Failed to start identity procedure for ue_id 9
+000957 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 0 count 0
+000958 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC be.24.dd.ee(4007470270) for length 10, direction 1, count 0
+000959 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+000960 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+000961 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+000962 Thu Oct 27 03:22:06 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 9 AMF_UE_NGAP_ID = 9 gNB_UE_NGAP_ID = 317
+000963 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000964 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000965 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000966 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000967 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 0 count 0
+000968 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 29.3f.b1.53(1404124969) for length 4, direction 0, count 0
+000969 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+000970 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1014    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 9
+000971 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1022    IMSI HANDLED =222700000000001
+000972 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [222700000000001] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+000973 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+000974 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+000975 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+000976 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 1 count 1
+000977 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC c3.37.a2.52(1386362819) for length 40, direction 1, count 1
+000978 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+000979 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000980 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+000981 Thu Oct 27 03:22:06 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0878   [222700000000001] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 9 gNB_UE_NGAP_ID = 317
+000982 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+000983 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000984 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [133]-[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+000985 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+000986 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [222700000000001] UE STATE - CONNECTED.
+000987 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000988 Thu Oct 27 03:22:06 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+000989 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+000990 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 1 count 1
+000991 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 25.ef.e2.55(1440935717) for length 4, direction 0, count 1
+000992 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [43]-name [REG_COMPLETE]
+000993 Thu Oct 27 03:22:06 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+000994 Thu Oct 27 03:22:09 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+000995 Thu Oct 27 03:22:09 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [88]-[NGAP_INITIAL_UE_MESSAGE]
+000996 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+000997 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+000998 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+000999 Thu Oct 27 03:22:09 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+001000 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+001001 Thu Oct 27 03:22:09 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0341     No GUTI hashtable for GUTI: [2038607403] 
+001002 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+001003 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [5b]-name [M5G_IDENTITY_REQUEST]
+001004 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001005 Thu Oct 27 03:22:09 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001006 Thu Oct 27 03:22:09 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [0] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 10 AMF_UE_NGAP_ID = 10 gNB_UE_NGAP_ID = 318
+001007 Thu Oct 27 03:22:09 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001008 Thu Oct 27 03:22:09 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001009 Thu Oct 27 03:22:09 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+001010 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001011 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5c]-name [M5G_IDENTITY_RESPONSE]
+001012 Thu Oct 27 03:22:09 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 10X 
+001013 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [222700000000199] auth-info
+001014 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+001015 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+001016 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001017 Thu Oct 27 03:22:09 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 10
+001018 Thu Oct 27 03:22:09 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001019 Thu Oct 27 03:22:09 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000199] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 10 AMF_UE_NGAP_ID = 10 gNB_UE_NGAP_ID = 318
+001020 Thu Oct 27 03:22:09 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001021 Thu Oct 27 03:22:09 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001022 Thu Oct 27 03:22:09 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+001023 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001024 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+001025 Thu Oct 27 03:22:09 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0582    AMF-PROC - no identity procedure ongoing 
+001026 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 0 count 0
+001027 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 52.6c.42.92(2453826642) for length 10, direction 1, count 0
+001028 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+001029 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001030 Thu Oct 27 03:22:09 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001031 Thu Oct 27 03:22:09 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000199] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 10 AMF_UE_NGAP_ID = 10 gNB_UE_NGAP_ID = 318
+001032 Thu Oct 27 03:22:09 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001033 Thu Oct 27 03:22:09 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001034 Thu Oct 27 03:22:09 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+001035 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001036 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 2 count 2
+001037 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC b8.cc.f2.25(636669112) for length 4, direction 0, count 2
+001038 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+001039 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1014    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 10
+001040 Thu Oct 27 03:22:09 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1022    IMSI HANDLED =222700000000199
+001041 Thu Oct 27 03:22:10 2022 7F57EE6EF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [222700000000199] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+001042 Thu Oct 27 03:22:10 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+001043 Thu Oct 27 03:22:10 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+001044 Thu Oct 27 03:22:10 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+001045 Thu Oct 27 03:22:10 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 1 count 1
+001046 Thu Oct 27 03:22:10 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC c6.90.6a.9d(2641006790) for length 40, direction 1, count 1
+001047 Thu Oct 27 03:22:10 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+001048 Thu Oct 27 03:22:10 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+001049 Thu Oct 27 03:22:10 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+001050 Thu Oct 27 03:22:10 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0878   [222700000000199] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 10 gNB_UE_NGAP_ID = 318
+001051 Thu Oct 27 03:22:10 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001052 Thu Oct 27 03:22:10 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001053 Thu Oct 27 03:22:10 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [133]-[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+001054 Thu Oct 27 03:22:10 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+001055 Thu Oct 27 03:22:10 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [222700000000199] UE STATE - CONNECTED.
+001056 Thu Oct 27 03:22:10 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001057 Thu Oct 27 03:22:10 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+001058 Thu Oct 27 03:22:10 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001059 Thu Oct 27 03:22:10 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 3 count 3
+001060 Thu Oct 27 03:22:10 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC ff.51.dd.ab(2883408383) for length 4, direction 0, count 3
+001061 Thu Oct 27 03:22:10 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [43]-name [REG_COMPLETE]
+001062 Thu Oct 27 03:22:10 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+001063 Thu Oct 27 03:22:12 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001064 Thu Oct 27 03:22:12 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+001065 Thu Oct 27 03:22:12 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001066 Thu Oct 27 03:22:12 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 4 count 4
+001067 Thu Oct 27 03:22:12 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 17.44.6e.47(1198408727) for length 18, direction 0, count 4
+001068 Thu Oct 27 03:22:12 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [45]-name [DE_REG_REQUEST_UE_ORIGIN]
+001069 Thu Oct 27 03:22:12 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 2 count 2
+001070 Thu Oct 27 03:22:12 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 4e.ad.2.d5(3573722446) for length 4, direction 1, count 2
+001071 Thu Oct 27 03:22:12 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [46]-name [DE_REG_ACCEPT_UE_ORIGIN]
+001072 Thu Oct 27 03:22:12 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001073 Thu Oct 27 03:22:12 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_msg.cpp       :0049   [222700000000199] Sending UE Context Release Cmd to NGAP for (ue_id = 10)
+001074 Thu Oct 27 03:22:12 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [85]-[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+001075 Thu Oct 27 03:22:12 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001076 Thu Oct 27 03:22:12 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000199] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 10 AMF_UE_NGAP_ID = 10 gNB_UE_NGAP_ID = 318
+001077 Thu Oct 27 03:22:12 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001078 Thu Oct 27 03:22:12 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[85] name:[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+001079 Thu Oct 27 03:22:12 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001080 Thu Oct 27 03:22:12 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [86]-[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+001081 Thu Oct 27 03:22:12 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[86] name:[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+001082 Thu Oct 27 03:22:12 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_handler.cpp   :1403    Received UE context release complete message for ue_id: 10
+001083 Thu Oct 27 03:22:12 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001084 Thu Oct 27 03:22:12 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :0952    UE CONTEXT RELEASE REQUEST with Cause_Type = Radio Network and Cause_Value = 6
+001085 Thu Oct 27 03:22:12 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001086 Thu Oct 27 03:22:23 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[116] name:[SCTP_CLOSE_ASSOCIATION]
+001087 Thu Oct 27 03:22:23 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1513    SCTP disconnection request for association id 14867, Reset Flag = 0. Connected UEs = 1 
+001088 Thu Oct 27 03:22:23 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1559    Marked gnb ng status to Shutdown, attached to assoc_id: 14867
+001089 Thu Oct 27 03:22:36 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[115] name:[SCTP_NEW_ASSOCIATION]
+001090 Thu Oct 27 03:22:36 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[115] name:[SCTP_NEW_ASSOCIATION]
+001091 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001092 Thu Oct 27 03:22:37 2022 7F57E9EE6700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001093 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001094 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001095 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001096 Thu Oct 27 03:22:37 2022 7F57E9EE6700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001097 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001098 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001099 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001100 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [88]-[NGAP_INITIAL_UE_MESSAGE]
+001101 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+001102 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+001103 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+001104 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+001105 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+001106 Thu Oct 27 03:22:37 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 11X 
+001107 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0568    Process new Registration Request for ue_id 9
+001108 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_msg.cpp       :0049   [222700000000001] Sending UE Context Release Cmd to NGAP for (ue_id = 9)
+001109 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [85]-[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+001110 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[85] name:[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+001111 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [222700000000001] auth-info
+001112 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001113 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [86]-[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+001114 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0379    Deleting gNB 
+001115 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[86] name:[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+001116 Thu Oct 27 03:22:37 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0363     amf_ue_ngap_id 9does not exist
+001117 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_handler.cpp   :1403    Received UE context release complete message for ue_id: 9
+001118 Thu Oct 27 03:22:37 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :1409    UE context doesn't exist for ue_id 9
+001119 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[114] name:[SCTP_DATA_CNF]
+001120 Thu Oct 27 03:22:37 2022 7F57E9EE6700 ERROR NGAP   tasks/ngap/ngap_amf.c           :0212    Unknown message ID 114:SCTP_DATA_CNF
+001121 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+001122 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+001123 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001124 Thu Oct 27 03:22:37 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 11
+001125 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001126 Thu Oct 27 03:22:37 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 11 AMF_UE_NGAP_ID = 11 gNB_UE_NGAP_ID = 1
+001127 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001128 Thu Oct 27 03:22:37 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0363     amf_ue_ngap_id 9does not exist
+001129 Thu Oct 27 03:22:37 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_ue_context.cpp:0880    Ue Context Release Timer: ue_amf_context is NULL for ue id: 9
+001130 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001131 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+001132 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001133 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+001134 Thu Oct 27 03:22:37 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_authentication.cpp:0569    Failed to start identity procedure for ue_id 11
+001135 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 0 count 0
+001136 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC b6.ab.ff.ac(2902436790) for length 10, direction 1, count 0
+001137 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+001138 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001139 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001140 Thu Oct 27 03:22:37 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 11 AMF_UE_NGAP_ID = 11 gNB_UE_NGAP_ID = 1
+001141 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001142 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001143 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+001144 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001145 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 0 count 0
+001146 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC ef.b8.f.86(2249177327) for length 4, direction 0, count 0
+001147 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+001148 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1014    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 11
+001149 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1022    IMSI HANDLED =222700000000001
+001150 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [222700000000001] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+001151 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+001152 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+001153 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+001154 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 1 count 1
+001155 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC e5.2c.36.1f(523644133) for length 40, direction 1, count 1
+001156 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+001157 Thu Oct 27 03:22:37 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+001158 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+001159 Thu Oct 27 03:22:37 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0878   [222700000000001] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 11 gNB_UE_NGAP_ID = 1
+001160 Thu Oct 27 03:22:37 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001161 Thu Oct 27 03:22:38 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001162 Thu Oct 27 03:22:38 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [133]-[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+001163 Thu Oct 27 03:22:38 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+001164 Thu Oct 27 03:22:38 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [222700000000001] UE STATE - CONNECTED.
+001165 Thu Oct 27 03:22:38 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001166 Thu Oct 27 03:22:38 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+001167 Thu Oct 27 03:22:38 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001168 Thu Oct 27 03:22:38 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 1 count 1
+001169 Thu Oct 27 03:22:38 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 68.10.aa.8b(2343178344) for length 4, direction 0, count 1
+001170 Thu Oct 27 03:22:38 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [43]-name [REG_COMPLETE]
+001171 Thu Oct 27 03:22:38 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+001172 Thu Oct 27 03:22:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001173 Thu Oct 27 03:22:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+001174 Thu Oct 27 03:22:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001175 Thu Oct 27 03:22:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 2 count 2
+001176 Thu Oct 27 03:22:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 99.74.15.b(185955481) for length 20, direction 0, count 2
+001177 Thu Oct 27 03:22:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [45]-name [DE_REG_REQUEST_UE_ORIGIN]
+001178 Thu Oct 27 03:22:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 2 count 2
+001179 Thu Oct 27 03:22:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 4b.47.b.23(587941707) for length 4, direction 1, count 2
+001180 Thu Oct 27 03:22:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [46]-name [DE_REG_ACCEPT_UE_ORIGIN]
+001181 Thu Oct 27 03:22:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001182 Thu Oct 27 03:22:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_msg.cpp       :0049   [222700000000001] Sending UE Context Release Cmd to NGAP for (ue_id = 11)
+001183 Thu Oct 27 03:22:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [85]-[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+001184 Thu Oct 27 03:22:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001185 Thu Oct 27 03:22:39 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 11 AMF_UE_NGAP_ID = 11 gNB_UE_NGAP_ID = 1
+001186 Thu Oct 27 03:22:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001187 Thu Oct 27 03:22:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[85] name:[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+001188 Thu Oct 27 03:22:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001189 Thu Oct 27 03:22:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [86]-[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+001190 Thu Oct 27 03:22:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[86] name:[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+001191 Thu Oct 27 03:22:39 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_handler.cpp   :1403    Received UE context release complete message for ue_id: 11
+001192 Thu Oct 27 03:22:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001193 Thu Oct 27 03:22:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :0952    UE CONTEXT RELEASE REQUEST with Cause_Type = Radio Network and Cause_Value = 6
+001194 Thu Oct 27 03:22:41 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001195 Thu Oct 27 03:22:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001196 Thu Oct 27 03:22:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [88]-[NGAP_INITIAL_UE_MESSAGE]
+001197 Thu Oct 27 03:22:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+001198 Thu Oct 27 03:22:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+001199 Thu Oct 27 03:22:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+001200 Thu Oct 27 03:22:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+001201 Thu Oct 27 03:22:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+001202 Thu Oct 27 03:22:43 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 12X 
+001203 Thu Oct 27 03:22:43 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0292   [222700000000001]  No IMSI hashtable for this IMSI
+001204 Thu Oct 27 03:22:43 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+001205 Thu Oct 27 03:22:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [222700000000001] auth-info
+001206 Thu Oct 27 03:22:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+001207 Thu Oct 27 03:22:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+001208 Thu Oct 27 03:22:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001209 Thu Oct 27 03:22:43 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 12
+001210 Thu Oct 27 03:22:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001211 Thu Oct 27 03:22:43 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 12 AMF_UE_NGAP_ID = 12 gNB_UE_NGAP_ID = 2
+001212 Thu Oct 27 03:22:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001213 Thu Oct 27 03:22:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001214 Thu Oct 27 03:22:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+001215 Thu Oct 27 03:22:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001216 Thu Oct 27 03:22:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [57]-name [AUTH_RESPONSE]
+001217 Thu Oct 27 03:22:43 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_authentication.cpp:0569    Failed to start identity procedure for ue_id 12
+001218 Thu Oct 27 03:22:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 0 count 0
+001219 Thu Oct 27 03:22:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 7a.50.f6.b6(3069595770) for length 10, direction 1, count 0
+001220 Thu Oct 27 03:22:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [5d]-name [SEC_MODE_COMMAND]
+001221 Thu Oct 27 03:22:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001222 Thu Oct 27 03:22:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001223 Thu Oct 27 03:22:43 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 12 AMF_UE_NGAP_ID = 12 gNB_UE_NGAP_ID = 2
+001224 Thu Oct 27 03:22:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001225 Thu Oct 27 03:22:44 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001226 Thu Oct 27 03:22:44 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+001227 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001228 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 0 count 0
+001229 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC ec.c8.4f.7a(2052049132) for length 4, direction 0, count 0
+001230 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [5e]-name [SEC_MODE_COMPLETE]
+001231 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1014    Sending UPDATE LOCATION REQ to subscriberd, ue_id = 12
+001232 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_smf_send.cpp      :1022    IMSI HANDLED =222700000000001
+001233 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  S6A    common/common_utility_funs.cpp  :0054   [222700000000001] PLMN is not configured. Selecting default mode: SPGW_SUBSCRIBER 
+001234 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_S6A] id:[103] name:[S6A_UPDATE_LOCATION_ANS]
+001235 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0121    Received S6A Update Location Answer from subscriberd
+001236 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_SEC_MODE_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED1] to [COMMON_PROCEDURE_INITIATED2] and PDU session :[SESSION_NULL]
+001237 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 1 count 1
+001238 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 97.cd.56.17(391564695) for length 40, direction 1, count 1
+001239 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [42]-name [REG_ACCEPT]
+001240 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [99]-[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+001241 Thu Oct 27 03:22:44 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[99] name:[NGAP_INITIAL_CONTEXT_SETUP_REQ]
+001242 Thu Oct 27 03:22:44 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0878   [222700000000001] Send NGAP_INITIAL_CONTEXT_SETUP_REQUEST message AMF_UE_NGAP_ID = 12 gNB_UE_NGAP_ID = 2
+001243 Thu Oct 27 03:22:44 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001244 Thu Oct 27 03:22:44 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001245 Thu Oct 27 03:22:44 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [133]-[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+001246 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[133] name:[AMF_APP_INITIAL_CONTEXT_SETUP_RSP]
+001247 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_ue_context.cpp:0832   [222700000000001] UE STATE - CONNECTED.
+001248 Thu Oct 27 03:22:44 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001249 Thu Oct 27 03:22:44 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+001250 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001251 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 1 count 1
+001252 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC a5.43.3a.81(2168079269) for length 4, direction 0, count 1
+001253 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [43]-name [REG_COMPLETE]
+001254 Thu Oct 27 03:22:44 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_COMPLETE] Event triggered, UE switches from [COMMON_PROCEDURE_INITIATED2] to [REGISTERED_CONNECTED] and PDU session :[SESSION_NULL]
+001255 Thu Oct 27 03:22:46 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001256 Thu Oct 27 03:22:46 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+001257 Thu Oct 27 03:22:46 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001258 Thu Oct 27 03:22:46 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 UPLINK count.seq_num 2 count 2
+001259 Thu Oct 27 03:22:46 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 75.67.3d.cd(3443353461) for length 20, direction 0, count 2
+001260 Thu Oct 27 03:22:46 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [45]-name [DE_REG_REQUEST_UE_ORIGIN]
+001261 Thu Oct 27 03:22:46 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0936    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 DOWNLINK count.seq_num 2 count 2
+001262 Thu Oct 27 03:22:46 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0956    M5G_NAS_SECURITY_ALGORITHMS_128_5G_IA1 returned MAC 8b.47.39.12(305743755) for length 4, direction 1, count 2
+001263 Thu Oct 27 03:22:46 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0313    Encoded msg(nas5g) id: [46]-name [DE_REG_ACCEPT_UE_ORIGIN]
+001264 Thu Oct 27 03:22:46 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001265 Thu Oct 27 03:22:46 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_msg.cpp       :0049   [222700000000001] Sending UE Context Release Cmd to NGAP for (ue_id = 12)
+001266 Thu Oct 27 03:22:46 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001267 Thu Oct 27 03:22:46 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [85]-[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+001268 Thu Oct 27 03:22:46 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 12 AMF_UE_NGAP_ID = 12 gNB_UE_NGAP_ID = 2
+001269 Thu Oct 27 03:22:46 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001270 Thu Oct 27 03:22:46 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[85] name:[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+001271 Thu Oct 27 03:22:46 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001272 Thu Oct 27 03:22:46 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [86]-[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+001273 Thu Oct 27 03:22:46 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[86] name:[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+001274 Thu Oct 27 03:22:46 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_handler.cpp   :1403    Received UE context release complete message for ue_id: 12
+001275 Thu Oct 27 03:22:46 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001276 Thu Oct 27 03:22:46 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :0952    UE CONTEXT RELEASE REQUEST with Cause_Type = Radio Network and Cause_Value = 6
+001277 Thu Oct 27 03:22:46 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001278 Thu Oct 27 03:22:57 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[116] name:[SCTP_CLOSE_ASSOCIATION]
+001279 Thu Oct 27 03:22:57 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1513    SCTP disconnection request for association id 14868, Reset Flag = 0. Connected UEs = 0 
+001280 Thu Oct 27 03:22:57 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1531    SCTP Shutdown request for association id 14868. No Connected UEs. Reset Flag = 0
+001281 Thu Oct 27 03:22:57 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1537    Removing gNB with association id 14868 
+001282 Thu Oct 27 03:22:57 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[116] name:[SCTP_CLOSE_ASSOCIATION]
+001283 Thu Oct 27 03:22:57 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1513    SCTP disconnection request for association id 14869, Reset Flag = 0. Connected UEs = 0 
+001284 Thu Oct 27 03:22:57 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1531    SCTP Shutdown request for association id 14869. No Connected UEs. Reset Flag = 0
+001285 Thu Oct 27 03:22:57 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1537    Removing gNB with association id 14869 
+001286 Thu Oct 27 03:23:11 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[115] name:[SCTP_NEW_ASSOCIATION]
+001287 Thu Oct 27 03:23:12 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001288 Thu Oct 27 03:23:12 2022 7F57E9EE6700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001289 Thu Oct 27 03:23:12 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001290 Thu Oct 27 03:23:12 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001291 Thu Oct 27 03:23:15 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001292 Thu Oct 27 03:23:15 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [88]-[NGAP_INITIAL_UE_MESSAGE]
+001293 Thu Oct 27 03:23:15 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+001294 Thu Oct 27 03:23:15 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+001295 Thu Oct 27 03:23:15 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+001296 Thu Oct 27 03:23:15 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+001297 Thu Oct 27 03:23:15 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+001298 Thu Oct 27 03:23:15 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 13X 
+001299 Thu Oct 27 03:23:15 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0292   [222700000000001]  No IMSI hashtable for this IMSI
+001300 Thu Oct 27 03:23:15 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+001301 Thu Oct 27 03:23:15 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [222700000000001] auth-info
+001302 Thu Oct 27 03:23:15 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+001303 Thu Oct 27 03:23:15 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+001304 Thu Oct 27 03:23:15 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001305 Thu Oct 27 03:23:15 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 13
+001306 Thu Oct 27 03:23:15 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001307 Thu Oct 27 03:23:15 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 13 AMF_UE_NGAP_ID = 13 gNB_UE_NGAP_ID = 4294967295
+001308 Thu Oct 27 03:23:15 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001309 Thu Oct 27 03:23:15 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001310 Thu Oct 27 03:23:15 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+001311 Thu Oct 27 03:23:15 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001312 Thu Oct 27 03:23:15 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [59]-name [AUTH_FAILURE]
+001313 Thu Oct 27 03:23:15 2022 7F57EE6EF700 ERROR NAS-AM tasks/amf/amf_authentication.cpp:0833    Sending authentication reject with cause AMF_CAUSE_MAC_FAILURE
+001314 Thu Oct 27 03:23:15 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [58]-name [UNKNOWN]
+001315 Thu Oct 27 03:23:15 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001316 Thu Oct 27 03:23:15 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_msg.cpp       :0049   [222700000000001] Sending UE Context Release Cmd to NGAP for (ue_id = 13)
+001318 Thu Oct 27 03:23:15 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001317 Thu Oct 27 03:23:15 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [85]-[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+001319 Thu Oct 27 03:23:15 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 13 AMF_UE_NGAP_ID = 13 gNB_UE_NGAP_ID = 4294967295
+001320 Thu Oct 27 03:23:15 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001321 Thu Oct 27 03:23:15 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[85] name:[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+001322 Thu Oct 27 03:23:15 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001323 Thu Oct 27 03:23:15 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [86]-[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+001324 Thu Oct 27 03:23:15 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[86] name:[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+001325 Thu Oct 27 03:23:15 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0363     amf_ue_ngap_id 13does not exist
+001326 Thu Oct 27 03:23:15 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_handler.cpp   :1403    Received UE context release complete message for ue_id: 13
+001327 Thu Oct 27 03:23:15 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :1409    UE context doesn't exist for ue_id 13
+001328 Thu Oct 27 03:23:15 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0363     amf_ue_ngap_id 13does not exist
+001329 Thu Oct 27 03:23:15 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_ue_context.cpp:0880    Ue Context Release Timer: ue_amf_context is NULL for ue id: 13
+001330 Thu Oct 27 03:23:25 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[116] name:[SCTP_CLOSE_ASSOCIATION]
+001331 Thu Oct 27 03:23:25 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1513    SCTP disconnection request for association id 14870, Reset Flag = 0. Connected UEs = 0 
+001332 Thu Oct 27 03:23:25 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1531    SCTP Shutdown request for association id 14870. No Connected UEs. Reset Flag = 0
+001333 Thu Oct 27 03:23:25 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1537    Removing gNB with association id 14870 
+001334 Thu Oct 27 03:23:38 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[115] name:[SCTP_NEW_ASSOCIATION]
+001335 Thu Oct 27 03:23:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001336 Thu Oct 27 03:23:39 2022 7F57E9EE6700 WARNI UTIL   common/log.c                    :1040    Calling finish on a NULL message
+001337 Thu Oct 27 03:23:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_ta.c        :0086    [TRACE] :22 f2 07 
+001338 Thu Oct 27 03:23:39 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001339 Thu Oct 27 03:23:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001340 Thu Oct 27 03:23:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [88]-[NGAP_INITIAL_UE_MESSAGE]
+001341 Thu Oct 27 03:23:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[88] name:[NGAP_INITIAL_UE_MESSAGE]
+001342 Thu Oct 27 03:23:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [136]-[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+001343 Thu Oct 27 03:23:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[136] name:[AMF_APP_NGAP_AMF_UE_ID_NOTIFICATION]
+001344 Thu Oct 27 03:23:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [41]-name [REG_REQUEST]
+001345 Thu Oct 27 03:23:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_recv.cpp          :0289    Received registration type INITIAL REGISTRATION TYPE
+001346 Thu Oct 27 03:23:43 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :0124    Insertion of Hash entry failed for  amf_ue_ngap_id 14X 
+001347 Thu Oct 27 03:23:43 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0292   [222700000000001]  No IMSI hashtable for this IMSI
+001348 Thu Oct 27 03:23:43 2022 7F57EE6EF700 INFO  NAS-AM tasks/amf/amf_fsm.cpp           :0205    [STATE_EVENT_REG_REQUEST] Event triggered, UE switches from [DEREGISTERED] to [COMMON_PROCEDURE_INITIATED1] and PDU session :[SESSION_NULL]
+001349 Thu Oct 27 03:23:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_authentication.cpp:0178    Sending msg(grpc) to :[subscriberdb] for ue: [222700000000001] auth-info
+001350 Thu Oct 27 03:23:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_GRPC_SERVICE] id:[140] name:[AMF_APP_SUBS_AUTH_INFO_RESP]
+001351 Thu Oct 27 03:23:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [56]-name [AUTH_REQUEST]
+001352 Thu Oct 27 03:23:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001353 Thu Oct 27 03:23:43 2022 7F57EE6EF700 WARNI NAS-AM tasks/amf/amf_authentication.cpp:0937     T3560: Start Authentication Timer for ue id: 14
+001354 Thu Oct 27 03:23:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001355 Thu Oct 27 03:23:43 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 14 AMF_UE_NGAP_ID = 14 gNB_UE_NGAP_ID = 4294967295
+001356 Thu Oct 27 03:23:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001357 Thu Oct 27 03:23:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[113] name:[SCTP_DATA_IND]
+001358 Thu Oct 27 03:23:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [137]-[AMF_APP_UPLINK_DATA_IND]
+001359 Thu Oct 27 03:23:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[137] name:[AMF_APP_UPLINK_DATA_IND]
+001360 Thu Oct 27 03:23:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0195    Decoded msg(nas5g) id: [59]-name [AUTH_FAILURE]
+001361 Thu Oct 27 03:23:43 2022 7F57EE6EF700 ERROR NAS-AM tasks/amf/amf_authentication.cpp:0879    Sending authentication reject with cause AMF_SECURITY_MODE_REJECT
+001362 Thu Oct 27 03:23:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/nas5g_message.cpp     :0327    Encoded msg(nas5g) id: [58]-name [UNKNOWN]
+001363 Thu Oct 27 03:23:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [87]-[NGAP_NAS_DL_DATA_REQ]
+001365 Thu Oct 27 03:23:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[87] name:[NGAP_NAS_DL_DATA_REQ]
+001364 Thu Oct 27 03:23:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_msg.cpp       :0049   [222700000000001] Sending UE Context Release Cmd to NGAP for (ue_id = 14)
+001366 Thu Oct 27 03:23:43 2022 7F57E9EE6700 NOTIC NGAP   tasks/ngap/ngap_amf_nas_procedur:0525   [222700000000001] Send NGAP DOWNLINK_NAS_TRANSPORT message ue_id = 14 AMF_UE_NGAP_ID = 14 gNB_UE_NGAP_ID = 4294967295
+001367 Thu Oct 27 03:23:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_client_servicer.cp:0031    Sending msg to :[TASK_NGAP] id: [85]-[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+001368 Thu Oct 27 03:23:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001369 Thu Oct 27 03:23:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_AMF_APP] id:[85] name:[NGAP_UE_CONTEXT_RELEASE_COMMAND]
+001370 Thu Oct 27 03:23:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [112]-[SCTP_DATA_REQ]
+001371 Thu Oct 27 03:23:43 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_AMF_APP] id: [86]-[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+001372 Thu Oct 27 03:23:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[86] name:[NGAP_UE_CONTEXT_RELEASE_COMPLETE]
+001373 Thu Oct 27 03:23:43 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0363     amf_ue_ngap_id 14does not exist
+001374 Thu Oct 27 03:23:43 2022 7F57EE6EF700 INFO  AMF-AP tasks/amf/amf_app_handler.cpp   :1403    Received UE context release complete message for ue_id: 14
+001375 Thu Oct 27 03:23:43 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_handler.cpp   :1409    UE context doesn't exist for ue_id 14
+001376 Thu Oct 27 03:23:43 2022 7F57EE6EF700 WARNI AMF-AP tasks/amf/amf_app_ue_context.cpp:0363     amf_ue_ngap_id 14does not exist
+001377 Thu Oct 27 03:23:43 2022 7F57EE6EF700 ERROR AMF-AP tasks/amf/amf_app_ue_context.cpp:0880    Ue Context Release Timer: ue_amf_context is NULL for ue id: 14
+001378 Thu Oct 27 03:23:53 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf.c           :0084    Received msg from :[TASK_SCTP] id:[116] name:[SCTP_CLOSE_ASSOCIATION]
+001379 Thu Oct 27 03:23:53 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1513    SCTP disconnection request for association id 14871, Reset Flag = 0. Connected UEs = 0 
+001380 Thu Oct 27 03:23:53 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1531    SCTP Shutdown request for association id 14871. No Connected UEs. Reset Flag = 0
+001381 Thu Oct 27 03:23:53 2022 7F57E9EE6700 INFO  NGAP   tasks/ngap/ngap_amf_handlers.c  :1537    Removing gNB with association id 14871 
