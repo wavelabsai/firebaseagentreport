@@ -1,0 +1,49 @@
+000000 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  UTIL   common/log.c                    :0734    Initializing OAI logging Done
+000001 Thu Dec 01 15:30:45 2022 7FA2819A1980 DEBUG CONFIG tasks/mme_app/mme_app_embedded_s:0073    mme_config.config_file /var/opt/magma/tmp/mme.conf
+000002 Thu Dec 01 15:30:45 2022 7FA2819A1980 DEBUG CONFIG tasks/mme_app/mme_app_embedded_s:0106    spgw_config.config_file /var/opt/magma/tmp/spgw.conf
+000003 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  MME-AP tasks/mme_app/mme_config.cpp    :1005    Number of GUMMEIs configured =1
+000004 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  MME-AP tasks/mme_app/mme_config.cpp    :1070    MME_CONFIG_STRING_RESTRICTED_PLMN_LIST 
+000005 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  MME-AP tasks/mme_app/mme_config.cpp    :1073    Number of restricted PLMNs configured =0
+000006 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  MME-AP tasks/mme_app/mme_config.cpp    :1133    MME_CONFIG_STRING_FED_MODE_MAP 
+000007 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  MME-AP tasks/mme_app/mme_config.cpp    :1136    Number of mode maps configured =0
+000008 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  MME-AP tasks/mme_app/mme_config.cpp    :1243    MME_CONFIG_STRING_BLOCKED_IMEI_LIST 
+000009 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  MME-AP tasks/mme_app/mme_config.cpp    :1246    Number of blocked IMEIs configured =0
+000010 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  MME-AP tasks/mme_app/mme_config.cpp    :1293    MME_CONFIG_STRING_SRVC_AREA_CODE_2_TACS_MAP 
+000011 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  MME-AP tasks/mme_app/mme_config.cpp    :1296    Number of SRVC_AREA_CODE_2_TACS configured =0
+000012 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  MME-AP tasks/mme_app/mme_config.cpp    :1383    Parsing configuration file found S1-MME: 172.16.5.121/22 on eth1
+000013 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  MME-AP tasks/mme_app/mme_config.cpp    :1404    Parsing configuration file found S11: 172.16.5.121/22 on eth1
+000014 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  MME-AP tasks/mme_app/mme_config.cpp    :1676    MME_CONFIG_STRING_SENTRY_CONFIG 
+000015 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  SPGW-A tasks/sgw/spgw_config.cpp       :0095    Parsing configuration file provided /var/opt/magma/tmp/spgw.conf
+000016 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0117    Parsing configuration file provided /var/opt/magma/tmp/spgw.conf
+000017 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0156    Parsing configuration file found S1u_S12_S4_up: 172.16.5.121/22 on eth1
+000018 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0173    Parsing configuration file found S5_S8_up: 172.16.5.100/22 on eth0
+000019 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0190    Parsing configuration file found S11: 127.0.0.1/8 on lo
+000020 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0217    Parsing configuration file found S1u_S12_S4_up: :: on eth1
+000021 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0313    Pipelined config enable: False
+000022 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0321    Multi tunnel enable: True
+000023 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0327    GTP-U echo response enable: True
+000024 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0333    GTP-U checksum enable: False
+000025 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0340    AGW L3 tunneling enable: False
+000026 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0347    eBPF enabled: False
+000027 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0211    Parsing configuration file provided /var/opt/magma/tmp/spgw.conf
+000028 Thu Dec 01 15:30:45 2022 7FA2819A1980 DEBUG SPGW-A tasks/sgw/pgw_config.cpp        :0237    Parsing configuration file found SGI: on gtp_br0
+000029 Thu Dec 01 15:30:45 2022 7FA2819A1980 DEBUG SPGW-A tasks/sgw/pgw_config.cpp        :0246    No masquerading for SGI
+000030 Thu Dec 01 15:30:45 2022 7FA2819A1980 DEBUG SPGW-A tasks/sgw/pgw_config.cpp        :0250    CLAMP TCP MSS
+000031 Thu Dec 01 15:30:45 2022 7FA2819A1980 DEBUG SPGW-A tasks/sgw/pgw_config.cpp        :0327    Parsing configuration file default primary DNS IPv4 address: 8.8.8.8
+000032 Thu Dec 01 15:30:45 2022 7FA2819A1980 DEBUG SPGW-A tasks/sgw/pgw_config.cpp        :0331    Parsing configuration file default secondary DNS IPv4 address: 8.8.4.4
+000033 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0348    Parsing configuration file Nat enable: True
+000034 Thu Dec 01 15:30:45 2022 7FA2819A1980 DEBUG SPGW-A tasks/sgw/pgw_config.cpp        :0358    Parsing configuration file P-CSCF IPv4 address: 172.27.23.150
+000035 Thu Dec 01 15:30:45 2022 7FA2819A1980 DEBUG SPGW-A tasks/sgw/pgw_config.cpp        :0371    Parsing configuration file P-CSCF IPv6 address: 2a12:577:9941:f99c:0002:0001:c731:f114
+000036 Thu Dec 01 15:30:45 2022 7FA2819A1980 DEBUG SPGW-A tasks/sgw/pgw_config.cpp        :0384    Parsing configuration file DNS SERVER IPv6 address: 2a12:577:9941:f99c:0002:0001:c731:f114
+000037 Thu Dec 01 15:30:45 2022 7FA2819A1980 DEBUG SPGW-A tasks/sgw/pgw_config.cpp        :0410    UE MTU : 1400
+000038 Thu Dec 01 15:30:45 2022 7FA2819A1980 WARNI SPGW-A tasks/sgw/pgw_config.cpp        :0503    CONFIG P-GW / PCEF not found
+000039 Thu Dec 01 15:30:45 2022 7FA2819A1980 DEBUG SPGW-A tasks/sgw/pgw_config.cpp        :0093    Found SGI interface MTU=1500
+000040 Thu Dec 01 15:30:45 2022 7FA2819A1980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0106    No interface for S5_S8 user plane: error No such device
+000041 Thu Dec 01 15:30:45 2022 7FA2819A1980 DEBUG SPGW-A tasks/sgw/pgw_config.cpp        :0147    mobilityD IP block read: retry attempt: 1
+000042 Thu Dec 01 15:30:48 2022 7FA2819A1980 DEBUG SPGW-A tasks/sgw/pgw_config.cpp        :0147    mobilityD IP block read: retry attempt: 2
+000043 Thu Dec 01 15:30:51 2022 7FA2819A1980 DEBUG SPGW-A tasks/sgw/pgw_config.cpp        :0147    mobilityD IP block read: retry attempt: 3
+000044 Thu Dec 01 15:30:55 2022 7FA2819A1980 DEBUG SPGW-A tasks/sgw/pgw_config.cpp        :0147    mobilityD IP block read: retry attempt: 4
+000045 Thu Dec 01 15:31:02 2022 7FA2819A1980 DEBUG SPGW-A tasks/sgw/pgw_config.cpp        :0147    mobilityD IP block read: retry attempt: 5
+000046 Thu Dec 01 15:31:14 2022 7FA2819A1980 DEBUG SPGW-A tasks/sgw/pgw_config.cpp        :0147    mobilityD IP block read: retry attempt: 6
+000047 Thu Dec 01 15:31:34 2022 7FA2819A1980 DEBUG SPGW-A tasks/sgw/pgw_config.cpp        :0147    mobilityD IP block read: retry attempt: 7
+000048 Thu Dec 01 15:32:03 2022 7FA2819A1980 DEBUG SPGW-A tasks/sgw/pgw_config.cpp        :0147    mobilityD IP block read: retry attempt: 8
