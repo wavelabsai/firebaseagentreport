@@ -1,0 +1,147 @@
+000207 Fri Dec 23 18:20:01 2022 7F8E790C8980 ERROR MME-AP tasks/mme_app/mme_app_state_mana:0249    persist_state_enabled is not enabled 
+000208 Fri Dec 23 18:20:01 2022 7F8E790C8980 INFO  NAS    tasks/nas/api/mme/mme_api.cpp   :0116    Number of GUMMEIs supported = 1
+000209 Fri Dec 23 18:20:01 2022 7F8E790C8980 INFO  GTPv1- tasks/gtpv1-u/gtp_tunnel_openflo:0276    Using GTP type: gtpu
+000210 Fri Dec 23 18:20:01 2022 7F8E790C8980 INFO  GTPv1- lib/openflow/controller/Controll:0073    Started openflow controller
+000211 Fri Dec 23 18:20:01 2022 7F8E790C8980 INFO  GTPv1- lib/openflow/controller/Openflow:0131    Openflow controller is waiting for 300 seconds to establish connection with Switch 
+000212 Fri Dec 23 18:20:08 2022 7F8E6E7EC700 INFO  GTPv1- lib/openflow/controller/Openflow:0074    Openflow controller connected to switch 
+000213 Fri Dec 23 18:20:08 2022 7F8E6E7EC700 INFO  GTPv1- lib/openflow/controller/Openflow:0079    Send signal that Controller is connected to switch to all waiting threads 
+000214 Fri Dec 23 18:20:08 2022 7F8E790C8980 DEBUG SGW_S8 tasks/sgw_s8/sgw_s8_task.cpp    :0053    Initializing SGW-S8 interface
+000215 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SGW_S8 tasks/sgw_s8/sgw_s8_state_manage:0057    Creating SGW_S8 state 
+000216 Fri Dec 23 18:20:08 2022 7F8E790C8980 DEBUG SGW_S8 tasks/sgw_s8/sgw_s8_task.cpp    :0063    Done initialization of SGW_S8 interface
+000217 Fri Dec 23 18:20:08 2022 7F8E6BFE7700 INFO  NGAP   tasks/ngap/ngap_client_servicer.:0063    Sending msg to :[TASK_SCTP] id: [111]-[SCTP_INIT_MSG]
+000218 Fri Dec 23 18:20:08 2022 7F8E6FFEF700 INFO  AMF-AP tasks/amf/amf_app_main.cpp      :0063    Received msg from :[TASK_NGAP] id:[118] name:[SCTP_AMF_SERVER_INITIALIZED]
+000219 Fri Dec 23 18:20:08 2022 7F8E6A7E4700 INFO  SPGW-A tasks/grpc_service/grpc_service.:0065    Starting service at : 127.0.0.1:50073
+000220 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1797    ==== EURECOM MME v0.1 ====
+000221 Fri Dec 23 18:20:08 2022 7F8E790C8980 DEBUG CONFIG tasks/mme_app/mme_config.cpp    :1799    Built with EMBEDDED_SGW .................: 1
+000222 Fri Dec 23 18:20:08 2022 7F8E790C8980 DEBUG CONFIG tasks/mme_app/mme_config.cpp    :1801    Built with S6A_OVER_GRPC .....................: 1
+000223 Fri Dec 23 18:20:08 2022 7F8E790C8980 DEBUG CONFIG tasks/mme_app/mme_config.cpp    :1805    Built with CMAKE_BUILD_TYPE ................: RelWithDebInfo
+000224 Fri Dec 23 18:20:08 2022 7F8E790C8980 DEBUG CONFIG tasks/mme_app/mme_config.cpp    :1807    Built with PACKAGE_NAME ....................: MME
+000225 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1810    Configuration:
+000226 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1811    - File .................................: /var/opt/magma/tmp/mme.conf
+000227 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1813    - Realm ................................: magma.com
+000228 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1815      full network name ....................: (null)
+000229 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1817      short network name ...................: (null)
+000230 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1819      Daylight Saving Time..................: 0
+000231 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1821    - Run mode .............................: TEST
+000232 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1823    - Max eNBs .............................: 8
+000233 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1825    - Max UEs ..............................: 16
+000234 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1827    - IMS voice over PS session in S1 ......: false
+000235 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1833    - Emergency bearer services in S1 mode .: false
+000236 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1838    - Location services via epc ............: false
+000237 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1843    - Extended service request .............: false
+000238 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1848    - Unauth IMSI support ..................: false
+000239 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1851    - Relative capa ........................: 10
+000240 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1853    - Statistics timer .....................: 60 (seconds)
+000241 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1856    - Congestion control enabled ........................: false
+000242 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1859    - S1AP ZMQ Threshold ...........................:    2000000 (microseconds)
+000243 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1863    - MME APP ZMQ Congestion Threshold .............:     200000 (microseconds)
+000244 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1867    - MME APP ZMQ Auth Complete Threshold...........:     200000 (microseconds)
+000245 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1871    - MME APP ZMQ Identity Complete Threshold.......:     400000 (microseconds)
+000246 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1875    - MME APP ZMQ SMC Complete Threshold ...........:    1000000 (microseconds)
+000247 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1879    - Use Stateless ........................: false
+000248 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1881    - enable5g_features .......: true
+000249 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1883    - CSFB:
+000250 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1884        Non EPS Service Control ........................: OFF
+000251 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1887    - S1-MME:
+000252 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1888        port number ......: 36412
+000253 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1890    - IP:
+000254 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1891        s1-MME iface .....: eth1
+000255 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1893        s1-MME ip ........: 172.16.5.121
+000256 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1902        s11 MME iface ....: eth1
+000257 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1904        s11 MME port .....: 2123
+000258 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1906        s11 MME ip .......: 172.16.5.121
+000259 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1922      Address : Unknown address family 0
+000260 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1926    - Sentry:
+000261 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1927        sample rate ......: 0.000000
+000262 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1929        upload MME log ...: 0
+000263 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1931        URL native .......: 
+000264 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1934    - ITTI:
+000265 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1935        queue size .......: 2000000 (bytes)
+000266 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1937        log file .........: (null)
+000267 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1939    - SCTP:
+000268 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1940      upstream_sctp_sock..: unix:///tmp/sctpd_upstream.sock
+000269 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1942     downstream_sctp_sock.: unix:///tmp/sctpd_downstream.sock
+000270 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1944    - GUMMEIs (PLMN|MMEGI|MMEC):
+000271 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :1946                222.70 |1|1 
+000272 Fri Dec 23 18:20:08 2022 7F8E790C8980 DEBUG CONFIG tasks/mme_app/mme_config.cpp    :1951    - PARTIAL TAIs
+000273 Fri Dec 23 18:20:08 2022 7F8E790C8980 DEBUG CONFIG tasks/mme_app/mme_config.cpp    :1952    - Num of partial lists=1
+000274 Fri Dec 23 18:20:08 2022 7F8E790C8980 DEBUG CONFIG tasks/mme_app/mme_config.cpp    :1958    - List [0] - TAI list type one PLMN consecutive TACs
+000275 Fri Dec 23 18:20:08 2022 7F8E790C8980 DEBUG CONFIG tasks/mme_app/mme_config.cpp    :1982    - Num of elements in list[0]=1
+000276 Fri Dec 23 18:20:08 2022 7F8E790C8980 DEBUG CONFIG tasks/mme_app/mme_config.cpp    :1988                MCC1=2	MCC2=2	MCC3=2	MNC1=7	MNC2=0	MNC3=15	TAC=1
+000277 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2021    - NAS:
+000278 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2022        Preferred Integrity Algorithms .: EIA2 EIA1 EIA0 EIA0 (decreasing priority)
+000279 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2030        Preferred Integrity Algorithms .: EEA0 EEA1 EEA2 EEA0 (decreasing priority)
+000280 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2038        T3402 ....: 1 min
+000281 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2040        T3412 ....: 54 min
+000282 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2042        T3422 ....: 6 sec
+000283 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2044        T3450 ....: 6 sec
+000284 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2046        T3460 ....: 6 sec
+000285 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2048        T3470 ....: 6 sec
+000286 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2050        T3485 ....: 8 sec
+000287 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2052        T3486 ....: 8 sec
+000288 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2054        T3489 ....: 4 sec
+000289 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2056        T3495 ....: 8 sec
+000290 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2058        NAS non standard features .:
+000291 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2059          Force reject TAU ............: true
+000292 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2061          Force reject SR .............: true
+000293 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2063          Disable Esm information .....: false
+000294 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2066          Enable APN Correction .......: false
+000295 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2069          APN CORRECTION MAP LIST (IMSI_PREFIX | APN_OVERRIDE):
+000296 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2078    - S6A:
+000297 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2080        protocol .........: gRPC
+000298 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2086    - Service303:
+000299 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2087        service name ........: mme
+000300 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2089        version ........: 1.0
+000301 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2091    - Logging:
+000302 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2092        Output ..............: /var/log/mme.log
+000303 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2094        Output thread safe ..: false
+000304 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2096        Output with color ...: false
+000305 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2098        UDP log level........: INFO
+000306 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2100        GTPV1-U log level....: INFO
+000307 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2102        GTPV2-C log level....: INVALID_LOG_LEVEL
+000308 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2104        SCTP log level.......: INFO
+000309 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2106        S1AP log level.......: INFO
+000310 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2108        ASN1 Verbosity level : 0
+000312 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2110        NAS log level........: INFO
+000313 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2112        MME_APP log level....: INFO
+000311 Fri Dec 23 18:20:08 2022 7F8E69FE3700 INFO  S6A    tasks/async_grpc_service/grpc_as:0215    Started async grpc server for s6a interface 
+000314 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2114        SPGW_APP log level....: INFO
+000315 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2116        S11 log level........: INVALID_LOG_LEVEL
+000316 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2118        S6a log level........: INFO
+000317 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2120        UTIL log level.......: INFO
+000318 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  CONFIG tasks/mme_app/mme_config.cpp    :2122        ITTI log level.......: ERROR (InTer-Task Interface)
+000319 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0384    ==== EURECOM S/P-GW v0.1 ====
+000320 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0386    Configuration:
+000321 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0387    - File .................................: /var/opt/magma/tmp/spgw.conf
+000322 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0390    - S1-U:
+000323 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0391        port number ......: 2152
+000324 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0393        S1u_S12_S4 iface .....: eth1
+000325 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0395        S1u_S12_S4 ip ........: 172.16.5.121/22
+000326 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0404    - S5-S8:
+000327 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0405        S5_S8 iface ..........: eth0
+000328 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0407        S5_S8 ip .............: 172.16.5.100/22
+000329 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0410    - S11:
+000330 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0411        S11 iface ............: lo
+000331 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0413        S11 ip ...............: 127.0.0.1/8
+000332 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0415    - ITTI:
+000333 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0416        queue size .......: 0 (bytes)
+000334 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/sgw_config.cpp        :0418        log file .........: (null)
+000335 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0516    ==== EURECOM S/P-GW v0.1 ====
+000336 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0518    Configuration:
+000337 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0519    - File .................................: /var/opt/magma/tmp/spgw.conf
+000338 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0522    - S5-S8:
+000339 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0523        S5_S8 iface ..........: none
+000340 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0525        S5_S8 ip  (read)......: 0.0.0.0
+000341 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0527        S5_S8 MTU (read)......: 0
+000342 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0529    - SGi:
+000343 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0530        SGi iface ............: gtp_br0
+000344 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0532        SGi MTU (read)........: 1500
+000345 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0534        NAT ..................: true
+000346 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0536        User TCP MSS clamping : true
+000347 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0538        User IP masquerading  : false
+000348 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0540    - PCEF support ...........: false (in development)
+000349 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0582    - DNS Configuration:
+000350 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0583        IPv4 Primary Address ..........: 8.8.8.8
+000351 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0585        IPv4 Secondary Address ..........: 8.8.4.4
+000352 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0587    - Helpers:
+000353 Fri Dec 23 18:20:08 2022 7F8E790C8980 INFO  SPGW-A tasks/sgw/pgw_config.cpp        :0588        Push PCO (DNS+MTU) ........: false
