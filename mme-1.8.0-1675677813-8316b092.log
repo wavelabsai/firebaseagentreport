@@ -1,0 +1,5 @@
+000207 Mon Feb 06 16:37:32 2023 7EFCFCA8B980 ERROR MME-AP tasks/mme_app/mme_app_state_mana:0237    persist_state_enabled is not enabled 
+000208 Mon Feb 06 16:37:32 2023 7EFCFCA8B980 INFO  NAS    tasks/nas/api/mme/mme_api.cpp   :0116    Number of GUMMEIs supported = 1
+000209 Mon Feb 06 16:37:32 2023 7EFCFCA8B980 INFO  GTPv1- tasks/gtpv1-u/gtp_tunnel_openflo:0276    Using GTP type: gtpu
+000210 Mon Feb 06 16:37:32 2023 7EFCFCA8B980 INFO  GTPv1- lib/openflow/controller/Controll:0073    Started openflow controller
+000211 Mon Feb 06 16:37:32 2023 7EFCFCA8B980 INFO  GTPv1- lib/openflow/controller/Openflow:0131    Openflow controller is waiting for 300 seconds to establish connection with Switch 
